@@ -3,8 +3,8 @@ targetScope = 'resourceGroup'
 @description('Azure Region for all resources')
 param location string = resourceGroup().location
 
-@description('Azure Region for Container Apps Managed Environment (decoupled to avoid eastus capacity limits)')
-param containerAppsLocation string = 'eastus2'
+@description('Azure Region for Container Apps Managed Environment (can differ from location if a region lacks capacity)')
+param containerAppsLocation string = location
 
 @description('Deployment Environment')
 @allowed([
