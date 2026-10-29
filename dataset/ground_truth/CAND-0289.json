@@ -1,0 +1,85 @@
+{
+  "candidate_id": "CAND-0289",
+  "full_name": "Mei Fernandez",
+  "email": "mei.fernandez@example.com",
+  "phone": "+1 555-752-1305",
+  "location": "Chicago, IL",
+  "summary": "Site Reliability Engineer with 3.3 years of experience.",
+  "skills": [
+    "AWS",
+    "CI/CD",
+    "Prometheus",
+    "Python",
+    "Grafana",
+    "Docker",
+    "Linux",
+    "Kubernetes"
+  ],
+  "years_experience": 3.3,
+  "roles": [
+    "Site Reliability Engineer"
+  ],
+  "companies": [
+    "Nexus AI Studios"
+  ],
+  "experience": [
+    {
+      "title": "Site Reliability Engineer",
+      "company": "Nexus AI Studios",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using AWS, CI/CD, Prometheus."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Tech University"
+  ],
+  "certifications": [],
+  "projects": [
+    "Site Reliability Engineer System Refactoring"
+  ],
+  "domains": [
+    "Infrastructure"
+  ],
+  "notice_period": "30 days",
+  "evidence": [
+    {
+      "attribute": "skills:AWS",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using AWS at Nexus AI Studios.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:CI/CD",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using CI/CD at Nexus AI Studios.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Prometheus",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Prometheus at Nexus AI Studios.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "Site Reliability Engineer with over 3.3 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [],
+  "ambiguities": [
+    "difficult_edge_case"
+  ],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0289"
+}

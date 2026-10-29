@@ -1,0 +1,82 @@
+{
+  "candidate_id": "CAND-0380",
+  "full_name": "Dev Fernandez",
+  "email": "dev.fernandez@example.com",
+  "phone": "+1 555-523-4908",
+  "location": "New York, NY",
+  "summary": "Machine Learning Engineer with 5.9 years of experience.",
+  "skills": [
+    "PyTorch",
+    "TensorFlow",
+    "Git",
+    "FastAPI",
+    "Docker",
+    "MLflow",
+    "CUDA"
+  ],
+  "years_experience": 5.9,
+  "roles": [
+    "Machine Learning Engineer"
+  ],
+  "companies": [
+    "OmniCloud Systems"
+  ],
+  "experience": [
+    {
+      "title": "Machine Learning Engineer",
+      "company": "OmniCloud Systems",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using PyTorch, TensorFlow, Git."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Institute of Technology"
+  ],
+  "certifications": [],
+  "projects": [
+    "Machine Learning Engineer System Refactoring"
+  ],
+  "domains": [
+    "Data / AI"
+  ],
+  "notice_period": "15 days",
+  "evidence": [
+    {
+      "attribute": "skills:PyTorch",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using PyTorch at OmniCloud Systems.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:TensorFlow",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using TensorFlow at OmniCloud Systems.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Git",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Git at OmniCloud Systems.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "Machine Learning Engineer with over 5.9 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [],
+  "ambiguities": [],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0380"
+}

@@ -1,0 +1,82 @@
+{
+  "candidate_id": "CAND-0460",
+  "full_name": "Mason Brown",
+  "email": "mason.brown@example.com",
+  "phone": "+1 555-120-9821",
+  "location": "Remote",
+  "summary": "Engineering Manager with 9.8 years of experience.",
+  "skills": [
+    "Jira",
+    "System Architecture",
+    "Agile",
+    "Leadership",
+    "CI/CD",
+    "Scrum",
+    "Team Mentorship"
+  ],
+  "years_experience": 9.8,
+  "roles": [
+    "Engineering Manager"
+  ],
+  "companies": [
+    "Nexus AI Studios"
+  ],
+  "experience": [
+    {
+      "title": "Engineering Manager",
+      "company": "Nexus AI Studios",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using Jira, System Architecture, Agile."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Global Science Academy"
+  ],
+  "certifications": [],
+  "projects": [
+    "Engineering Manager System Refactoring"
+  ],
+  "domains": [
+    "Management"
+  ],
+  "notice_period": "30 days",
+  "evidence": [
+    {
+      "attribute": "skills:Jira",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Jira at Nexus AI Studios.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:System Architecture",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using System Architecture at Nexus AI Studios.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Agile",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Agile at Nexus AI Studios.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "Engineering Manager with over 9.8 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [],
+  "ambiguities": [],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0460"
+}

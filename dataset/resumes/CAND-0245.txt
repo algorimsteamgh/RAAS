@@ -1,0 +1,13 @@
+Isabella Jones
+Email: isabella.jones@example.com | Phone: +1 555-268-7609 | Location: Austin, TX
+Notice Period: Immediate
+SUMMARY:
+Cloud Engineer with over 1.6 years of professional experience building scalable systems.
+SKILLS:
+Terraform, Docker, AWS, Kubernetes, Azure
+EXPERIENCE:
+Cloud Engineer at DataFlow Systems (2020 - Present)
+- Developed core features using Terraform, Docker, AWS.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Metropolitan University

@@ -1,0 +1,13 @@
+Mei Gomez
+Email: mei.gomez@example.com | Phone: +1 555-797-7581 | Location: Austin, TX
+Notice Period: 30 days
+SUMMARY:
+DevOps Engineer with over 5.6 years of professional experience building scalable systems.
+SKILLS:
+Docker, CI/CD, Terraform, AWS, Ansible
+EXPERIENCE:
+DevOps Engineer at ExampleTech Corp (2020 - Present)
+- Developed core features using Docker, CI/CD, Terraform.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Metropolitan University

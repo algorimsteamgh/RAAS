@@ -1,0 +1,81 @@
+{
+  "candidate_id": "CAND-0017",
+  "full_name": "Ethan Jones",
+  "email": "ethan.jones@example.com",
+  "phone": "+1 555-403-4566",
+  "location": "Austin, TX",
+  "summary": "Backend Engineer with 4.4 years of experience.",
+  "skills": [
+    "Python",
+    "Microservices",
+    "Redis",
+    "PostgreSQL",
+    "FastAPI",
+    "REST API"
+  ],
+  "years_experience": 4.4,
+  "roles": [
+    "Backend Engineer"
+  ],
+  "companies": [
+    "OmniCloud Systems"
+  ],
+  "experience": [
+    {
+      "title": "Backend Engineer",
+      "company": "OmniCloud Systems",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using Python, Microservices, Redis."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Example State University"
+  ],
+  "certifications": [],
+  "projects": [
+    "Backend Engineer System Refactoring"
+  ],
+  "domains": [
+    "Software Engineering"
+  ],
+  "notice_period": "15 days",
+  "evidence": [
+    {
+      "attribute": "skills:Python",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Python at OmniCloud Systems.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Microservices",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Microservices at OmniCloud Systems.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Redis",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Redis at OmniCloud Systems.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "Backend Engineer with over 4.4 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [],
+  "ambiguities": [],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0017"
+}

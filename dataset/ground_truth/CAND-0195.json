@@ -1,0 +1,79 @@
+{
+  "candidate_id": "CAND-0195",
+  "full_name": "Mei Rao",
+  "email": "mei.rao@example.com",
+  "phone": "+1 555-416-3877",
+  "location": "San Francisco, CA",
+  "summary": "React Developer with 3.0 years of experience.",
+  "skills": [
+    "React",
+    "Redux",
+    "Vite",
+    "HTML5"
+  ],
+  "years_experience": 3.0,
+  "roles": [
+    "React Developer"
+  ],
+  "companies": [
+    "OmniCloud Systems"
+  ],
+  "experience": [
+    {
+      "title": "React Developer",
+      "company": "OmniCloud Systems",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using React, Redux, Vite."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Metropolitan University"
+  ],
+  "certifications": [],
+  "projects": [
+    "React Developer System Refactoring"
+  ],
+  "domains": [
+    "Software Engineering"
+  ],
+  "notice_period": "15 days",
+  "evidence": [
+    {
+      "attribute": "skills:React",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using React at OmniCloud Systems.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Redux",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Redux at OmniCloud Systems.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Vite",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Vite at OmniCloud Systems.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "React Developer with over 3.0 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [],
+  "ambiguities": [],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0195"
+}

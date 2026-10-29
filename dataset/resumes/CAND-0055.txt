@@ -1,0 +1,13 @@
+Rohan Smith
+Email: rohan.smith@example.com | Phone: +1 555-422-5135 | Location: Remote
+Notice Period: 60 days
+SUMMARY:
+Frontend Engineer with over 5.2 years of professional experience building scalable systems.
+SKILLS:
+JavaScript, CSS3, HTML5, Next.js, Tailwind CSS, Redux, React, TypeScript
+EXPERIENCE:
+Frontend Engineer at Nexus AI Studios (2020 - Present)
+- Developed core features using JavaScript, CSS3, HTML5.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Global Science Academy

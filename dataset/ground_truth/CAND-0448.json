@@ -1,0 +1,81 @@
+{
+  "candidate_id": "CAND-0448",
+  "full_name": "Viktor Fernandez",
+  "email": "viktor.fernandez@example.com",
+  "phone": "+1 555-881-1229",
+  "location": "San Jose, CA",
+  "summary": "Security Engineer with 0.8 years of experience.",
+  "skills": [
+    "OWASP",
+    "Cryptography",
+    "Wireshark",
+    "Linux",
+    "Docker",
+    "Penetration Testing"
+  ],
+  "years_experience": 0.8,
+  "roles": [
+    "Security Engineer"
+  ],
+  "companies": [
+    "OmniCloud Systems"
+  ],
+  "experience": [
+    {
+      "title": "Security Engineer",
+      "company": "OmniCloud Systems",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using OWASP, Cryptography, Wireshark."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Global Science Academy"
+  ],
+  "certifications": [],
+  "projects": [
+    "Security Engineer System Refactoring"
+  ],
+  "domains": [
+    "Quality / Security"
+  ],
+  "notice_period": "30 days",
+  "evidence": [
+    {
+      "attribute": "skills:OWASP",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using OWASP at OmniCloud Systems.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Cryptography",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Cryptography at OmniCloud Systems.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Wireshark",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Wireshark at OmniCloud Systems.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "Security Engineer with over 0.8 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [],
+  "ambiguities": [],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0448"
+}

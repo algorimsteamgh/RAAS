@@ -1,0 +1,12 @@
+Maya Garcia
+Email: maya.garcia@example.com | Phone: +1 555-999-2290 | Location: San Francisco, CA
+SUMMARY:
+Backend Engineer with over 5.4 years of professional experience building scalable systems.
+SKILLS:
+Django, FastAPI, Docker, PostgreSQL, REST API, Redis, Microservices, Python
+EXPERIENCE:
+Backend Engineer at OmniCloud Systems (2020 - Present)
+- Developed core features using Django, FastAPI, Docker.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Institute of Technology

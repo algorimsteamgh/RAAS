@@ -1,0 +1,13 @@
+Mei Fernandez
+Email: mei.fernandez@example.com | Phone: +1 555-752-1305 | Location: Chicago, IL
+Notice Period: 30 days
+SUMMARY:
+Site Reliability Engineer with over 3.3 years of professional experience building scalable systems.
+SKILLS:
+AWS, CI/CD, Prometheus, Python, Grafana, Docker, Linux, Kubernetes
+EXPERIENCE:
+Site Reliability Engineer at Nexus AI Studios (2020 - Present)
+- Developed core features using AWS, CI/CD, Prometheus.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Tech University

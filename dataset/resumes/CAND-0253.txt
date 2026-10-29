@@ -1,0 +1,13 @@
+Hiroshi Brown
+Email: hiroshi.brown@example.com | Phone: +1 555-215-3171 | Location: Austin, TX
+Notice Period: 60 days
+SUMMARY:
+Cloud Engineer with over 5.5 years of professional experience building scalable systems.
+SKILLS:
+Linux, Kubernetes, Terraform, Python
+EXPERIENCE:
+Cloud Engineer at CyberShield Labs (2020 - Present)
+- Developed core features using Linux, Kubernetes, Terraform.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Institute of Technology

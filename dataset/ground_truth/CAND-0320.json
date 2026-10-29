@@ -1,0 +1,85 @@
+{
+  "candidate_id": "CAND-0320",
+  "full_name": "Sophia Volkov",
+  "email": "sophia.volkov@example.com",
+  "phone": "+1 555-566-8418",
+  "location": "Chicago, IL",
+  "summary": "Data Engineer with 4.2 years of experience.",
+  "skills": [
+    "Python",
+    "SQL",
+    "AWS",
+    "PostgreSQL",
+    "Snowflake",
+    "Airflow"
+  ],
+  "years_experience": 4.2,
+  "roles": [
+    "Data Engineer"
+  ],
+  "companies": [
+    "DataFlow Systems"
+  ],
+  "experience": [
+    {
+      "title": "Data Engineer",
+      "company": "DataFlow Systems",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using Python, SQL, AWS."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Metropolitan University"
+  ],
+  "certifications": [],
+  "projects": [
+    "Data Engineer System Refactoring"
+  ],
+  "domains": [
+    "Data / AI"
+  ],
+  "notice_period": null,
+  "evidence": [
+    {
+      "attribute": "skills:Python",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Python at DataFlow Systems.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:SQL",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using SQL at DataFlow Systems.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:AWS",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using AWS at DataFlow Systems.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "Data Engineer with over 4.2 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [
+    "Notice period not specified in CV"
+  ],
+  "ambiguities": [
+    "messy"
+  ],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0320"
+}

@@ -1,0 +1,83 @@
+{
+  "candidate_id": "CAND-0316",
+  "full_name": "Elena Tanaka",
+  "email": "elena.tanaka@example.com",
+  "phone": "+1 555-238-9835",
+  "location": "Seattle, WA",
+  "summary": "Data Engineer with 4.1 years of experience.",
+  "skills": [
+    "Docker",
+    "PostgreSQL",
+    "Snowflake",
+    "AWS",
+    "Apache Spark",
+    "SQL",
+    "Airflow",
+    "Python"
+  ],
+  "years_experience": 4.1,
+  "roles": [
+    "Data Engineer"
+  ],
+  "companies": [
+    "DataFlow Systems"
+  ],
+  "experience": [
+    {
+      "title": "Data Engineer",
+      "company": "DataFlow Systems",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using Docker, PostgreSQL, Snowflake."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Global Science Academy"
+  ],
+  "certifications": [],
+  "projects": [
+    "Data Engineer System Refactoring"
+  ],
+  "domains": [
+    "Data / AI"
+  ],
+  "notice_period": "30 days",
+  "evidence": [
+    {
+      "attribute": "skills:Docker",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Docker at DataFlow Systems.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:PostgreSQL",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using PostgreSQL at DataFlow Systems.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Snowflake",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Snowflake at DataFlow Systems.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "Data Engineer with over 4.1 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [],
+  "ambiguities": [],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0316"
+}

@@ -1,0 +1,79 @@
+{
+  "candidate_id": "CAND-0050",
+  "full_name": "Lucas Ivanova",
+  "email": "lucas.ivanova@example.com",
+  "phone": "+1 555-183-3573",
+  "location": "New York, NY",
+  "summary": "Backend Engineer with 2.8 years of experience.",
+  "skills": [
+    "REST API",
+    "PostgreSQL",
+    "Docker",
+    "Redis"
+  ],
+  "years_experience": 2.8,
+  "roles": [
+    "Backend Engineer"
+  ],
+  "companies": [
+    "CyberShield Labs"
+  ],
+  "experience": [
+    {
+      "title": "Backend Engineer",
+      "company": "CyberShield Labs",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using REST API, PostgreSQL, Docker."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Metropolitan University"
+  ],
+  "certifications": [],
+  "projects": [
+    "Backend Engineer System Refactoring"
+  ],
+  "domains": [
+    "Software Engineering"
+  ],
+  "notice_period": "Immediate",
+  "evidence": [
+    {
+      "attribute": "skills:REST API",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using REST API at CyberShield Labs.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:PostgreSQL",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using PostgreSQL at CyberShield Labs.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Docker",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Docker at CyberShield Labs.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "Backend Engineer with over 2.8 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [],
+  "ambiguities": [],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0050"
+}

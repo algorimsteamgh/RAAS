@@ -1,0 +1,83 @@
+{
+  "candidate_id": "CAND-0343",
+  "full_name": "Sophia Ivanova",
+  "email": "sophia.ivanova@example.com",
+  "phone": "+1 555-523-7939",
+  "location": "Remote",
+  "summary": "Data Scientist with 1.0 years of experience.",
+  "skills": [
+    "Python",
+    "Statistics",
+    "Scikit-Learn",
+    "Pandas",
+    "TensorFlow",
+    "SQL",
+    "PyTorch",
+    "Git"
+  ],
+  "years_experience": 1.0,
+  "roles": [
+    "Data Scientist"
+  ],
+  "companies": [
+    "CyberShield Labs"
+  ],
+  "experience": [
+    {
+      "title": "Data Scientist",
+      "company": "CyberShield Labs",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using Python, Statistics, Scikit-Learn."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Example State University"
+  ],
+  "certifications": [],
+  "projects": [
+    "Data Scientist System Refactoring"
+  ],
+  "domains": [
+    "Data / AI"
+  ],
+  "notice_period": "15 days",
+  "evidence": [
+    {
+      "attribute": "skills:Python",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Python at CyberShield Labs.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Statistics",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Statistics at CyberShield Labs.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Scikit-Learn",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Scikit-Learn at CyberShield Labs.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "Data Scientist with over 1.0 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [],
+  "ambiguities": [],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0343"
+}

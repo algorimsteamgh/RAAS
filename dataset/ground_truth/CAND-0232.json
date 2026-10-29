@@ -1,0 +1,86 @@
+{
+  "candidate_id": "CAND-0232",
+  "full_name": "Emma Rao",
+  "email": "emma.rao@example.com",
+  "phone": "+1 555-567-1828",
+  "location": "Remote",
+  "summary": "DevOps Engineer with 3.5 years of experience.",
+  "skills": [
+    "Linux",
+    "CI/CD",
+    "Docker",
+    "Python",
+    "Kubernetes",
+    "Terraform",
+    "AWS"
+  ],
+  "years_experience": 3.5,
+  "roles": [
+    "DevOps Engineer"
+  ],
+  "companies": [
+    "Nexus AI Studios"
+  ],
+  "experience": [
+    {
+      "title": "DevOps Engineer",
+      "company": "Nexus AI Studios",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using Linux, CI/CD, Docker."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Global Science Academy"
+  ],
+  "certifications": [],
+  "projects": [
+    "DevOps Engineer System Refactoring"
+  ],
+  "domains": [
+    "Infrastructure"
+  ],
+  "notice_period": null,
+  "evidence": [
+    {
+      "attribute": "skills:Linux",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Linux at Nexus AI Studios.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:CI/CD",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using CI/CD at Nexus AI Studios.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Docker",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Docker at Nexus AI Studios.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "DevOps Engineer with over 3.5 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [
+    "Notice period not specified in CV"
+  ],
+  "ambiguities": [
+    "messy"
+  ],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0232"
+}

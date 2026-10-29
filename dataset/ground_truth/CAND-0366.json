@@ -1,0 +1,86 @@
+{
+  "candidate_id": "CAND-0366",
+  "full_name": "Sophia Mehta",
+  "email": "sophia.mehta@example.com",
+  "phone": "+1 555-576-2932",
+  "location": "New York, NY",
+  "summary": "Machine Learning Engineer with 6.0 years of experience.",
+  "skills": [
+    "Python",
+    "TensorFlow",
+    "CUDA",
+    "FastAPI",
+    "PyTorch",
+    "Git",
+    "MLflow"
+  ],
+  "years_experience": 6.0,
+  "roles": [
+    "Machine Learning Engineer"
+  ],
+  "companies": [
+    "NextGen Solutions"
+  ],
+  "experience": [
+    {
+      "title": "Machine Learning Engineer",
+      "company": "NextGen Solutions",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using Python, TensorFlow, CUDA."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Metropolitan University"
+  ],
+  "certifications": [],
+  "projects": [
+    "Machine Learning Engineer System Refactoring"
+  ],
+  "domains": [
+    "Data / AI"
+  ],
+  "notice_period": null,
+  "evidence": [
+    {
+      "attribute": "skills:Python",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Python at NextGen Solutions.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:TensorFlow",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using TensorFlow at NextGen Solutions.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:CUDA",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using CUDA at NextGen Solutions.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "Machine Learning Engineer with over 6.0 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [
+    "Notice period not specified in CV"
+  ],
+  "ambiguities": [
+    "messy"
+  ],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0366"
+}

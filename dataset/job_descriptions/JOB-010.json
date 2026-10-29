@@ -1,0 +1,31 @@
+{
+  "job_id": "JOB-010",
+  "title": "Senior AI Systems Engineer",
+  "seniority": "Senior",
+  "mandatory_skills": [
+    "Python",
+    "PyTorch",
+    "Ollama",
+    "FastAPI",
+    "Vector DB"
+  ],
+  "preferred_skills": [
+    "LangChain",
+    "FAISS",
+    "Transformers"
+  ],
+  "minimum_years_experience": 4.0,
+  "domain_requirements": [
+    "Generative AI"
+  ],
+  "education_requirements": [
+    "M.S. or B.S. in CS / AI"
+  ],
+  "certifications": [],
+  "location": "San Jose, CA",
+  "work_mode": "Hybrid",
+  "responsibilities": [
+    "Build local LLM agents and retrieval-augmented generation pipelines."
+  ],
+  "source_dataset": "michaelozon/candidate-matching-synthetic"
+}

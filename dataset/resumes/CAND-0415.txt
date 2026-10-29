@@ -1,0 +1,13 @@
+Dev Garcia
+Email: dev.garcia@example.com | Phone: +1 555-175-8716 | Location: Denver, CO
+Notice Period: 30 days
+SUMMARY:
+QA Automation Engineer with over 4.0 years of professional experience building scalable systems.
+SKILLS:
+Postman, Selenium, Pytest, Playwright, REST API
+EXPERIENCE:
+QA Automation Engineer at CyberShield Labs (2020 - Present)
+- Developed core features using Postman, Selenium, Pytest.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Institute of Technology

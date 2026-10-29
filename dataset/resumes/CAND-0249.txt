@@ -1,0 +1,12 @@
+Olivia Rao
+Email: olivia.rao@example.com | Phone: +1 555-661-9132 | Location: New York, NY
+SUMMARY:
+Cloud Engineer with over 4.2 years of professional experience building scalable systems.
+SKILLS:
+AWS, Python, Docker, Linux, Kubernetes
+EXPERIENCE:
+Cloud Engineer at Nexus AI Studios (2020 - Present)
+- Developed core features using AWS, Python, Docker.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Global Science Academy

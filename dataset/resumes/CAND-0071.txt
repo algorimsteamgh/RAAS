@@ -1,0 +1,12 @@
+Hiroshi Smith
+Email: hiroshi.smith@example.com | Phone: +1 555-750-8606 | Location: Chicago, IL
+SUMMARY:
+Frontend Engineer with over 2.9 years of professional experience building scalable systems.
+SKILLS:
+JavaScript, React, Next.js, Redux
+EXPERIENCE:
+Frontend Engineer at DataFlow Systems (2020 - Present)
+- Developed core features using JavaScript, React, Next.js.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Institute of Technology

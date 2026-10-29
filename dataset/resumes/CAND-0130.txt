@@ -1,0 +1,13 @@
+Kofi Khan
+Email: kofi.khan@example.com | Phone: +1 555-600-6194 | Location: Denver, CO
+Notice Period: 30 days
+SUMMARY:
+Full Stack Engineer with over 5.8 years of professional experience building scalable systems.
+SKILLS:
+PostgreSQL, TypeScript, GraphQL, Docker, Express, React
+EXPERIENCE:
+Full Stack Engineer at Apex Global (2020 - Present)
+- Developed core features using PostgreSQL, TypeScript, GraphQL.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Institute of Technology

@@ -1,0 +1,13 @@
+Dev Patel
+Email: dev.patel@example.com | Phone: +1 555-614-1173 | Location: New York, NY
+Notice Period: Immediate
+SUMMARY:
+Site Reliability Engineer with over 5.3 years of professional experience building scalable systems.
+SKILLS:
+Kubernetes, CI/CD, Grafana, Python, Prometheus, Linux, AWS, Docker
+EXPERIENCE:
+Site Reliability Engineer at CyberShield Labs (2020 - Present)
+- Developed core features using Kubernetes, CI/CD, Grafana.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Metropolitan University

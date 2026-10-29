@@ -1,0 +1,13 @@
+Olivia Williams
+Email: olivia.williams@example.com | Phone: +1 555-679-7566 | Location: San Francisco, CA
+Notice Period: 60 days
+SUMMARY:
+Frontend Engineer with over 4.7 years of professional experience building scalable systems.
+SKILLS:
+TypeScript, CSS3, HTML5, Redux
+EXPERIENCE:
+Frontend Engineer at FinPulse Digital (2020 - Present)
+- Developed core features using TypeScript, CSS3, HTML5.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Global Science Academy

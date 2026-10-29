@@ -1,0 +1,13 @@
+Carlos Johnson
+Email: carlos.johnson@example.com | Phone: +1 555-622-7961 | Location: Boston, MA
+Notice Period: 15 days
+SUMMARY:
+Technical Project Manager with over 9.8 years of professional experience building scalable systems.
+SKILLS:
+Jira, Roadmapping, Stakeholder Communication, Agile, Budgeting, Risk Management
+EXPERIENCE:
+Technical Project Manager at DataFlow Systems (2020 - Present)
+- Developed core features using Jira, Roadmapping, Stakeholder Communication.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Global Science Academy

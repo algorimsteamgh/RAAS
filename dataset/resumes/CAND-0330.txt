@@ -1,0 +1,13 @@
+Noah Mensah
+Email: noah.mensah@example.com | Phone: +1 555-799-9151 | Location: San Jose, CA
+Notice Period: 15 days
+SUMMARY:
+Data Engineer with over 3.5 years of professional experience building scalable systems.
+SKILLS:
+Snowflake, Python, Docker, PostgreSQL, AWS, Airflow, Apache Spark
+EXPERIENCE:
+Data Engineer at CloudScale Inc (2020 - Present)
+- Developed core features using Snowflake, Python, Docker.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Example State University

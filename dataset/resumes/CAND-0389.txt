@@ -1,0 +1,13 @@
+Mei Rao
+Email: mei.rao@example.com | Phone: +1 555-451-9765 | Location: Austin, TX
+Notice Period: 30 days
+SUMMARY:
+AI Engineer with over 4.3 years of professional experience building scalable systems.
+SKILLS:
+Transformers, LangChain, Ollama, Vector DB, FastAPI, Python, FAISS
+EXPERIENCE:
+AI Engineer at Nexus AI Studios (2020 - Present)
+- Developed core features using Transformers, LangChain, Ollama.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Metropolitan University

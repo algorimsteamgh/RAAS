@@ -1,0 +1,13 @@
+Ananya Jones
+Email: ananya.jones@example.com | Phone: +1 555-455-2256 | Location: Chicago, IL
+Notice Period: 15 days
+SUMMARY:
+Engineering Manager with over 7.4 years of professional experience building scalable systems.
+SKILLS:
+CI/CD, Scrum, Leadership, Team Mentorship, System Architecture, Python, Jira, Agile
+EXPERIENCE:
+Engineering Manager at ExampleTech Corp (2020 - Present)
+- Developed core features using CI/CD, Scrum, Leadership.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Tech University

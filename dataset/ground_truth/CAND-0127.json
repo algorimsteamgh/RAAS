@@ -1,0 +1,83 @@
+{
+  "candidate_id": "CAND-0127",
+  "full_name": "Mei Sato",
+  "email": "mei.sato@example.com",
+  "phone": "+1 555-371-4728",
+  "location": "Austin, TX",
+  "summary": "Full Stack Engineer with 3.1 years of experience.",
+  "skills": [
+    "REST API",
+    "React",
+    "Docker",
+    "GraphQL",
+    "TypeScript",
+    "Node.js",
+    "Express",
+    "PostgreSQL"
+  ],
+  "years_experience": 3.1,
+  "roles": [
+    "Full Stack Engineer"
+  ],
+  "companies": [
+    "ExampleTech Corp"
+  ],
+  "experience": [
+    {
+      "title": "Full Stack Engineer",
+      "company": "ExampleTech Corp",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using REST API, React, Docker."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Global Science Academy"
+  ],
+  "certifications": [],
+  "projects": [
+    "Full Stack Engineer System Refactoring"
+  ],
+  "domains": [
+    "Software Engineering"
+  ],
+  "notice_period": "30 days",
+  "evidence": [
+    {
+      "attribute": "skills:REST API",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using REST API at ExampleTech Corp.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:React",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using React at ExampleTech Corp.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Docker",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Docker at ExampleTech Corp.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "Full Stack Engineer with over 3.1 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [],
+  "ambiguities": [],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0127"
+}

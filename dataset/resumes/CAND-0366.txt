@@ -1,0 +1,12 @@
+Sophia Mehta
+Email: sophia.mehta@example.com | Phone: +1 555-576-2932 | Location: New York, NY
+SUMMARY:
+Machine Learning Engineer with over 6.0 years of professional experience building scalable systems.
+SKILLS:
+Python, TensorFlow, CUDA, FastAPI, PyTorch, Git, MLflow
+EXPERIENCE:
+Machine Learning Engineer at NextGen Solutions (2020 - Present)
+- Developed core features using Python, TensorFlow, CUDA.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Metropolitan University

@@ -1,0 +1,83 @@
+{
+  "candidate_id": "CAND-0149",
+  "full_name": "Maya Miller",
+  "email": "maya.miller@example.com",
+  "phone": "+1 555-486-1647",
+  "location": "San Francisco, CA",
+  "summary": "Java Developer with 5.2 years of experience.",
+  "skills": [
+    "PostgreSQL",
+    "REST API",
+    "Spring Boot",
+    "Hibernate",
+    "Kafka",
+    "Java",
+    "Maven",
+    "Docker"
+  ],
+  "years_experience": 5.2,
+  "roles": [
+    "Java Developer"
+  ],
+  "companies": [
+    "DataFlow Systems"
+  ],
+  "experience": [
+    {
+      "title": "Java Developer",
+      "company": "DataFlow Systems",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using PostgreSQL, REST API, Spring Boot."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Global Science Academy"
+  ],
+  "certifications": [],
+  "projects": [
+    "Java Developer System Refactoring"
+  ],
+  "domains": [
+    "Software Engineering"
+  ],
+  "notice_period": "15 days",
+  "evidence": [
+    {
+      "attribute": "skills:PostgreSQL",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using PostgreSQL at DataFlow Systems.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:REST API",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using REST API at DataFlow Systems.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Spring Boot",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Spring Boot at DataFlow Systems.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "Java Developer with over 5.2 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [],
+  "ambiguities": [],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0149"
+}

@@ -1,0 +1,81 @@
+{
+  "candidate_id": "CAND-0152",
+  "full_name": "Mason Garcia",
+  "email": "mason.garcia@example.com",
+  "phone": "+1 555-488-5026",
+  "location": "Denver, CO",
+  "summary": "Java Developer with 5.8 years of experience.",
+  "skills": [
+    "Kafka",
+    "Maven",
+    "PostgreSQL",
+    "Docker",
+    "REST API",
+    "Java"
+  ],
+  "years_experience": 5.8,
+  "roles": [
+    "Java Developer"
+  ],
+  "companies": [
+    "Apex Global"
+  ],
+  "experience": [
+    {
+      "title": "Java Developer",
+      "company": "Apex Global",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using Kafka, Maven, PostgreSQL."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Institute of Technology"
+  ],
+  "certifications": [],
+  "projects": [
+    "Java Developer System Refactoring"
+  ],
+  "domains": [
+    "Software Engineering"
+  ],
+  "notice_period": "15 days",
+  "evidence": [
+    {
+      "attribute": "skills:Kafka",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Kafka at Apex Global.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Maven",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Maven at Apex Global.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:PostgreSQL",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using PostgreSQL at Apex Global.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "Java Developer with over 5.8 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [],
+  "ambiguities": [],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0152"
+}

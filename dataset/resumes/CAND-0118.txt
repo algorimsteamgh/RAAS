@@ -1,0 +1,12 @@
+Carlos Volkov
+Email: carlos.volkov@example.com | Phone: +1 555-272-3526 | Location: Seattle, WA
+SUMMARY:
+Full Stack Engineer with over 5.0 years of professional experience building scalable systems.
+SKILLS:
+Docker, REST API, PostgreSQL, TypeScript, GraphQL, Express, Node.js, React
+EXPERIENCE:
+Full Stack Engineer at InnovateSoft (2020 - Present)
+- Developed core features using Docker, REST API, PostgreSQL.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Tech University

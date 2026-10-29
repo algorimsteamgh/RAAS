@@ -1,0 +1,13 @@
+Noah Ivanova
+Email: noah.ivanova@example.com | Phone: +1 555-482-3555 | Location: San Francisco, CA
+Notice Period: Immediate
+SUMMARY:
+Data Scientist with over 2.7 years of professional experience building scalable systems.
+SKILLS:
+Scikit-Learn, Statistics, Git, Python, TensorFlow, SQL, PyTorch, Pandas
+EXPERIENCE:
+Data Scientist at CyberShield Labs (2020 - Present)
+- Developed core features using Scikit-Learn, Statistics, Git.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Global Science Academy

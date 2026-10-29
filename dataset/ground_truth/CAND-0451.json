@@ -1,0 +1,86 @@
+{
+  "candidate_id": "CAND-0451",
+  "full_name": "Elena Wang",
+  "email": "elena.wang@example.com",
+  "phone": "+1 555-397-8011",
+  "location": "New York, NY",
+  "summary": "Engineering Manager with 11.3 years of experience.",
+  "skills": [
+    "CI/CD",
+    "Scrum",
+    "Agile",
+    "Leadership",
+    "Team Mentorship",
+    "Jira",
+    "System Architecture"
+  ],
+  "years_experience": null,
+  "roles": [
+    "Engineering Manager"
+  ],
+  "companies": [
+    "OmniCloud Systems"
+  ],
+  "experience": [
+    {
+      "title": "Engineering Manager",
+      "company": "OmniCloud Systems",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using CI/CD, Scrum, Agile."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Example State University"
+  ],
+  "certifications": [],
+  "projects": [
+    "Engineering Manager System Refactoring"
+  ],
+  "domains": [
+    "Management"
+  ],
+  "notice_period": "Immediate",
+  "evidence": [
+    {
+      "attribute": "skills:CI/CD",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using CI/CD at OmniCloud Systems.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Scrum",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Scrum at OmniCloud Systems.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Agile",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Agile at OmniCloud Systems.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "Engineering Manager with over 11.3 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [
+    "Explicit total years of experience not clearly stated in text summary"
+  ],
+  "ambiguities": [
+    "ambiguous"
+  ],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0451"
+}

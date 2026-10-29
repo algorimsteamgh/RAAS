@@ -1,0 +1,12 @@
+Liam Rao
+Email: liam.rao@example.com | Phone: +1 555-337-9515 | Location: Boston, MA
+SUMMARY:
+DevOps Engineer with over 3.8 years of professional experience building scalable systems.
+SKILLS:
+Kubernetes, Ansible, Python, Terraform
+EXPERIENCE:
+DevOps Engineer at DataFlow Systems (2020 - Present)
+- Developed core features using Kubernetes, Ansible, Python.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Tech University

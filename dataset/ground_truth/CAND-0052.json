@@ -1,0 +1,81 @@
+{
+  "candidate_id": "CAND-0052",
+  "full_name": "Liam Rao",
+  "email": "liam.rao@example.com",
+  "phone": "+1 555-269-6039",
+  "location": "Chicago, IL",
+  "summary": "Frontend Engineer with 4.1 years of experience.",
+  "skills": [
+    "Tailwind CSS",
+    "React",
+    "HTML5",
+    "CSS3",
+    "Next.js",
+    "TypeScript"
+  ],
+  "years_experience": 4.1,
+  "roles": [
+    "Frontend Engineer"
+  ],
+  "companies": [
+    "DataFlow Systems"
+  ],
+  "experience": [
+    {
+      "title": "Frontend Engineer",
+      "company": "DataFlow Systems",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using Tailwind CSS, React, HTML5."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Tech University"
+  ],
+  "certifications": [],
+  "projects": [
+    "Frontend Engineer System Refactoring"
+  ],
+  "domains": [
+    "Software Engineering"
+  ],
+  "notice_period": "Immediate",
+  "evidence": [
+    {
+      "attribute": "skills:Tailwind CSS",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Tailwind CSS at DataFlow Systems.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:React",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using React at DataFlow Systems.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:HTML5",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using HTML5 at DataFlow Systems.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "Frontend Engineer with over 4.1 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [],
+  "ambiguities": [],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0052"
+}

@@ -1,0 +1,12 @@
+Aarav Williams
+Email: aarav.williams@example.com | Phone: +1 555-630-5610 | Location: Remote
+SUMMARY:
+Security Engineer with over 3.9 years of professional experience building scalable systems.
+SKILLS:
+Python, SIEM, Cryptography, Wireshark, Docker
+EXPERIENCE:
+Security Engineer at InnovateSoft (2020 - Present)
+- Developed core features using Python, SIEM, Cryptography.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Tech University

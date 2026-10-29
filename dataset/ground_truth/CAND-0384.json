@@ -1,0 +1,85 @@
+{
+  "candidate_id": "CAND-0384",
+  "full_name": "Natasha Davis",
+  "email": "natasha.davis@example.com",
+  "phone": "+1 555-163-7049",
+  "location": "San Jose, CA",
+  "summary": "Machine Learning Engineer with 2.5 years of experience.",
+  "skills": [
+    "MLflow",
+    "Python",
+    "TensorFlow",
+    "CUDA",
+    "PyTorch",
+    "Docker",
+    "Git",
+    "FastAPI"
+  ],
+  "years_experience": 2.5,
+  "roles": [
+    "Machine Learning Engineer"
+  ],
+  "companies": [
+    "FinPulse Digital"
+  ],
+  "experience": [
+    {
+      "title": "Machine Learning Engineer",
+      "company": "FinPulse Digital",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using MLflow, Python, TensorFlow."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Global Science Academy"
+  ],
+  "certifications": [],
+  "projects": [
+    "Machine Learning Engineer System Refactoring"
+  ],
+  "domains": [
+    "Data / AI"
+  ],
+  "notice_period": "60 days",
+  "evidence": [
+    {
+      "attribute": "skills:MLflow",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using MLflow at FinPulse Digital.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Python",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Python at FinPulse Digital.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:TensorFlow",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using TensorFlow at FinPulse Digital.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "Machine Learning Engineer with over 2.5 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [],
+  "ambiguities": [
+    "difficult_edge_case"
+  ],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0384"
+}

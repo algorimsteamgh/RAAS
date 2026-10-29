@@ -1,0 +1,13 @@
+Maya Miller
+Email: maya.miller@example.com | Phone: +1 555-932-5336 | Location: Seattle, WA
+Notice Period: 60 days
+SUMMARY:
+AI Engineer with over 1.2 years of professional experience building scalable systems.
+SKILLS:
+FAISS, PyTorch, Transformers, LangChain, Python
+EXPERIENCE:
+AI Engineer at CloudScale Inc (2020 - Present)
+- Developed core features using FAISS, PyTorch, Transformers.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Tech University

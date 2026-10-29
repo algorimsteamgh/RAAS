@@ -1,0 +1,12 @@
+Elena Mehta
+Email: elena.mehta@example.com | Phone: +1 555-756-2036 | Location: Austin, TX
+SUMMARY:
+Site Reliability Engineer with over 2.8 years of professional experience building scalable systems.
+SKILLS:
+Python, Kubernetes, Docker, CI/CD, Linux, AWS, Grafana, Prometheus
+EXPERIENCE:
+Site Reliability Engineer at FinPulse Digital (2020 - Present)
+- Developed core features using Python, Kubernetes, Docker.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Example State University

@@ -1,0 +1,13 @@
+Carlos Davis
+Email: carlos.davis@example.com | Phone: +1 555-743-9209 | Location: Boston, MA
+Notice Period: 60 days
+SUMMARY:
+React Developer with over 3.9 years of professional experience building scalable systems.
+SKILLS:
+React, Vite, JavaScript, Jest, CSS3, HTML5, Redux, TypeScript
+EXPERIENCE:
+React Developer at OmniCloud Systems (2020 - Present)
+- Developed core features using React, Vite, JavaScript.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Metropolitan University

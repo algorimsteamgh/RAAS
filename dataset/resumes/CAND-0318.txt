@@ -1,0 +1,12 @@
+Aarav Wang
+Email: aarav.wang@example.com | Phone: +1 555-917-5799 | Location: New York, NY
+SUMMARY:
+Data Engineer with over 4.4 years of professional experience building scalable systems.
+SKILLS:
+Docker, PostgreSQL, Airflow, Snowflake, SQL
+EXPERIENCE:
+Data Engineer at CloudScale Inc (2020 - Present)
+- Developed core features using Docker, PostgreSQL, Airflow.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Global Science Academy

@@ -1,0 +1,12 @@
+Rohan Patel
+Email: rohan.patel@example.com | Phone: +1 555-194-6347 | Location: Austin, TX
+SUMMARY:
+Security Engineer with over 3.2 years of professional experience building scalable systems.
+SKILLS:
+Penetration Testing, Cryptography, OWASP, Python, Linux, SIEM, Wireshark, Docker
+EXPERIENCE:
+Security Engineer at OmniCloud Systems (2020 - Present)
+- Developed core features using Penetration Testing, Cryptography, OWASP.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Global Science Academy

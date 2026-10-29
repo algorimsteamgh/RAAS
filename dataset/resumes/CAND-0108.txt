@@ -1,0 +1,13 @@
+Camila Patel
+Email: camila.patel@example.com | Phone: +1 555-547-7553 | Location: Denver, CO
+Notice Period: Immediate
+SUMMARY:
+Full Stack Engineer with over 3.9 years of professional experience building scalable systems.
+SKILLS:
+GraphQL, Docker, Express, Node.js, PostgreSQL
+EXPERIENCE:
+Full Stack Engineer at DataFlow Systems (2020 - Present)
+- Developed core features using GraphQL, Docker, Express.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Global Science Academy

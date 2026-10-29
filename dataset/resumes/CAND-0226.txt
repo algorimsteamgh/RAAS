@@ -1,0 +1,13 @@
+Sophia Tanaka
+Email: sophia.tanaka@example.com | Phone: +1 555-277-3738 | Location: New York, NY
+Notice Period: Immediate
+SUMMARY:
+DevOps Engineer with over 2.9 years of professional experience building scalable systems.
+SKILLS:
+Kubernetes, CI/CD, Terraform, Python, Ansible, AWS, Linux
+EXPERIENCE:
+DevOps Engineer at Apex Global (2020 - Present)
+- Developed core features using Kubernetes, CI/CD, Terraform.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Example State University

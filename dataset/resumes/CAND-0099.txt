@@ -1,0 +1,13 @@
+Emma Diallo
+Email: emma.diallo@example.com | Phone: +1 555-344-6070 | Location: Denver, CO
+Notice Period: 60 days
+SUMMARY:
+Full Stack Engineer with over 3.2 years of professional experience building scalable systems.
+SKILLS:
+GraphQL, Express, Node.js, REST API, PostgreSQL, TypeScript, Docker, React
+EXPERIENCE:
+Full Stack Engineer at NextGen Solutions (2020 - Present)
+- Developed core features using GraphQL, Express, Node.js.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Example State University

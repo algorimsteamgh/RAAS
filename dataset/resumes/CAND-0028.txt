@@ -1,0 +1,12 @@
+Isabella Wang
+Email: isabella.wang@example.com | Phone: +1 555-171-6409 | Location: Remote
+SUMMARY:
+Backend Engineer with over 0.7 years of professional experience building scalable systems.
+SKILLS:
+Redis, Docker, PostgreSQL, Django, REST API, Microservices
+EXPERIENCE:
+Backend Engineer at NextGen Solutions (2020 - Present)
+- Developed core features using Redis, Docker, PostgreSQL.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Tech University

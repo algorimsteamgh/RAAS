@@ -1,0 +1,83 @@
+{
+  "candidate_id": "CAND-0211",
+  "full_name": "Isabella Fernandez",
+  "email": "isabella.fernandez@example.com",
+  "phone": "+1 555-614-6269",
+  "location": "Boston, MA",
+  "summary": "DevOps Engineer with 2.6 years of experience.",
+  "skills": [
+    "Terraform",
+    "Docker",
+    "AWS",
+    "Linux",
+    "Python",
+    "CI/CD",
+    "Kubernetes",
+    "Ansible"
+  ],
+  "years_experience": 2.6,
+  "roles": [
+    "DevOps Engineer"
+  ],
+  "companies": [
+    "CloudScale Inc"
+  ],
+  "experience": [
+    {
+      "title": "DevOps Engineer",
+      "company": "CloudScale Inc",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using Terraform, Docker, AWS."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Example State University"
+  ],
+  "certifications": [],
+  "projects": [
+    "DevOps Engineer System Refactoring"
+  ],
+  "domains": [
+    "Infrastructure"
+  ],
+  "notice_period": "15 days",
+  "evidence": [
+    {
+      "attribute": "skills:Terraform",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Terraform at CloudScale Inc.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Docker",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Docker at CloudScale Inc.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:AWS",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using AWS at CloudScale Inc.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "DevOps Engineer with over 2.6 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [],
+  "ambiguities": [],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0211"
+}

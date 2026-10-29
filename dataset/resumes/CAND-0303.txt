@@ -1,0 +1,13 @@
+Elena Brown
+Email: elena.brown@example.com | Phone: +1 555-587-6142 | Location: Remote
+Notice Period: 15 days
+SUMMARY:
+Data Engineer with over 4.5 years of professional experience building scalable systems.
+SKILLS:
+Airflow, AWS, Snowflake, SQL, PostgreSQL
+EXPERIENCE:
+Data Engineer at InnovateSoft (2020 - Present)
+- Developed core features using Airflow, AWS, Snowflake.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Metropolitan University

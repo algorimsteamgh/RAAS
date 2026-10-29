@@ -1,0 +1,12 @@
+Olivia Miller
+Email: olivia.miller@example.com | Phone: +1 555-698-2960 | Location: Boston, MA
+SUMMARY:
+Data Engineer with over 2.5 years of professional experience building scalable systems.
+SKILLS:
+AWS, Snowflake, PostgreSQL, SQL
+EXPERIENCE:
+Data Engineer at Apex Global (2020 - Present)
+- Developed core features using AWS, Snowflake, PostgreSQL.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Example State University

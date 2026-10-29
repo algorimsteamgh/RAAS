@@ -1,0 +1,30 @@
+{
+  "job_id": "JOB-006",
+  "title": "Machine Learning Engineer",
+  "seniority": "Mid-Senior",
+  "mandatory_skills": [
+    "Python",
+    "PyTorch",
+    "FastAPI",
+    "Docker"
+  ],
+  "preferred_skills": [
+    "TensorFlow",
+    "MLflow",
+    "CUDA"
+  ],
+  "minimum_years_experience": 3.0,
+  "domain_requirements": [
+    "AI / Machine Learning"
+  ],
+  "education_requirements": [
+    "Degree in CS/Data Science/Math"
+  ],
+  "certifications": [],
+  "location": "Boston, MA",
+  "work_mode": "Onsite",
+  "responsibilities": [
+    "Train and deploy ML models into production endpoints."
+  ],
+  "source_dataset": "michaelozon/candidate-matching-synthetic"
+}

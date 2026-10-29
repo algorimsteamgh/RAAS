@@ -1,0 +1,13 @@
+Camila Ivanova
+Email: camila.ivanova@example.com | Phone: +1 555-532-2040 | Location: Boston, MA
+Notice Period: 15 days
+SUMMARY:
+Backend Engineer with over 6.0 years of professional experience building scalable systems.
+SKILLS:
+Redis, Microservices, Python, Docker, Django, PostgreSQL, FastAPI, REST API
+EXPERIENCE:
+Backend Engineer at NextGen Solutions (2020 - Present)
+- Developed core features using Redis, Microservices, Python.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Global Science Academy

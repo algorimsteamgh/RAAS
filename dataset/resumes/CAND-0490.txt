@@ -1,0 +1,13 @@
+Isabella Ivanova
+Email: isabella.ivanova@example.com | Phone: +1 555-198-7020 | Location: San Jose, CA
+Notice Period: 60 days
+SUMMARY:
+Technical Project Manager with over 1.2 years of professional experience building scalable systems.
+SKILLS:
+Risk Management, Jira, Stakeholder Communication, Roadmapping, Agile, Scrum, Budgeting
+EXPERIENCE:
+Technical Project Manager at Nexus AI Studios (2020 - Present)
+- Developed core features using Risk Management, Jira, Stakeholder Communication.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Institute of Technology

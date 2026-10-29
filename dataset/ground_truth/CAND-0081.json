@@ -1,0 +1,83 @@
+{
+  "candidate_id": "CAND-0081",
+  "full_name": "Natasha Ivanova",
+  "email": "natasha.ivanova@example.com",
+  "phone": "+1 555-868-7929",
+  "location": "Austin, TX",
+  "summary": "Frontend Engineer with 4.6 years of experience.",
+  "skills": [
+    "TypeScript",
+    "HTML5",
+    "Tailwind CSS",
+    "Redux",
+    "CSS3",
+    "React"
+  ],
+  "years_experience": 4.6,
+  "roles": [
+    "Frontend Engineer"
+  ],
+  "companies": [
+    "CyberShield Labs"
+  ],
+  "experience": [
+    {
+      "title": "Frontend Engineer",
+      "company": "CyberShield Labs",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using TypeScript, HTML5, Tailwind CSS."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Institute of Technology"
+  ],
+  "certifications": [],
+  "projects": [
+    "Frontend Engineer System Refactoring"
+  ],
+  "domains": [
+    "Software Engineering"
+  ],
+  "notice_period": "Immediate",
+  "evidence": [
+    {
+      "attribute": "skills:TypeScript",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using TypeScript at CyberShield Labs.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:HTML5",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using HTML5 at CyberShield Labs.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Tailwind CSS",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Tailwind CSS at CyberShield Labs.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "Frontend Engineer with over 4.6 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [],
+  "ambiguities": [
+    "difficult_edge_case"
+  ],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0081"
+}

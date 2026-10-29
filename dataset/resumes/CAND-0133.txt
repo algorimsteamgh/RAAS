@@ -1,0 +1,13 @@
+Priya Volkov
+Email: priya.volkov@example.com | Phone: +1 555-304-5706 | Location: Remote
+Notice Period: 15 days
+SUMMARY:
+Java Developer with over 0.6 years of professional experience building scalable systems.
+SKILLS:
+PostgreSQL, Kafka, Docker, Java
+EXPERIENCE:
+Java Developer at CloudScale Inc (2020 - Present)
+- Developed core features using PostgreSQL, Kafka, Docker.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Global Science Academy

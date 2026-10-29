@@ -1,0 +1,83 @@
+{
+  "candidate_id": "CAND-0400",
+  "full_name": "Noah Gomez",
+  "email": "noah.gomez@example.com",
+  "phone": "+1 555-758-2740",
+  "location": "Denver, CO",
+  "summary": "AI Engineer with 2.9 years of experience.",
+  "skills": [
+    "PyTorch",
+    "FastAPI",
+    "Transformers",
+    "Ollama"
+  ],
+  "years_experience": 2.9,
+  "roles": [
+    "AI Engineer"
+  ],
+  "companies": [
+    "CyberShield Labs"
+  ],
+  "experience": [
+    {
+      "title": "AI Engineer",
+      "company": "CyberShield Labs",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using PyTorch, FastAPI, Transformers."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Example State University"
+  ],
+  "certifications": [],
+  "projects": [
+    "AI Engineer System Refactoring"
+  ],
+  "domains": [
+    "Data / AI"
+  ],
+  "notice_period": null,
+  "evidence": [
+    {
+      "attribute": "skills:PyTorch",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using PyTorch at CyberShield Labs.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:FastAPI",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using FastAPI at CyberShield Labs.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Transformers",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Transformers at CyberShield Labs.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "AI Engineer with over 2.9 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [
+    "Notice period not specified in CV"
+  ],
+  "ambiguities": [
+    "messy"
+  ],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0400"
+}

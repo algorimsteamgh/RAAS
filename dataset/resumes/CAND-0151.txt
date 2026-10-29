@@ -1,0 +1,13 @@
+Rohan Johnson
+Email: rohan.johnson@example.com | Phone: +1 555-922-8692 | Location: Remote
+Notice Period: 15 days
+SUMMARY:
+Java Developer with over 3.8 years of professional experience building scalable systems.
+SKILLS:
+Java, Kafka, Spring Boot, Docker, REST API, Maven, Hibernate
+EXPERIENCE:
+Java Developer at NextGen Solutions (2020 - Present)
+- Developed core features using Java, Kafka, Spring Boot.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Institute of Technology

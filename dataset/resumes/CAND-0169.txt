@@ -1,0 +1,13 @@
+Wei Volkov
+Email: wei.volkov@example.com | Phone: +1 555-793-7547 | Location: Remote
+Notice Period: 15 days
+SUMMARY:
+Python Developer with over 4.0 years of professional experience building scalable systems.
+SKILLS:
+Django, Flask, Docker, Redis
+EXPERIENCE:
+Python Developer at OmniCloud Systems (2020 - Present)
+- Developed core features using Django, Flask, Docker.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Tech University

@@ -1,0 +1,13 @@
+Noah Diallo
+Email: noah.diallo@example.com | Phone: +1 555-458-6218 | Location: Chicago, IL
+Notice Period: 15 days
+SUMMARY:
+Machine Learning Engineer with over 5.0 years of professional experience building scalable systems.
+SKILLS:
+Docker, PyTorch, Python, TensorFlow, FastAPI, Git
+EXPERIENCE:
+Machine Learning Engineer at CyberShield Labs (2020 - Present)
+- Developed core features using Docker, PyTorch, Python.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Example State University

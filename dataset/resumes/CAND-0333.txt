@@ -1,0 +1,12 @@
+Liam Jones
+Email: liam.jones@example.com | Phone: +1 555-631-2591 | Location: San Francisco, CA
+SUMMARY:
+Data Engineer with over 4.4 years of professional experience building scalable systems.
+SKILLS:
+Airflow, PostgreSQL, Snowflake, SQL, Docker
+EXPERIENCE:
+Data Engineer at OmniCloud Systems (2020 - Present)
+- Developed core features using Airflow, PostgreSQL, Snowflake.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Tech University

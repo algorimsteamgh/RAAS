@@ -1,0 +1,83 @@
+{
+  "candidate_id": "CAND-0271",
+  "full_name": "Rohan Garcia",
+  "email": "rohan.garcia@example.com",
+  "phone": "+1 555-757-4994",
+  "location": "Austin, TX",
+  "summary": "Site Reliability Engineer with 3.6 years of experience.",
+  "skills": [
+    "CI/CD",
+    "Kubernetes",
+    "Grafana",
+    "AWS"
+  ],
+  "years_experience": 3.6,
+  "roles": [
+    "Site Reliability Engineer"
+  ],
+  "companies": [
+    "ExampleTech Corp"
+  ],
+  "experience": [
+    {
+      "title": "Site Reliability Engineer",
+      "company": "ExampleTech Corp",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using CI/CD, Kubernetes, Grafana."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Tech University"
+  ],
+  "certifications": [],
+  "projects": [
+    "Site Reliability Engineer System Refactoring"
+  ],
+  "domains": [
+    "Infrastructure"
+  ],
+  "notice_period": null,
+  "evidence": [
+    {
+      "attribute": "skills:CI/CD",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using CI/CD at ExampleTech Corp.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Kubernetes",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Kubernetes at ExampleTech Corp.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Grafana",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Grafana at ExampleTech Corp.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "Site Reliability Engineer with over 3.6 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [
+    "Notice period not specified in CV"
+  ],
+  "ambiguities": [
+    "messy"
+  ],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0271"
+}

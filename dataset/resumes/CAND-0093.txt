@@ -1,0 +1,13 @@
+Rohan Fernandez
+Email: rohan.fernandez@example.com | Phone: +1 555-667-1672 | Location: Denver, CO
+Notice Period: Immediate
+SUMMARY:
+Full Stack Engineer with over 4.5 years of professional experience building scalable systems.
+SKILLS:
+Docker, PostgreSQL, Express, REST API, React
+EXPERIENCE:
+Full Stack Engineer at ExampleTech Corp (2020 - Present)
+- Developed core features using Docker, PostgreSQL, Express.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Global Science Academy

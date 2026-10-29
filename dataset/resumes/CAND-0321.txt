@@ -1,0 +1,13 @@
+Lucas Williams
+Email: lucas.williams@example.com | Phone: +1 555-832-8183 | Location: Austin, TX
+Notice Period: Immediate
+SUMMARY:
+Data Engineer with over 3.0 years of professional experience building scalable systems.
+SKILLS:
+Airflow, Apache Spark, AWS, Docker, Snowflake, SQL, PostgreSQL
+EXPERIENCE:
+Data Engineer at ExampleTech Corp (2020 - Present)
+- Developed core features using Airflow, Apache Spark, AWS.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Metropolitan University

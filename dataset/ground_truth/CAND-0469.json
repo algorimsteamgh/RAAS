@@ -1,0 +1,81 @@
+{
+  "candidate_id": "CAND-0469",
+  "full_name": "Mason Fernandez",
+  "email": "mason.fernandez@example.com",
+  "phone": "+1 555-854-7388",
+  "location": "New York, NY",
+  "summary": "Engineering Manager with 0.8 years of experience.",
+  "skills": [
+    "System Architecture",
+    "Scrum",
+    "Team Mentorship",
+    "Leadership"
+  ],
+  "years_experience": 0.8,
+  "roles": [
+    "Engineering Manager"
+  ],
+  "companies": [
+    "FinPulse Digital"
+  ],
+  "experience": [
+    {
+      "title": "Engineering Manager",
+      "company": "FinPulse Digital",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using System Architecture, Scrum, Team Mentorship."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Metropolitan University"
+  ],
+  "certifications": [],
+  "projects": [
+    "Engineering Manager System Refactoring"
+  ],
+  "domains": [
+    "Management"
+  ],
+  "notice_period": "Immediate",
+  "evidence": [
+    {
+      "attribute": "skills:System Architecture",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using System Architecture at FinPulse Digital.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Scrum",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Scrum at FinPulse Digital.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Team Mentorship",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Team Mentorship at FinPulse Digital.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "Engineering Manager with over 0.8 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [],
+  "ambiguities": [
+    "difficult_edge_case"
+  ],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0469"
+}

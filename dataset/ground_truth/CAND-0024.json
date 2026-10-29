@@ -1,0 +1,86 @@
+{
+  "candidate_id": "CAND-0024",
+  "full_name": "Yuki Garcia",
+  "email": "yuki.garcia@example.com",
+  "phone": "+1 555-782-2684",
+  "location": "Remote",
+  "summary": "Backend Engineer with 5.6 years of experience.",
+  "skills": [
+    "Django",
+    "FastAPI",
+    "REST API",
+    "Docker",
+    "PostgreSQL",
+    "Python",
+    "Microservices"
+  ],
+  "years_experience": 5.6,
+  "roles": [
+    "Backend Engineer"
+  ],
+  "companies": [
+    "Apex Global"
+  ],
+  "experience": [
+    {
+      "title": "Backend Engineer",
+      "company": "Apex Global",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using Django, FastAPI, REST API."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Global Science Academy"
+  ],
+  "certifications": [],
+  "projects": [
+    "Backend Engineer System Refactoring"
+  ],
+  "domains": [
+    "Software Engineering"
+  ],
+  "notice_period": null,
+  "evidence": [
+    {
+      "attribute": "skills:Django",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Django at Apex Global.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:FastAPI",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using FastAPI at Apex Global.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:REST API",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using REST API at Apex Global.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "Backend Engineer with over 5.6 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [
+    "Notice period not specified in CV"
+  ],
+  "ambiguities": [
+    "messy"
+  ],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0024"
+}

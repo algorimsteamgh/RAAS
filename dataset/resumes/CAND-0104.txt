@@ -1,0 +1,12 @@
+Mei Patel
+Email: mei.patel@example.com | Phone: +1 555-346-7825 | Location: Seattle, WA
+SUMMARY:
+Full Stack Engineer with over 2.8 years of professional experience building scalable systems.
+SKILLS:
+React, PostgreSQL, REST API, Docker, TypeScript, GraphQL
+EXPERIENCE:
+Full Stack Engineer at CyberShield Labs (2020 - Present)
+- Developed core features using React, PostgreSQL, REST API.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Example State University

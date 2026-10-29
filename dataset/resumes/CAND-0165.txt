@@ -1,0 +1,13 @@
+Aarav Chen
+Email: aarav.chen@example.com | Phone: +1 555-440-7224 | Location: Remote
+Notice Period: 30 days
+SUMMARY:
+Python Developer with over 4.0 years of professional experience building scalable systems.
+SKILLS:
+Flask, Docker, Git, Redis, Django, PostgreSQL, Celery, Python
+EXPERIENCE:
+Python Developer at FinPulse Digital (2020 - Present)
+- Developed core features using Flask, Docker, Git.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Metropolitan University

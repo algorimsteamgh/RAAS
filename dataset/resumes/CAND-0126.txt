@@ -1,0 +1,13 @@
+Zainab Davis
+Email: zainab.davis@example.com | Phone: +1 555-707-6511 | Location: San Jose, CA
+Notice Period: Immediate
+SUMMARY:
+Full Stack Engineer with over 1.3 years of professional experience building scalable systems.
+SKILLS:
+PostgreSQL, Express, TypeScript, Node.js, GraphQL, REST API, Docker, React
+EXPERIENCE:
+Full Stack Engineer at Nexus AI Studios (2020 - Present)
+- Developed core features using PostgreSQL, Express, TypeScript.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Metropolitan University

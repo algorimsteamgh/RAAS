@@ -1,0 +1,13 @@
+Lucas Mehta
+Email: lucas.mehta@example.com | Phone: +1 555-847-8014 | Location: New York, NY
+Notice Period: Immediate
+SUMMARY:
+QA Automation Engineer with over 4.0 years of professional experience building scalable systems.
+SKILLS:
+Playwright, Git, Python, Pytest, CI/CD
+EXPERIENCE:
+QA Automation Engineer at ExampleTech Corp (2020 - Present)
+- Developed core features using Playwright, Git, Python.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Global Science Academy

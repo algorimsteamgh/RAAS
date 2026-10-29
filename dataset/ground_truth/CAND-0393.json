@@ -1,0 +1,81 @@
+{
+  "candidate_id": "CAND-0393",
+  "full_name": "Maya Volkov",
+  "email": "maya.volkov@example.com",
+  "phone": "+1 555-370-2900",
+  "location": "Austin, TX",
+  "summary": "AI Engineer with 3.9 years of experience.",
+  "skills": [
+    "Vector DB",
+    "Transformers",
+    "FastAPI",
+    "PyTorch",
+    "LangChain",
+    "Ollama"
+  ],
+  "years_experience": 3.9,
+  "roles": [
+    "AI Engineer"
+  ],
+  "companies": [
+    "FinPulse Digital"
+  ],
+  "experience": [
+    {
+      "title": "AI Engineer",
+      "company": "FinPulse Digital",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using Vector DB, Transformers, FastAPI."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Global Science Academy"
+  ],
+  "certifications": [],
+  "projects": [
+    "AI Engineer System Refactoring"
+  ],
+  "domains": [
+    "Data / AI"
+  ],
+  "notice_period": "30 days",
+  "evidence": [
+    {
+      "attribute": "skills:Vector DB",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Vector DB at FinPulse Digital.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Transformers",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Transformers at FinPulse Digital.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:FastAPI",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using FastAPI at FinPulse Digital.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "AI Engineer with over 3.9 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [],
+  "ambiguities": [],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0393"
+}

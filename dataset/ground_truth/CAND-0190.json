@@ -1,0 +1,83 @@
+{
+  "candidate_id": "CAND-0190",
+  "full_name": "Mason Williams",
+  "email": "mason.williams@example.com",
+  "phone": "+1 555-353-5537",
+  "location": "San Francisco, CA",
+  "summary": "Node.js Developer with 4.6 years of experience.",
+  "skills": [
+    "MongoDB",
+    "Jest",
+    "Redis",
+    "JavaScript",
+    "Node.js",
+    "Docker",
+    "Express",
+    "TypeScript"
+  ],
+  "years_experience": 4.6,
+  "roles": [
+    "Node.js Developer"
+  ],
+  "companies": [
+    "NextGen Solutions"
+  ],
+  "experience": [
+    {
+      "title": "Node.js Developer",
+      "company": "NextGen Solutions",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using MongoDB, Jest, Redis."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Example State University"
+  ],
+  "certifications": [],
+  "projects": [
+    "Node.js Developer System Refactoring"
+  ],
+  "domains": [
+    "Software Engineering"
+  ],
+  "notice_period": "15 days",
+  "evidence": [
+    {
+      "attribute": "skills:MongoDB",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using MongoDB at NextGen Solutions.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Jest",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Jest at NextGen Solutions.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Redis",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Redis at NextGen Solutions.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "Node.js Developer with over 4.6 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [],
+  "ambiguities": [],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0190"
+}

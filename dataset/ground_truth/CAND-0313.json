@@ -1,0 +1,82 @@
+{
+  "candidate_id": "CAND-0313",
+  "full_name": "Lucas Tanaka",
+  "email": "lucas.tanaka@example.com",
+  "phone": "+1 555-899-6950",
+  "location": "San Jose, CA",
+  "summary": "Data Engineer with 3.9 years of experience.",
+  "skills": [
+    "Python",
+    "SQL",
+    "Snowflake",
+    "Docker",
+    "Apache Spark"
+  ],
+  "years_experience": 3.9,
+  "roles": [
+    "Data Engineer"
+  ],
+  "companies": [
+    "DataFlow Systems"
+  ],
+  "experience": [
+    {
+      "title": "Data Engineer",
+      "company": "DataFlow Systems",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using Python, SQL, Snowflake."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Institute of Technology"
+  ],
+  "certifications": [],
+  "projects": [
+    "Data Engineer System Refactoring"
+  ],
+  "domains": [
+    "Data / AI"
+  ],
+  "notice_period": "15 days",
+  "evidence": [
+    {
+      "attribute": "skills:Python",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Python at DataFlow Systems.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:SQL",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using SQL at DataFlow Systems.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Snowflake",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Snowflake at DataFlow Systems.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "Data Engineer with over 3.9 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [],
+  "ambiguities": [
+    "difficult_edge_case"
+  ],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0313"
+}

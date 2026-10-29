@@ -1,0 +1,12 @@
+Noah Mensah
+Email: noah.mensah@example.com | Phone: +1 555-566-7114 | Location: Austin, TX
+SUMMARY:
+Java Developer with over 1.5 years of professional experience building scalable systems.
+SKILLS:
+REST API, Docker, PostgreSQL, Java, Kafka, Hibernate, Spring Boot, Maven
+EXPERIENCE:
+Java Developer at ExampleTech Corp (2020 - Present)
+- Developed core features using REST API, Docker, PostgreSQL.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Tech University

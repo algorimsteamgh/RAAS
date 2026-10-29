@@ -1,0 +1,13 @@
+Maya Davis
+Email: maya.davis@example.com | Phone: +1 555-831-2294 | Location: Remote
+Notice Period: 15 days
+SUMMARY:
+Java Developer with over 4.8 years of professional experience building scalable systems.
+SKILLS:
+PostgreSQL, Spring Boot, Kafka, Hibernate, Docker, Java, REST API
+EXPERIENCE:
+Java Developer at Nexus AI Studios (2020 - Present)
+- Developed core features using PostgreSQL, Spring Boot, Kafka.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Tech University

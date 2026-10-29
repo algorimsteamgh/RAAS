@@ -1,0 +1,81 @@
+{
+  "candidate_id": "CAND-0111",
+  "full_name": "Aarav Williams",
+  "email": "aarav.williams@example.com",
+  "phone": "+1 555-969-8179",
+  "location": "Austin, TX",
+  "summary": "Full Stack Engineer with 3.3 years of experience.",
+  "skills": [
+    "Docker",
+    "Express",
+    "PostgreSQL",
+    "TypeScript",
+    "React",
+    "Node.js"
+  ],
+  "years_experience": 3.3,
+  "roles": [
+    "Full Stack Engineer"
+  ],
+  "companies": [
+    "CyberShield Labs"
+  ],
+  "experience": [
+    {
+      "title": "Full Stack Engineer",
+      "company": "CyberShield Labs",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using Docker, Express, PostgreSQL."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Metropolitan University"
+  ],
+  "certifications": [],
+  "projects": [
+    "Full Stack Engineer System Refactoring"
+  ],
+  "domains": [
+    "Software Engineering"
+  ],
+  "notice_period": "30 days",
+  "evidence": [
+    {
+      "attribute": "skills:Docker",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Docker at CyberShield Labs.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Express",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Express at CyberShield Labs.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:PostgreSQL",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using PostgreSQL at CyberShield Labs.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "Full Stack Engineer with over 3.3 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [],
+  "ambiguities": [],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0111"
+}

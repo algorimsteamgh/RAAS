@@ -1,0 +1,13 @@
+Camila Smith
+Email: camila.smith@example.com | Phone: +1 555-415-5919 | Location: San Jose, CA
+Notice Period: 15 days
+SUMMARY:
+Machine Learning Engineer with over 5.2 years of professional experience building scalable systems.
+SKILLS:
+MLflow, TensorFlow, Docker, FastAPI
+EXPERIENCE:
+Machine Learning Engineer at Nexus AI Studios (2020 - Present)
+- Developed core features using MLflow, TensorFlow, Docker.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Example State University

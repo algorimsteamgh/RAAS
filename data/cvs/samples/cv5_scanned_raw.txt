@@ -1,0 +1,31 @@
+CURRICULUM VITAE - DR. MARCUS VANCE
+E-mail: mvance_sys@example.org | Location: Boston MA
+
+SUMMARY OF QUALIFICATIONS
+10+ years experience in Systems Engineering, Low-level Programming, C++, Python, Linux Kernel, Embedded Systems.
+
+TECHNICAL EXPERTISE
+Languages: C++, C, Python, Bash
+OS: Linux (Debian, RHEL), RTOS
+Domain: Telecommunications, Embedded Systems, Signal Processing
+Tools: GDB, CMake, Git, Valgrind, Docker
+
+PROFESSIONAL EXPERIENCE
+
+Principal Systems Architect | Nexa Telecom Labs (2018 - Present)
+- Architecture of real-time embedded packet processing engines using C++17 and DPDK.
+- Developed Python diagnostic scripts for hardware telemetry.
+- Managed 10+ engineers.
+
+Senior Embedded Engineer | Signal Processing Corp (2013 - 2018)
+- Designed firmware for DSP processors in C and Assembly.
+- Reduced latency in wireless communication stack.
+
+ACADEMIC DEGREES
+Ph.D. in Electrical & Computer Engineering | MIT (2013)
+M.S. in Electrical Engineering | MIT (2009)
+B.S. in Computer Engineering | Northeastern University (2007)
+
+PATENTS & PUBLICATIONS
+- 3 US Patents in High-Speed Data Packet Routing.
+- 5 Peer-reviewed papers in IEEE Transactions.

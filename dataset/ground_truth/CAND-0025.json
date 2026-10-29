@@ -1,0 +1,82 @@
+{
+  "candidate_id": "CAND-0025",
+  "full_name": "Camila Ivanova",
+  "email": "camila.ivanova@example.com",
+  "phone": "+1 555-984-5065",
+  "location": "Chicago, IL",
+  "summary": "Backend Engineer with 5.0 years of experience.",
+  "skills": [
+    "Python",
+    "REST API",
+    "PostgreSQL",
+    "FastAPI",
+    "Redis",
+    "Docker",
+    "Django"
+  ],
+  "years_experience": 5.0,
+  "roles": [
+    "Backend Engineer"
+  ],
+  "companies": [
+    "NextGen Solutions"
+  ],
+  "experience": [
+    {
+      "title": "Backend Engineer",
+      "company": "NextGen Solutions",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using Python, REST API, PostgreSQL."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Institute of Technology"
+  ],
+  "certifications": [],
+  "projects": [
+    "Backend Engineer System Refactoring"
+  ],
+  "domains": [
+    "Software Engineering"
+  ],
+  "notice_period": "15 days",
+  "evidence": [
+    {
+      "attribute": "skills:Python",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Python at NextGen Solutions.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:REST API",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using REST API at NextGen Solutions.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:PostgreSQL",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using PostgreSQL at NextGen Solutions.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "Backend Engineer with over 5.0 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [],
+  "ambiguities": [],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0025"
+}

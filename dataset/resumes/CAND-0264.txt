@@ -1,0 +1,13 @@
+Priya Fernandez
+Email: priya.fernandez@example.com | Phone: +1 555-684-7839 | Location: San Jose, CA
+Notice Period: 15 days
+SUMMARY:
+Cloud Engineer with over 5.5 years of professional experience building scalable systems.
+SKILLS:
+Azure, AWS, Terraform, Python
+EXPERIENCE:
+Cloud Engineer at ExampleTech Corp (2020 - Present)
+- Developed core features using Azure, AWS, Terraform.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Example State University

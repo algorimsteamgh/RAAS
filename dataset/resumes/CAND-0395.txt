@@ -1,0 +1,12 @@
+Mason Miller
+Email: mason.miller@example.com | Phone: +1 555-373-2610 | Location: Chicago, IL
+SUMMARY:
+AI Engineer with over 3.9 years of professional experience building scalable systems.
+SKILLS:
+LangChain, FastAPI, Ollama, PyTorch, Transformers
+EXPERIENCE:
+AI Engineer at OmniCloud Systems (2020 - Present)
+- Developed core features using LangChain, FastAPI, Ollama.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Example State University

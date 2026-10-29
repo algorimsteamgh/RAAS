@@ -1,0 +1,13 @@
+Camila Ivanova
+Email: camila.ivanova@example.com | Phone: +1 555-182-6500 | Location: Austin, TX
+Notice Period: 30 days
+SUMMARY:
+QA Automation Engineer with over 5.7 years of professional experience building scalable systems.
+SKILLS:
+Python, Postman, Pytest, Playwright, CI/CD, Git
+EXPERIENCE:
+QA Automation Engineer at ExampleTech Corp (2020 - Present)
+- Developed core features using Python, Postman, Pytest.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Metropolitan University

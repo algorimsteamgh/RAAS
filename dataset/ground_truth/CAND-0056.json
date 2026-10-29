@@ -1,0 +1,82 @@
+{
+  "candidate_id": "CAND-0056",
+  "full_name": "Mateo Rao",
+  "email": "mateo.rao@example.com",
+  "phone": "+1 555-308-5375",
+  "location": "San Jose, CA",
+  "summary": "Frontend Engineer with 0.9 years of experience.",
+  "skills": [
+    "TypeScript",
+    "JavaScript",
+    "CSS3",
+    "HTML5",
+    "Redux",
+    "React",
+    "Tailwind CSS"
+  ],
+  "years_experience": 0.9,
+  "roles": [
+    "Frontend Engineer"
+  ],
+  "companies": [
+    "NextGen Solutions"
+  ],
+  "experience": [
+    {
+      "title": "Frontend Engineer",
+      "company": "NextGen Solutions",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using TypeScript, JavaScript, CSS3."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Tech University"
+  ],
+  "certifications": [],
+  "projects": [
+    "Frontend Engineer System Refactoring"
+  ],
+  "domains": [
+    "Software Engineering"
+  ],
+  "notice_period": "Immediate",
+  "evidence": [
+    {
+      "attribute": "skills:TypeScript",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using TypeScript at NextGen Solutions.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:JavaScript",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using JavaScript at NextGen Solutions.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:CSS3",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using CSS3 at NextGen Solutions.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "Frontend Engineer with over 0.9 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [],
+  "ambiguities": [],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0056"
+}

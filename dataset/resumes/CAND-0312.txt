@@ -1,0 +1,13 @@
+Hiroshi Williams
+Email: hiroshi.williams@example.com | Phone: +1 555-989-3745 | Location: Remote
+Notice Period: 60 days
+SUMMARY:
+Data Engineer with over 4.6 years of professional experience building scalable systems.
+SKILLS:
+SQL, Python, AWS, Apache Spark, Snowflake, Airflow, PostgreSQL
+EXPERIENCE:
+Data Engineer at NextGen Solutions (2020 - Present)
+- Developed core features using SQL, Python, AWS.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Metropolitan University

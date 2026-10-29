@@ -1,0 +1,81 @@
+{
+  "candidate_id": "CAND-0278",
+  "full_name": "Noah Johnson",
+  "email": "noah.johnson@example.com",
+  "phone": "+1 555-285-1891",
+  "location": "San Jose, CA",
+  "summary": "Site Reliability Engineer with 4.4 years of experience.",
+  "skills": [
+    "Python",
+    "Kubernetes",
+    "Linux",
+    "AWS",
+    "Prometheus",
+    "Grafana"
+  ],
+  "years_experience": 4.4,
+  "roles": [
+    "Site Reliability Engineer"
+  ],
+  "companies": [
+    "Apex Global"
+  ],
+  "experience": [
+    {
+      "title": "Site Reliability Engineer",
+      "company": "Apex Global",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using Python, Kubernetes, Linux."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Institute of Technology"
+  ],
+  "certifications": [],
+  "projects": [
+    "Site Reliability Engineer System Refactoring"
+  ],
+  "domains": [
+    "Infrastructure"
+  ],
+  "notice_period": "15 days",
+  "evidence": [
+    {
+      "attribute": "skills:Python",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Python at Apex Global.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Kubernetes",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Kubernetes at Apex Global.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Linux",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Linux at Apex Global.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "Site Reliability Engineer with over 4.4 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [],
+  "ambiguities": [],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0278"
+}

@@ -1,0 +1,39 @@
+ALEXANDER R. WRIGHT
+Email: alex.wright@example.com | Phone: +1 (555) 019-2834 | Location: Austin, TX
+LinkedIn: linkedin.com/in/alexwright-tech | Availability: 30 Days Notice Period
+
+PROFESSIONAL SUMMARY
+Senior Backend Engineer with over 8 years of experience building high-throughput, distributed backend services, RESTful APIs, and microservice architectures. Proven track record in Python ecosystem, asynchronous programming, database optimization, and cloud deployments.
+
+TECHNICAL SKILLS
+- Languages: Python (3.8-3.12), SQL, Go (Basic)
+- Web Frameworks: FastAPI, Django, Flask, AsyncIO
+- Databases: PostgreSQL, Redis, MongoDB
+- DevOps & Cloud: Docker, Kubernetes, AWS (EC2, S3, ECS), CI/CD (GitHub Actions)
+- Architecture: REST APIs, gRPC, Event-Driven Architecture (Kafka), Microservices
+
+WORK EXPERIENCE
+
+Senior Backend Engineer | TechCorp Inc, Austin, TX
+March 2021 – Present (3.5 years)
+- Designed and maintained microservices using FastAPI and PostgreSQL handling 50M+ daily requests with 99.99% uptime.
+- Optimized slow SQL queries and Redis caching layers, reducing p99 response latencies by 42%.
+- Led a team of 5 backend engineers in re-architecting legacy monolith into scalable FastAPI services.
+
+Software Engineer | CloudScale Systems, Dallas, TX
+June 2016 – February 2021 (4.7 years)
+- Developed asynchronous data processing pipelines using Python, Celery, and PostgreSQL.
+- Implemented JWT authentication, RBAC authorization, and API rate limiting.
+- Containerized core services with Docker and orchestrated deployments on AWS ECS.
+
+EDUCATION
+Bachelor of Science in Computer Science
+University of Texas at Austin | Graduated May 2016
+
+CERTIFICATIONS
+- AWS Certified Solutions Architect – Associate (2022)
+- Certified Kubernetes Application Developer (CKAD) (2023)
+
+PROJECTS
+- FinTech Payment Gateway: Built a PCI-compliant payment orchestration service using FastAPI, AsyncIO, and Redis locks.
+- Real-time Analytics Engine: Created a high-volume streaming ingest pipeline with Kafka and PostgreSQL partitioning.

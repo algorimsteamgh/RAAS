@@ -1,0 +1,13 @@
+Isabella Miller
+Email: isabella.miller@example.com | Phone: +1 555-615-7929 | Location: Chicago, IL
+Notice Period: 30 days
+SUMMARY:
+QA Automation Engineer with over 3.8 years of professional experience building scalable systems.
+SKILLS:
+Postman, Git, REST API, Python, Pytest, Playwright, Selenium
+EXPERIENCE:
+QA Automation Engineer at CyberShield Labs (2020 - Present)
+- Developed core features using Postman, Git, REST API.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Tech University

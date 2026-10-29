@@ -1,0 +1,81 @@
+{
+  "candidate_id": "CAND-0142",
+  "full_name": "Ananya Patel",
+  "email": "ananya.patel@example.com",
+  "phone": "+1 555-817-2044",
+  "location": "San Jose, CA",
+  "summary": "Java Developer with 5.8 years of experience.",
+  "skills": [
+    "REST API",
+    "Java",
+    "Hibernate",
+    "PostgreSQL"
+  ],
+  "years_experience": 5.8,
+  "roles": [
+    "Java Developer"
+  ],
+  "companies": [
+    "CloudScale Inc"
+  ],
+  "experience": [
+    {
+      "title": "Java Developer",
+      "company": "CloudScale Inc",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using REST API, Java, Hibernate."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Institute of Technology"
+  ],
+  "certifications": [],
+  "projects": [
+    "Java Developer System Refactoring"
+  ],
+  "domains": [
+    "Software Engineering"
+  ],
+  "notice_period": "60 days",
+  "evidence": [
+    {
+      "attribute": "skills:REST API",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using REST API at CloudScale Inc.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Java",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Java at CloudScale Inc.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Hibernate",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Hibernate at CloudScale Inc.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "Java Developer with over 5.8 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [],
+  "ambiguities": [
+    "difficult_edge_case"
+  ],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0142"
+}

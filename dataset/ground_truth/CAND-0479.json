@@ -1,0 +1,81 @@
+{
+  "candidate_id": "CAND-0479",
+  "full_name": "Rohan Garcia",
+  "email": "rohan.garcia@example.com",
+  "phone": "+1 555-478-8506",
+  "location": "San Francisco, CA",
+  "summary": "Technical Project Manager with 6.4 years of experience.",
+  "skills": [
+    "Budgeting",
+    "Risk Management",
+    "Scrum",
+    "Roadmapping",
+    "Jira",
+    "Stakeholder Communication"
+  ],
+  "years_experience": 6.4,
+  "roles": [
+    "Technical Project Manager"
+  ],
+  "companies": [
+    "Nexus AI Studios"
+  ],
+  "experience": [
+    {
+      "title": "Technical Project Manager",
+      "company": "Nexus AI Studios",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using Budgeting, Risk Management, Scrum."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Metropolitan University"
+  ],
+  "certifications": [],
+  "projects": [
+    "Technical Project Manager System Refactoring"
+  ],
+  "domains": [
+    "Management"
+  ],
+  "notice_period": "Immediate",
+  "evidence": [
+    {
+      "attribute": "skills:Budgeting",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Budgeting at Nexus AI Studios.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Risk Management",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Risk Management at Nexus AI Studios.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Scrum",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Scrum at Nexus AI Studios.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "Technical Project Manager with over 6.4 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [],
+  "ambiguities": [],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0479"
+}

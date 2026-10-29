@@ -1,0 +1,87 @@
+{
+  "candidate_id": "CAND-0437",
+  "full_name": "Olivia Chen",
+  "email": "olivia.chen@example.com",
+  "phone": "+1 555-396-9037",
+  "location": "Austin, TX",
+  "summary": "Security Engineer with 3.6 years of experience.",
+  "skills": [
+    "Wireshark",
+    "Penetration Testing",
+    "SIEM",
+    "Cryptography",
+    "Python",
+    "Linux",
+    "OWASP",
+    "Docker"
+  ],
+  "years_experience": null,
+  "roles": [
+    "Security Engineer"
+  ],
+  "companies": [
+    "NextGen Solutions"
+  ],
+  "experience": [
+    {
+      "title": "Security Engineer",
+      "company": "NextGen Solutions",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using Wireshark, Penetration Testing, SIEM."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Metropolitan University"
+  ],
+  "certifications": [],
+  "projects": [
+    "Security Engineer System Refactoring"
+  ],
+  "domains": [
+    "Quality / Security"
+  ],
+  "notice_period": "60 days",
+  "evidence": [
+    {
+      "attribute": "skills:Wireshark",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Wireshark at NextGen Solutions.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Penetration Testing",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Penetration Testing at NextGen Solutions.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:SIEM",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using SIEM at NextGen Solutions.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "Security Engineer with over 3.6 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [
+    "Explicit total years of experience not clearly stated in text summary"
+  ],
+  "ambiguities": [
+    "ambiguous"
+  ],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0437"
+}

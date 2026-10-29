@@ -1,0 +1,13 @@
+Ava Miller
+Email: ava.miller@example.com | Phone: +1 555-963-9054 | Location: San Francisco, CA
+Notice Period: 60 days
+SUMMARY:
+DevOps Engineer with over 3.3 years of professional experience building scalable systems.
+SKILLS:
+Python, Linux, AWS, CI/CD, Terraform, Ansible
+EXPERIENCE:
+DevOps Engineer at DataFlow Systems (2020 - Present)
+- Developed core features using Python, Linux, AWS.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Institute of Technology

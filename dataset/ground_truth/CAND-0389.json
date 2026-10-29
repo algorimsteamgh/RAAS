@@ -1,0 +1,82 @@
+{
+  "candidate_id": "CAND-0389",
+  "full_name": "Mei Rao",
+  "email": "mei.rao@example.com",
+  "phone": "+1 555-451-9765",
+  "location": "Austin, TX",
+  "summary": "AI Engineer with 4.3 years of experience.",
+  "skills": [
+    "Transformers",
+    "LangChain",
+    "Ollama",
+    "Vector DB",
+    "FastAPI",
+    "Python",
+    "FAISS"
+  ],
+  "years_experience": 4.3,
+  "roles": [
+    "AI Engineer"
+  ],
+  "companies": [
+    "Nexus AI Studios"
+  ],
+  "experience": [
+    {
+      "title": "AI Engineer",
+      "company": "Nexus AI Studios",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using Transformers, LangChain, Ollama."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Metropolitan University"
+  ],
+  "certifications": [],
+  "projects": [
+    "AI Engineer System Refactoring"
+  ],
+  "domains": [
+    "Data / AI"
+  ],
+  "notice_period": "30 days",
+  "evidence": [
+    {
+      "attribute": "skills:Transformers",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Transformers at Nexus AI Studios.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:LangChain",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using LangChain at Nexus AI Studios.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Ollama",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Ollama at Nexus AI Studios.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "AI Engineer with over 4.3 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [],
+  "ambiguities": [],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0389"
+}

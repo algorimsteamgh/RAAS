@@ -1,0 +1,13 @@
+Hiroshi Chen
+Email: hiroshi.chen@example.com | Phone: +1 555-482-5155 | Location: Austin, TX
+Notice Period: 30 days
+SUMMARY:
+Full Stack Engineer with over 0.6 years of professional experience building scalable systems.
+SKILLS:
+React, REST API, PostgreSQL, Node.js, GraphQL
+EXPERIENCE:
+Full Stack Engineer at ExampleTech Corp (2020 - Present)
+- Developed core features using React, REST API, PostgreSQL.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Metropolitan University

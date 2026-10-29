@@ -1,0 +1,81 @@
+{
+  "candidate_id": "CAND-0134",
+  "full_name": "Fatima Rao",
+  "email": "fatima.rao@example.com",
+  "phone": "+1 555-956-7504",
+  "location": "Denver, CO",
+  "summary": "Java Developer with 5.1 years of experience.",
+  "skills": [
+    "Java",
+    "REST API",
+    "Hibernate",
+    "Kafka",
+    "Maven",
+    "Spring Boot"
+  ],
+  "years_experience": 5.1,
+  "roles": [
+    "Java Developer"
+  ],
+  "companies": [
+    "NextGen Solutions"
+  ],
+  "experience": [
+    {
+      "title": "Java Developer",
+      "company": "NextGen Solutions",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using Java, REST API, Hibernate."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Global Science Academy"
+  ],
+  "certifications": [],
+  "projects": [
+    "Java Developer System Refactoring"
+  ],
+  "domains": [
+    "Software Engineering"
+  ],
+  "notice_period": "60 days",
+  "evidence": [
+    {
+      "attribute": "skills:Java",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Java at NextGen Solutions.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:REST API",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using REST API at NextGen Solutions.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Hibernate",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Hibernate at NextGen Solutions.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "Java Developer with over 5.1 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [],
+  "ambiguities": [],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0134"
+}

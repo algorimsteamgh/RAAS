@@ -1,0 +1,13 @@
+Kofi Fernandez
+Email: kofi.fernandez@example.com | Phone: +1 555-289-8203 | Location: San Francisco, CA
+Notice Period: Immediate
+SUMMARY:
+Security Engineer with over 3.7 years of professional experience building scalable systems.
+SKILLS:
+Cryptography, Python, Wireshark, SIEM, Penetration Testing, Linux, Docker
+EXPERIENCE:
+Security Engineer at DataFlow Systems (2020 - Present)
+- Developed core features using Cryptography, Python, Wireshark.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Global Science Academy

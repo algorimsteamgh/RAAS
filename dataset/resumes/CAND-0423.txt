@@ -1,0 +1,12 @@
+Olivia Volkov
+Email: olivia.volkov@example.com | Phone: +1 555-672-2097 | Location: San Jose, CA
+SUMMARY:
+QA Automation Engineer with over 3.2 years of professional experience building scalable systems.
+SKILLS:
+Pytest, Git, Python, Postman, Selenium, Playwright
+EXPERIENCE:
+QA Automation Engineer at InnovateSoft (2020 - Present)
+- Developed core features using Pytest, Git, Python.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Metropolitan University

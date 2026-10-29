@@ -1,0 +1,85 @@
+{
+  "candidate_id": "CAND-0410",
+  "full_name": "Liam Mehta",
+  "email": "liam.mehta@example.com",
+  "phone": "+1 555-107-3939",
+  "location": "San Francisco, CA",
+  "summary": "QA Automation Engineer with 4.6 years of experience.",
+  "skills": [
+    "REST API",
+    "CI/CD",
+    "Pytest",
+    "Selenium",
+    "Git",
+    "Python"
+  ],
+  "years_experience": 4.6,
+  "roles": [
+    "QA Automation Engineer"
+  ],
+  "companies": [
+    "NextGen Solutions"
+  ],
+  "experience": [
+    {
+      "title": "QA Automation Engineer",
+      "company": "NextGen Solutions",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using REST API, CI/CD, Pytest."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Tech University"
+  ],
+  "certifications": [],
+  "projects": [
+    "QA Automation Engineer System Refactoring"
+  ],
+  "domains": [
+    "Quality / Security"
+  ],
+  "notice_period": null,
+  "evidence": [
+    {
+      "attribute": "skills:REST API",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using REST API at NextGen Solutions.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:CI/CD",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using CI/CD at NextGen Solutions.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Pytest",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Pytest at NextGen Solutions.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "QA Automation Engineer with over 4.6 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [
+    "Notice period not specified in CV"
+  ],
+  "ambiguities": [
+    "messy"
+  ],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0410"
+}

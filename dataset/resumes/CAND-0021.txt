@@ -1,0 +1,12 @@
+Amir Williams
+Email: amir.williams@example.com | Phone: +1 555-370-2891 | Location: San Francisco, CA
+SUMMARY:
+Backend Engineer with over 0.7 years of professional experience building scalable systems.
+SKILLS:
+PostgreSQL, Docker, Django, FastAPI, REST API, Microservices
+EXPERIENCE:
+Backend Engineer at CyberShield Labs (2020 - Present)
+- Developed core features using PostgreSQL, Docker, Django.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Metropolitan University

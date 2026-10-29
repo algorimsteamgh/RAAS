@@ -1,0 +1,86 @@
+{
+  "candidate_id": "CAND-0365",
+  "full_name": "Carlos Fernandez",
+  "email": "carlos.fernandez@example.com",
+  "phone": "+1 555-738-6797",
+  "location": "Seattle, WA",
+  "summary": "Machine Learning Engineer with 4.2 years of experience.",
+  "skills": [
+    "Git",
+    "CUDA",
+    "PyTorch",
+    "FastAPI",
+    "MLflow",
+    "TensorFlow",
+    "Docker"
+  ],
+  "years_experience": 4.2,
+  "roles": [
+    "Machine Learning Engineer"
+  ],
+  "companies": [
+    "InnovateSoft"
+  ],
+  "experience": [
+    {
+      "title": "Machine Learning Engineer",
+      "company": "InnovateSoft",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using Git, CUDA, PyTorch."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Example State University"
+  ],
+  "certifications": [],
+  "projects": [
+    "Machine Learning Engineer System Refactoring"
+  ],
+  "domains": [
+    "Data / AI"
+  ],
+  "notice_period": null,
+  "evidence": [
+    {
+      "attribute": "skills:Git",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Git at InnovateSoft.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:CUDA",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using CUDA at InnovateSoft.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:PyTorch",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using PyTorch at InnovateSoft.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "Machine Learning Engineer with over 4.2 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [
+    "Notice period not specified in CV"
+  ],
+  "ambiguities": [
+    "messy"
+  ],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0365"
+}

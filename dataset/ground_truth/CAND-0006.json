@@ -1,0 +1,81 @@
+{
+  "candidate_id": "CAND-0006",
+  "full_name": "Camila Sharma",
+  "email": "camila.sharma@example.com",
+  "phone": "+1 555-510-5386",
+  "location": "San Francisco, CA",
+  "summary": "Backend Engineer with 5.8 years of experience.",
+  "skills": [
+    "PostgreSQL",
+    "Docker",
+    "Microservices",
+    "REST API",
+    "Redis",
+    "Python"
+  ],
+  "years_experience": 5.8,
+  "roles": [
+    "Backend Engineer"
+  ],
+  "companies": [
+    "NextGen Solutions"
+  ],
+  "experience": [
+    {
+      "title": "Backend Engineer",
+      "company": "NextGen Solutions",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using PostgreSQL, Docker, Microservices."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Institute of Technology"
+  ],
+  "certifications": [],
+  "projects": [
+    "Backend Engineer System Refactoring"
+  ],
+  "domains": [
+    "Software Engineering"
+  ],
+  "notice_period": "15 days",
+  "evidence": [
+    {
+      "attribute": "skills:PostgreSQL",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using PostgreSQL at NextGen Solutions.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Docker",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Docker at NextGen Solutions.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Microservices",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Microservices at NextGen Solutions.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "Backend Engineer with over 5.8 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [],
+  "ambiguities": [],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0006"
+}

@@ -1,0 +1,80 @@
+{
+  "candidate_id": "CAND-0317",
+  "full_name": "Isabella Wang",
+  "email": "isabella.wang@example.com",
+  "phone": "+1 555-366-3551",
+  "location": "Chicago, IL",
+  "summary": "Data Engineer with 4.3 years of experience.",
+  "skills": [
+    "Snowflake",
+    "Apache Spark",
+    "Airflow",
+    "PostgreSQL",
+    "Python"
+  ],
+  "years_experience": 4.3,
+  "roles": [
+    "Data Engineer"
+  ],
+  "companies": [
+    "CyberShield Labs"
+  ],
+  "experience": [
+    {
+      "title": "Data Engineer",
+      "company": "CyberShield Labs",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using Snowflake, Apache Spark, Airflow."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Global Science Academy"
+  ],
+  "certifications": [],
+  "projects": [
+    "Data Engineer System Refactoring"
+  ],
+  "domains": [
+    "Data / AI"
+  ],
+  "notice_period": "30 days",
+  "evidence": [
+    {
+      "attribute": "skills:Snowflake",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Snowflake at CyberShield Labs.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Apache Spark",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Apache Spark at CyberShield Labs.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Airflow",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Airflow at CyberShield Labs.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "Data Engineer with over 4.3 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [],
+  "ambiguities": [],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0317"
+}

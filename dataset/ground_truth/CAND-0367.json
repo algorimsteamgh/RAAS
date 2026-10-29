@@ -1,0 +1,79 @@
+{
+  "candidate_id": "CAND-0367",
+  "full_name": "Camila Smith",
+  "email": "camila.smith@example.com",
+  "phone": "+1 555-415-5919",
+  "location": "San Jose, CA",
+  "summary": "Machine Learning Engineer with 5.2 years of experience.",
+  "skills": [
+    "MLflow",
+    "TensorFlow",
+    "Docker",
+    "FastAPI"
+  ],
+  "years_experience": 5.2,
+  "roles": [
+    "Machine Learning Engineer"
+  ],
+  "companies": [
+    "Nexus AI Studios"
+  ],
+  "experience": [
+    {
+      "title": "Machine Learning Engineer",
+      "company": "Nexus AI Studios",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using MLflow, TensorFlow, Docker."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Example State University"
+  ],
+  "certifications": [],
+  "projects": [
+    "Machine Learning Engineer System Refactoring"
+  ],
+  "domains": [
+    "Data / AI"
+  ],
+  "notice_period": "15 days",
+  "evidence": [
+    {
+      "attribute": "skills:MLflow",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using MLflow at Nexus AI Studios.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:TensorFlow",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using TensorFlow at Nexus AI Studios.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Docker",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Docker at Nexus AI Studios.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "Machine Learning Engineer with over 5.2 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [],
+  "ambiguities": [],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0367"
+}

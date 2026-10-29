@@ -1,0 +1,13 @@
+Sophia Sato
+Email: sophia.sato@example.com | Phone: +1 555-296-2617 | Location: Austin, TX
+Notice Period: 60 days
+SUMMARY:
+Data Engineer with over 5.4 years of professional experience building scalable systems.
+SKILLS:
+PostgreSQL, Python, Apache Spark, SQL, Docker, Airflow, Snowflake
+EXPERIENCE:
+Data Engineer at CyberShield Labs (2020 - Present)
+- Developed core features using PostgreSQL, Python, Apache Spark.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Example State University

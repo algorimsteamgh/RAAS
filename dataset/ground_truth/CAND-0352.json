@@ -1,0 +1,83 @@
+{
+  "candidate_id": "CAND-0352",
+  "full_name": "Zainab Mehta",
+  "email": "zainab.mehta@example.com",
+  "phone": "+1 555-883-6221",
+  "location": "Boston, MA",
+  "summary": "Data Scientist with 3.6 years of experience.",
+  "skills": [
+    "Scikit-Learn",
+    "Statistics",
+    "Pandas",
+    "Python",
+    "TensorFlow",
+    "PyTorch"
+  ],
+  "years_experience": 3.6,
+  "roles": [
+    "Data Scientist"
+  ],
+  "companies": [
+    "ExampleTech Corp"
+  ],
+  "experience": [
+    {
+      "title": "Data Scientist",
+      "company": "ExampleTech Corp",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using Scikit-Learn, Statistics, Pandas."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Tech University"
+  ],
+  "certifications": [],
+  "projects": [
+    "Data Scientist System Refactoring"
+  ],
+  "domains": [
+    "Data / AI"
+  ],
+  "notice_period": "30 days",
+  "evidence": [
+    {
+      "attribute": "skills:Scikit-Learn",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Scikit-Learn at ExampleTech Corp.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Statistics",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Statistics at ExampleTech Corp.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Pandas",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Pandas at ExampleTech Corp.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "Data Scientist with over 3.6 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [],
+  "ambiguities": [
+    "difficult_edge_case"
+  ],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0352"
+}

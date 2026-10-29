@@ -1,0 +1,13 @@
+Priya Garcia
+Email: priya.garcia@example.com | Phone: +1 555-379-8140 | Location: Denver, CO
+Notice Period: 15 days
+SUMMARY:
+Backend Engineer with over 3.7 years of professional experience building scalable systems.
+SKILLS:
+Django, REST API, PostgreSQL, FastAPI, Python, Redis, Docker
+EXPERIENCE:
+Backend Engineer at DataFlow Systems (2020 - Present)
+- Developed core features using Django, REST API, PostgreSQL.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Global Science Academy

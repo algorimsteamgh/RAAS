@@ -1,0 +1,83 @@
+{
+  "candidate_id": "CAND-0222",
+  "full_name": "Ethan Rao",
+  "email": "ethan.rao@example.com",
+  "phone": "+1 555-469-1062",
+  "location": "Boston, MA",
+  "summary": "DevOps Engineer with 5.4 years of experience.",
+  "skills": [
+    "Python",
+    "Kubernetes",
+    "Docker",
+    "CI/CD",
+    "Linux",
+    "Ansible",
+    "Terraform",
+    "AWS"
+  ],
+  "years_experience": 5.4,
+  "roles": [
+    "DevOps Engineer"
+  ],
+  "companies": [
+    "CyberShield Labs"
+  ],
+  "experience": [
+    {
+      "title": "DevOps Engineer",
+      "company": "CyberShield Labs",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using Python, Kubernetes, Docker."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Example State University"
+  ],
+  "certifications": [],
+  "projects": [
+    "DevOps Engineer System Refactoring"
+  ],
+  "domains": [
+    "Infrastructure"
+  ],
+  "notice_period": "30 days",
+  "evidence": [
+    {
+      "attribute": "skills:Python",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Python at CyberShield Labs.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Kubernetes",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Kubernetes at CyberShield Labs.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Docker",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Docker at CyberShield Labs.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "DevOps Engineer with over 5.4 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [],
+  "ambiguities": [],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0222"
+}

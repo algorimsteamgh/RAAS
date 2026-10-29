@@ -1,0 +1,13 @@
+Camila Garcia
+Email: camila.garcia@example.com | Phone: +1 555-399-1535 | Location: Chicago, IL
+Notice Period: 60 days
+SUMMARY:
+Python Developer with over 3.5 years of professional experience building scalable systems.
+SKILLS:
+Docker, Redis, Git, Python, Celery, Django, Flask
+EXPERIENCE:
+Python Developer at OmniCloud Systems (2020 - Present)
+- Developed core features using Docker, Redis, Git.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Example State University

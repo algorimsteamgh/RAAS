@@ -1,0 +1,13 @@
+Emma Brown
+Email: emma.brown@example.com | Phone: +1 555-136-8704 | Location: Chicago, IL
+Notice Period: 60 days
+SUMMARY:
+Technical Project Manager with over 8.5 years of professional experience building scalable systems.
+SKILLS:
+Risk Management, Agile, Roadmapping, Jira
+EXPERIENCE:
+Technical Project Manager at OmniCloud Systems (2020 - Present)
+- Developed core features using Risk Management, Agile, Roadmapping.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Global Science Academy

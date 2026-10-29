@@ -1,0 +1,81 @@
+{
+  "candidate_id": "CAND-0014",
+  "full_name": "Emma Sato",
+  "email": "emma.sato@example.com",
+  "phone": "+1 555-926-7669",
+  "location": "New York, NY",
+  "summary": "Backend Engineer with 1.5 years of experience.",
+  "skills": [
+    "REST API",
+    "PostgreSQL",
+    "Microservices",
+    "Python",
+    "Redis",
+    "Docker"
+  ],
+  "years_experience": 1.5,
+  "roles": [
+    "Backend Engineer"
+  ],
+  "companies": [
+    "FinPulse Digital"
+  ],
+  "experience": [
+    {
+      "title": "Backend Engineer",
+      "company": "FinPulse Digital",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using REST API, PostgreSQL, Microservices."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Metropolitan University"
+  ],
+  "certifications": [],
+  "projects": [
+    "Backend Engineer System Refactoring"
+  ],
+  "domains": [
+    "Software Engineering"
+  ],
+  "notice_period": "Immediate",
+  "evidence": [
+    {
+      "attribute": "skills:REST API",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using REST API at FinPulse Digital.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:PostgreSQL",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using PostgreSQL at FinPulse Digital.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Microservices",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Microservices at FinPulse Digital.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "Backend Engineer with over 1.5 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [],
+  "ambiguities": [],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0014"
+}

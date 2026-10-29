@@ -1,0 +1,30 @@
+{
+  "job_id": "JOB-003",
+  "title": "Full Stack Engineer",
+  "seniority": "Mid-Level",
+  "mandatory_skills": [
+    "TypeScript",
+    "React",
+    "Node.js",
+    "PostgreSQL"
+  ],
+  "preferred_skills": [
+    "Docker",
+    "GraphQL"
+  ],
+  "minimum_years_experience": 3.0,
+  "domain_requirements": [
+    "Technology"
+  ],
+  "education_requirements": [
+    "Bachelor's degree in CS"
+  ],
+  "certifications": [],
+  "location": "Remote",
+  "work_mode": "Remote",
+  "responsibilities": [
+    "Build end-to-end web features.",
+    "Maintain backend REST APIs and frontend views."
+  ],
+  "source_dataset": "michaelozon/candidate-matching-synthetic"
+}

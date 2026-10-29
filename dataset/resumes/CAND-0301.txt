@@ -1,0 +1,12 @@
+Camila Mensah
+Email: camila.mensah@example.com | Phone: +1 555-363-9813 | Location: Chicago, IL
+SUMMARY:
+Data Engineer with over 1.9 years of professional experience building scalable systems.
+SKILLS:
+AWS, Docker, SQL, Apache Spark, Airflow, PostgreSQL, Snowflake, Python
+EXPERIENCE:
+Data Engineer at CyberShield Labs (2020 - Present)
+- Developed core features using AWS, Docker, SQL.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Example State University

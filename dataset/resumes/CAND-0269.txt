@@ -1,0 +1,13 @@
+Ethan Sharma
+Email: ethan.sharma@example.com | Phone: +1 555-711-1833 | Location: Chicago, IL
+Notice Period: 15 days
+SUMMARY:
+Cloud Engineer with over 4.5 years of professional experience building scalable systems.
+SKILLS:
+Azure, Linux, Docker, GCP, Python, AWS
+EXPERIENCE:
+Cloud Engineer at OmniCloud Systems (2020 - Present)
+- Developed core features using Azure, Linux, Docker.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Example State University

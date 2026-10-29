@@ -1,0 +1,86 @@
+{
+  "candidate_id": "CAND-0226",
+  "full_name": "Sophia Tanaka",
+  "email": "sophia.tanaka@example.com",
+  "phone": "+1 555-277-3738",
+  "location": "New York, NY",
+  "summary": "DevOps Engineer with 2.9 years of experience.",
+  "skills": [
+    "Kubernetes",
+    "CI/CD",
+    "Terraform",
+    "Python",
+    "Ansible",
+    "AWS",
+    "Linux"
+  ],
+  "years_experience": null,
+  "roles": [
+    "DevOps Engineer"
+  ],
+  "companies": [
+    "Apex Global"
+  ],
+  "experience": [
+    {
+      "title": "DevOps Engineer",
+      "company": "Apex Global",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using Kubernetes, CI/CD, Terraform."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Example State University"
+  ],
+  "certifications": [],
+  "projects": [
+    "DevOps Engineer System Refactoring"
+  ],
+  "domains": [
+    "Infrastructure"
+  ],
+  "notice_period": "Immediate",
+  "evidence": [
+    {
+      "attribute": "skills:Kubernetes",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Kubernetes at Apex Global.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:CI/CD",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using CI/CD at Apex Global.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Terraform",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Terraform at Apex Global.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "DevOps Engineer with over 2.9 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [
+    "Explicit total years of experience not clearly stated in text summary"
+  ],
+  "ambiguities": [
+    "ambiguous"
+  ],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0226"
+}

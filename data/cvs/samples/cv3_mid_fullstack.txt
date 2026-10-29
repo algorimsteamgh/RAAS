@@ -1,0 +1,26 @@
+JORDAN BENNETT
+Email: jordan.bennett@example.org
+
+OBJECTIVE
+Mid-Level Full Stack Software Developer skilled in Node.js, Express, React, and MongoDB looking for new opportunities in software engineering.
+
+SKILLS
+- JavaScript, Node.js, Express.js, React, HTML/CSS
+- MongoDB, Mongoose, MySQL
+- Git, Postman, Docker Basics
+
+EXPERIENCE
+Full Stack Developer | DevHouse Solutions
+- Built full stack web applications using MERN stack (MongoDB, Express, React, Node.js).
+- Developed REST APIs and connected frontend client components.
+- Maintained database schemas and written server-side controllers.
+
+Software Developer | Acme Tech Solutions
+- Worked on internal web portals and bug fixes using JavaScript and PHP.
+- Collaborated with design team for responsive UI templates.
+
+EDUCATION
+Bachelor of Science in Software Engineering
+State University
+
+NOTE: References available upon request.

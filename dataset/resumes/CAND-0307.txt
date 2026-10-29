@@ -1,0 +1,13 @@
+Olivia Diallo
+Email: olivia.diallo@example.com | Phone: +1 555-369-4885 | Location: Chicago, IL
+Notice Period: 60 days
+SUMMARY:
+Data Engineer with over 4.6 years of professional experience building scalable systems.
+SKILLS:
+Apache Spark, Airflow, Docker, SQL, Snowflake, AWS
+EXPERIENCE:
+Data Engineer at Apex Global (2020 - Present)
+- Developed core features using Apache Spark, Airflow, Docker.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Metropolitan University

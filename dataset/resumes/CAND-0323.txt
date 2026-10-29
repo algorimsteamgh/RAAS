@@ -1,0 +1,12 @@
+Emma Ali
+Email: emma.ali@example.com | Phone: +1 555-134-4263 | Location: Denver, CO
+SUMMARY:
+Data Engineer with over 2.8 years of professional experience building scalable systems.
+SKILLS:
+AWS, Airflow, Snowflake, Apache Spark, PostgreSQL
+EXPERIENCE:
+Data Engineer at CloudScale Inc (2020 - Present)
+- Developed core features using AWS, Airflow, Snowflake.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Example State University

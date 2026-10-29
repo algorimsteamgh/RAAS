@@ -1,0 +1,13 @@
+Natasha Patel
+Email: natasha.patel@example.com | Phone: +1 555-667-2680 | Location: San Jose, CA
+Notice Period: 60 days
+SUMMARY:
+Full Stack Engineer with over 3.5 years of professional experience building scalable systems.
+SKILLS:
+PostgreSQL, Express, GraphQL, React, REST API
+EXPERIENCE:
+Full Stack Engineer at DataFlow Systems (2020 - Present)
+- Developed core features using PostgreSQL, Express, GraphQL.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Institute of Technology

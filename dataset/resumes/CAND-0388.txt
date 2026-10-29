@@ -1,0 +1,13 @@
+Kofi Patel
+Email: kofi.patel@example.com | Phone: +1 555-215-8889 | Location: San Francisco, CA
+Notice Period: 30 days
+SUMMARY:
+AI Engineer with over 5.1 years of professional experience building scalable systems.
+SKILLS:
+Vector DB, FastAPI, Python, FAISS, Transformers, LangChain
+EXPERIENCE:
+AI Engineer at CyberShield Labs (2020 - Present)
+- Developed core features using Vector DB, FastAPI, Python.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Example State University

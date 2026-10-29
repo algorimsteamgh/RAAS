@@ -1,0 +1,84 @@
+{
+  "candidate_id": "CAND-0357",
+  "full_name": "Olivia Wang",
+  "email": "olivia.wang@example.com",
+  "phone": "+1 555-401-1893",
+  "location": "San Jose, CA",
+  "summary": "Data Scientist with 1.2 years of experience.",
+  "skills": [
+    "Pandas",
+    "TensorFlow",
+    "PyTorch",
+    "Python",
+    "Git",
+    "Scikit-Learn",
+    "Statistics"
+  ],
+  "years_experience": 1.2,
+  "roles": [
+    "Data Scientist"
+  ],
+  "companies": [
+    "FinPulse Digital"
+  ],
+  "experience": [
+    {
+      "title": "Data Scientist",
+      "company": "FinPulse Digital",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using Pandas, TensorFlow, PyTorch."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Global Science Academy"
+  ],
+  "certifications": [],
+  "projects": [
+    "Data Scientist System Refactoring"
+  ],
+  "domains": [
+    "Data / AI"
+  ],
+  "notice_period": "30 days",
+  "evidence": [
+    {
+      "attribute": "skills:Pandas",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Pandas at FinPulse Digital.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:TensorFlow",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using TensorFlow at FinPulse Digital.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:PyTorch",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using PyTorch at FinPulse Digital.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "Data Scientist with over 1.2 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [],
+  "ambiguities": [
+    "difficult_edge_case"
+  ],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0357"
+}

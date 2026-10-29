@@ -1,0 +1,12 @@
+Isabella Williams
+Email: isabella.williams@example.com | Phone: +1 555-867-5403 | Location: San Francisco, CA
+SUMMARY:
+React Developer with over 0.5 years of professional experience building scalable systems.
+SKILLS:
+HTML5, Vite, JavaScript, React, CSS3, TypeScript, Jest
+EXPERIENCE:
+React Developer at OmniCloud Systems (2020 - Present)
+- Developed core features using HTML5, Vite, JavaScript.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Metropolitan University

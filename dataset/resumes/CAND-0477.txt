@@ -1,0 +1,12 @@
+Sophia Mehta
+Email: sophia.mehta@example.com | Phone: +1 555-835-9615 | Location: Boston, MA
+SUMMARY:
+Technical Project Manager with over 11.5 years of professional experience building scalable systems.
+SKILLS:
+Agile, Scrum, Budgeting, Stakeholder Communication, Risk Management, Jira, Roadmapping
+EXPERIENCE:
+Technical Project Manager at FinPulse Digital (2020 - Present)
+- Developed core features using Agile, Scrum, Budgeting.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Institute of Technology

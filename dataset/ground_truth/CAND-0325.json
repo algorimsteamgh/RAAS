@@ -1,0 +1,83 @@
+{
+  "candidate_id": "CAND-0325",
+  "full_name": "Olivia Miller",
+  "email": "olivia.miller@example.com",
+  "phone": "+1 555-698-2960",
+  "location": "Boston, MA",
+  "summary": "Data Engineer with 2.5 years of experience.",
+  "skills": [
+    "AWS",
+    "Snowflake",
+    "PostgreSQL",
+    "SQL"
+  ],
+  "years_experience": 2.5,
+  "roles": [
+    "Data Engineer"
+  ],
+  "companies": [
+    "Apex Global"
+  ],
+  "experience": [
+    {
+      "title": "Data Engineer",
+      "company": "Apex Global",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using AWS, Snowflake, PostgreSQL."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Example State University"
+  ],
+  "certifications": [],
+  "projects": [
+    "Data Engineer System Refactoring"
+  ],
+  "domains": [
+    "Data / AI"
+  ],
+  "notice_period": null,
+  "evidence": [
+    {
+      "attribute": "skills:AWS",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using AWS at Apex Global.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Snowflake",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Snowflake at Apex Global.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:PostgreSQL",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using PostgreSQL at Apex Global.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "Data Engineer with over 2.5 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [
+    "Notice period not specified in CV"
+  ],
+  "ambiguities": [
+    "messy"
+  ],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0325"
+}

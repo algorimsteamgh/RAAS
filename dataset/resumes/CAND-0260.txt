@@ -1,0 +1,13 @@
+Amir Brown
+Email: amir.brown@example.com | Phone: +1 555-604-3301 | Location: Boston, MA
+Notice Period: Immediate
+SUMMARY:
+Cloud Engineer with over 4.6 years of professional experience building scalable systems.
+SKILLS:
+Azure, Linux, Terraform, Python, Docker
+EXPERIENCE:
+Cloud Engineer at InnovateSoft (2020 - Present)
+- Developed core features using Azure, Linux, Terraform.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Metropolitan University

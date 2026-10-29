@@ -1,0 +1,12 @@
+Zainab Mensah
+Email: zainab.mensah@example.com | Phone: +1 555-766-5425 | Location: San Jose, CA
+SUMMARY:
+Backend Engineer with over 1.2 years of professional experience building scalable systems.
+SKILLS:
+Redis, Django, FastAPI, Python, REST API, Docker, Microservices, PostgreSQL
+EXPERIENCE:
+Backend Engineer at Nexus AI Studios (2020 - Present)
+- Developed core features using Redis, Django, FastAPI.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Tech University

@@ -1,0 +1,86 @@
+{
+  "candidate_id": "CAND-0435",
+  "full_name": "Ava Tanaka",
+  "email": "ava.tanaka@example.com",
+  "phone": "+1 555-995-2435",
+  "location": "New York, NY",
+  "summary": "Security Engineer with 4.1 years of experience.",
+  "skills": [
+    "SIEM",
+    "OWASP",
+    "Python",
+    "Penetration Testing",
+    "Wireshark",
+    "Linux",
+    "Cryptography"
+  ],
+  "years_experience": 4.1,
+  "roles": [
+    "Security Engineer"
+  ],
+  "companies": [
+    "CloudScale Inc"
+  ],
+  "experience": [
+    {
+      "title": "Security Engineer",
+      "company": "CloudScale Inc",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using SIEM, OWASP, Python."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Institute of Technology"
+  ],
+  "certifications": [],
+  "projects": [
+    "Security Engineer System Refactoring"
+  ],
+  "domains": [
+    "Quality / Security"
+  ],
+  "notice_period": null,
+  "evidence": [
+    {
+      "attribute": "skills:SIEM",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using SIEM at CloudScale Inc.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:OWASP",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using OWASP at CloudScale Inc.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Python",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Python at CloudScale Inc.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "Security Engineer with over 4.1 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [
+    "Notice period not specified in CV"
+  ],
+  "ambiguities": [
+    "messy"
+  ],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0435"
+}

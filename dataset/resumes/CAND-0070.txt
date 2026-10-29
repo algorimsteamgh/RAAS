@@ -1,0 +1,13 @@
+Elena Johnson
+Email: elena.johnson@example.com | Phone: +1 555-565-7038 | Location: Chicago, IL
+Notice Period: 15 days
+SUMMARY:
+Frontend Engineer with over 1.7 years of professional experience building scalable systems.
+SKILLS:
+TypeScript, CSS3, Redux, Next.js, JavaScript, React
+EXPERIENCE:
+Frontend Engineer at OmniCloud Systems (2020 - Present)
+- Developed core features using TypeScript, CSS3, Redux.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Metropolitan University

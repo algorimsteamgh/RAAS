@@ -1,0 +1,12 @@
+Ethan Davis
+Email: ethan.davis@example.com | Phone: +1 555-832-7374 | Location: Denver, CO
+SUMMARY:
+Engineering Manager with over 9.2 years of professional experience building scalable systems.
+SKILLS:
+Team Mentorship, Leadership, Python, Scrum, Agile, CI/CD, System Architecture
+EXPERIENCE:
+Engineering Manager at CyberShield Labs (2020 - Present)
+- Developed core features using Team Mentorship, Leadership, Python.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Tech University

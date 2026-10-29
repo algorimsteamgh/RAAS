@@ -1,0 +1,13 @@
+Hiroshi Miller
+Email: hiroshi.miller@example.com | Phone: +1 555-742-7786 | Location: Boston, MA
+Notice Period: 60 days
+SUMMARY:
+Node.js Developer with over 1.5 years of professional experience building scalable systems.
+SKILLS:
+Jest, MongoDB, Redis, Node.js
+EXPERIENCE:
+Node.js Developer at Apex Global (2020 - Present)
+- Developed core features using Jest, MongoDB, Redis.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Global Science Academy

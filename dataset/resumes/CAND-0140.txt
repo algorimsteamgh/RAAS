@@ -1,0 +1,13 @@
+Fatima Fernandez
+Email: fatima.fernandez@example.com | Phone: +1 555-214-2011 | Location: San Jose, CA
+Notice Period: 60 days
+SUMMARY:
+Java Developer with over 0.8 years of professional experience building scalable systems.
+SKILLS:
+Hibernate, Spring Boot, REST API, Kafka, PostgreSQL, Java, Docker, Maven
+EXPERIENCE:
+Java Developer at DataFlow Systems (2020 - Present)
+- Developed core features using Hibernate, Spring Boot, REST API.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Tech University

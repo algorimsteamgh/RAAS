@@ -1,0 +1,87 @@
+{
+  "candidate_id": "CAND-0390",
+  "full_name": "Maya Volkov",
+  "email": "maya.volkov@example.com",
+  "phone": "+1 555-584-3770",
+  "location": "Austin, TX",
+  "summary": "AI Engineer with 3.5 years of experience.",
+  "skills": [
+    "Python",
+    "Ollama",
+    "LangChain",
+    "Vector DB",
+    "PyTorch",
+    "FAISS",
+    "FastAPI",
+    "Transformers"
+  ],
+  "years_experience": 3.5,
+  "roles": [
+    "AI Engineer"
+  ],
+  "companies": [
+    "NextGen Solutions"
+  ],
+  "experience": [
+    {
+      "title": "AI Engineer",
+      "company": "NextGen Solutions",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using Python, Ollama, LangChain."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Institute of Technology"
+  ],
+  "certifications": [],
+  "projects": [
+    "AI Engineer System Refactoring"
+  ],
+  "domains": [
+    "Data / AI"
+  ],
+  "notice_period": null,
+  "evidence": [
+    {
+      "attribute": "skills:Python",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Python at NextGen Solutions.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Ollama",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Ollama at NextGen Solutions.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:LangChain",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using LangChain at NextGen Solutions.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "AI Engineer with over 3.5 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [
+    "Notice period not specified in CV"
+  ],
+  "ambiguities": [
+    "messy"
+  ],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0390"
+}

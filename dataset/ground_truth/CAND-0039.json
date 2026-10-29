@@ -1,0 +1,81 @@
+{
+  "candidate_id": "CAND-0039",
+  "full_name": "Emma Williams",
+  "email": "emma.williams@example.com",
+  "phone": "+1 555-584-2874",
+  "location": "New York, NY",
+  "summary": "Backend Engineer with 3.4 years of experience.",
+  "skills": [
+    "Django",
+    "Redis",
+    "REST API",
+    "Python",
+    "FastAPI",
+    "PostgreSQL"
+  ],
+  "years_experience": 3.4,
+  "roles": [
+    "Backend Engineer"
+  ],
+  "companies": [
+    "DataFlow Systems"
+  ],
+  "experience": [
+    {
+      "title": "Backend Engineer",
+      "company": "DataFlow Systems",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using Django, Redis, REST API."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Tech University"
+  ],
+  "certifications": [],
+  "projects": [
+    "Backend Engineer System Refactoring"
+  ],
+  "domains": [
+    "Software Engineering"
+  ],
+  "notice_period": "Immediate",
+  "evidence": [
+    {
+      "attribute": "skills:Django",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Django at DataFlow Systems.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Redis",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Redis at DataFlow Systems.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:REST API",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using REST API at DataFlow Systems.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "Backend Engineer with over 3.4 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [],
+  "ambiguities": [],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0039"
+}

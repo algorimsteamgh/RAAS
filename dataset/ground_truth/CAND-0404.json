@@ -1,0 +1,80 @@
+{
+  "candidate_id": "CAND-0404",
+  "full_name": "Amir Johnson",
+  "email": "amir.johnson@example.com",
+  "phone": "+1 555-745-6886",
+  "location": "Denver, CO",
+  "summary": "QA Automation Engineer with 4.7 years of experience.",
+  "skills": [
+    "Playwright",
+    "Python",
+    "Selenium",
+    "REST API",
+    "CI/CD"
+  ],
+  "years_experience": 4.7,
+  "roles": [
+    "QA Automation Engineer"
+  ],
+  "companies": [
+    "CyberShield Labs"
+  ],
+  "experience": [
+    {
+      "title": "QA Automation Engineer",
+      "company": "CyberShield Labs",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using Playwright, Python, Selenium."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Global Science Academy"
+  ],
+  "certifications": [],
+  "projects": [
+    "QA Automation Engineer System Refactoring"
+  ],
+  "domains": [
+    "Quality / Security"
+  ],
+  "notice_period": "Immediate",
+  "evidence": [
+    {
+      "attribute": "skills:Playwright",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Playwright at CyberShield Labs.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Python",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Python at CyberShield Labs.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Selenium",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Selenium at CyberShield Labs.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "QA Automation Engineer with over 4.7 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [],
+  "ambiguities": [],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0404"
+}

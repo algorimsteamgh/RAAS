@@ -1,0 +1,13 @@
+Dev Diallo
+Email: dev.diallo@example.com | Phone: +1 555-862-5162 | Location: Remote
+Notice Period: 30 days
+SUMMARY:
+Data Scientist with over 1.2 years of professional experience building scalable systems.
+SKILLS:
+Python, TensorFlow, Git, Scikit-Learn, Statistics, PyTorch, SQL
+EXPERIENCE:
+Data Scientist at NextGen Solutions (2020 - Present)
+- Developed core features using Python, TensorFlow, Git.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Example State University

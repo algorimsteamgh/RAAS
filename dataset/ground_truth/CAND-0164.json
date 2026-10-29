@@ -1,0 +1,81 @@
+{
+  "candidate_id": "CAND-0164",
+  "full_name": "Olivia Wang",
+  "email": "olivia.wang@example.com",
+  "phone": "+1 555-382-7899",
+  "location": "Chicago, IL",
+  "summary": "Python Developer with 2.8 years of experience.",
+  "skills": [
+    "PostgreSQL",
+    "Celery",
+    "Git",
+    "Docker",
+    "Django",
+    "Redis"
+  ],
+  "years_experience": 2.8,
+  "roles": [
+    "Python Developer"
+  ],
+  "companies": [
+    "DataFlow Systems"
+  ],
+  "experience": [
+    {
+      "title": "Python Developer",
+      "company": "DataFlow Systems",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using PostgreSQL, Celery, Git."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Institute of Technology"
+  ],
+  "certifications": [],
+  "projects": [
+    "Python Developer System Refactoring"
+  ],
+  "domains": [
+    "Software Engineering"
+  ],
+  "notice_period": "30 days",
+  "evidence": [
+    {
+      "attribute": "skills:PostgreSQL",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using PostgreSQL at DataFlow Systems.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Celery",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Celery at DataFlow Systems.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Git",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Git at DataFlow Systems.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "Python Developer with over 2.8 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [],
+  "ambiguities": [],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0164"
+}

@@ -1,0 +1,69 @@
+{
+  "candidate_id": "CAND-004",
+  "full_name": "Samuel Lee",
+  "email": "samuel.lee.dev@example.com",
+  "phone": null,
+  "skills": [
+    "Python",
+    "SQL",
+    "C++",
+    "Flask",
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "Git"
+  ],
+  "years_experience": 1.5,
+  "roles": [
+    "Junior Python Developer"
+  ],
+  "companies": [
+    "StartUp Alpha"
+  ],
+  "education": [
+    "Bachelor of Science in Computer Science - City College (Graduated December 2022)"
+  ],
+  "certifications": [],
+  "projects": [
+    "Weather Monitor App: Created Flask application querying OpenWeather API",
+    "Task Tracker CLI: Built Python command-line utility for personal task management"
+  ],
+  "domains": [
+    "Python Development",
+    "Web Development"
+  ],
+  "location": null,
+  "notice_period": null,
+  "evidence": [
+    {
+      "attribute": "full_name",
+      "source_section": "Header",
+      "source_text": "SAMUEL LEE",
+      "confidence": 1.0
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Experience",
+      "source_text": "January 2023 – June 2024 (1.5 years)",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Python",
+      "source_section": "Technical Skills",
+      "source_text": "Programming: Python, SQL, C++",
+      "confidence": 1.0
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.95,
+    "roles": 0.95,
+    "education": 0.95,
+    "overall": 0.95
+  },
+  "missing_information": [
+    "No professional certifications listed",
+    "Notice period or availability is not specified",
+    "Location details are missing"
+  ]
+}

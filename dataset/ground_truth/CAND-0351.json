@@ -1,0 +1,80 @@
+{
+  "candidate_id": "CAND-0351",
+  "full_name": "Natasha Williams",
+  "email": "natasha.williams@example.com",
+  "phone": "+1 555-416-9582",
+  "location": "Seattle, WA",
+  "summary": "Data Scientist with 5.7 years of experience.",
+  "skills": [
+    "Scikit-Learn",
+    "Git",
+    "Python",
+    "PyTorch",
+    "TensorFlow"
+  ],
+  "years_experience": 5.7,
+  "roles": [
+    "Data Scientist"
+  ],
+  "companies": [
+    "CloudScale Inc"
+  ],
+  "experience": [
+    {
+      "title": "Data Scientist",
+      "company": "CloudScale Inc",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using Scikit-Learn, Git, Python."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Metropolitan University"
+  ],
+  "certifications": [],
+  "projects": [
+    "Data Scientist System Refactoring"
+  ],
+  "domains": [
+    "Data / AI"
+  ],
+  "notice_period": "15 days",
+  "evidence": [
+    {
+      "attribute": "skills:Scikit-Learn",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Scikit-Learn at CloudScale Inc.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Git",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Git at CloudScale Inc.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Python",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Python at CloudScale Inc.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "Data Scientist with over 5.7 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [],
+  "ambiguities": [],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0351"
+}

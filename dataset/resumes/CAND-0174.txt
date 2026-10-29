@@ -1,0 +1,13 @@
+Noah Tanaka
+Email: noah.tanaka@example.com | Phone: +1 555-216-5298 | Location: Denver, CO
+Notice Period: 30 days
+SUMMARY:
+Python Developer with over 4.7 years of professional experience building scalable systems.
+SKILLS:
+Git, Redis, PostgreSQL, Docker, Python, Django, Flask, Celery
+EXPERIENCE:
+Python Developer at Nexus AI Studios (2020 - Present)
+- Developed core features using Git, Redis, PostgreSQL.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Institute of Technology

@@ -1,0 +1,79 @@
+{
+  "candidate_id": "CAND-0445",
+  "full_name": "Ava Williams",
+  "email": "ava.williams@example.com",
+  "phone": "+1 555-314-3133",
+  "location": "San Francisco, CA",
+  "summary": "Security Engineer with 5.2 years of experience.",
+  "skills": [
+    "Python",
+    "Linux",
+    "Penetration Testing",
+    "Docker"
+  ],
+  "years_experience": 5.2,
+  "roles": [
+    "Security Engineer"
+  ],
+  "companies": [
+    "ExampleTech Corp"
+  ],
+  "experience": [
+    {
+      "title": "Security Engineer",
+      "company": "ExampleTech Corp",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using Python, Linux, Penetration Testing."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Institute of Technology"
+  ],
+  "certifications": [],
+  "projects": [
+    "Security Engineer System Refactoring"
+  ],
+  "domains": [
+    "Quality / Security"
+  ],
+  "notice_period": "Immediate",
+  "evidence": [
+    {
+      "attribute": "skills:Python",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Python at ExampleTech Corp.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Linux",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Linux at ExampleTech Corp.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Penetration Testing",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Penetration Testing at ExampleTech Corp.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "Security Engineer with over 5.2 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [],
+  "ambiguities": [],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0445"
+}

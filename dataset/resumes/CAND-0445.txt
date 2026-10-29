@@ -1,0 +1,13 @@
+Ava Williams
+Email: ava.williams@example.com | Phone: +1 555-314-3133 | Location: San Francisco, CA
+Notice Period: Immediate
+SUMMARY:
+Security Engineer with over 5.2 years of professional experience building scalable systems.
+SKILLS:
+Python, Linux, Penetration Testing, Docker
+EXPERIENCE:
+Security Engineer at ExampleTech Corp (2020 - Present)
+- Developed core features using Python, Linux, Penetration Testing.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Institute of Technology

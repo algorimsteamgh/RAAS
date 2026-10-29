@@ -1,0 +1,12 @@
+Sophia Sato
+Email: sophia.sato@example.com | Phone: +1 555-737-6681 | Location: Denver, CO
+SUMMARY:
+Technical Project Manager with over 5.6 years of professional experience building scalable systems.
+SKILLS:
+Budgeting, Scrum, Risk Management, Jira, Roadmapping, Agile
+EXPERIENCE:
+Technical Project Manager at OmniCloud Systems (2020 - Present)
+- Developed core features using Budgeting, Scrum, Risk Management.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Institute of Technology

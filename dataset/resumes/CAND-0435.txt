@@ -1,0 +1,12 @@
+Ava Tanaka
+Email: ava.tanaka@example.com | Phone: +1 555-995-2435 | Location: New York, NY
+SUMMARY:
+Security Engineer with over 4.1 years of professional experience building scalable systems.
+SKILLS:
+SIEM, OWASP, Python, Penetration Testing, Wireshark, Linux, Cryptography
+EXPERIENCE:
+Security Engineer at CloudScale Inc (2020 - Present)
+- Developed core features using SIEM, OWASP, Python.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Institute of Technology

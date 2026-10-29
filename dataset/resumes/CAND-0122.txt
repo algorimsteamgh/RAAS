@@ -1,0 +1,13 @@
+Amir Davis
+Email: amir.davis@example.com | Phone: +1 555-609-1379 | Location: San Francisco, CA
+Notice Period: 60 days
+SUMMARY:
+Full Stack Engineer with over 4.3 years of professional experience building scalable systems.
+SKILLS:
+Express, PostgreSQL, Node.js, TypeScript, REST API
+EXPERIENCE:
+Full Stack Engineer at NextGen Solutions (2020 - Present)
+- Developed core features using Express, PostgreSQL, Node.js.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Global Science Academy

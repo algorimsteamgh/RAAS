@@ -1,0 +1,83 @@
+{
+  "candidate_id": "CAND-0311",
+  "full_name": "Wei Fernandez",
+  "email": "wei.fernandez@example.com",
+  "phone": "+1 555-765-9821",
+  "location": "Seattle, WA",
+  "summary": "Data Engineer with 3.5 years of experience.",
+  "skills": [
+    "AWS",
+    "Docker",
+    "Snowflake",
+    "Airflow",
+    "Python",
+    "SQL"
+  ],
+  "years_experience": 3.5,
+  "roles": [
+    "Data Engineer"
+  ],
+  "companies": [
+    "Nexus AI Studios"
+  ],
+  "experience": [
+    {
+      "title": "Data Engineer",
+      "company": "Nexus AI Studios",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using AWS, Docker, Snowflake."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Metropolitan University"
+  ],
+  "certifications": [],
+  "projects": [
+    "Data Engineer System Refactoring"
+  ],
+  "domains": [
+    "Data / AI"
+  ],
+  "notice_period": "60 days",
+  "evidence": [
+    {
+      "attribute": "skills:AWS",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using AWS at Nexus AI Studios.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Docker",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Docker at Nexus AI Studios.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Snowflake",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Snowflake at Nexus AI Studios.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "Data Engineer with over 3.5 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [],
+  "ambiguities": [
+    "difficult_edge_case"
+  ],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0311"
+}

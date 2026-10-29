@@ -1,0 +1,13 @@
+Olivia Ali
+Email: olivia.ali@example.com | Phone: +1 555-626-2955 | Location: Boston, MA
+Notice Period: Immediate
+SUMMARY:
+Cloud Engineer with over 3.5 years of professional experience building scalable systems.
+SKILLS:
+GCP, Azure, Kubernetes, Python, AWS, Linux
+EXPERIENCE:
+Cloud Engineer at CyberShield Labs (2020 - Present)
+- Developed core features using GCP, Azure, Kubernetes.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Institute of Technology

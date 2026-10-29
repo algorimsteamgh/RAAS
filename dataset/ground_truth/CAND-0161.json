@@ -1,0 +1,80 @@
+{
+  "candidate_id": "CAND-0161",
+  "full_name": "Mateo Gomez",
+  "email": "mateo.gomez@example.com",
+  "phone": "+1 555-402-5037",
+  "location": "San Francisco, CA",
+  "summary": "Python Developer with 0.7 years of experience.",
+  "skills": [
+    "Git",
+    "Flask",
+    "Docker",
+    "Python",
+    "Redis"
+  ],
+  "years_experience": 0.7,
+  "roles": [
+    "Python Developer"
+  ],
+  "companies": [
+    "ExampleTech Corp"
+  ],
+  "experience": [
+    {
+      "title": "Python Developer",
+      "company": "ExampleTech Corp",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using Git, Flask, Docker."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Metropolitan University"
+  ],
+  "certifications": [],
+  "projects": [
+    "Python Developer System Refactoring"
+  ],
+  "domains": [
+    "Software Engineering"
+  ],
+  "notice_period": "60 days",
+  "evidence": [
+    {
+      "attribute": "skills:Git",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Git at ExampleTech Corp.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Flask",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Flask at ExampleTech Corp.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Docker",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Docker at ExampleTech Corp.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "Python Developer with over 0.7 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [],
+  "ambiguities": [],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0161"
+}

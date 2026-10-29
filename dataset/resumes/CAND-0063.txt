@@ -1,0 +1,13 @@
+Rohan Brown
+Email: rohan.brown@example.com | Phone: +1 555-810-5906 | Location: Austin, TX
+Notice Period: 15 days
+SUMMARY:
+Frontend Engineer with over 1.7 years of professional experience building scalable systems.
+SKILLS:
+CSS3, React, Next.js, TypeScript, HTML5, Tailwind CSS
+EXPERIENCE:
+Frontend Engineer at FinPulse Digital (2020 - Present)
+- Developed core features using CSS3, React, Next.js.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Tech University

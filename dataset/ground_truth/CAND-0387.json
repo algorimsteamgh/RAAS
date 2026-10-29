@@ -1,0 +1,83 @@
+{
+  "candidate_id": "CAND-0387",
+  "full_name": "Elena Tanaka",
+  "email": "elena.tanaka@example.com",
+  "phone": "+1 555-493-6821",
+  "location": "New York, NY",
+  "summary": "AI Engineer with 4.6 years of experience.",
+  "skills": [
+    "Vector DB",
+    "FAISS",
+    "Transformers",
+    "PyTorch",
+    "Ollama",
+    "FastAPI",
+    "LangChain",
+    "Python"
+  ],
+  "years_experience": 4.6,
+  "roles": [
+    "AI Engineer"
+  ],
+  "companies": [
+    "ExampleTech Corp"
+  ],
+  "experience": [
+    {
+      "title": "AI Engineer",
+      "company": "ExampleTech Corp",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using Vector DB, FAISS, Transformers."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Tech University"
+  ],
+  "certifications": [],
+  "projects": [
+    "AI Engineer System Refactoring"
+  ],
+  "domains": [
+    "Data / AI"
+  ],
+  "notice_period": "60 days",
+  "evidence": [
+    {
+      "attribute": "skills:Vector DB",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Vector DB at ExampleTech Corp.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:FAISS",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using FAISS at ExampleTech Corp.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Transformers",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Transformers at ExampleTech Corp.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "AI Engineer with over 4.6 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [],
+  "ambiguities": [],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0387"
+}

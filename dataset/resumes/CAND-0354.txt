@@ -1,0 +1,13 @@
+Natasha Chen
+Email: natasha.chen@example.com | Phone: +1 555-603-8763 | Location: Seattle, WA
+Notice Period: 60 days
+SUMMARY:
+Data Scientist with over 3.3 years of professional experience building scalable systems.
+SKILLS:
+Python, Scikit-Learn, SQL, Pandas, PyTorch, Git, Statistics
+EXPERIENCE:
+Data Scientist at CloudScale Inc (2020 - Present)
+- Developed core features using Python, Scikit-Learn, SQL.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Global Science Academy

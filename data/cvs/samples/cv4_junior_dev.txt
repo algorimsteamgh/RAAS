@@ -1,0 +1,25 @@
+SAMUEL LEE
+Email: samuel.lee.dev@example.com
+
+SUMMARY
+Motivated Junior Software Engineer and recent CS graduate with 1.5 years of internship and junior developer experience in Python, Web Development, and relational databases.
+
+TECHNICAL SKILLS
+- Programming: Python, SQL, C++
+- Web: Flask, HTML, CSS, JavaScript
+- Tools: Git, VS Code, Linux
+
+EXPERIENCE
+Junior Python Developer | StartUp Alpha
+January 2023 – June 2024 (1.5 years)
+- Developed REST endpoints using Flask and SQLite for internal dashboards.
+- Wrote unit tests using pytest and documented API specifications.
+- Assisted senior engineers in bug fixes and code reviews.
+
+EDUCATION
+Bachelor of Science in Computer Science
+City College | Graduated December 2022 | GPA: 3.7
+
+PROJECTS
+- Weather Monitor App: Created Flask application querying OpenWeather API.
+- Task Tracker CLI: Built Python command-line utility for personal task management.

@@ -1,0 +1,13 @@
+Aarav Patel
+Email: aarav.patel@example.com | Phone: +1 555-667-7044 | Location: Denver, CO
+Notice Period: 15 days
+SUMMARY:
+Full Stack Engineer with over 4.4 years of professional experience building scalable systems.
+SKILLS:
+React, TypeScript, Node.js, Express, PostgreSQL, Docker, GraphQL, REST API
+EXPERIENCE:
+Full Stack Engineer at Nexus AI Studios (2020 - Present)
+- Developed core features using React, TypeScript, Node.js.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Example State University

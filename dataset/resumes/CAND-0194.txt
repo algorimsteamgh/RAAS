@@ -1,0 +1,12 @@
+Wei Volkov
+Email: wei.volkov@example.com | Phone: +1 555-881-2083 | Location: Chicago, IL
+SUMMARY:
+React Developer with over 5.1 years of professional experience building scalable systems.
+SKILLS:
+JavaScript, TypeScript, Vite, Redux, CSS3
+EXPERIENCE:
+React Developer at CyberShield Labs (2020 - Present)
+- Developed core features using JavaScript, TypeScript, Vite.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Tech University

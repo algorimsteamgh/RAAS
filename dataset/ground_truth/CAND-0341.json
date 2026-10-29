@@ -1,0 +1,83 @@
+{
+  "candidate_id": "CAND-0341",
+  "full_name": "Emma Wang",
+  "email": "emma.wang@example.com",
+  "phone": "+1 555-396-7460",
+  "location": "Seattle, WA",
+  "summary": "Data Scientist with 2.8 years of experience.",
+  "skills": [
+    "Python",
+    "PyTorch",
+    "SQL",
+    "Scikit-Learn",
+    "Git",
+    "Pandas",
+    "Statistics",
+    "TensorFlow"
+  ],
+  "years_experience": 2.8,
+  "roles": [
+    "Data Scientist"
+  ],
+  "companies": [
+    "CloudScale Inc"
+  ],
+  "experience": [
+    {
+      "title": "Data Scientist",
+      "company": "CloudScale Inc",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using Python, PyTorch, SQL."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Global Science Academy"
+  ],
+  "certifications": [],
+  "projects": [
+    "Data Scientist System Refactoring"
+  ],
+  "domains": [
+    "Data / AI"
+  ],
+  "notice_period": "15 days",
+  "evidence": [
+    {
+      "attribute": "skills:Python",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Python at CloudScale Inc.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:PyTorch",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using PyTorch at CloudScale Inc.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:SQL",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using SQL at CloudScale Inc.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "Data Scientist with over 2.8 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [],
+  "ambiguities": [],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0341"
+}

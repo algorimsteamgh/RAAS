@@ -1,0 +1,13 @@
+Elena Davis
+Email: elena.davis@example.com | Phone: +1 555-175-7329 | Location: San Jose, CA
+Notice Period: 60 days
+SUMMARY:
+Full Stack Engineer with over 4.4 years of professional experience building scalable systems.
+SKILLS:
+React, GraphQL, TypeScript, Express, Node.js, REST API, PostgreSQL, Docker
+EXPERIENCE:
+Full Stack Engineer at InnovateSoft (2020 - Present)
+- Developed core features using React, GraphQL, TypeScript.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Tech University

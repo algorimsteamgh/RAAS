@@ -1,0 +1,13 @@
+Rohan Wang
+Email: rohan.wang@example.com | Phone: +1 555-181-8825 | Location: Chicago, IL
+Notice Period: Immediate
+SUMMARY:
+Technical Project Manager with over 6.3 years of professional experience building scalable systems.
+SKILLS:
+Roadmapping, Scrum, Stakeholder Communication, Risk Management, Budgeting, Agile
+EXPERIENCE:
+Technical Project Manager at OmniCloud Systems (2020 - Present)
+- Developed core features using Roadmapping, Scrum, Stakeholder Communication.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Example State University

@@ -1,0 +1,13 @@
+Kofi Ivanova
+Email: kofi.ivanova@example.com | Phone: +1 555-928-9740 | Location: San Francisco, CA
+Notice Period: 15 days
+SUMMARY:
+Machine Learning Engineer with over 5.1 years of professional experience building scalable systems.
+SKILLS:
+TensorFlow, Python, MLflow, Docker, CUDA, PyTorch, Git
+EXPERIENCE:
+Machine Learning Engineer at CyberShield Labs (2020 - Present)
+- Developed core features using TensorFlow, Python, MLflow.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Global Science Academy

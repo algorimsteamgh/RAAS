@@ -1,0 +1,13 @@
+Wei Johnson
+Email: wei.johnson@example.com | Phone: +1 555-107-9380 | Location: Remote
+Notice Period: 30 days
+SUMMARY:
+Cloud Engineer with over 4.6 years of professional experience building scalable systems.
+SKILLS:
+Kubernetes, Docker, AWS, Terraform, Linux, Azure
+EXPERIENCE:
+Cloud Engineer at NextGen Solutions (2020 - Present)
+- Developed core features using Kubernetes, Docker, AWS.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Metropolitan University

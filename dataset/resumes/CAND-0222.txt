@@ -1,0 +1,13 @@
+Ethan Rao
+Email: ethan.rao@example.com | Phone: +1 555-469-1062 | Location: Boston, MA
+Notice Period: 30 days
+SUMMARY:
+DevOps Engineer with over 5.4 years of professional experience building scalable systems.
+SKILLS:
+Python, Kubernetes, Docker, CI/CD, Linux, Ansible, Terraform, AWS
+EXPERIENCE:
+DevOps Engineer at CyberShield Labs (2020 - Present)
+- Developed core features using Python, Kubernetes, Docker.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Example State University

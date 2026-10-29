@@ -1,0 +1,87 @@
+{
+  "candidate_id": "CAND-0089",
+  "full_name": "Viktor Khan",
+  "email": "viktor.khan@example.com",
+  "phone": "+1 555-470-2443",
+  "location": "Boston, MA",
+  "summary": "Frontend Engineer with 3.4 years of experience.",
+  "skills": [
+    "Tailwind CSS",
+    "HTML5",
+    "JavaScript",
+    "Next.js",
+    "React",
+    "Redux",
+    "TypeScript",
+    "CSS3"
+  ],
+  "years_experience": null,
+  "roles": [
+    "Frontend Engineer"
+  ],
+  "companies": [
+    "Apex Global"
+  ],
+  "experience": [
+    {
+      "title": "Frontend Engineer",
+      "company": "Apex Global",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using Tailwind CSS, HTML5, JavaScript."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Institute of Technology"
+  ],
+  "certifications": [],
+  "projects": [
+    "Frontend Engineer System Refactoring"
+  ],
+  "domains": [
+    "Software Engineering"
+  ],
+  "notice_period": "Immediate",
+  "evidence": [
+    {
+      "attribute": "skills:Tailwind CSS",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Tailwind CSS at Apex Global.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:HTML5",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using HTML5 at Apex Global.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:JavaScript",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using JavaScript at Apex Global.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "Frontend Engineer with over 3.4 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [
+    "Explicit total years of experience not clearly stated in text summary"
+  ],
+  "ambiguities": [
+    "ambiguous"
+  ],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0089"
+}

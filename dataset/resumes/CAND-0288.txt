@@ -1,0 +1,13 @@
+Hiroshi Wang
+Email: hiroshi.wang@example.com | Phone: +1 555-122-4992 | Location: Austin, TX
+Notice Period: 60 days
+SUMMARY:
+Site Reliability Engineer with over 4.6 years of professional experience building scalable systems.
+SKILLS:
+Linux, Grafana, Python, AWS, Docker
+EXPERIENCE:
+Site Reliability Engineer at NextGen Solutions (2020 - Present)
+- Developed core features using Linux, Grafana, Python.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Institute of Technology

@@ -1,0 +1,87 @@
+{
+  "candidate_id": "CAND-0115",
+  "full_name": "Aarav Patel",
+  "email": "aarav.patel@example.com",
+  "phone": "+1 555-667-7044",
+  "location": "Denver, CO",
+  "summary": "Full Stack Engineer with 4.4 years of experience.",
+  "skills": [
+    "React",
+    "TypeScript",
+    "Node.js",
+    "Express",
+    "PostgreSQL",
+    "Docker",
+    "GraphQL",
+    "REST API"
+  ],
+  "years_experience": null,
+  "roles": [
+    "Full Stack Engineer"
+  ],
+  "companies": [
+    "Nexus AI Studios"
+  ],
+  "experience": [
+    {
+      "title": "Full Stack Engineer",
+      "company": "Nexus AI Studios",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using React, TypeScript, Node.js."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Example State University"
+  ],
+  "certifications": [],
+  "projects": [
+    "Full Stack Engineer System Refactoring"
+  ],
+  "domains": [
+    "Software Engineering"
+  ],
+  "notice_period": "15 days",
+  "evidence": [
+    {
+      "attribute": "skills:React",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using React at Nexus AI Studios.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:TypeScript",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using TypeScript at Nexus AI Studios.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Node.js",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Node.js at Nexus AI Studios.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "Full Stack Engineer with over 4.4 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [
+    "Explicit total years of experience not clearly stated in text summary"
+  ],
+  "ambiguities": [
+    "ambiguous"
+  ],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0115"
+}

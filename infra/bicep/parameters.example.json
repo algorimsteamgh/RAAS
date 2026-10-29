@@ -1,0 +1,33 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "location": {
+      "value": "eastus"
+    },
+    "containerAppsLocation": {
+      "value": "eastus2"
+    },
+    "environment": {
+      "value": "prod"
+    },
+    "appName": {
+      "value": "cvscreen"
+    },
+    "deployVllmGpu": {
+      "value": false
+    },
+    "qwenModelName": {
+      "value": "Qwen/Qwen2.5-7B-Instruct"
+    },
+    "deployAzureOpenAi": {
+      "value": false
+    },
+    "existingOpenAiEndpoint": {
+      "value": "https://<your-resource-name>.openai.azure.com/"
+    },
+    "existingOpenAiApiKey": {
+      "value": "your-azure-openai-api-key-here"
+    }
+  }
+}

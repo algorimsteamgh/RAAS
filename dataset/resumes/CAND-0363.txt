@@ -1,0 +1,13 @@
+Rohan Ali
+Email: rohan.ali@example.com | Phone: +1 555-692-6901 | Location: Austin, TX
+Notice Period: Immediate
+SUMMARY:
+Machine Learning Engineer with over 3.5 years of professional experience building scalable systems.
+SKILLS:
+CUDA, Git, Python, Docker, MLflow, PyTorch
+EXPERIENCE:
+Machine Learning Engineer at CyberShield Labs (2020 - Present)
+- Developed core features using CUDA, Git, Python.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Institute of Technology

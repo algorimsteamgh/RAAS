@@ -1,0 +1,13 @@
+Elena Patel
+Email: elena.patel@example.com | Phone: +1 555-564-1011 | Location: San Jose, CA
+Notice Period: 60 days
+SUMMARY:
+Data Engineer with over 0.8 years of professional experience building scalable systems.
+SKILLS:
+Snowflake, Docker, PostgreSQL, SQL
+EXPERIENCE:
+Data Engineer at Apex Global (2020 - Present)
+- Developed core features using Snowflake, Docker, PostgreSQL.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Example State University

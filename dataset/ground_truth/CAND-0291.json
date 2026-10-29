@@ -1,0 +1,82 @@
+{
+  "candidate_id": "CAND-0291",
+  "full_name": "Olivia Sato",
+  "email": "olivia.sato@example.com",
+  "phone": "+1 555-729-1639",
+  "location": "San Jose, CA",
+  "summary": "Site Reliability Engineer with 2.9 years of experience.",
+  "skills": [
+    "Kubernetes",
+    "Grafana",
+    "CI/CD",
+    "Linux",
+    "Prometheus",
+    "AWS",
+    "Python"
+  ],
+  "years_experience": 2.9,
+  "roles": [
+    "Site Reliability Engineer"
+  ],
+  "companies": [
+    "Apex Global"
+  ],
+  "experience": [
+    {
+      "title": "Site Reliability Engineer",
+      "company": "Apex Global",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using Kubernetes, Grafana, CI/CD."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Example State University"
+  ],
+  "certifications": [],
+  "projects": [
+    "Site Reliability Engineer System Refactoring"
+  ],
+  "domains": [
+    "Infrastructure"
+  ],
+  "notice_period": "60 days",
+  "evidence": [
+    {
+      "attribute": "skills:Kubernetes",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Kubernetes at Apex Global.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Grafana",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Grafana at Apex Global.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:CI/CD",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using CI/CD at Apex Global.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "Site Reliability Engineer with over 2.9 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [],
+  "ambiguities": [],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0291"
+}

@@ -1,0 +1,13 @@
+Noah Johnson
+Email: noah.johnson@example.com | Phone: +1 555-285-1891 | Location: San Jose, CA
+Notice Period: 15 days
+SUMMARY:
+Site Reliability Engineer with over 4.4 years of professional experience building scalable systems.
+SKILLS:
+Python, Kubernetes, Linux, AWS, Prometheus, Grafana
+EXPERIENCE:
+Site Reliability Engineer at Apex Global (2020 - Present)
+- Developed core features using Python, Kubernetes, Linux.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Institute of Technology

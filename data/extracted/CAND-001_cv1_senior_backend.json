@@ -1,0 +1,94 @@
+{
+  "candidate_id": "CAND-001",
+  "full_name": "Alexander R. Wright",
+  "email": "alex.wright@example.com",
+  "phone": "+1 (555) 019-2834",
+  "skills": [
+    "Python",
+    "SQL",
+    "Go",
+    "FastAPI",
+    "Django",
+    "Flask",
+    "AsyncIO",
+    "PostgreSQL",
+    "Redis",
+    "MongoDB",
+    "Docker",
+    "Kubernetes",
+    "AWS",
+    "CI/CD",
+    "REST APIs",
+    "gRPC",
+    "Microservices",
+    "Kafka"
+  ],
+  "years_experience": 8.2,
+  "roles": [
+    "Senior Backend Engineer",
+    "Software Engineer"
+  ],
+  "companies": [
+    "TechCorp Inc",
+    "CloudScale Systems"
+  ],
+  "education": [
+    "Bachelor of Science in Computer Science - University of Texas at Austin (May 2016)"
+  ],
+  "certifications": [
+    "AWS Certified Solutions Architect – Associate (2022)",
+    "Certified Kubernetes Application Developer (CKAD) (2023)"
+  ],
+  "projects": [
+    "FinTech Payment Gateway: Built a PCI-compliant payment orchestration service using FastAPI, AsyncIO, and Redis locks",
+    "Real-time Analytics Engine: Created a high-volume streaming ingest pipeline with Kafka and PostgreSQL partitioning"
+  ],
+  "domains": [
+    "Distributed Systems",
+    "Backend Engineering",
+    "FinTech",
+    "Cloud Scale Infrastructure"
+  ],
+  "location": "Austin, TX",
+  "notice_period": "30 Days Notice Period",
+  "evidence": [
+    {
+      "attribute": "full_name",
+      "source_section": "Header",
+      "source_text": "ALEXANDER R. WRIGHT",
+      "confidence": 1.0
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Professional Summary",
+      "source_text": "Senior Backend Engineer with over 8 years of experience building high-throughput, distributed backend services",
+      "confidence": 0.98
+    },
+    {
+      "attribute": "skills:FastAPI",
+      "source_section": "Technical Skills",
+      "source_text": "Web Frameworks: FastAPI, Django, Flask, AsyncIO",
+      "confidence": 1.0
+    },
+    {
+      "attribute": "roles:Senior Backend Engineer",
+      "source_section": "Work Experience",
+      "source_text": "Senior Backend Engineer | TechCorp Inc, Austin, TX",
+      "confidence": 1.0
+    },
+    {
+      "attribute": "education",
+      "source_section": "Education",
+      "source_text": "Bachelor of Science in Computer Science University of Texas at Austin",
+      "confidence": 1.0
+    }
+  ],
+  "confidence": {
+    "skills": 1.0,
+    "years_experience": 0.98,
+    "roles": 1.0,
+    "education": 1.0,
+    "overall": 0.98
+  },
+  "missing_information": []
+}

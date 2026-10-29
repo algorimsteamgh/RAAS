@@ -1,0 +1,86 @@
+{
+  "candidate_id": "CAND-0196",
+  "full_name": "Isabella Williams",
+  "email": "isabella.williams@example.com",
+  "phone": "+1 555-867-5403",
+  "location": "San Francisco, CA",
+  "summary": "React Developer with 0.5 years of experience.",
+  "skills": [
+    "HTML5",
+    "Vite",
+    "JavaScript",
+    "React",
+    "CSS3",
+    "TypeScript",
+    "Jest"
+  ],
+  "years_experience": 0.5,
+  "roles": [
+    "React Developer"
+  ],
+  "companies": [
+    "OmniCloud Systems"
+  ],
+  "experience": [
+    {
+      "title": "React Developer",
+      "company": "OmniCloud Systems",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using HTML5, Vite, JavaScript."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Metropolitan University"
+  ],
+  "certifications": [],
+  "projects": [
+    "React Developer System Refactoring"
+  ],
+  "domains": [
+    "Software Engineering"
+  ],
+  "notice_period": null,
+  "evidence": [
+    {
+      "attribute": "skills:HTML5",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using HTML5 at OmniCloud Systems.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Vite",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Vite at OmniCloud Systems.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:JavaScript",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using JavaScript at OmniCloud Systems.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "React Developer with over 0.5 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [
+    "Notice period not specified in CV"
+  ],
+  "ambiguities": [
+    "messy"
+  ],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0196"
+}

@@ -1,0 +1,13 @@
+Carlos Tanaka
+Email: carlos.tanaka@example.com | Phone: +1 555-115-3361 | Location: Boston, MA
+Notice Period: Immediate
+SUMMARY:
+Frontend Engineer with over 5.9 years of professional experience building scalable systems.
+SKILLS:
+Redux, Tailwind CSS, React, CSS3
+EXPERIENCE:
+Frontend Engineer at Nexus AI Studios (2020 - Present)
+- Developed core features using Redux, Tailwind CSS, React.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Global Science Academy

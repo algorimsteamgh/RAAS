@@ -1,0 +1,85 @@
+{
+  "candidate_id": "CAND-0398",
+  "full_name": "Yuki Smith",
+  "email": "yuki.smith@example.com",
+  "phone": "+1 555-754-8429",
+  "location": "Chicago, IL",
+  "summary": "AI Engineer with 4.9 years of experience.",
+  "skills": [
+    "FastAPI",
+    "PyTorch",
+    "Python",
+    "Ollama",
+    "Transformers",
+    "FAISS"
+  ],
+  "years_experience": 4.9,
+  "roles": [
+    "AI Engineer"
+  ],
+  "companies": [
+    "FinPulse Digital"
+  ],
+  "experience": [
+    {
+      "title": "AI Engineer",
+      "company": "FinPulse Digital",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using FastAPI, PyTorch, Python."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Metropolitan University"
+  ],
+  "certifications": [],
+  "projects": [
+    "AI Engineer System Refactoring"
+  ],
+  "domains": [
+    "Data / AI"
+  ],
+  "notice_period": null,
+  "evidence": [
+    {
+      "attribute": "skills:FastAPI",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using FastAPI at FinPulse Digital.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:PyTorch",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using PyTorch at FinPulse Digital.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Python",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Python at FinPulse Digital.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "AI Engineer with over 4.9 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [
+    "Notice period not specified in CV"
+  ],
+  "ambiguities": [
+    "messy"
+  ],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0398"
+}

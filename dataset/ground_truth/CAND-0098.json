@@ -1,0 +1,83 @@
+{
+  "candidate_id": "CAND-0098",
+  "full_name": "Yuki Sharma",
+  "email": "yuki.sharma@example.com",
+  "phone": "+1 555-997-3147",
+  "location": "Boston, MA",
+  "summary": "Full Stack Engineer with 0.8 years of experience.",
+  "skills": [
+    "Node.js",
+    "Docker",
+    "Express",
+    "TypeScript",
+    "REST API",
+    "React",
+    "PostgreSQL",
+    "GraphQL"
+  ],
+  "years_experience": 0.8,
+  "roles": [
+    "Full Stack Engineer"
+  ],
+  "companies": [
+    "Nexus AI Studios"
+  ],
+  "experience": [
+    {
+      "title": "Full Stack Engineer",
+      "company": "Nexus AI Studios",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using Node.js, Docker, Express."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Metropolitan University"
+  ],
+  "certifications": [],
+  "projects": [
+    "Full Stack Engineer System Refactoring"
+  ],
+  "domains": [
+    "Software Engineering"
+  ],
+  "notice_period": "60 days",
+  "evidence": [
+    {
+      "attribute": "skills:Node.js",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Node.js at Nexus AI Studios.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Docker",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Docker at Nexus AI Studios.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Express",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Express at Nexus AI Studios.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "Full Stack Engineer with over 0.8 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [],
+  "ambiguities": [],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0098"
+}

@@ -1,0 +1,82 @@
+{
+  "candidate_id": "CAND-0093",
+  "full_name": "Rohan Fernandez",
+  "email": "rohan.fernandez@example.com",
+  "phone": "+1 555-667-1672",
+  "location": "Denver, CO",
+  "summary": "Full Stack Engineer with 4.5 years of experience.",
+  "skills": [
+    "Docker",
+    "PostgreSQL",
+    "Express",
+    "REST API",
+    "React"
+  ],
+  "years_experience": 4.5,
+  "roles": [
+    "Full Stack Engineer"
+  ],
+  "companies": [
+    "ExampleTech Corp"
+  ],
+  "experience": [
+    {
+      "title": "Full Stack Engineer",
+      "company": "ExampleTech Corp",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using Docker, PostgreSQL, Express."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Global Science Academy"
+  ],
+  "certifications": [],
+  "projects": [
+    "Full Stack Engineer System Refactoring"
+  ],
+  "domains": [
+    "Software Engineering"
+  ],
+  "notice_period": "Immediate",
+  "evidence": [
+    {
+      "attribute": "skills:Docker",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Docker at ExampleTech Corp.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:PostgreSQL",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using PostgreSQL at ExampleTech Corp.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Express",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Express at ExampleTech Corp.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "Full Stack Engineer with over 4.5 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [],
+  "ambiguities": [
+    "difficult_edge_case"
+  ],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0093"
+}

@@ -1,0 +1,13 @@
+Viktor Patel
+Email: viktor.patel@example.com | Phone: +1 555-626-9335 | Location: Denver, CO
+Notice Period: Immediate
+SUMMARY:
+Site Reliability Engineer with over 3.5 years of professional experience building scalable systems.
+SKILLS:
+Docker, Grafana, Linux, AWS, Python
+EXPERIENCE:
+Site Reliability Engineer at OmniCloud Systems (2020 - Present)
+- Developed core features using Docker, Grafana, Linux.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Tech University

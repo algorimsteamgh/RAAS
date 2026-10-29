@@ -1,0 +1,13 @@
+Mei Sharma
+Email: mei.sharma@example.com | Phone: +1 555-928-4619 | Location: San Francisco, CA
+Notice Period: 60 days
+SUMMARY:
+DevOps Engineer with over 0.7 years of professional experience building scalable systems.
+SKILLS:
+Terraform, AWS, Linux, Kubernetes
+EXPERIENCE:
+DevOps Engineer at DataFlow Systems (2020 - Present)
+- Developed core features using Terraform, AWS, Linux.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Metropolitan University

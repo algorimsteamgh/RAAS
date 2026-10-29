@@ -1,0 +1,13 @@
+Rohan Volkov
+Email: rohan.volkov@example.com | Phone: +1 555-410-5500 | Location: Austin, TX
+Notice Period: 60 days
+SUMMARY:
+Full Stack Engineer with over 2.8 years of professional experience building scalable systems.
+SKILLS:
+GraphQL, TypeScript, REST API, Node.js, PostgreSQL, Docker, Express
+EXPERIENCE:
+Full Stack Engineer at Nexus AI Studios (2020 - Present)
+- Developed core features using GraphQL, TypeScript, REST API.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Tech University

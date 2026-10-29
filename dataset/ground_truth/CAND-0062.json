@@ -1,0 +1,84 @@
+{
+  "candidate_id": "CAND-0062",
+  "full_name": "Natasha Sharma",
+  "email": "natasha.sharma@example.com",
+  "phone": "+1 555-972-9742",
+  "location": "Boston, MA",
+  "summary": "Frontend Engineer with 4.7 years of experience.",
+  "skills": [
+    "JavaScript",
+    "HTML5",
+    "Redux",
+    "TypeScript",
+    "React",
+    "CSS3",
+    "Next.js"
+  ],
+  "years_experience": 4.7,
+  "roles": [
+    "Frontend Engineer"
+  ],
+  "companies": [
+    "FinPulse Digital"
+  ],
+  "experience": [
+    {
+      "title": "Frontend Engineer",
+      "company": "FinPulse Digital",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using JavaScript, HTML5, Redux."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Example State University"
+  ],
+  "certifications": [],
+  "projects": [
+    "Frontend Engineer System Refactoring"
+  ],
+  "domains": [
+    "Software Engineering"
+  ],
+  "notice_period": "Immediate",
+  "evidence": [
+    {
+      "attribute": "skills:JavaScript",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using JavaScript at FinPulse Digital.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:HTML5",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using HTML5 at FinPulse Digital.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Redux",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Redux at FinPulse Digital.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "Frontend Engineer with over 4.7 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [],
+  "ambiguities": [
+    "difficult_edge_case"
+  ],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0062"
+}

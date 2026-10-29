@@ -1,0 +1,13 @@
+Priya Diallo
+Email: priya.diallo@example.com | Phone: +1 555-483-2850 | Location: Remote
+Notice Period: Immediate
+SUMMARY:
+Engineering Manager with over 8.6 years of professional experience building scalable systems.
+SKILLS:
+Python, Jira, Scrum, System Architecture, Leadership
+EXPERIENCE:
+Engineering Manager at Apex Global (2020 - Present)
+- Developed core features using Python, Jira, Scrum.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Metropolitan University

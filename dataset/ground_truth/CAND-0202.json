@@ -1,0 +1,83 @@
+{
+  "candidate_id": "CAND-0202",
+  "full_name": "Liam Rao",
+  "email": "liam.rao@example.com",
+  "phone": "+1 555-337-9515",
+  "location": "Boston, MA",
+  "summary": "DevOps Engineer with 3.8 years of experience.",
+  "skills": [
+    "Kubernetes",
+    "Ansible",
+    "Python",
+    "Terraform"
+  ],
+  "years_experience": 3.8,
+  "roles": [
+    "DevOps Engineer"
+  ],
+  "companies": [
+    "DataFlow Systems"
+  ],
+  "experience": [
+    {
+      "title": "DevOps Engineer",
+      "company": "DataFlow Systems",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using Kubernetes, Ansible, Python."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Tech University"
+  ],
+  "certifications": [],
+  "projects": [
+    "DevOps Engineer System Refactoring"
+  ],
+  "domains": [
+    "Infrastructure"
+  ],
+  "notice_period": null,
+  "evidence": [
+    {
+      "attribute": "skills:Kubernetes",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Kubernetes at DataFlow Systems.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Ansible",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Ansible at DataFlow Systems.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Python",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Python at DataFlow Systems.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "DevOps Engineer with over 3.8 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [
+    "Notice period not specified in CV"
+  ],
+  "ambiguities": [
+    "messy"
+  ],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0202"
+}

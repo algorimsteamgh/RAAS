@@ -1,0 +1,79 @@
+{
+  "candidate_id": "CAND-0379",
+  "full_name": "Rohan Brown",
+  "email": "rohan.brown@example.com",
+  "phone": "+1 555-389-6711",
+  "location": "Seattle, WA",
+  "summary": "Machine Learning Engineer with 3.9 years of experience.",
+  "skills": [
+    "MLflow",
+    "FastAPI",
+    "Git",
+    "Python"
+  ],
+  "years_experience": 3.9,
+  "roles": [
+    "Machine Learning Engineer"
+  ],
+  "companies": [
+    "NextGen Solutions"
+  ],
+  "experience": [
+    {
+      "title": "Machine Learning Engineer",
+      "company": "NextGen Solutions",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using MLflow, FastAPI, Git."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Tech University"
+  ],
+  "certifications": [],
+  "projects": [
+    "Machine Learning Engineer System Refactoring"
+  ],
+  "domains": [
+    "Data / AI"
+  ],
+  "notice_period": "60 days",
+  "evidence": [
+    {
+      "attribute": "skills:MLflow",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using MLflow at NextGen Solutions.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:FastAPI",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using FastAPI at NextGen Solutions.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Git",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Git at NextGen Solutions.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "Machine Learning Engineer with over 3.9 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [],
+  "ambiguities": [],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0379"
+}

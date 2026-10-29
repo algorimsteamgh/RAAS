@@ -1,0 +1,13 @@
+Rohan Smith
+Email: rohan.smith@example.com | Phone: +1 555-687-3255 | Location: San Jose, CA
+Notice Period: Immediate
+SUMMARY:
+Full Stack Engineer with over 1.0 years of professional experience building scalable systems.
+SKILLS:
+Express, TypeScript, REST API, React, GraphQL, Node.js
+EXPERIENCE:
+Full Stack Engineer at FinPulse Digital (2020 - Present)
+- Developed core features using Express, TypeScript, REST API.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Tech University

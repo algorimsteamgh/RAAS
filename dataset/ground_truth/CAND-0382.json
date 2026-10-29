@@ -1,0 +1,83 @@
+{
+  "candidate_id": "CAND-0382",
+  "full_name": "Priya Volkov",
+  "email": "priya.volkov@example.com",
+  "phone": "+1 555-776-2007",
+  "location": "San Francisco, CA",
+  "summary": "Machine Learning Engineer with 3.0 years of experience.",
+  "skills": [
+    "Python",
+    "CUDA",
+    "PyTorch",
+    "MLflow",
+    "Docker",
+    "TensorFlow",
+    "FastAPI",
+    "Git"
+  ],
+  "years_experience": 3.0,
+  "roles": [
+    "Machine Learning Engineer"
+  ],
+  "companies": [
+    "Nexus AI Studios"
+  ],
+  "experience": [
+    {
+      "title": "Machine Learning Engineer",
+      "company": "Nexus AI Studios",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using Python, CUDA, PyTorch."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Tech University"
+  ],
+  "certifications": [],
+  "projects": [
+    "Machine Learning Engineer System Refactoring"
+  ],
+  "domains": [
+    "Data / AI"
+  ],
+  "notice_period": "60 days",
+  "evidence": [
+    {
+      "attribute": "skills:Python",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Python at Nexus AI Studios.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:CUDA",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using CUDA at Nexus AI Studios.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:PyTorch",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using PyTorch at Nexus AI Studios.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "Machine Learning Engineer with over 3.0 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [],
+  "ambiguities": [],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0382"
+}

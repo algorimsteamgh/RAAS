@@ -1,0 +1,13 @@
+Mason Davis
+Email: mason.davis@example.com | Phone: +1 555-445-9967 | Location: Seattle, WA
+Notice Period: 60 days
+SUMMARY:
+Node.js Developer with over 4.2 years of professional experience building scalable systems.
+SKILLS:
+JavaScript, Docker, Jest, Express, Redis, MongoDB
+EXPERIENCE:
+Node.js Developer at CloudScale Inc (2020 - Present)
+- Developed core features using JavaScript, Docker, Jest.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Global Science Academy

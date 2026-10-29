@@ -1,0 +1,12 @@
+Carlos Chen
+Email: carlos.chen@example.com | Phone: +1 555-904-6544 | Location: San Jose, CA
+SUMMARY:
+Site Reliability Engineer with over 4.9 years of professional experience building scalable systems.
+SKILLS:
+Kubernetes, Prometheus, Docker, Linux
+EXPERIENCE:
+Site Reliability Engineer at DataFlow Systems (2020 - Present)
+- Developed core features using Kubernetes, Prometheus, Docker.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Institute of Technology

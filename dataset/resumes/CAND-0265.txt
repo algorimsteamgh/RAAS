@@ -1,0 +1,13 @@
+Lucas Brown
+Email: lucas.brown@example.com | Phone: +1 555-393-5105 | Location: Seattle, WA
+Notice Period: 15 days
+SUMMARY:
+Cloud Engineer with over 4.9 years of professional experience building scalable systems.
+SKILLS:
+Terraform, Linux, Kubernetes, AWS, GCP, Azure
+EXPERIENCE:
+Cloud Engineer at DataFlow Systems (2020 - Present)
+- Developed core features using Terraform, Linux, Kubernetes.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Tech University

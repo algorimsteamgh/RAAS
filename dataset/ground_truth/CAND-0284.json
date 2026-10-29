@@ -1,0 +1,80 @@
+{
+  "candidate_id": "CAND-0284",
+  "full_name": "Emma Sato",
+  "email": "emma.sato@example.com",
+  "phone": "+1 555-337-2029",
+  "location": "Chicago, IL",
+  "summary": "Site Reliability Engineer with 2.6 years of experience.",
+  "skills": [
+    "Docker",
+    "Prometheus",
+    "CI/CD",
+    "AWS",
+    "Linux"
+  ],
+  "years_experience": 2.6,
+  "roles": [
+    "Site Reliability Engineer"
+  ],
+  "companies": [
+    "ExampleTech Corp"
+  ],
+  "experience": [
+    {
+      "title": "Site Reliability Engineer",
+      "company": "ExampleTech Corp",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using Docker, Prometheus, CI/CD."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Metropolitan University"
+  ],
+  "certifications": [],
+  "projects": [
+    "Site Reliability Engineer System Refactoring"
+  ],
+  "domains": [
+    "Infrastructure"
+  ],
+  "notice_period": "Immediate",
+  "evidence": [
+    {
+      "attribute": "skills:Docker",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Docker at ExampleTech Corp.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Prometheus",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Prometheus at ExampleTech Corp.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:CI/CD",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using CI/CD at ExampleTech Corp.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "Site Reliability Engineer with over 2.6 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [],
+  "ambiguities": [],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0284"
+}

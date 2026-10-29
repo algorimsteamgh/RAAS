@@ -1,0 +1,79 @@
+{
+  "candidate_id": "CAND-0218",
+  "full_name": "Aarav Miller",
+  "email": "aarav.miller@example.com",
+  "phone": "+1 555-314-5088",
+  "location": "San Francisco, CA",
+  "summary": "DevOps Engineer with 5.3 years of experience.",
+  "skills": [
+    "Docker",
+    "Terraform",
+    "Linux",
+    "CI/CD"
+  ],
+  "years_experience": 5.3,
+  "roles": [
+    "DevOps Engineer"
+  ],
+  "companies": [
+    "CloudScale Inc"
+  ],
+  "experience": [
+    {
+      "title": "DevOps Engineer",
+      "company": "CloudScale Inc",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using Docker, Terraform, Linux."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Global Science Academy"
+  ],
+  "certifications": [],
+  "projects": [
+    "DevOps Engineer System Refactoring"
+  ],
+  "domains": [
+    "Infrastructure"
+  ],
+  "notice_period": "60 days",
+  "evidence": [
+    {
+      "attribute": "skills:Docker",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Docker at CloudScale Inc.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Terraform",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Terraform at CloudScale Inc.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Linux",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Linux at CloudScale Inc.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "DevOps Engineer with over 5.3 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [],
+  "ambiguities": [],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0218"
+}

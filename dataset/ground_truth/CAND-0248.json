@@ -1,0 +1,80 @@
+{
+  "candidate_id": "CAND-0248",
+  "full_name": "Ananya Johnson",
+  "email": "ananya.johnson@example.com",
+  "phone": "+1 555-623-2928",
+  "location": "Chicago, IL",
+  "summary": "Cloud Engineer with 2.9 years of experience.",
+  "skills": [
+    "Terraform",
+    "Linux",
+    "GCP",
+    "Kubernetes",
+    "Azure"
+  ],
+  "years_experience": 2.9,
+  "roles": [
+    "Cloud Engineer"
+  ],
+  "companies": [
+    "Apex Global"
+  ],
+  "experience": [
+    {
+      "title": "Cloud Engineer",
+      "company": "Apex Global",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using Terraform, Linux, GCP."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Global Science Academy"
+  ],
+  "certifications": [],
+  "projects": [
+    "Cloud Engineer System Refactoring"
+  ],
+  "domains": [
+    "Infrastructure"
+  ],
+  "notice_period": "30 days",
+  "evidence": [
+    {
+      "attribute": "skills:Terraform",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Terraform at Apex Global.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Linux",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Linux at Apex Global.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:GCP",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using GCP at Apex Global.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "Cloud Engineer with over 2.9 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [],
+  "ambiguities": [],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0248"
+}

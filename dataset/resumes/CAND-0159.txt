@@ -1,0 +1,13 @@
+Wei Chen
+Email: wei.chen@example.com | Phone: +1 555-793-9856 | Location: Remote
+Notice Period: 30 days
+SUMMARY:
+Python Developer with over 5.1 years of professional experience building scalable systems.
+SKILLS:
+Celery, Python, Git, PostgreSQL
+EXPERIENCE:
+Python Developer at InnovateSoft (2020 - Present)
+- Developed core features using Celery, Python, Git.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Example State University

@@ -1,0 +1,84 @@
+{
+  "candidate_id": "CAND-0033",
+  "full_name": "Mateo Tanaka",
+  "email": "mateo.tanaka@example.com",
+  "phone": "+1 555-727-9270",
+  "location": "Boston, MA",
+  "summary": "Backend Engineer with 4.4 years of experience.",
+  "skills": [
+    "Microservices",
+    "PostgreSQL",
+    "Django",
+    "FastAPI",
+    "Docker"
+  ],
+  "years_experience": null,
+  "roles": [
+    "Backend Engineer"
+  ],
+  "companies": [
+    "OmniCloud Systems"
+  ],
+  "experience": [
+    {
+      "title": "Backend Engineer",
+      "company": "OmniCloud Systems",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using Microservices, PostgreSQL, Django."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Global Science Academy"
+  ],
+  "certifications": [],
+  "projects": [
+    "Backend Engineer System Refactoring"
+  ],
+  "domains": [
+    "Software Engineering"
+  ],
+  "notice_period": "15 days",
+  "evidence": [
+    {
+      "attribute": "skills:Microservices",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Microservices at OmniCloud Systems.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:PostgreSQL",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using PostgreSQL at OmniCloud Systems.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Django",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Django at OmniCloud Systems.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "Backend Engineer with over 4.4 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [
+    "Explicit total years of experience not clearly stated in text summary"
+  ],
+  "ambiguities": [
+    "ambiguous"
+  ],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0033"
+}

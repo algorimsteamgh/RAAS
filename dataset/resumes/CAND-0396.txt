@@ -1,0 +1,13 @@
+Yuki Mehta
+Email: yuki.mehta@example.com | Phone: +1 555-951-2113 | Location: Austin, TX
+Notice Period: Immediate
+SUMMARY:
+AI Engineer with over 4.3 years of professional experience building scalable systems.
+SKILLS:
+Transformers, PyTorch, Vector DB, Ollama, FastAPI, Python, LangChain
+EXPERIENCE:
+AI Engineer at ExampleTech Corp (2020 - Present)
+- Developed core features using Transformers, PyTorch, Vector DB.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Tech University

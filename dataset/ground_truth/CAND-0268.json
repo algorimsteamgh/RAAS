@@ -1,0 +1,81 @@
+{
+  "candidate_id": "CAND-0268",
+  "full_name": "Olivia Ali",
+  "email": "olivia.ali@example.com",
+  "phone": "+1 555-626-2955",
+  "location": "Boston, MA",
+  "summary": "Cloud Engineer with 3.5 years of experience.",
+  "skills": [
+    "GCP",
+    "Azure",
+    "Kubernetes",
+    "Python",
+    "AWS",
+    "Linux"
+  ],
+  "years_experience": 3.5,
+  "roles": [
+    "Cloud Engineer"
+  ],
+  "companies": [
+    "CyberShield Labs"
+  ],
+  "experience": [
+    {
+      "title": "Cloud Engineer",
+      "company": "CyberShield Labs",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using GCP, Azure, Kubernetes."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Institute of Technology"
+  ],
+  "certifications": [],
+  "projects": [
+    "Cloud Engineer System Refactoring"
+  ],
+  "domains": [
+    "Infrastructure"
+  ],
+  "notice_period": "Immediate",
+  "evidence": [
+    {
+      "attribute": "skills:GCP",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using GCP at CyberShield Labs.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Azure",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Azure at CyberShield Labs.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Kubernetes",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Kubernetes at CyberShield Labs.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "Cloud Engineer with over 3.5 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [],
+  "ambiguities": [],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0268"
+}

@@ -1,0 +1,82 @@
+{
+  "candidate_id": "CAND-0392",
+  "full_name": "Natasha Rao",
+  "email": "natasha.rao@example.com",
+  "phone": "+1 555-451-2382",
+  "location": "Seattle, WA",
+  "summary": "AI Engineer with 1.7 years of experience.",
+  "skills": [
+    "FAISS",
+    "Vector DB",
+    "LangChain",
+    "PyTorch",
+    "Transformers",
+    "Ollama",
+    "Python"
+  ],
+  "years_experience": 1.7,
+  "roles": [
+    "AI Engineer"
+  ],
+  "companies": [
+    "InnovateSoft"
+  ],
+  "experience": [
+    {
+      "title": "AI Engineer",
+      "company": "InnovateSoft",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using FAISS, Vector DB, LangChain."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Tech University"
+  ],
+  "certifications": [],
+  "projects": [
+    "AI Engineer System Refactoring"
+  ],
+  "domains": [
+    "Data / AI"
+  ],
+  "notice_period": "30 days",
+  "evidence": [
+    {
+      "attribute": "skills:FAISS",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using FAISS at InnovateSoft.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Vector DB",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Vector DB at InnovateSoft.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:LangChain",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using LangChain at InnovateSoft.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "AI Engineer with over 1.7 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [],
+  "ambiguities": [],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0392"
+}

@@ -1,0 +1,13 @@
+Isabella Ivanova
+Email: isabella.ivanova@example.com | Phone: +1 555-504-7642 | Location: New York, NY
+Notice Period: 30 days
+SUMMARY:
+Site Reliability Engineer with over 5.1 years of professional experience building scalable systems.
+SKILLS:
+Python, Grafana, Kubernetes, CI/CD
+EXPERIENCE:
+Site Reliability Engineer at Nexus AI Studios (2020 - Present)
+- Developed core features using Python, Grafana, Kubernetes.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Metropolitan University

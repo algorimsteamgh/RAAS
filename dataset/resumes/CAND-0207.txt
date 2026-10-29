@@ -1,0 +1,12 @@
+Ethan Jones
+Email: ethan.jones@example.com | Phone: +1 555-943-7563 | Location: Remote
+SUMMARY:
+DevOps Engineer with over 5.8 years of professional experience building scalable systems.
+SKILLS:
+Ansible, Linux, Docker, CI/CD
+EXPERIENCE:
+DevOps Engineer at DataFlow Systems (2020 - Present)
+- Developed core features using Ansible, Linux, Docker.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Institute of Technology

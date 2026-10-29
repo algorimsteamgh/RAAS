@@ -1,0 +1,81 @@
+{
+  "candidate_id": "CAND-0109",
+  "full_name": "Ananya Gomez",
+  "email": "ananya.gomez@example.com",
+  "phone": "+1 555-942-3956",
+  "location": "San Jose, CA",
+  "summary": "Full Stack Engineer with 2.9 years of experience.",
+  "skills": [
+    "PostgreSQL",
+    "Node.js",
+    "Express",
+    "GraphQL",
+    "Docker",
+    "TypeScript"
+  ],
+  "years_experience": 2.9,
+  "roles": [
+    "Full Stack Engineer"
+  ],
+  "companies": [
+    "CyberShield Labs"
+  ],
+  "experience": [
+    {
+      "title": "Full Stack Engineer",
+      "company": "CyberShield Labs",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using PostgreSQL, Node.js, Express."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Metropolitan University"
+  ],
+  "certifications": [],
+  "projects": [
+    "Full Stack Engineer System Refactoring"
+  ],
+  "domains": [
+    "Software Engineering"
+  ],
+  "notice_period": "60 days",
+  "evidence": [
+    {
+      "attribute": "skills:PostgreSQL",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using PostgreSQL at CyberShield Labs.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Node.js",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Node.js at CyberShield Labs.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Express",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Express at CyberShield Labs.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "Full Stack Engineer with over 2.9 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [],
+  "ambiguities": [],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0109"
+}

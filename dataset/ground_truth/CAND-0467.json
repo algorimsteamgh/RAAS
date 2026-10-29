@@ -1,0 +1,83 @@
+{
+  "candidate_id": "CAND-0467",
+  "full_name": "Yuki Diallo",
+  "email": "yuki.diallo@example.com",
+  "phone": "+1 555-280-1691",
+  "location": "Denver, CO",
+  "summary": "Engineering Manager with 5.9 years of experience.",
+  "skills": [
+    "CI/CD",
+    "Python",
+    "System Architecture",
+    "Agile"
+  ],
+  "years_experience": 5.9,
+  "roles": [
+    "Engineering Manager"
+  ],
+  "companies": [
+    "FinPulse Digital"
+  ],
+  "experience": [
+    {
+      "title": "Engineering Manager",
+      "company": "FinPulse Digital",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using CI/CD, Python, System Architecture."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Metropolitan University"
+  ],
+  "certifications": [],
+  "projects": [
+    "Engineering Manager System Refactoring"
+  ],
+  "domains": [
+    "Management"
+  ],
+  "notice_period": null,
+  "evidence": [
+    {
+      "attribute": "skills:CI/CD",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using CI/CD at FinPulse Digital.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Python",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Python at FinPulse Digital.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:System Architecture",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using System Architecture at FinPulse Digital.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "Engineering Manager with over 5.9 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [
+    "Notice period not specified in CV"
+  ],
+  "ambiguities": [
+    "messy"
+  ],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0467"
+}

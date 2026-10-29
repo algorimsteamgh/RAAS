@@ -1,0 +1,13 @@
+Sophia Volkov
+Email: sophia.volkov@example.com | Phone: +1 555-781-5713 | Location: Boston, MA
+Notice Period: 60 days
+SUMMARY:
+Security Engineer with over 5.7 years of professional experience building scalable systems.
+SKILLS:
+Linux, SIEM, OWASP, Penetration Testing, Cryptography
+EXPERIENCE:
+Security Engineer at Nexus AI Studios (2020 - Present)
+- Developed core features using Linux, SIEM, OWASP.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Metropolitan University

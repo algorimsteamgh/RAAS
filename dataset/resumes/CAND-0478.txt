@@ -1,0 +1,12 @@
+Ananya Jones
+Email: ananya.jones@example.com | Phone: +1 555-714-4531 | Location: Chicago, IL
+SUMMARY:
+Technical Project Manager with over 6.7 years of professional experience building scalable systems.
+SKILLS:
+Risk Management, Scrum, Agile, Jira, Budgeting
+EXPERIENCE:
+Technical Project Manager at InnovateSoft (2020 - Present)
+- Developed core features using Risk Management, Scrum, Agile.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Tech University

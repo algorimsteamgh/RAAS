@@ -1,0 +1,12 @@
+Wei Johnson
+Email: wei.johnson@example.com | Phone: +1 555-927-9001 | Location: San Francisco, CA
+SUMMARY:
+Engineering Manager with over 6.8 years of professional experience building scalable systems.
+SKILLS:
+CI/CD, Scrum, Python, System Architecture, Team Mentorship, Jira, Agile
+EXPERIENCE:
+Engineering Manager at CyberShield Labs (2020 - Present)
+- Developed core features using CI/CD, Scrum, Python.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Example State University

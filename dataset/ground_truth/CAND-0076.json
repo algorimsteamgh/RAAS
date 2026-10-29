@@ -1,0 +1,83 @@
+{
+  "candidate_id": "CAND-0076",
+  "full_name": "Aarav Brown",
+  "email": "aarav.brown@example.com",
+  "phone": "+1 555-371-1858",
+  "location": "Seattle, WA",
+  "summary": "Frontend Engineer with 4.3 years of experience.",
+  "skills": [
+    "Redux",
+    "Next.js",
+    "React",
+    "HTML5"
+  ],
+  "years_experience": 4.3,
+  "roles": [
+    "Frontend Engineer"
+  ],
+  "companies": [
+    "Nexus AI Studios"
+  ],
+  "experience": [
+    {
+      "title": "Frontend Engineer",
+      "company": "Nexus AI Studios",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using Redux, Next.js, React."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Example State University"
+  ],
+  "certifications": [],
+  "projects": [
+    "Frontend Engineer System Refactoring"
+  ],
+  "domains": [
+    "Software Engineering"
+  ],
+  "notice_period": null,
+  "evidence": [
+    {
+      "attribute": "skills:Redux",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Redux at Nexus AI Studios.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Next.js",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Next.js at Nexus AI Studios.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:React",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using React at Nexus AI Studios.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "Frontend Engineer with over 4.3 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [
+    "Notice period not specified in CV"
+  ],
+  "ambiguities": [
+    "messy"
+  ],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0076"
+}

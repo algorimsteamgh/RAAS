@@ -1,0 +1,13 @@
+Viktor Patel
+Email: viktor.patel@example.com | Phone: +1 555-598-8898 | Location: Austin, TX
+Notice Period: 15 days
+SUMMARY:
+Site Reliability Engineer with over 3.0 years of professional experience building scalable systems.
+SKILLS:
+Prometheus, Linux, Grafana, Kubernetes, Python
+EXPERIENCE:
+Site Reliability Engineer at CloudScale Inc (2020 - Present)
+- Developed core features using Prometheus, Linux, Grafana.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Institute of Technology

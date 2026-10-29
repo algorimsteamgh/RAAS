@@ -1,0 +1,13 @@
+Carlos Brown
+Email: carlos.brown@example.com | Phone: +1 555-665-3623 | Location: Remote
+Notice Period: 15 days
+SUMMARY:
+Python Developer with over 5.9 years of professional experience building scalable systems.
+SKILLS:
+Git, Celery, Django, Docker, PostgreSQL
+EXPERIENCE:
+Python Developer at FinPulse Digital (2020 - Present)
+- Developed core features using Git, Celery, Django.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Example State University

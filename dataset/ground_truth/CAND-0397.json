@@ -1,0 +1,87 @@
+{
+  "candidate_id": "CAND-0397",
+  "full_name": "Maya Gomez",
+  "email": "maya.gomez@example.com",
+  "phone": "+1 555-772-4552",
+  "location": "San Francisco, CA",
+  "summary": "AI Engineer with 2.9 years of experience.",
+  "skills": [
+    "Ollama",
+    "LangChain",
+    "Transformers",
+    "FastAPI",
+    "PyTorch",
+    "Python",
+    "Vector DB",
+    "FAISS"
+  ],
+  "years_experience": 2.9,
+  "roles": [
+    "AI Engineer"
+  ],
+  "companies": [
+    "NextGen Solutions"
+  ],
+  "experience": [
+    {
+      "title": "AI Engineer",
+      "company": "NextGen Solutions",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using Ollama, LangChain, Transformers."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Global Science Academy"
+  ],
+  "certifications": [],
+  "projects": [
+    "AI Engineer System Refactoring"
+  ],
+  "domains": [
+    "Data / AI"
+  ],
+  "notice_period": null,
+  "evidence": [
+    {
+      "attribute": "skills:Ollama",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Ollama at NextGen Solutions.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:LangChain",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using LangChain at NextGen Solutions.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Transformers",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Transformers at NextGen Solutions.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "AI Engineer with over 2.9 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [
+    "Notice period not specified in CV"
+  ],
+  "ambiguities": [
+    "messy"
+  ],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0397"
+}

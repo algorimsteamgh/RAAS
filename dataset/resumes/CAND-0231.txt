@@ -1,0 +1,13 @@
+Noah Wang
+Email: noah.wang@example.com | Phone: +1 555-858-8937 | Location: San Jose, CA
+Notice Period: Immediate
+SUMMARY:
+DevOps Engineer with over 1.7 years of professional experience building scalable systems.
+SKILLS:
+AWS, Docker, Python, Ansible, Terraform, Linux, CI/CD, Kubernetes
+EXPERIENCE:
+DevOps Engineer at InnovateSoft (2020 - Present)
+- Developed core features using AWS, Docker, Python.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Institute of Technology

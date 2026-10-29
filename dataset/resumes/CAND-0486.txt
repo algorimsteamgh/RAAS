@@ -1,0 +1,13 @@
+Ananya Smith
+Email: ananya.smith@example.com | Phone: +1 555-352-9161 | Location: San Francisco, CA
+Notice Period: Immediate
+SUMMARY:
+Technical Project Manager with over 5.7 years of professional experience building scalable systems.
+SKILLS:
+Risk Management, Jira, Stakeholder Communication, Agile
+EXPERIENCE:
+Technical Project Manager at Apex Global (2020 - Present)
+- Developed core features using Risk Management, Jira, Stakeholder Communication.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Institute of Technology

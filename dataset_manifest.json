@@ -1,0 +1,45 @@
+{
+  "dataset_name": "Synthetic CV Screening Evaluation Dataset",
+  "dataset_version": "1.0",
+  "total_resumes": 500,
+  "total_jobs": 10,
+  "total_matches": 5000,
+  "synthetic_records": 500,
+  "synthetic_only": true,
+  "contains_real_pii": false,
+  "source_datasets": [
+    "michaelozon/candidate-matching-synthetic",
+    "datasetmaster/resumes"
+  ],
+  "licenses": [
+    "Apache-2.0",
+    "MIT"
+  ],
+  "normalization_version": "1.0",
+  "roles_distribution": {
+    "Backend Engineer": 50,
+    "Frontend Engineer": 40,
+    "Full Stack Engineer": 40,
+    "Java Developer": 25,
+    "Python Developer": 25,
+    "Node.js Developer": 10,
+    "React Developer": 10,
+    "DevOps Engineer": 35,
+    "Cloud Engineer": 35,
+    "Site Reliability Engineer": 30,
+    "Data Engineer": 35,
+    "Data Scientist": 25,
+    "Machine Learning Engineer": 25,
+    "AI Engineer": 15,
+    "QA Automation Engineer": 30,
+    "Security Engineer": 20,
+    "Engineering Manager": 25,
+    "Technical Project Manager": 25
+  },
+  "quality_distribution": {
+    "standard_high_quality": "60%",
+    "moderately_messy": "20%",
+    "ambiguous": "10%",
+    "difficult_edge_cases": "10%"
+  }
+}

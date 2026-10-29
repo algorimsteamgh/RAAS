@@ -1,0 +1,79 @@
+{
+  "candidate_id": "CAND-0159",
+  "full_name": "Wei Chen",
+  "email": "wei.chen@example.com",
+  "phone": "+1 555-793-9856",
+  "location": "Remote",
+  "summary": "Python Developer with 5.1 years of experience.",
+  "skills": [
+    "Celery",
+    "Python",
+    "Git",
+    "PostgreSQL"
+  ],
+  "years_experience": 5.1,
+  "roles": [
+    "Python Developer"
+  ],
+  "companies": [
+    "InnovateSoft"
+  ],
+  "experience": [
+    {
+      "title": "Python Developer",
+      "company": "InnovateSoft",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using Celery, Python, Git."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Example State University"
+  ],
+  "certifications": [],
+  "projects": [
+    "Python Developer System Refactoring"
+  ],
+  "domains": [
+    "Software Engineering"
+  ],
+  "notice_period": "30 days",
+  "evidence": [
+    {
+      "attribute": "skills:Celery",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Celery at InnovateSoft.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Python",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Python at InnovateSoft.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Git",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Git at InnovateSoft.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "Python Developer with over 5.1 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [],
+  "ambiguities": [],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0159"
+}

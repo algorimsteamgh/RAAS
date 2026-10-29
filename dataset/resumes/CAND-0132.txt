@@ -1,0 +1,12 @@
+Emma Rao
+Email: emma.rao@example.com | Phone: +1 555-785-9700 | Location: New York, NY
+SUMMARY:
+Java Developer with over 2.7 years of professional experience building scalable systems.
+SKILLS:
+Docker, REST API, PostgreSQL, Java, Spring Boot, Kafka, Hibernate
+EXPERIENCE:
+Java Developer at FinPulse Digital (2020 - Present)
+- Developed core features using Docker, REST API, PostgreSQL.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Global Science Academy

@@ -1,0 +1,13 @@
+Aarav Patel
+Email: aarav.patel@example.com | Phone: +1 555-416-3953 | Location: New York, NY
+Notice Period: Immediate
+SUMMARY:
+Full Stack Engineer with over 5.2 years of professional experience building scalable systems.
+SKILLS:
+Express, React, REST API, TypeScript, Node.js
+EXPERIENCE:
+Full Stack Engineer at DataFlow Systems (2020 - Present)
+- Developed core features using Express, React, REST API.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Tech University

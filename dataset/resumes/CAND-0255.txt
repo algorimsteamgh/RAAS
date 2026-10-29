@@ -1,0 +1,13 @@
+Ananya Ivanova
+Email: ananya.ivanova@example.com | Phone: +1 555-844-5072 | Location: Denver, CO
+Notice Period: 60 days
+SUMMARY:
+Cloud Engineer with over 4.9 years of professional experience building scalable systems.
+SKILLS:
+GCP, Linux, Kubernetes, Docker, AWS, Terraform, Python
+EXPERIENCE:
+Cloud Engineer at OmniCloud Systems (2020 - Present)
+- Developed core features using GCP, Linux, Kubernetes.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Global Science Academy

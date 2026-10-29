@@ -1,0 +1,13 @@
+Isabella Wang
+Email: isabella.wang@example.com | Phone: +1 555-366-3551 | Location: Chicago, IL
+Notice Period: 30 days
+SUMMARY:
+Data Engineer with over 4.3 years of professional experience building scalable systems.
+SKILLS:
+Snowflake, Apache Spark, Airflow, PostgreSQL, Python
+EXPERIENCE:
+Data Engineer at CyberShield Labs (2020 - Present)
+- Developed core features using Snowflake, Apache Spark, Airflow.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Global Science Academy

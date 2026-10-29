@@ -1,0 +1,79 @@
+{
+  "candidate_id": "CAND-0446",
+  "full_name": "Maya Ivanova",
+  "email": "maya.ivanova@example.com",
+  "phone": "+1 555-625-1971",
+  "location": "Denver, CO",
+  "summary": "Security Engineer with 3.4 years of experience.",
+  "skills": [
+    "Wireshark",
+    "Docker",
+    "Linux",
+    "Cryptography"
+  ],
+  "years_experience": 3.4,
+  "roles": [
+    "Security Engineer"
+  ],
+  "companies": [
+    "DataFlow Systems"
+  ],
+  "experience": [
+    {
+      "title": "Security Engineer",
+      "company": "DataFlow Systems",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using Wireshark, Docker, Linux."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Tech University"
+  ],
+  "certifications": [],
+  "projects": [
+    "Security Engineer System Refactoring"
+  ],
+  "domains": [
+    "Quality / Security"
+  ],
+  "notice_period": "15 days",
+  "evidence": [
+    {
+      "attribute": "skills:Wireshark",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Wireshark at DataFlow Systems.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Docker",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Docker at DataFlow Systems.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Linux",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Linux at DataFlow Systems.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "Security Engineer with over 3.4 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [],
+  "ambiguities": [],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0446"
+}

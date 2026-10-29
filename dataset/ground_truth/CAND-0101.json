@@ -1,0 +1,82 @@
+{
+  "candidate_id": "CAND-0101",
+  "full_name": "Amir Patel",
+  "email": "amir.patel@example.com",
+  "phone": "+1 555-127-7797",
+  "location": "Austin, TX",
+  "summary": "Full Stack Engineer with 3.8 years of experience.",
+  "skills": [
+    "React",
+    "Node.js",
+    "GraphQL",
+    "TypeScript",
+    "REST API",
+    "PostgreSQL",
+    "Docker"
+  ],
+  "years_experience": 3.8,
+  "roles": [
+    "Full Stack Engineer"
+  ],
+  "companies": [
+    "CloudScale Inc"
+  ],
+  "experience": [
+    {
+      "title": "Full Stack Engineer",
+      "company": "CloudScale Inc",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using React, Node.js, GraphQL."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Institute of Technology"
+  ],
+  "certifications": [],
+  "projects": [
+    "Full Stack Engineer System Refactoring"
+  ],
+  "domains": [
+    "Software Engineering"
+  ],
+  "notice_period": "Immediate",
+  "evidence": [
+    {
+      "attribute": "skills:React",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using React at CloudScale Inc.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Node.js",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Node.js at CloudScale Inc.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:GraphQL",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using GraphQL at CloudScale Inc.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "Full Stack Engineer with over 3.8 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [],
+  "ambiguities": [],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0101"
+}

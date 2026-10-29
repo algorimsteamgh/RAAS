@@ -1,0 +1,107 @@
+# =============================================================================
+# .dockerignore — Build-context exclusions for cvscreening Docker builds
+# SECURITY: Any line added here prevents that path from ever entering a layer.
+#           When in doubt, exclude first and add a comment explaining the need.
+# =============================================================================
+
+# --- Version control & editor artifacts ---
+.git
+.gitignore
+.vscode
+.DS_Store
+*.pyc
+__pycache__
+.pytest_cache
+
+# --- Test suites & scratch test scripts (contain developer test data) ---
+backend/tests/
+backend/tests/**
+tests/
+scripts/test_*
+
+# --- Python virtual environments ---
+venv/
+.venv/
+env/
+
+# --- Node / Frontend build artifacts ---
+node_modules/
+frontend/node_modules/
+frontend/dist/
+
+# --- Log files ---
+*.log
+backend.log
+
+# --- Training checkpoints & model weights ---
+training/checkpoints/
+training/datasets/generated/
+*.pt
+*.pth
+*.bin
+*.safetensors
+
+# =============================================================================
+# SECRETS & CREDENTIALS — must never enter any image layer
+# =============================================================================
+.env
+.env.*
+*.env
+.env.local
+.env.production
+.env.staging
+
+# =============================================================================
+# PRODUCTION DATA — SQLite databases (all locations)
+# Applies to both root-level data/ and backend/data/ paths.
+# The `*.db` glob covers the root context; explicit paths cover subdirectories
+# that would otherwise be pulled in by `COPY backend /app/backend`.
+# =============================================================================
+*.db
+*.sqlite
+*.sqlite3
+*.db-shm
+*.db-wal
+data/cv_screening.db*
+backend/data/
+backend/data/**
+
+# =============================================================================
+# CANDIDATE PII & PRODUCTION EXPORTS — must never enter any image layer
+# These directories contain real candidate records, PDF resumes, and exports.
+# =============================================================================
+# Backup snapshots (live DB dumps, candidate/job JSON exports)
+data/backups/
+data/backups/**
+
+# Per-candidate CV extraction results (JSON with PII)
+data/extracted/
+data/extracted/**
+
+# Uploaded/stored resume files — all CAND-* subdirs and top-level PDFs
+# Note: the 5 synthetic .txt fixtures at the top level are kept (see Dockerfile).
+data/cvs/samples/CAND-*/
+data/cvs/samples/*.pdf
+data/cvs/
+
+# seed_data/ is built at image-build time — never mount from host
+seed_data/
+seed_data/**
+
+# =============================================================================
+# EVALUATION & RAW DATA — large generated datasets, not needed at runtime
+# =============================================================================
+# data/evaluation is included for seed benchmark metrics (450KB)
+data/raw/
+data/raw/**
+dataset/
+training/
+
+# =============================================================================
+# DOCUMENTATION & CI — not needed in production image
+# =============================================================================
+docs/
+.github/
+infra/
+README.md
+THIRD_PARTY_LICENSES.md

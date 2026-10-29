@@ -1,0 +1,81 @@
+{
+  "candidate_id": "CAND-0016",
+  "full_name": "Ananya Sato",
+  "email": "ananya.sato@example.com",
+  "phone": "+1 555-592-4502",
+  "location": "Boston, MA",
+  "summary": "Backend Engineer with 3.1 years of experience.",
+  "skills": [
+    "REST API",
+    "Django",
+    "PostgreSQL",
+    "Microservices"
+  ],
+  "years_experience": 3.1,
+  "roles": [
+    "Backend Engineer"
+  ],
+  "companies": [
+    "FinPulse Digital"
+  ],
+  "experience": [
+    {
+      "title": "Backend Engineer",
+      "company": "FinPulse Digital",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using REST API, Django, PostgreSQL."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Tech University"
+  ],
+  "certifications": [],
+  "projects": [
+    "Backend Engineer System Refactoring"
+  ],
+  "domains": [
+    "Software Engineering"
+  ],
+  "notice_period": "60 days",
+  "evidence": [
+    {
+      "attribute": "skills:REST API",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using REST API at FinPulse Digital.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Django",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Django at FinPulse Digital.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:PostgreSQL",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using PostgreSQL at FinPulse Digital.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "Backend Engineer with over 3.1 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [],
+  "ambiguities": [
+    "difficult_edge_case"
+  ],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0016"
+}

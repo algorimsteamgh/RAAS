@@ -1,0 +1,13 @@
+Camila Garcia
+Email: camila.garcia@example.com | Phone: +1 555-829-8145 | Location: Chicago, IL
+Notice Period: 15 days
+SUMMARY:
+Site Reliability Engineer with over 0.7 years of professional experience building scalable systems.
+SKILLS:
+AWS, Prometheus, CI/CD, Kubernetes, Grafana, Python
+EXPERIENCE:
+Site Reliability Engineer at OmniCloud Systems (2020 - Present)
+- Developed core features using AWS, Prometheus, CI/CD.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Example State University

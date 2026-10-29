@@ -1,0 +1,12 @@
+Mateo Volkov
+Email: mateo.volkov@example.com | Phone: +1 555-509-6834 | Location: Denver, CO
+SUMMARY:
+Engineering Manager with over 11.7 years of professional experience building scalable systems.
+SKILLS:
+Python, Scrum, Leadership, Agile, Team Mentorship, Jira, System Architecture
+EXPERIENCE:
+Engineering Manager at CyberShield Labs (2020 - Present)
+- Developed core features using Python, Scrum, Leadership.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Institute of Technology

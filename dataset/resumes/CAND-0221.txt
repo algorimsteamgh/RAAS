@@ -1,0 +1,13 @@
+Mei Wang
+Email: mei.wang@example.com | Phone: +1 555-260-1877 | Location: San Francisco, CA
+Notice Period: 60 days
+SUMMARY:
+DevOps Engineer with over 5.9 years of professional experience building scalable systems.
+SKILLS:
+Ansible, CI/CD, AWS, Linux, Kubernetes, Docker, Python
+EXPERIENCE:
+DevOps Engineer at FinPulse Digital (2020 - Present)
+- Developed core features using Ansible, CI/CD, AWS.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Tech University

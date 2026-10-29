@@ -1,0 +1,83 @@
+{
+  "candidate_id": "CAND-0197",
+  "full_name": "Maya Sato",
+  "email": "maya.sato@example.com",
+  "phone": "+1 555-979-3734",
+  "location": "Remote",
+  "summary": "React Developer with 5.2 years of experience.",
+  "skills": [
+    "TypeScript",
+    "Vite",
+    "CSS3",
+    "HTML5",
+    "JavaScript",
+    "Redux",
+    "React",
+    "Jest"
+  ],
+  "years_experience": 5.2,
+  "roles": [
+    "React Developer"
+  ],
+  "companies": [
+    "ExampleTech Corp"
+  ],
+  "experience": [
+    {
+      "title": "React Developer",
+      "company": "ExampleTech Corp",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using TypeScript, Vite, CSS3."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Global Science Academy"
+  ],
+  "certifications": [],
+  "projects": [
+    "React Developer System Refactoring"
+  ],
+  "domains": [
+    "Software Engineering"
+  ],
+  "notice_period": "30 days",
+  "evidence": [
+    {
+      "attribute": "skills:TypeScript",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using TypeScript at ExampleTech Corp.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Vite",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Vite at ExampleTech Corp.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:CSS3",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using CSS3 at ExampleTech Corp.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "React Developer with over 5.2 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [],
+  "ambiguities": [],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0197"
+}

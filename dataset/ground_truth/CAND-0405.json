@@ -1,0 +1,82 @@
+{
+  "candidate_id": "CAND-0405",
+  "full_name": "Camila Diallo",
+  "email": "camila.diallo@example.com",
+  "phone": "+1 555-758-6041",
+  "location": "Denver, CO",
+  "summary": "QA Automation Engineer with 5.4 years of experience.",
+  "skills": [
+    "Python",
+    "Postman",
+    "Playwright",
+    "REST API",
+    "CI/CD",
+    "Pytest",
+    "Git"
+  ],
+  "years_experience": 5.4,
+  "roles": [
+    "QA Automation Engineer"
+  ],
+  "companies": [
+    "FinPulse Digital"
+  ],
+  "experience": [
+    {
+      "title": "QA Automation Engineer",
+      "company": "FinPulse Digital",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using Python, Postman, Playwright."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Example State University"
+  ],
+  "certifications": [],
+  "projects": [
+    "QA Automation Engineer System Refactoring"
+  ],
+  "domains": [
+    "Quality / Security"
+  ],
+  "notice_period": "15 days",
+  "evidence": [
+    {
+      "attribute": "skills:Python",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Python at FinPulse Digital.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Postman",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Postman at FinPulse Digital.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Playwright",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Playwright at FinPulse Digital.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "QA Automation Engineer with over 5.4 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [],
+  "ambiguities": [],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0405"
+}

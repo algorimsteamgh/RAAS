@@ -1,0 +1,81 @@
+{
+  "candidate_id": "CAND-0013",
+  "full_name": "Liam Khan",
+  "email": "liam.khan@example.com",
+  "phone": "+1 555-746-1964",
+  "location": "New York, NY",
+  "summary": "Backend Engineer with 2.6 years of experience.",
+  "skills": [
+    "FastAPI",
+    "Redis",
+    "Microservices",
+    "Django",
+    "PostgreSQL",
+    "Python"
+  ],
+  "years_experience": 2.6,
+  "roles": [
+    "Backend Engineer"
+  ],
+  "companies": [
+    "OmniCloud Systems"
+  ],
+  "experience": [
+    {
+      "title": "Backend Engineer",
+      "company": "OmniCloud Systems",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using FastAPI, Redis, Microservices."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Institute of Technology"
+  ],
+  "certifications": [],
+  "projects": [
+    "Backend Engineer System Refactoring"
+  ],
+  "domains": [
+    "Software Engineering"
+  ],
+  "notice_period": "60 days",
+  "evidence": [
+    {
+      "attribute": "skills:FastAPI",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using FastAPI at OmniCloud Systems.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Redis",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Redis at OmniCloud Systems.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Microservices",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Microservices at OmniCloud Systems.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "Backend Engineer with over 2.6 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [],
+  "ambiguities": [],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0013"
+}

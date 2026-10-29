@@ -1,0 +1,13 @@
+Mason Fernandez
+Email: mason.fernandez@example.com | Phone: +1 555-854-7388 | Location: New York, NY
+Notice Period: Immediate
+SUMMARY:
+Engineering Manager with over 0.8 years of professional experience building scalable systems.
+SKILLS:
+System Architecture, Scrum, Team Mentorship, Leadership
+EXPERIENCE:
+Engineering Manager at FinPulse Digital (2020 - Present)
+- Developed core features using System Architecture, Scrum, Team Mentorship.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Metropolitan University

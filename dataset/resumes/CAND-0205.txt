@@ -1,0 +1,13 @@
+Viktor Khan
+Email: viktor.khan@example.com | Phone: +1 555-813-1660 | Location: New York, NY
+Notice Period: 30 days
+SUMMARY:
+DevOps Engineer with over 3.6 years of professional experience building scalable systems.
+SKILLS:
+Terraform, AWS, Python, Ansible
+EXPERIENCE:
+DevOps Engineer at ExampleTech Corp (2020 - Present)
+- Developed core features using Terraform, AWS, Python.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Metropolitan University

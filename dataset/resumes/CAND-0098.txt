@@ -1,0 +1,13 @@
+Yuki Sharma
+Email: yuki.sharma@example.com | Phone: +1 555-997-3147 | Location: Boston, MA
+Notice Period: 60 days
+SUMMARY:
+Full Stack Engineer with over 0.8 years of professional experience building scalable systems.
+SKILLS:
+Node.js, Docker, Express, TypeScript, REST API, React, PostgreSQL, GraphQL
+EXPERIENCE:
+Full Stack Engineer at Nexus AI Studios (2020 - Present)
+- Developed core features using Node.js, Docker, Express.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Metropolitan University

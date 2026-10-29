@@ -1,0 +1,13 @@
+Camila Davis
+Email: camila.davis@example.com | Phone: +1 555-864-6549 | Location: San Francisco, CA
+Notice Period: 30 days
+SUMMARY:
+Frontend Engineer with over 2.8 years of professional experience building scalable systems.
+SKILLS:
+Tailwind CSS, Redux, HTML5, React, JavaScript
+EXPERIENCE:
+Frontend Engineer at FinPulse Digital (2020 - Present)
+- Developed core features using Tailwind CSS, Redux, HTML5.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Example State University

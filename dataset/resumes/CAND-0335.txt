@@ -1,0 +1,13 @@
+Mason Ivanova
+Email: mason.ivanova@example.com | Phone: +1 555-261-9747 | Location: Denver, CO
+Notice Period: 15 days
+SUMMARY:
+Data Engineer with over 5.7 years of professional experience building scalable systems.
+SKILLS:
+Snowflake, Docker, Apache Spark, Airflow, PostgreSQL, AWS, SQL, Python
+EXPERIENCE:
+Data Engineer at Nexus AI Studios (2020 - Present)
+- Developed core features using Snowflake, Docker, Apache Spark.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Tech University

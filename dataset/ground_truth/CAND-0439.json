@@ -1,0 +1,83 @@
+{
+  "candidate_id": "CAND-0439",
+  "full_name": "Wei Wang",
+  "email": "wei.wang@example.com",
+  "phone": "+1 555-989-5225",
+  "location": "Denver, CO",
+  "summary": "Security Engineer with 5.4 years of experience.",
+  "skills": [
+    "Linux",
+    "Cryptography",
+    "OWASP",
+    "Python",
+    "SIEM",
+    "Penetration Testing"
+  ],
+  "years_experience": 5.4,
+  "roles": [
+    "Security Engineer"
+  ],
+  "companies": [
+    "Apex Global"
+  ],
+  "experience": [
+    {
+      "title": "Security Engineer",
+      "company": "Apex Global",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using Linux, Cryptography, OWASP."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Global Science Academy"
+  ],
+  "certifications": [],
+  "projects": [
+    "Security Engineer System Refactoring"
+  ],
+  "domains": [
+    "Quality / Security"
+  ],
+  "notice_period": "15 days",
+  "evidence": [
+    {
+      "attribute": "skills:Linux",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Linux at Apex Global.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Cryptography",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Cryptography at Apex Global.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:OWASP",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using OWASP at Apex Global.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "Security Engineer with over 5.4 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [],
+  "ambiguities": [
+    "difficult_edge_case"
+  ],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0439"
+}

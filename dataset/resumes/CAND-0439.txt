@@ -1,0 +1,13 @@
+Wei Wang
+Email: wei.wang@example.com | Phone: +1 555-989-5225 | Location: Denver, CO
+Notice Period: 15 days
+SUMMARY:
+Security Engineer with over 5.4 years of professional experience building scalable systems.
+SKILLS:
+Linux, Cryptography, OWASP, Python, SIEM, Penetration Testing
+EXPERIENCE:
+Security Engineer at Apex Global (2020 - Present)
+- Developed core features using Linux, Cryptography, OWASP.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Global Science Academy

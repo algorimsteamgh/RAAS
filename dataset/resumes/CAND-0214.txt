@@ -1,0 +1,13 @@
+Carlos Sato
+Email: carlos.sato@example.com | Phone: +1 555-100-6435 | Location: New York, NY
+Notice Period: 30 days
+SUMMARY:
+DevOps Engineer with over 3.7 years of professional experience building scalable systems.
+SKILLS:
+CI/CD, Docker, Linux, Kubernetes, Ansible
+EXPERIENCE:
+DevOps Engineer at DataFlow Systems (2020 - Present)
+- Developed core features using CI/CD, Docker, Linux.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Tech University

@@ -1,0 +1,80 @@
+{
+  "candidate_id": "CAND-0022",
+  "full_name": "Amir Rao",
+  "email": "amir.rao@example.com",
+  "phone": "+1 555-194-7939",
+  "location": "Chicago, IL",
+  "summary": "Backend Engineer with 3.7 years of experience.",
+  "skills": [
+    "Redis",
+    "FastAPI",
+    "Docker",
+    "PostgreSQL",
+    "Microservices"
+  ],
+  "years_experience": 3.7,
+  "roles": [
+    "Backend Engineer"
+  ],
+  "companies": [
+    "OmniCloud Systems"
+  ],
+  "experience": [
+    {
+      "title": "Backend Engineer",
+      "company": "OmniCloud Systems",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using Redis, FastAPI, Docker."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Example State University"
+  ],
+  "certifications": [],
+  "projects": [
+    "Backend Engineer System Refactoring"
+  ],
+  "domains": [
+    "Software Engineering"
+  ],
+  "notice_period": "Immediate",
+  "evidence": [
+    {
+      "attribute": "skills:Redis",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Redis at OmniCloud Systems.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:FastAPI",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using FastAPI at OmniCloud Systems.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Docker",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Docker at OmniCloud Systems.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "Backend Engineer with over 3.7 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [],
+  "ambiguities": [],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0022"
+}

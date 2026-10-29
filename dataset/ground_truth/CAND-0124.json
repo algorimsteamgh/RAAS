@@ -1,0 +1,83 @@
+{
+  "candidate_id": "CAND-0124",
+  "full_name": "Elena Davis",
+  "email": "elena.davis@example.com",
+  "phone": "+1 555-175-7329",
+  "location": "San Jose, CA",
+  "summary": "Full Stack Engineer with 4.4 years of experience.",
+  "skills": [
+    "React",
+    "GraphQL",
+    "TypeScript",
+    "Express",
+    "Node.js",
+    "REST API",
+    "PostgreSQL",
+    "Docker"
+  ],
+  "years_experience": 4.4,
+  "roles": [
+    "Full Stack Engineer"
+  ],
+  "companies": [
+    "InnovateSoft"
+  ],
+  "experience": [
+    {
+      "title": "Full Stack Engineer",
+      "company": "InnovateSoft",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using React, GraphQL, TypeScript."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Tech University"
+  ],
+  "certifications": [],
+  "projects": [
+    "Full Stack Engineer System Refactoring"
+  ],
+  "domains": [
+    "Software Engineering"
+  ],
+  "notice_period": "60 days",
+  "evidence": [
+    {
+      "attribute": "skills:React",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using React at InnovateSoft.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:GraphQL",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using GraphQL at InnovateSoft.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:TypeScript",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using TypeScript at InnovateSoft.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "Full Stack Engineer with over 4.4 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [],
+  "ambiguities": [],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0124"
+}

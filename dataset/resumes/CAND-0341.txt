@@ -1,0 +1,13 @@
+Emma Wang
+Email: emma.wang@example.com | Phone: +1 555-396-7460 | Location: Seattle, WA
+Notice Period: 15 days
+SUMMARY:
+Data Scientist with over 2.8 years of professional experience building scalable systems.
+SKILLS:
+Python, PyTorch, SQL, Scikit-Learn, Git, Pandas, Statistics, TensorFlow
+EXPERIENCE:
+Data Scientist at CloudScale Inc (2020 - Present)
+- Developed core features using Python, PyTorch, SQL.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Global Science Academy

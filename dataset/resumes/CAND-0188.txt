@@ -1,0 +1,12 @@
+Isabella Davis
+Email: isabella.davis@example.com | Phone: +1 555-240-7270 | Location: Seattle, WA
+SUMMARY:
+Node.js Developer with over 4.9 years of professional experience building scalable systems.
+SKILLS:
+JavaScript, MongoDB, Redis, TypeScript
+EXPERIENCE:
+Node.js Developer at CyberShield Labs (2020 - Present)
+- Developed core features using JavaScript, MongoDB, Redis.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Metropolitan University

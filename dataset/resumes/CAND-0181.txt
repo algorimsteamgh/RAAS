@@ -1,0 +1,12 @@
+Ethan Wang
+Email: ethan.wang@example.com | Phone: +1 555-160-5543 | Location: Seattle, WA
+SUMMARY:
+Node.js Developer with over 3.0 years of professional experience building scalable systems.
+SKILLS:
+Redis, Jest, TypeScript, Express, MongoDB
+EXPERIENCE:
+Node.js Developer at CloudScale Inc (2020 - Present)
+- Developed core features using Redis, Jest, TypeScript.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Tech University

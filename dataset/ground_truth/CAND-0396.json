@@ -1,0 +1,82 @@
+{
+  "candidate_id": "CAND-0396",
+  "full_name": "Yuki Mehta",
+  "email": "yuki.mehta@example.com",
+  "phone": "+1 555-951-2113",
+  "location": "Austin, TX",
+  "summary": "AI Engineer with 4.3 years of experience.",
+  "skills": [
+    "Transformers",
+    "PyTorch",
+    "Vector DB",
+    "Ollama",
+    "FastAPI",
+    "Python",
+    "LangChain"
+  ],
+  "years_experience": 4.3,
+  "roles": [
+    "AI Engineer"
+  ],
+  "companies": [
+    "ExampleTech Corp"
+  ],
+  "experience": [
+    {
+      "title": "AI Engineer",
+      "company": "ExampleTech Corp",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using Transformers, PyTorch, Vector DB."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Tech University"
+  ],
+  "certifications": [],
+  "projects": [
+    "AI Engineer System Refactoring"
+  ],
+  "domains": [
+    "Data / AI"
+  ],
+  "notice_period": "Immediate",
+  "evidence": [
+    {
+      "attribute": "skills:Transformers",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Transformers at ExampleTech Corp.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:PyTorch",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using PyTorch at ExampleTech Corp.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Vector DB",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Vector DB at ExampleTech Corp.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "AI Engineer with over 4.3 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [],
+  "ambiguities": [],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0396"
+}

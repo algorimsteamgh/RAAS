@@ -1,0 +1,13 @@
+Mason Williams
+Email: mason.williams@example.com | Phone: +1 555-353-5537 | Location: San Francisco, CA
+Notice Period: 15 days
+SUMMARY:
+Node.js Developer with over 4.6 years of professional experience building scalable systems.
+SKILLS:
+MongoDB, Jest, Redis, JavaScript, Node.js, Docker, Express, TypeScript
+EXPERIENCE:
+Node.js Developer at NextGen Solutions (2020 - Present)
+- Developed core features using MongoDB, Jest, Redis.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Example State University

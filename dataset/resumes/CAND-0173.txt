@@ -1,0 +1,12 @@
+Rohan Fernandez
+Email: rohan.fernandez@example.com | Phone: +1 555-539-7370 | Location: Austin, TX
+SUMMARY:
+Python Developer with over 3.2 years of professional experience building scalable systems.
+SKILLS:
+Django, Git, Redis, Docker
+EXPERIENCE:
+Python Developer at Apex Global (2020 - Present)
+- Developed core features using Django, Git, Redis.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Metropolitan University

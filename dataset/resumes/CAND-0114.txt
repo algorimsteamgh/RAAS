@@ -1,0 +1,13 @@
+Kofi Smith
+Email: kofi.smith@example.com | Phone: +1 555-663-9882 | Location: Chicago, IL
+Notice Period: 60 days
+SUMMARY:
+Full Stack Engineer with over 5.5 years of professional experience building scalable systems.
+SKILLS:
+Docker, PostgreSQL, React, TypeScript, GraphQL
+EXPERIENCE:
+Full Stack Engineer at CloudScale Inc (2020 - Present)
+- Developed core features using Docker, PostgreSQL, React.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Institute of Technology

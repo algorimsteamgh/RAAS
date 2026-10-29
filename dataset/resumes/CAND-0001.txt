@@ -1,0 +1,13 @@
+Hiroshi Johnson
+Email: hiroshi.johnson@example.com | Phone: +1 555-125-5506 | Location: New York, NY
+Notice Period: Immediate
+SUMMARY:
+Backend Engineer with over 5.1 years of professional experience building scalable systems.
+SKILLS:
+FastAPI, Redis, PostgreSQL, Python, REST API, Docker, Django, Microservices
+EXPERIENCE:
+Backend Engineer at OmniCloud Systems (2020 - Present)
+- Developed core features using FastAPI, Redis, PostgreSQL.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Tech University

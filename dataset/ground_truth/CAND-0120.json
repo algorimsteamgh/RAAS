@@ -1,0 +1,81 @@
+{
+  "candidate_id": "CAND-0120",
+  "full_name": "Rohan Wang",
+  "email": "rohan.wang@example.com",
+  "phone": "+1 555-595-8609",
+  "location": "New York, NY",
+  "summary": "Full Stack Engineer with 3.0 years of experience.",
+  "skills": [
+    "Docker",
+    "Express",
+    "React",
+    "Node.js",
+    "TypeScript",
+    "GraphQL"
+  ],
+  "years_experience": 3.0,
+  "roles": [
+    "Full Stack Engineer"
+  ],
+  "companies": [
+    "InnovateSoft"
+  ],
+  "experience": [
+    {
+      "title": "Full Stack Engineer",
+      "company": "InnovateSoft",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using Docker, Express, React."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Global Science Academy"
+  ],
+  "certifications": [],
+  "projects": [
+    "Full Stack Engineer System Refactoring"
+  ],
+  "domains": [
+    "Software Engineering"
+  ],
+  "notice_period": "Immediate",
+  "evidence": [
+    {
+      "attribute": "skills:Docker",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Docker at InnovateSoft.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Express",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Express at InnovateSoft.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:React",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using React at InnovateSoft.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "Full Stack Engineer with over 3.0 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [],
+  "ambiguities": [],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0120"
+}

@@ -1,0 +1,84 @@
+{
+  "candidate_id": "CAND-0100",
+  "full_name": "Natasha Patel",
+  "email": "natasha.patel@example.com",
+  "phone": "+1 555-667-2680",
+  "location": "San Jose, CA",
+  "summary": "Full Stack Engineer with 3.5 years of experience.",
+  "skills": [
+    "PostgreSQL",
+    "Express",
+    "GraphQL",
+    "React",
+    "REST API"
+  ],
+  "years_experience": null,
+  "roles": [
+    "Full Stack Engineer"
+  ],
+  "companies": [
+    "DataFlow Systems"
+  ],
+  "experience": [
+    {
+      "title": "Full Stack Engineer",
+      "company": "DataFlow Systems",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using PostgreSQL, Express, GraphQL."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Institute of Technology"
+  ],
+  "certifications": [],
+  "projects": [
+    "Full Stack Engineer System Refactoring"
+  ],
+  "domains": [
+    "Software Engineering"
+  ],
+  "notice_period": "60 days",
+  "evidence": [
+    {
+      "attribute": "skills:PostgreSQL",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using PostgreSQL at DataFlow Systems.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Express",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Express at DataFlow Systems.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:GraphQL",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using GraphQL at DataFlow Systems.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "Full Stack Engineer with over 3.5 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [
+    "Explicit total years of experience not clearly stated in text summary"
+  ],
+  "ambiguities": [
+    "ambiguous"
+  ],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0100"
+}

@@ -1,0 +1,13 @@
+Viktor Brown
+Email: viktor.brown@example.com | Phone: +1 555-815-5275 | Location: San Jose, CA
+Notice Period: 60 days
+SUMMARY:
+Engineering Manager with over 8.2 years of professional experience building scalable systems.
+SKILLS:
+CI/CD, Leadership, Team Mentorship, Agile, Python, System Architecture, Jira, Scrum
+EXPERIENCE:
+Engineering Manager at CloudScale Inc (2020 - Present)
+- Developed core features using CI/CD, Leadership, Team Mentorship.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Example State University

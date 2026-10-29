@@ -1,0 +1,139 @@
+{
+  "candidate_id": "CAND-551B89A6",
+  "full_name": "Alex Morgan - Senior Backend Engineer",
+  "email": "alex.morgan@techmail.com",
+  "phone": "+1 555-0182",
+  "skills": [
+    "Python",
+    "FastAPI",
+    "Django",
+    "SQL",
+    "PostgreSQL",
+    "Redis",
+    "Docker",
+    "Kubernetes",
+    "AWS",
+    "Git",
+    "Linux",
+    "REST API",
+    "CI/CD",
+    "Agile",
+    "Scrum"
+  ],
+  "years_experience": 6.0,
+  "roles": [
+    "Senior Backend Engineer",
+    "Software Engineer"
+  ],
+  "companies": [],
+  "education": [
+    "Bachelor's degree or higher in CS/Engineering"
+  ],
+  "certifications": [],
+  "projects": [],
+  "domains": [
+    "Technology"
+  ],
+  "location": null,
+  "notice_period": "2 weeks",
+  "evidence": [
+    {
+      "attribute": "skills:Python",
+      "source_section": "Skills / Experience",
+      "source_text": "REST APIs, and database architecture using Python, FastAPI, PostgreSQL, Docker, and AWS.",
+      "confidence": 0.85
+    },
+    {
+      "attribute": "skills:FastAPI",
+      "source_section": "Skills / Experience",
+      "source_text": "REST APIs, and database architecture using Python, FastAPI, PostgreSQL, Docker, and AWS.",
+      "confidence": 0.85
+    },
+    {
+      "attribute": "skills:Django",
+      "source_section": "Skills / Experience",
+      "source_text": "- Languages & Frameworks: Python, FastAPI, Django, PostgreSQL, Redis, SQL",
+      "confidence": 0.85
+    },
+    {
+      "attribute": "skills:SQL",
+      "source_section": "Skills / Experience",
+      "source_text": "REST APIs, and database architecture using Python, FastAPI, PostgreSQL, Docker, and AWS.",
+      "confidence": 0.85
+    },
+    {
+      "attribute": "skills:PostgreSQL",
+      "source_section": "Skills / Experience",
+      "source_text": "REST APIs, and database architecture using Python, FastAPI, PostgreSQL, Docker, and AWS.",
+      "confidence": 0.85
+    },
+    {
+      "attribute": "skills:Redis",
+      "source_section": "Skills / Experience",
+      "source_text": "- Languages & Frameworks: Python, FastAPI, Django, PostgreSQL, Redis, SQL",
+      "confidence": 0.85
+    },
+    {
+      "attribute": "skills:Docker",
+      "source_section": "Skills / Experience",
+      "source_text": "REST APIs, and database architecture using Python, FastAPI, PostgreSQL, Docker, and AWS.",
+      "confidence": 0.85
+    },
+    {
+      "attribute": "skills:Kubernetes",
+      "source_section": "Skills / Experience",
+      "source_text": "- DevOps & Infrastructure: Docker, Kubernetes, AWS (EC2, S3), Git, Linux",
+      "confidence": 0.85
+    },
+    {
+      "attribute": "skills:AWS",
+      "source_section": "Skills / Experience",
+      "source_text": "REST APIs, and database architecture using Python, FastAPI, PostgreSQL, Docker, and AWS.",
+      "confidence": 0.85
+    },
+    {
+      "attribute": "skills:Git",
+      "source_section": "Skills / Experience",
+      "source_text": "- DevOps & Infrastructure: Docker, Kubernetes, AWS (EC2, S3), Git, Linux",
+      "confidence": 0.85
+    },
+    {
+      "attribute": "skills:Linux",
+      "source_section": "Skills / Experience",
+      "source_text": "- DevOps & Infrastructure: Docker, Kubernetes, AWS (EC2, S3), Git, Linux",
+      "confidence": 0.85
+    },
+    {
+      "attribute": "skills:REST API",
+      "source_section": "Skills / Experience",
+      "source_text": "REST APIs, and database architecture using Python, FastAPI, PostgreSQL, Docker, and AWS.",
+      "confidence": 0.85
+    },
+    {
+      "attribute": "skills:CI/CD",
+      "source_section": "Skills / Experience",
+      "source_text": "- Principles: REST API design, Microservices, CI/CD, Agile/Scrum",
+      "confidence": 0.85
+    },
+    {
+      "attribute": "skills:Agile",
+      "source_section": "Skills / Experience",
+      "source_text": "- Principles: REST API design, Microservices, CI/CD, Agile/Scrum",
+      "confidence": 0.85
+    },
+    {
+      "attribute": "skills:Scrum",
+      "source_section": "Skills / Experience",
+      "source_text": "- Principles: REST API design, Microservices, CI/CD, Agile/Scrum",
+      "confidence": 0.85
+    }
+  ],
+  "confidence": {
+    "skills": 0.85,
+    "years_experience": 0.8,
+    "roles": 0.8,
+    "education": 0.7,
+    "overall": 0.8
+  },
+  "missing_information": []
+}

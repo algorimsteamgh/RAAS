@@ -1,0 +1,83 @@
+{
+  "candidate_id": "CAND-0072",
+  "full_name": "Amir Diallo",
+  "email": "amir.diallo@example.com",
+  "phone": "+1 555-238-7367",
+  "location": "Denver, CO",
+  "summary": "Frontend Engineer with 5.8 years of experience.",
+  "skills": [
+    "Tailwind CSS",
+    "HTML5",
+    "CSS3",
+    "TypeScript",
+    "Next.js",
+    "React",
+    "JavaScript",
+    "Redux"
+  ],
+  "years_experience": 5.8,
+  "roles": [
+    "Frontend Engineer"
+  ],
+  "companies": [
+    "Nexus AI Studios"
+  ],
+  "experience": [
+    {
+      "title": "Frontend Engineer",
+      "company": "Nexus AI Studios",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using Tailwind CSS, HTML5, CSS3."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Global Science Academy"
+  ],
+  "certifications": [],
+  "projects": [
+    "Frontend Engineer System Refactoring"
+  ],
+  "domains": [
+    "Software Engineering"
+  ],
+  "notice_period": "30 days",
+  "evidence": [
+    {
+      "attribute": "skills:Tailwind CSS",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Tailwind CSS at Nexus AI Studios.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:HTML5",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using HTML5 at Nexus AI Studios.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:CSS3",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using CSS3 at Nexus AI Studios.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "Frontend Engineer with over 5.8 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [],
+  "ambiguities": [],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0072"
+}

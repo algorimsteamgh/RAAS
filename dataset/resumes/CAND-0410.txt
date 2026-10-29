@@ -1,0 +1,12 @@
+Liam Mehta
+Email: liam.mehta@example.com | Phone: +1 555-107-3939 | Location: San Francisco, CA
+SUMMARY:
+QA Automation Engineer with over 4.6 years of professional experience building scalable systems.
+SKILLS:
+REST API, CI/CD, Pytest, Selenium, Git, Python
+EXPERIENCE:
+QA Automation Engineer at NextGen Solutions (2020 - Present)
+- Developed core features using REST API, CI/CD, Pytest.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Tech University

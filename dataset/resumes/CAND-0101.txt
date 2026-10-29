@@ -1,0 +1,13 @@
+Amir Patel
+Email: amir.patel@example.com | Phone: +1 555-127-7797 | Location: Austin, TX
+Notice Period: Immediate
+SUMMARY:
+Full Stack Engineer with over 3.8 years of professional experience building scalable systems.
+SKILLS:
+React, Node.js, GraphQL, TypeScript, REST API, PostgreSQL, Docker
+EXPERIENCE:
+Full Stack Engineer at CloudScale Inc (2020 - Present)
+- Developed core features using React, Node.js, GraphQL.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Institute of Technology

@@ -1,0 +1,13 @@
+Fatima Davis
+Email: fatima.davis@example.com | Phone: +1 555-689-7149 | Location: Boston, MA
+Notice Period: 30 days
+SUMMARY:
+Backend Engineer with over 3.2 years of professional experience building scalable systems.
+SKILLS:
+PostgreSQL, Python, Docker, Django, REST API, Redis, Microservices, FastAPI
+EXPERIENCE:
+Backend Engineer at OmniCloud Systems (2020 - Present)
+- Developed core features using PostgreSQL, Python, Docker.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Global Science Academy

@@ -1,0 +1,13 @@
+Zainab Williams
+Email: zainab.williams@example.com | Phone: +1 555-206-7347 | Location: Remote
+Notice Period: 30 days
+SUMMARY:
+Cloud Engineer with over 3.8 years of professional experience building scalable systems.
+SKILLS:
+Terraform, GCP, Python, Linux, Kubernetes, Azure, AWS, Docker
+EXPERIENCE:
+Cloud Engineer at FinPulse Digital (2020 - Present)
+- Developed core features using Terraform, GCP, Python.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Tech University

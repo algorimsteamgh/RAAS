@@ -1,0 +1,13 @@
+Ananya Johnson
+Email: ananya.johnson@example.com | Phone: +1 555-623-2928 | Location: Chicago, IL
+Notice Period: 30 days
+SUMMARY:
+Cloud Engineer with over 2.9 years of professional experience building scalable systems.
+SKILLS:
+Terraform, Linux, GCP, Kubernetes, Azure
+EXPERIENCE:
+Cloud Engineer at Apex Global (2020 - Present)
+- Developed core features using Terraform, Linux, GCP.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Global Science Academy

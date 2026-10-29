@@ -1,0 +1,12 @@
+Mateo Smith
+Email: mateo.smith@example.com | Phone: +1 555-776-9518 | Location: Denver, CO
+SUMMARY:
+Engineering Manager with over 0.8 years of professional experience building scalable systems.
+SKILLS:
+Team Mentorship, Python, System Architecture, Jira, CI/CD, Leadership, Agile
+EXPERIENCE:
+Engineering Manager at ExampleTech Corp (2020 - Present)
+- Developed core features using Team Mentorship, Python, System Architecture.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Global Science Academy

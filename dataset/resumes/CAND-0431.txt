@@ -1,0 +1,13 @@
+Fatima Mehta
+Email: fatima.mehta@example.com | Phone: +1 555-514-9182 | Location: Seattle, WA
+Notice Period: 30 days
+SUMMARY:
+Security Engineer with over 5.7 years of professional experience building scalable systems.
+SKILLS:
+Linux, Docker, Wireshark, Cryptography, OWASP
+EXPERIENCE:
+Security Engineer at NextGen Solutions (2020 - Present)
+- Developed core features using Linux, Docker, Wireshark.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Global Science Academy

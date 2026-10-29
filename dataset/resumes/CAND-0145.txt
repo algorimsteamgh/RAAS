@@ -1,0 +1,13 @@
+Mei Mehta
+Email: mei.mehta@example.com | Phone: +1 555-346-4376 | Location: San Francisco, CA
+Notice Period: 30 days
+SUMMARY:
+Java Developer with over 2.6 years of professional experience building scalable systems.
+SKILLS:
+Java, Spring Boot, Docker, REST API, PostgreSQL, Maven, Kafka, Hibernate
+EXPERIENCE:
+Java Developer at ExampleTech Corp (2020 - Present)
+- Developed core features using Java, Spring Boot, Docker.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Institute of Technology

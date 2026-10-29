@@ -1,0 +1,13 @@
+Sophia Davis
+Email: sophia.davis@example.com | Phone: +1 555-734-2143 | Location: New York, NY
+Notice Period: 15 days
+SUMMARY:
+Site Reliability Engineer with over 4.1 years of professional experience building scalable systems.
+SKILLS:
+Grafana, Docker, AWS, Python, Kubernetes, CI/CD, Prometheus, Linux
+EXPERIENCE:
+Site Reliability Engineer at ExampleTech Corp (2020 - Present)
+- Developed core features using Grafana, Docker, AWS.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Metropolitan University

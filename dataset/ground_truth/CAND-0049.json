@@ -1,0 +1,81 @@
+{
+  "candidate_id": "CAND-0049",
+  "full_name": "Elena Wang",
+  "email": "elena.wang@example.com",
+  "phone": "+1 555-720-4697",
+  "location": "San Jose, CA",
+  "summary": "Backend Engineer with 1.9 years of experience.",
+  "skills": [
+    "REST API",
+    "Django",
+    "Redis",
+    "Docker",
+    "Python",
+    "Microservices"
+  ],
+  "years_experience": 1.9,
+  "roles": [
+    "Backend Engineer"
+  ],
+  "companies": [
+    "DataFlow Systems"
+  ],
+  "experience": [
+    {
+      "title": "Backend Engineer",
+      "company": "DataFlow Systems",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using REST API, Django, Redis."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Institute of Technology"
+  ],
+  "certifications": [],
+  "projects": [
+    "Backend Engineer System Refactoring"
+  ],
+  "domains": [
+    "Software Engineering"
+  ],
+  "notice_period": "15 days",
+  "evidence": [
+    {
+      "attribute": "skills:REST API",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using REST API at DataFlow Systems.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Django",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Django at DataFlow Systems.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Redis",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Redis at DataFlow Systems.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "Backend Engineer with over 1.9 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [],
+  "ambiguities": [],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0049"
+}

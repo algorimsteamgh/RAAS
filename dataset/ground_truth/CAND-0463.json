@@ -1,0 +1,83 @@
+{
+  "candidate_id": "CAND-0463",
+  "full_name": "Ananya Jones",
+  "email": "ananya.jones@example.com",
+  "phone": "+1 555-455-2256",
+  "location": "Chicago, IL",
+  "summary": "Engineering Manager with 7.4 years of experience.",
+  "skills": [
+    "CI/CD",
+    "Scrum",
+    "Leadership",
+    "Team Mentorship",
+    "System Architecture",
+    "Python",
+    "Jira",
+    "Agile"
+  ],
+  "years_experience": 7.4,
+  "roles": [
+    "Engineering Manager"
+  ],
+  "companies": [
+    "ExampleTech Corp"
+  ],
+  "experience": [
+    {
+      "title": "Engineering Manager",
+      "company": "ExampleTech Corp",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using CI/CD, Scrum, Leadership."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Tech University"
+  ],
+  "certifications": [],
+  "projects": [
+    "Engineering Manager System Refactoring"
+  ],
+  "domains": [
+    "Management"
+  ],
+  "notice_period": "15 days",
+  "evidence": [
+    {
+      "attribute": "skills:CI/CD",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using CI/CD at ExampleTech Corp.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Scrum",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Scrum at ExampleTech Corp.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Leadership",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Leadership at ExampleTech Corp.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "Engineering Manager with over 7.4 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [],
+  "ambiguities": [],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0463"
+}

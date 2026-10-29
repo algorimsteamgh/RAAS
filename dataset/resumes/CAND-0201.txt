@@ -1,0 +1,13 @@
+Hiroshi Khan
+Email: hiroshi.khan@example.com | Phone: +1 555-998-1157 | Location: Remote
+Notice Period: 30 days
+SUMMARY:
+DevOps Engineer with over 4.8 years of professional experience building scalable systems.
+SKILLS:
+Kubernetes, Python, Ansible, Linux, Terraform, CI/CD
+EXPERIENCE:
+DevOps Engineer at ExampleTech Corp (2020 - Present)
+- Developed core features using Kubernetes, Python, Ansible.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Institute of Technology

@@ -1,0 +1,13 @@
+Viktor Diallo
+Email: viktor.diallo@example.com | Phone: +1 555-319-5708 | Location: Chicago, IL
+Notice Period: 60 days
+SUMMARY:
+Engineering Manager with over 2.0 years of professional experience building scalable systems.
+SKILLS:
+Leadership, Python, CI/CD, Agile, Jira, System Architecture, Scrum
+EXPERIENCE:
+Engineering Manager at NextGen Solutions (2020 - Present)
+- Developed core features using Leadership, Python, CI/CD.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Example State University

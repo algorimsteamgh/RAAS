@@ -1,0 +1,82 @@
+{
+  "candidate_id": "CAND-0361",
+  "full_name": "Natasha Sato",
+  "email": "natasha.sato@example.com",
+  "phone": "+1 555-656-1094",
+  "location": "Denver, CO",
+  "summary": "Machine Learning Engineer with 4.6 years of experience.",
+  "skills": [
+    "Git",
+    "Docker",
+    "CUDA",
+    "Python",
+    "FastAPI",
+    "MLflow",
+    "PyTorch"
+  ],
+  "years_experience": 4.6,
+  "roles": [
+    "Machine Learning Engineer"
+  ],
+  "companies": [
+    "Nexus AI Studios"
+  ],
+  "experience": [
+    {
+      "title": "Machine Learning Engineer",
+      "company": "Nexus AI Studios",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using Git, Docker, CUDA."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Tech University"
+  ],
+  "certifications": [],
+  "projects": [
+    "Machine Learning Engineer System Refactoring"
+  ],
+  "domains": [
+    "Data / AI"
+  ],
+  "notice_period": "15 days",
+  "evidence": [
+    {
+      "attribute": "skills:Git",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Git at Nexus AI Studios.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Docker",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Docker at Nexus AI Studios.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:CUDA",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using CUDA at Nexus AI Studios.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "Machine Learning Engineer with over 4.6 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [],
+  "ambiguities": [],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0361"
+}

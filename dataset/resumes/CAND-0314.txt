@@ -1,0 +1,13 @@
+Dev Johnson
+Email: dev.johnson@example.com | Phone: +1 555-197-2045 | Location: Denver, CO
+Notice Period: 15 days
+SUMMARY:
+Data Engineer with over 2.6 years of professional experience building scalable systems.
+SKILLS:
+SQL, Python, Apache Spark, PostgreSQL, AWS, Docker, Airflow
+EXPERIENCE:
+Data Engineer at NextGen Solutions (2020 - Present)
+- Developed core features using SQL, Python, Apache Spark.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Institute of Technology

@@ -1,0 +1,81 @@
+{
+  "candidate_id": "CAND-0123",
+  "full_name": "Ava Diallo",
+  "email": "ava.diallo@example.com",
+  "phone": "+1 555-108-2761",
+  "location": "Boston, MA",
+  "summary": "Full Stack Engineer with 3.4 years of experience.",
+  "skills": [
+    "REST API",
+    "Node.js",
+    "TypeScript",
+    "Express",
+    "Docker",
+    "GraphQL"
+  ],
+  "years_experience": 3.4,
+  "roles": [
+    "Full Stack Engineer"
+  ],
+  "companies": [
+    "OmniCloud Systems"
+  ],
+  "experience": [
+    {
+      "title": "Full Stack Engineer",
+      "company": "OmniCloud Systems",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using REST API, Node.js, TypeScript."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Institute of Technology"
+  ],
+  "certifications": [],
+  "projects": [
+    "Full Stack Engineer System Refactoring"
+  ],
+  "domains": [
+    "Software Engineering"
+  ],
+  "notice_period": "30 days",
+  "evidence": [
+    {
+      "attribute": "skills:REST API",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using REST API at OmniCloud Systems.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Node.js",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Node.js at OmniCloud Systems.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:TypeScript",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using TypeScript at OmniCloud Systems.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "Full Stack Engineer with over 3.4 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [],
+  "ambiguities": [],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0123"
+}

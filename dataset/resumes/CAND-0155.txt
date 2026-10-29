@@ -1,0 +1,13 @@
+Zainab Miller
+Email: zainab.miller@example.com | Phone: +1 555-648-5697 | Location: Austin, TX
+Notice Period: 30 days
+SUMMARY:
+Java Developer with over 4.9 years of professional experience building scalable systems.
+SKILLS:
+Hibernate, Java, Maven, Kafka, Spring Boot, Docker, REST API
+EXPERIENCE:
+Java Developer at Nexus AI Studios (2020 - Present)
+- Developed core features using Hibernate, Java, Maven.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Tech University

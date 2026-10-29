@@ -1,0 +1,12 @@
+Liam Tanaka
+Email: liam.tanaka@example.com | Phone: +1 555-950-8861 | Location: Denver, CO
+SUMMARY:
+Technical Project Manager with over 7.3 years of professional experience building scalable systems.
+SKILLS:
+Jira, Agile, Stakeholder Communication, Risk Management
+EXPERIENCE:
+Technical Project Manager at Apex Global (2020 - Present)
+- Developed core features using Jira, Agile, Stakeholder Communication.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Tech University

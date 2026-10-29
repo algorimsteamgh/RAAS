@@ -1,0 +1,13 @@
+Mei Patel
+Email: mei.patel@example.com | Phone: +1 555-983-9842 | Location: San Jose, CA
+Notice Period: 15 days
+SUMMARY:
+QA Automation Engineer with over 5.2 years of professional experience building scalable systems.
+SKILLS:
+Git, Python, Selenium, REST API, CI/CD
+EXPERIENCE:
+QA Automation Engineer at CyberShield Labs (2020 - Present)
+- Developed core features using Git, Python, Selenium.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Global Science Academy

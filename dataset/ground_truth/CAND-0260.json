@@ -1,0 +1,80 @@
+{
+  "candidate_id": "CAND-0260",
+  "full_name": "Amir Brown",
+  "email": "amir.brown@example.com",
+  "phone": "+1 555-604-3301",
+  "location": "Boston, MA",
+  "summary": "Cloud Engineer with 4.6 years of experience.",
+  "skills": [
+    "Azure",
+    "Linux",
+    "Terraform",
+    "Python",
+    "Docker"
+  ],
+  "years_experience": 4.6,
+  "roles": [
+    "Cloud Engineer"
+  ],
+  "companies": [
+    "InnovateSoft"
+  ],
+  "experience": [
+    {
+      "title": "Cloud Engineer",
+      "company": "InnovateSoft",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using Azure, Linux, Terraform."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Metropolitan University"
+  ],
+  "certifications": [],
+  "projects": [
+    "Cloud Engineer System Refactoring"
+  ],
+  "domains": [
+    "Infrastructure"
+  ],
+  "notice_period": "Immediate",
+  "evidence": [
+    {
+      "attribute": "skills:Azure",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Azure at InnovateSoft.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Linux",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Linux at InnovateSoft.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Terraform",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Terraform at InnovateSoft.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "Cloud Engineer with over 4.6 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [],
+  "ambiguities": [],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0260"
+}

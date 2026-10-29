@@ -1,0 +1,13 @@
+Isabella Fernandez
+Email: isabella.fernandez@example.com | Phone: +1 555-355-4817 | Location: Chicago, IL
+Notice Period: 30 days
+SUMMARY:
+Data Scientist with over 2.8 years of professional experience building scalable systems.
+SKILLS:
+SQL, TensorFlow, Python, Scikit-Learn, Git, Statistics, Pandas
+EXPERIENCE:
+Data Scientist at Nexus AI Studios (2020 - Present)
+- Developed core features using SQL, TensorFlow, Python.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Example State University

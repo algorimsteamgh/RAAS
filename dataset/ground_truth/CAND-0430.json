@@ -1,0 +1,85 @@
+{
+  "candidate_id": "CAND-0430",
+  "full_name": "Lucas Patel",
+  "email": "lucas.patel@example.com",
+  "phone": "+1 555-288-4361",
+  "location": "San Jose, CA",
+  "summary": "QA Automation Engineer with 4.8 years of experience.",
+  "skills": [
+    "Playwright",
+    "Postman",
+    "Pytest",
+    "Git",
+    "Selenium",
+    "REST API"
+  ],
+  "years_experience": 4.8,
+  "roles": [
+    "QA Automation Engineer"
+  ],
+  "companies": [
+    "NextGen Solutions"
+  ],
+  "experience": [
+    {
+      "title": "QA Automation Engineer",
+      "company": "NextGen Solutions",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using Playwright, Postman, Pytest."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Example State University"
+  ],
+  "certifications": [],
+  "projects": [
+    "QA Automation Engineer System Refactoring"
+  ],
+  "domains": [
+    "Quality / Security"
+  ],
+  "notice_period": null,
+  "evidence": [
+    {
+      "attribute": "skills:Playwright",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Playwright at NextGen Solutions.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Postman",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Postman at NextGen Solutions.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Pytest",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Pytest at NextGen Solutions.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "QA Automation Engineer with over 4.8 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [
+    "Notice period not specified in CV"
+  ],
+  "ambiguities": [
+    "messy"
+  ],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0430"
+}

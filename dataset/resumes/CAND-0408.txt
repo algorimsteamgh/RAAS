@@ -1,0 +1,13 @@
+Liam Jones
+Email: liam.jones@example.com | Phone: +1 555-536-6527 | Location: Boston, MA
+Notice Period: 60 days
+SUMMARY:
+QA Automation Engineer with over 5.9 years of professional experience building scalable systems.
+SKILLS:
+Playwright, Postman, Selenium, Python, CI/CD, Pytest, Git, REST API
+EXPERIENCE:
+QA Automation Engineer at NextGen Solutions (2020 - Present)
+- Developed core features using Playwright, Postman, Selenium.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Institute of Technology

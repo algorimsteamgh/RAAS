@@ -1,0 +1,13 @@
+Ananya Mensah
+Email: ananya.mensah@example.com | Phone: +1 555-503-8852 | Location: San Francisco, CA
+Notice Period: Immediate
+SUMMARY:
+QA Automation Engineer with over 3.3 years of professional experience building scalable systems.
+SKILLS:
+Python, CI/CD, REST API, Pytest, Selenium, Postman, Git, Playwright
+EXPERIENCE:
+QA Automation Engineer at InnovateSoft (2020 - Present)
+- Developed core features using Python, CI/CD, REST API.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Example State University

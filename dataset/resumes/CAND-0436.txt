@@ -1,0 +1,13 @@
+Ava Sato
+Email: ava.sato@example.com | Phone: +1 555-988-9606 | Location: Remote
+Notice Period: 15 days
+SUMMARY:
+Security Engineer with over 5.9 years of professional experience building scalable systems.
+SKILLS:
+Python, Linux, Penetration Testing, OWASP, Docker, Cryptography, SIEM
+EXPERIENCE:
+Security Engineer at Nexus AI Studios (2020 - Present)
+- Developed core features using Python, Linux, Penetration Testing.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Institute of Technology

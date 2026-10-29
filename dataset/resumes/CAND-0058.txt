@@ -1,0 +1,13 @@
+Emma Tanaka
+Email: emma.tanaka@example.com | Phone: +1 555-664-3369 | Location: Boston, MA
+Notice Period: 30 days
+SUMMARY:
+Frontend Engineer with over 4.6 years of professional experience building scalable systems.
+SKILLS:
+TypeScript, React, Next.js, Tailwind CSS, HTML5
+EXPERIENCE:
+Frontend Engineer at ExampleTech Corp (2020 - Present)
+- Developed core features using TypeScript, React, Next.js.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Metropolitan University

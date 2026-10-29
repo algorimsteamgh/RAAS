@@ -1,0 +1,85 @@
+{
+  "candidate_id": "CAND-0153",
+  "full_name": "Zainab Diallo",
+  "email": "zainab.diallo@example.com",
+  "phone": "+1 555-600-4015",
+  "location": "San Jose, CA",
+  "summary": "Java Developer with 5.9 years of experience.",
+  "skills": [
+    "Java",
+    "Maven",
+    "REST API",
+    "Docker",
+    "Kafka",
+    "Spring Boot",
+    "PostgreSQL",
+    "Hibernate"
+  ],
+  "years_experience": 5.9,
+  "roles": [
+    "Java Developer"
+  ],
+  "companies": [
+    "DataFlow Systems"
+  ],
+  "experience": [
+    {
+      "title": "Java Developer",
+      "company": "DataFlow Systems",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using Java, Maven, REST API."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Institute of Technology"
+  ],
+  "certifications": [],
+  "projects": [
+    "Java Developer System Refactoring"
+  ],
+  "domains": [
+    "Software Engineering"
+  ],
+  "notice_period": "Immediate",
+  "evidence": [
+    {
+      "attribute": "skills:Java",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Java at DataFlow Systems.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Maven",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Maven at DataFlow Systems.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:REST API",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using REST API at DataFlow Systems.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "Java Developer with over 5.9 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [],
+  "ambiguities": [
+    "difficult_edge_case"
+  ],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0153"
+}

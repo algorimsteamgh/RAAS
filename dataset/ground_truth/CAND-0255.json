@@ -1,0 +1,82 @@
+{
+  "candidate_id": "CAND-0255",
+  "full_name": "Ananya Ivanova",
+  "email": "ananya.ivanova@example.com",
+  "phone": "+1 555-844-5072",
+  "location": "Denver, CO",
+  "summary": "Cloud Engineer with 4.9 years of experience.",
+  "skills": [
+    "GCP",
+    "Linux",
+    "Kubernetes",
+    "Docker",
+    "AWS",
+    "Terraform",
+    "Python"
+  ],
+  "years_experience": 4.9,
+  "roles": [
+    "Cloud Engineer"
+  ],
+  "companies": [
+    "OmniCloud Systems"
+  ],
+  "experience": [
+    {
+      "title": "Cloud Engineer",
+      "company": "OmniCloud Systems",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using GCP, Linux, Kubernetes."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Global Science Academy"
+  ],
+  "certifications": [],
+  "projects": [
+    "Cloud Engineer System Refactoring"
+  ],
+  "domains": [
+    "Infrastructure"
+  ],
+  "notice_period": "60 days",
+  "evidence": [
+    {
+      "attribute": "skills:GCP",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using GCP at OmniCloud Systems.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Linux",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Linux at OmniCloud Systems.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Kubernetes",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Kubernetes at OmniCloud Systems.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "Cloud Engineer with over 4.9 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [],
+  "ambiguities": [],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0255"
+}

@@ -1,0 +1,13 @@
+Emma Sato
+Email: emma.sato@example.com | Phone: +1 555-908-7246 | Location: Remote
+Notice Period: 60 days
+SUMMARY:
+Site Reliability Engineer with over 5.1 years of professional experience building scalable systems.
+SKILLS:
+Python, Prometheus, AWS, Kubernetes, CI/CD, Linux, Grafana, Docker
+EXPERIENCE:
+Site Reliability Engineer at Nexus AI Studios (2020 - Present)
+- Developed core features using Python, Prometheus, AWS.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Tech University

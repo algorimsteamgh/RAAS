@@ -1,0 +1,13 @@
+Natasha Sharma
+Email: natasha.sharma@example.com | Phone: +1 555-972-9742 | Location: Boston, MA
+Notice Period: Immediate
+SUMMARY:
+Frontend Engineer with over 4.7 years of professional experience building scalable systems.
+SKILLS:
+JavaScript, HTML5, Redux, TypeScript, React, CSS3, Next.js
+EXPERIENCE:
+Frontend Engineer at FinPulse Digital (2020 - Present)
+- Developed core features using JavaScript, HTML5, Redux.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Example State University

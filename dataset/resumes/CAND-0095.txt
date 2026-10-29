@@ -1,0 +1,13 @@
+Ananya Sharma
+Email: ananya.sharma@example.com | Phone: +1 555-795-1857 | Location: Remote
+Notice Period: 30 days
+SUMMARY:
+Full Stack Engineer with over 2.8 years of professional experience building scalable systems.
+SKILLS:
+PostgreSQL, Node.js, Docker, GraphQL, React, Express, TypeScript
+EXPERIENCE:
+Full Stack Engineer at Nexus AI Studios (2020 - Present)
+- Developed core features using PostgreSQL, Node.js, Docker.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Institute of Technology

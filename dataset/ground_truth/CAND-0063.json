@@ -1,0 +1,81 @@
+{
+  "candidate_id": "CAND-0063",
+  "full_name": "Rohan Brown",
+  "email": "rohan.brown@example.com",
+  "phone": "+1 555-810-5906",
+  "location": "Austin, TX",
+  "summary": "Frontend Engineer with 1.7 years of experience.",
+  "skills": [
+    "CSS3",
+    "React",
+    "Next.js",
+    "TypeScript",
+    "HTML5",
+    "Tailwind CSS"
+  ],
+  "years_experience": 1.7,
+  "roles": [
+    "Frontend Engineer"
+  ],
+  "companies": [
+    "FinPulse Digital"
+  ],
+  "experience": [
+    {
+      "title": "Frontend Engineer",
+      "company": "FinPulse Digital",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using CSS3, React, Next.js."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Tech University"
+  ],
+  "certifications": [],
+  "projects": [
+    "Frontend Engineer System Refactoring"
+  ],
+  "domains": [
+    "Software Engineering"
+  ],
+  "notice_period": "15 days",
+  "evidence": [
+    {
+      "attribute": "skills:CSS3",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using CSS3 at FinPulse Digital.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:React",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using React at FinPulse Digital.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Next.js",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Next.js at FinPulse Digital.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "Frontend Engineer with over 1.7 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [],
+  "ambiguities": [],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0063"
+}

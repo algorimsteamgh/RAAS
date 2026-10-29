@@ -1,0 +1,13 @@
+Noah Jones
+Email: noah.jones@example.com | Phone: +1 555-797-6187 | Location: Chicago, IL
+Notice Period: 15 days
+SUMMARY:
+Machine Learning Engineer with over 5.7 years of professional experience building scalable systems.
+SKILLS:
+CUDA, MLflow, TensorFlow, Python, FastAPI, Git
+EXPERIENCE:
+Machine Learning Engineer at OmniCloud Systems (2020 - Present)
+- Developed core features using CUDA, MLflow, TensorFlow.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Global Science Academy

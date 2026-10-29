@@ -1,0 +1,13 @@
+Wei Fernandez
+Email: wei.fernandez@example.com | Phone: +1 555-765-9821 | Location: Seattle, WA
+Notice Period: 60 days
+SUMMARY:
+Data Engineer with over 3.5 years of professional experience building scalable systems.
+SKILLS:
+AWS, Docker, Snowflake, Airflow, Python, SQL
+EXPERIENCE:
+Data Engineer at Nexus AI Studios (2020 - Present)
+- Developed core features using AWS, Docker, Snowflake.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Metropolitan University

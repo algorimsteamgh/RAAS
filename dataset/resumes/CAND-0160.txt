@@ -1,0 +1,13 @@
+Mei Gomez
+Email: mei.gomez@example.com | Phone: +1 555-709-7499 | Location: Remote
+Notice Period: Immediate
+SUMMARY:
+Python Developer with over 3.5 years of professional experience building scalable systems.
+SKILLS:
+Docker, Django, Flask, Redis, PostgreSQL, Git, Python
+EXPERIENCE:
+Python Developer at Nexus AI Studios (2020 - Present)
+- Developed core features using Docker, Django, Flask.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Global Science Academy

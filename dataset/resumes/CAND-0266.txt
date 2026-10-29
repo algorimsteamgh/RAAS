@@ -1,0 +1,13 @@
+Zainab Volkov
+Email: zainab.volkov@example.com | Phone: +1 555-674-7371 | Location: New York, NY
+Notice Period: 30 days
+SUMMARY:
+Cloud Engineer with over 1.7 years of professional experience building scalable systems.
+SKILLS:
+AWS, Terraform, Linux, Docker, GCP, Kubernetes
+EXPERIENCE:
+Cloud Engineer at ExampleTech Corp (2020 - Present)
+- Developed core features using AWS, Terraform, Linux.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Example State University

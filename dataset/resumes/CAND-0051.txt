@@ -1,0 +1,13 @@
+Emma Davis
+Email: emma.davis@example.com | Phone: +1 555-823-5632 | Location: Denver, CO
+Notice Period: 15 days
+SUMMARY:
+Frontend Engineer with over 3.3 years of professional experience building scalable systems.
+SKILLS:
+Next.js, Redux, JavaScript, HTML5, TypeScript, React
+EXPERIENCE:
+Frontend Engineer at CloudScale Inc (2020 - Present)
+- Developed core features using Next.js, Redux, JavaScript.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Metropolitan University

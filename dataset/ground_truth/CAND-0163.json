@@ -1,0 +1,85 @@
+{
+  "candidate_id": "CAND-0163",
+  "full_name": "Ananya Chen",
+  "email": "ananya.chen@example.com",
+  "phone": "+1 555-897-2387",
+  "location": "San Jose, CA",
+  "summary": "Python Developer with 5.9 years of experience.",
+  "skills": [
+    "Flask",
+    "Celery",
+    "PostgreSQL",
+    "Django",
+    "Redis",
+    "Git",
+    "Docker",
+    "Python"
+  ],
+  "years_experience": 5.9,
+  "roles": [
+    "Python Developer"
+  ],
+  "companies": [
+    "CyberShield Labs"
+  ],
+  "experience": [
+    {
+      "title": "Python Developer",
+      "company": "CyberShield Labs",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using Flask, Celery, PostgreSQL."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Institute of Technology"
+  ],
+  "certifications": [],
+  "projects": [
+    "Python Developer System Refactoring"
+  ],
+  "domains": [
+    "Software Engineering"
+  ],
+  "notice_period": "Immediate",
+  "evidence": [
+    {
+      "attribute": "skills:Flask",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Flask at CyberShield Labs.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Celery",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Celery at CyberShield Labs.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:PostgreSQL",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using PostgreSQL at CyberShield Labs.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "Python Developer with over 5.9 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [],
+  "ambiguities": [
+    "difficult_edge_case"
+  ],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0163"
+}

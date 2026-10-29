@@ -1,0 +1,13 @@
+Natasha Rao
+Email: natasha.rao@example.com | Phone: +1 555-451-2382 | Location: Seattle, WA
+Notice Period: 30 days
+SUMMARY:
+AI Engineer with over 1.7 years of professional experience building scalable systems.
+SKILLS:
+FAISS, Vector DB, LangChain, PyTorch, Transformers, Ollama, Python
+EXPERIENCE:
+AI Engineer at InnovateSoft (2020 - Present)
+- Developed core features using FAISS, Vector DB, LangChain.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Tech University

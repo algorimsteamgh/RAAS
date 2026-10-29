@@ -1,0 +1,83 @@
+{
+  "candidate_id": "CAND-0156",
+  "full_name": "Viktor Patel",
+  "email": "viktor.patel@example.com",
+  "phone": "+1 555-373-7502",
+  "location": "San Francisco, CA",
+  "summary": "Python Developer with 3.9 years of experience.",
+  "skills": [
+    "PostgreSQL",
+    "Celery",
+    "Django",
+    "Flask",
+    "Python",
+    "Redis",
+    "Docker",
+    "Git"
+  ],
+  "years_experience": 3.9,
+  "roles": [
+    "Python Developer"
+  ],
+  "companies": [
+    "FinPulse Digital"
+  ],
+  "experience": [
+    {
+      "title": "Python Developer",
+      "company": "FinPulse Digital",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using PostgreSQL, Celery, Django."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Global Science Academy"
+  ],
+  "certifications": [],
+  "projects": [
+    "Python Developer System Refactoring"
+  ],
+  "domains": [
+    "Software Engineering"
+  ],
+  "notice_period": "60 days",
+  "evidence": [
+    {
+      "attribute": "skills:PostgreSQL",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using PostgreSQL at FinPulse Digital.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Celery",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Celery at FinPulse Digital.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Django",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Django at FinPulse Digital.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "Python Developer with over 3.9 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [],
+  "ambiguities": [],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0156"
+}

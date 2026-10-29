@@ -1,0 +1,13 @@
+Liam Smith
+Email: liam.smith@example.com | Phone: +1 555-429-3430 | Location: San Francisco, CA
+Notice Period: 15 days
+SUMMARY:
+Frontend Engineer with over 4.7 years of professional experience building scalable systems.
+SKILLS:
+CSS3, Next.js, HTML5, Redux, React, TypeScript, Tailwind CSS, JavaScript
+EXPERIENCE:
+Frontend Engineer at DataFlow Systems (2020 - Present)
+- Developed core features using CSS3, Next.js, HTML5.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Tech University

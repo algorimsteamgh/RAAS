@@ -1,0 +1,13 @@
+Emma Ivanova
+Email: emma.ivanova@example.com | Phone: +1 555-703-3872 | Location: Boston, MA
+Notice Period: 15 days
+SUMMARY:
+DevOps Engineer with over 4.9 years of professional experience building scalable systems.
+SKILLS:
+AWS, CI/CD, Docker, Ansible, Terraform
+EXPERIENCE:
+DevOps Engineer at Nexus AI Studios (2020 - Present)
+- Developed core features using AWS, CI/CD, Docker.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Example State University

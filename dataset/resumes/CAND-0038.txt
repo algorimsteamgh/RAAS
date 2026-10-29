@@ -1,0 +1,12 @@
+Zainab Diallo
+Email: zainab.diallo@example.com | Phone: +1 555-153-6733 | Location: New York, NY
+SUMMARY:
+Backend Engineer with over 5.2 years of professional experience building scalable systems.
+SKILLS:
+Python, FastAPI, REST API, Microservices
+EXPERIENCE:
+Backend Engineer at Nexus AI Studios (2020 - Present)
+- Developed core features using Python, FastAPI, REST API.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Institute of Technology

@@ -1,0 +1,80 @@
+{
+  "candidate_id": "CAND-0293",
+  "full_name": "Lucas Jones",
+  "email": "lucas.jones@example.com",
+  "phone": "+1 555-105-1116",
+  "location": "San Jose, CA",
+  "summary": "Site Reliability Engineer with 2.5 years of experience.",
+  "skills": [
+    "Docker",
+    "Prometheus",
+    "Kubernetes",
+    "Linux",
+    "Python"
+  ],
+  "years_experience": 2.5,
+  "roles": [
+    "Site Reliability Engineer"
+  ],
+  "companies": [
+    "FinPulse Digital"
+  ],
+  "experience": [
+    {
+      "title": "Site Reliability Engineer",
+      "company": "FinPulse Digital",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using Docker, Prometheus, Kubernetes."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Tech University"
+  ],
+  "certifications": [],
+  "projects": [
+    "Site Reliability Engineer System Refactoring"
+  ],
+  "domains": [
+    "Infrastructure"
+  ],
+  "notice_period": "30 days",
+  "evidence": [
+    {
+      "attribute": "skills:Docker",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Docker at FinPulse Digital.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Prometheus",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Prometheus at FinPulse Digital.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Kubernetes",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Kubernetes at FinPulse Digital.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "Site Reliability Engineer with over 2.5 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [],
+  "ambiguities": [],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0293"
+}

@@ -1,0 +1,13 @@
+Camila Sharma
+Email: camila.sharma@example.com | Phone: +1 555-480-5269 | Location: Chicago, IL
+Notice Period: 30 days
+SUMMARY:
+Cloud Engineer with over 2.9 years of professional experience building scalable systems.
+SKILLS:
+Azure, Terraform, Python, Kubernetes
+EXPERIENCE:
+Cloud Engineer at DataFlow Systems (2020 - Present)
+- Developed core features using Azure, Terraform, Python.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Global Science Academy

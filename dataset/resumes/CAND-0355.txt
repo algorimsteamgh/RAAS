@@ -1,0 +1,13 @@
+Kofi Sharma
+Email: kofi.sharma@example.com | Phone: +1 555-987-8496 | Location: New York, NY
+Notice Period: 15 days
+SUMMARY:
+Data Scientist with over 5.2 years of professional experience building scalable systems.
+SKILLS:
+Statistics, TensorFlow, Scikit-Learn, SQL, Python, Git, PyTorch, Pandas
+EXPERIENCE:
+Data Scientist at CyberShield Labs (2020 - Present)
+- Developed core features using Statistics, TensorFlow, Scikit-Learn.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Example State University

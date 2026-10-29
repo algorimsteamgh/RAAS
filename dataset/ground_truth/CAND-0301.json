@@ -1,0 +1,87 @@
+{
+  "candidate_id": "CAND-0301",
+  "full_name": "Camila Mensah",
+  "email": "camila.mensah@example.com",
+  "phone": "+1 555-363-9813",
+  "location": "Chicago, IL",
+  "summary": "Data Engineer with 1.9 years of experience.",
+  "skills": [
+    "AWS",
+    "Docker",
+    "SQL",
+    "Apache Spark",
+    "Airflow",
+    "PostgreSQL",
+    "Snowflake",
+    "Python"
+  ],
+  "years_experience": 1.9,
+  "roles": [
+    "Data Engineer"
+  ],
+  "companies": [
+    "CyberShield Labs"
+  ],
+  "experience": [
+    {
+      "title": "Data Engineer",
+      "company": "CyberShield Labs",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using AWS, Docker, SQL."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Example State University"
+  ],
+  "certifications": [],
+  "projects": [
+    "Data Engineer System Refactoring"
+  ],
+  "domains": [
+    "Data / AI"
+  ],
+  "notice_period": null,
+  "evidence": [
+    {
+      "attribute": "skills:AWS",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using AWS at CyberShield Labs.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Docker",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Docker at CyberShield Labs.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:SQL",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using SQL at CyberShield Labs.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "Data Engineer with over 1.9 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [
+    "Notice period not specified in CV"
+  ],
+  "ambiguities": [
+    "messy"
+  ],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0301"
+}

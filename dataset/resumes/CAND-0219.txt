@@ -1,0 +1,13 @@
+Amir Chen
+Email: amir.chen@example.com | Phone: +1 555-459-9946 | Location: Boston, MA
+Notice Period: Immediate
+SUMMARY:
+DevOps Engineer with over 4.2 years of professional experience building scalable systems.
+SKILLS:
+Terraform, Kubernetes, Python, Docker, Ansible, Linux, CI/CD, AWS
+EXPERIENCE:
+DevOps Engineer at NextGen Solutions (2020 - Present)
+- Developed core features using Terraform, Kubernetes, Python.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Example State University

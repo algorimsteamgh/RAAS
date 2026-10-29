@@ -1,0 +1,83 @@
+{
+  "candidate_id": "CAND-0349",
+  "full_name": "Carlos Miller",
+  "email": "carlos.miller@example.com",
+  "phone": "+1 555-931-2015",
+  "location": "Chicago, IL",
+  "summary": "Data Scientist with 5.6 years of experience.",
+  "skills": [
+    "PyTorch",
+    "Pandas",
+    "Statistics",
+    "Scikit-Learn"
+  ],
+  "years_experience": null,
+  "roles": [
+    "Data Scientist"
+  ],
+  "companies": [
+    "FinPulse Digital"
+  ],
+  "experience": [
+    {
+      "title": "Data Scientist",
+      "company": "FinPulse Digital",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using PyTorch, Pandas, Statistics."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Institute of Technology"
+  ],
+  "certifications": [],
+  "projects": [
+    "Data Scientist System Refactoring"
+  ],
+  "domains": [
+    "Data / AI"
+  ],
+  "notice_period": "Immediate",
+  "evidence": [
+    {
+      "attribute": "skills:PyTorch",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using PyTorch at FinPulse Digital.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Pandas",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Pandas at FinPulse Digital.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Statistics",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Statistics at FinPulse Digital.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "Data Scientist with over 5.6 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [
+    "Explicit total years of experience not clearly stated in text summary"
+  ],
+  "ambiguities": [
+    "ambiguous"
+  ],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0349"
+}

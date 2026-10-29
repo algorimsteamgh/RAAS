@@ -1,0 +1,13 @@
+Camila Brown
+Email: camila.brown@example.com | Phone: +1 555-963-7438 | Location: Austin, TX
+Notice Period: 15 days
+SUMMARY:
+Technical Project Manager with over 11.2 years of professional experience building scalable systems.
+SKILLS:
+Jira, Stakeholder Communication, Risk Management, Budgeting, Roadmapping, Scrum
+EXPERIENCE:
+Technical Project Manager at Apex Global (2020 - Present)
+- Developed core features using Jira, Stakeholder Communication, Risk Management.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Institute of Technology

@@ -1,0 +1,13 @@
+Carlos Miller
+Email: carlos.miller@example.com | Phone: +1 555-235-6718 | Location: San Francisco, CA
+Notice Period: Immediate
+SUMMARY:
+Backend Engineer with over 3.8 years of professional experience building scalable systems.
+SKILLS:
+Microservices, REST API, Redis, Django, Python
+EXPERIENCE:
+Backend Engineer at OmniCloud Systems (2020 - Present)
+- Developed core features using Microservices, REST API, Redis.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Metropolitan University

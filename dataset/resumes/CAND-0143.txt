@@ -1,0 +1,13 @@
+Isabella Chen
+Email: isabella.chen@example.com | Phone: +1 555-559-7184 | Location: Boston, MA
+Notice Period: Immediate
+SUMMARY:
+Java Developer with over 5.9 years of professional experience building scalable systems.
+SKILLS:
+Hibernate, Docker, REST API, Java, Spring Boot, Maven, PostgreSQL, Kafka
+EXPERIENCE:
+Java Developer at InnovateSoft (2020 - Present)
+- Developed core features using Hibernate, Docker, REST API.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Example State University

@@ -1,0 +1,84 @@
+{
+  "candidate_id": "CAND-002",
+  "full_name": "Priya Sharma",
+  "email": "priya.sharma@example.com",
+  "phone": null,
+  "skills": [
+    "React",
+    "TypeScript",
+    "JavaScript",
+    "HTML5",
+    "CSS3",
+    "SCSS",
+    "Next.js",
+    "Redux Toolkit",
+    "TailwindCSS",
+    "Vite",
+    "Webpack",
+    "Jest",
+    "React Testing Library",
+    "Cypress",
+    "Storybook",
+    "REST APIs",
+    "GraphQL"
+  ],
+  "years_experience": 6.1,
+  "roles": [
+    "Lead Frontend Engineer",
+    "Frontend Developer"
+  ],
+  "companies": [
+    "Innovate UI",
+    "WebStudio Labs"
+  ],
+  "education": [
+    "Bachelor of Technology in Information Technology - San Jose State University (2018)"
+  ],
+  "certifications": [
+    "Meta Certified Front-End Developer (2021)"
+  ],
+  "projects": [
+    "E-Commerce Micro-Frontend Platform: Architected Next.js micro-frontends with SSR and ISR for fast e-commerce product catalogs"
+  ],
+  "domains": [
+    "Frontend Engineering",
+    "Design Systems",
+    "E-Commerce SaaS"
+  ],
+  "location": "San Francisco, CA",
+  "notice_period": "Immediate",
+  "evidence": [
+    {
+      "attribute": "full_name",
+      "source_section": "Header",
+      "source_text": "PRIYA SHARMA",
+      "confidence": 1.0
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "Lead Frontend Engineer with 6 years of expertise building modern web applications",
+      "confidence": 0.98
+    },
+    {
+      "attribute": "skills:React",
+      "source_section": "Technical Skills",
+      "source_text": "Frontend Core: React, TypeScript, JavaScript (ES6+)",
+      "confidence": 1.0
+    },
+    {
+      "attribute": "roles:Lead Frontend Engineer",
+      "source_section": "Professional Experience",
+      "source_text": "Lead Frontend Engineer | Innovate UI, San Francisco, CA",
+      "confidence": 1.0
+    }
+  ],
+  "confidence": {
+    "skills": 1.0,
+    "years_experience": 0.98,
+    "roles": 1.0,
+    "education": 1.0,
+    "overall": 0.99
+  },
+  "missing_information": []
+}

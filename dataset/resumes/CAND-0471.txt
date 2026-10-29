@@ -1,0 +1,13 @@
+Hiroshi Gomez
+Email: hiroshi.gomez@example.com | Phone: +1 555-135-1895 | Location: New York, NY
+Notice Period: 30 days
+SUMMARY:
+Engineering Manager with over 8.0 years of professional experience building scalable systems.
+SKILLS:
+Scrum, Python, Team Mentorship, Leadership, Jira, Agile
+EXPERIENCE:
+Engineering Manager at FinPulse Digital (2020 - Present)
+- Developed core features using Scrum, Python, Team Mentorship.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Metropolitan University

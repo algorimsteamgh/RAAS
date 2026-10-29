@@ -1,0 +1,13 @@
+Carlos Diallo
+Email: carlos.diallo@example.com | Phone: +1 555-505-1643 | Location: San Jose, CA
+Notice Period: 60 days
+SUMMARY:
+Data Scientist with over 5.2 years of professional experience building scalable systems.
+SKILLS:
+SQL, Scikit-Learn, Git, TensorFlow
+EXPERIENCE:
+Data Scientist at NextGen Solutions (2020 - Present)
+- Developed core features using SQL, Scikit-Learn, Git.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Metropolitan University

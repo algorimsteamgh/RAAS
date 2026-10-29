@@ -1,0 +1,83 @@
+{
+  "candidate_id": "CAND-0426",
+  "full_name": "Sophia Khan",
+  "email": "sophia.khan@example.com",
+  "phone": "+1 555-251-9131",
+  "location": "Seattle, WA",
+  "summary": "QA Automation Engineer with 4.3 years of experience.",
+  "skills": [
+    "Git",
+    "Pytest",
+    "CI/CD",
+    "Postman"
+  ],
+  "years_experience": null,
+  "roles": [
+    "QA Automation Engineer"
+  ],
+  "companies": [
+    "CloudScale Inc"
+  ],
+  "experience": [
+    {
+      "title": "QA Automation Engineer",
+      "company": "CloudScale Inc",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using Git, Pytest, CI/CD."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Global Science Academy"
+  ],
+  "certifications": [],
+  "projects": [
+    "QA Automation Engineer System Refactoring"
+  ],
+  "domains": [
+    "Quality / Security"
+  ],
+  "notice_period": "30 days",
+  "evidence": [
+    {
+      "attribute": "skills:Git",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Git at CloudScale Inc.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Pytest",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Pytest at CloudScale Inc.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:CI/CD",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using CI/CD at CloudScale Inc.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "QA Automation Engineer with over 4.3 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [
+    "Explicit total years of experience not clearly stated in text summary"
+  ],
+  "ambiguities": [
+    "ambiguous"
+  ],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0426"
+}

@@ -1,0 +1,13 @@
+Sophia Tanaka
+Email: sophia.tanaka@example.com | Phone: +1 555-193-4475 | Location: Austin, TX
+Notice Period: 15 days
+SUMMARY:
+Frontend Engineer with over 3.7 years of professional experience building scalable systems.
+SKILLS:
+Next.js, JavaScript, HTML5, TypeScript, CSS3
+EXPERIENCE:
+Frontend Engineer at InnovateSoft (2020 - Present)
+- Developed core features using Next.js, JavaScript, HTML5.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Metropolitan University

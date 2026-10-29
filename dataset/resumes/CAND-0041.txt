@@ -1,0 +1,13 @@
+Liam Mensah
+Email: liam.mensah@example.com | Phone: +1 555-763-6590 | Location: Austin, TX
+Notice Period: 15 days
+SUMMARY:
+Backend Engineer with over 5.4 years of professional experience building scalable systems.
+SKILLS:
+REST API, Django, Docker, PostgreSQL
+EXPERIENCE:
+Backend Engineer at CloudScale Inc (2020 - Present)
+- Developed core features using REST API, Django, Docker.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Global Science Academy

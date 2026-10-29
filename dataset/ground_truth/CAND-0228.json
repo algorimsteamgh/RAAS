@@ -1,0 +1,86 @@
+{
+  "candidate_id": "CAND-0228",
+  "full_name": "Fatima Johnson",
+  "email": "fatima.johnson@example.com",
+  "phone": "+1 555-676-2654",
+  "location": "Chicago, IL",
+  "summary": "DevOps Engineer with 5.6 years of experience.",
+  "skills": [
+    "Ansible",
+    "Terraform",
+    "CI/CD",
+    "Linux",
+    "Python",
+    "Docker",
+    "AWS"
+  ],
+  "years_experience": null,
+  "roles": [
+    "DevOps Engineer"
+  ],
+  "companies": [
+    "NextGen Solutions"
+  ],
+  "experience": [
+    {
+      "title": "DevOps Engineer",
+      "company": "NextGen Solutions",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using Ansible, Terraform, CI/CD."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Global Science Academy"
+  ],
+  "certifications": [],
+  "projects": [
+    "DevOps Engineer System Refactoring"
+  ],
+  "domains": [
+    "Infrastructure"
+  ],
+  "notice_period": "15 days",
+  "evidence": [
+    {
+      "attribute": "skills:Ansible",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Ansible at NextGen Solutions.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Terraform",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Terraform at NextGen Solutions.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:CI/CD",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using CI/CD at NextGen Solutions.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "DevOps Engineer with over 5.6 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [
+    "Explicit total years of experience not clearly stated in text summary"
+  ],
+  "ambiguities": [
+    "ambiguous"
+  ],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0228"
+}

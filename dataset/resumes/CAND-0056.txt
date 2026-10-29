@@ -1,0 +1,13 @@
+Mateo Rao
+Email: mateo.rao@example.com | Phone: +1 555-308-5375 | Location: San Jose, CA
+Notice Period: Immediate
+SUMMARY:
+Frontend Engineer with over 0.9 years of professional experience building scalable systems.
+SKILLS:
+TypeScript, JavaScript, CSS3, HTML5, Redux, React, Tailwind CSS
+EXPERIENCE:
+Frontend Engineer at NextGen Solutions (2020 - Present)
+- Developed core features using TypeScript, JavaScript, CSS3.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Tech University

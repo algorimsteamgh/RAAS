@@ -1,0 +1,13 @@
+Hiroshi Williams
+Email: hiroshi.williams@example.com | Phone: +1 555-130-2631 | Location: Austin, TX
+Notice Period: Immediate
+SUMMARY:
+Engineering Manager with over 8.7 years of professional experience building scalable systems.
+SKILLS:
+System Architecture, Leadership, Python, Team Mentorship
+EXPERIENCE:
+Engineering Manager at CloudScale Inc (2020 - Present)
+- Developed core features using System Architecture, Leadership, Python.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Metropolitan University

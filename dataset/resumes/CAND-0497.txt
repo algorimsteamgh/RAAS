@@ -1,0 +1,13 @@
+Ananya Volkov
+Email: ananya.volkov@example.com | Phone: +1 555-978-9824 | Location: New York, NY
+Notice Period: 60 days
+SUMMARY:
+Technical Project Manager with over 1.7 years of professional experience building scalable systems.
+SKILLS:
+Risk Management, Roadmapping, Agile, Stakeholder Communication, Budgeting
+EXPERIENCE:
+Technical Project Manager at CloudScale Inc (2020 - Present)
+- Developed core features using Risk Management, Roadmapping, Agile.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Global Science Academy

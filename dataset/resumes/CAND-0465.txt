@@ -1,0 +1,12 @@
+Natasha Wang
+Email: natasha.wang@example.com | Phone: +1 555-520-6220 | Location: San Francisco, CA
+SUMMARY:
+Engineering Manager with over 11.0 years of professional experience building scalable systems.
+SKILLS:
+Python, CI/CD, Scrum, System Architecture, Jira, Leadership
+EXPERIENCE:
+Engineering Manager at InnovateSoft (2020 - Present)
+- Developed core features using Python, CI/CD, Scrum.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Example State University

@@ -1,0 +1,12 @@
+Yuki Jones
+Email: yuki.jones@example.com | Phone: +1 555-623-8752 | Location: Seattle, WA
+SUMMARY:
+Backend Engineer with over 3.5 years of professional experience building scalable systems.
+SKILLS:
+Docker, Python, FastAPI, Django, Microservices, REST API, Redis, PostgreSQL
+EXPERIENCE:
+Backend Engineer at ExampleTech Corp (2020 - Present)
+- Developed core features using Docker, Python, FastAPI.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Institute of Technology

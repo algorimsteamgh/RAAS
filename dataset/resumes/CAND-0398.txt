@@ -1,0 +1,12 @@
+Yuki Smith
+Email: yuki.smith@example.com | Phone: +1 555-754-8429 | Location: Chicago, IL
+SUMMARY:
+AI Engineer with over 4.9 years of professional experience building scalable systems.
+SKILLS:
+FastAPI, PyTorch, Python, Ollama, Transformers, FAISS
+EXPERIENCE:
+AI Engineer at FinPulse Digital (2020 - Present)
+- Developed core features using FastAPI, PyTorch, Python.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Metropolitan University

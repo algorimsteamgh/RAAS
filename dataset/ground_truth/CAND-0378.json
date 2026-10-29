@@ -1,0 +1,81 @@
+{
+  "candidate_id": "CAND-0378",
+  "full_name": "Emma Williams",
+  "email": "emma.williams@example.com",
+  "phone": "+1 555-981-5227",
+  "location": "Remote",
+  "summary": "Machine Learning Engineer with 1.5 years of experience.",
+  "skills": [
+    "MLflow",
+    "Docker",
+    "CUDA",
+    "Python",
+    "FastAPI",
+    "PyTorch"
+  ],
+  "years_experience": 1.5,
+  "roles": [
+    "Machine Learning Engineer"
+  ],
+  "companies": [
+    "DataFlow Systems"
+  ],
+  "experience": [
+    {
+      "title": "Machine Learning Engineer",
+      "company": "DataFlow Systems",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using MLflow, Docker, CUDA."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Metropolitan University"
+  ],
+  "certifications": [],
+  "projects": [
+    "Machine Learning Engineer System Refactoring"
+  ],
+  "domains": [
+    "Data / AI"
+  ],
+  "notice_period": "60 days",
+  "evidence": [
+    {
+      "attribute": "skills:MLflow",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using MLflow at DataFlow Systems.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Docker",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Docker at DataFlow Systems.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:CUDA",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using CUDA at DataFlow Systems.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "Machine Learning Engineer with over 1.5 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [],
+  "ambiguities": [],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0378"
+}

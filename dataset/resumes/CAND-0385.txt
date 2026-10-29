@@ -1,0 +1,13 @@
+Ananya Diallo
+Email: ananya.diallo@example.com | Phone: +1 555-316-3841 | Location: Denver, CO
+Notice Period: 15 days
+SUMMARY:
+Machine Learning Engineer with over 1.3 years of professional experience building scalable systems.
+SKILLS:
+CUDA, PyTorch, TensorFlow, Git, FastAPI, Python
+EXPERIENCE:
+Machine Learning Engineer at DataFlow Systems (2020 - Present)
+- Developed core features using CUDA, PyTorch, TensorFlow.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Example State University

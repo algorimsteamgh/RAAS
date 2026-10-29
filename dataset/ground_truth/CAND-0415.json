@@ -1,0 +1,80 @@
+{
+  "candidate_id": "CAND-0415",
+  "full_name": "Dev Garcia",
+  "email": "dev.garcia@example.com",
+  "phone": "+1 555-175-8716",
+  "location": "Denver, CO",
+  "summary": "QA Automation Engineer with 4.0 years of experience.",
+  "skills": [
+    "Postman",
+    "Selenium",
+    "Pytest",
+    "Playwright",
+    "REST API"
+  ],
+  "years_experience": 4.0,
+  "roles": [
+    "QA Automation Engineer"
+  ],
+  "companies": [
+    "CyberShield Labs"
+  ],
+  "experience": [
+    {
+      "title": "QA Automation Engineer",
+      "company": "CyberShield Labs",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using Postman, Selenium, Pytest."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Institute of Technology"
+  ],
+  "certifications": [],
+  "projects": [
+    "QA Automation Engineer System Refactoring"
+  ],
+  "domains": [
+    "Quality / Security"
+  ],
+  "notice_period": "30 days",
+  "evidence": [
+    {
+      "attribute": "skills:Postman",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Postman at CyberShield Labs.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Selenium",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Selenium at CyberShield Labs.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Pytest",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Pytest at CyberShield Labs.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "QA Automation Engineer with over 4.0 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [],
+  "ambiguities": [],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0415"
+}

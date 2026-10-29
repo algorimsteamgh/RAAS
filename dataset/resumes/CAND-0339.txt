@@ -1,0 +1,12 @@
+Maya Ali
+Email: maya.ali@example.com | Phone: +1 555-927-7251 | Location: San Francisco, CA
+SUMMARY:
+Data Scientist with over 5.7 years of professional experience building scalable systems.
+SKILLS:
+TensorFlow, Statistics, SQL, Git, Python, PyTorch
+EXPERIENCE:
+Data Scientist at Nexus AI Studios (2020 - Present)
+- Developed core features using TensorFlow, Statistics, SQL.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Example State University

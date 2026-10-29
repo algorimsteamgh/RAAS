@@ -1,0 +1,13 @@
+Natasha Ivanova
+Email: natasha.ivanova@example.com | Phone: +1 555-868-7929 | Location: Austin, TX
+Notice Period: Immediate
+SUMMARY:
+Frontend Engineer with over 4.6 years of professional experience building scalable systems.
+SKILLS:
+TypeScript, HTML5, Tailwind CSS, Redux, CSS3, React
+EXPERIENCE:
+Frontend Engineer at CyberShield Labs (2020 - Present)
+- Developed core features using TypeScript, HTML5, Tailwind CSS.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Institute of Technology

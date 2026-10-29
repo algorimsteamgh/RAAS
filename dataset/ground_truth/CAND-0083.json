@@ -1,0 +1,79 @@
+{
+  "candidate_id": "CAND-0083",
+  "full_name": "Olivia Williams",
+  "email": "olivia.williams@example.com",
+  "phone": "+1 555-679-7566",
+  "location": "San Francisco, CA",
+  "summary": "Frontend Engineer with 4.7 years of experience.",
+  "skills": [
+    "TypeScript",
+    "CSS3",
+    "HTML5",
+    "Redux"
+  ],
+  "years_experience": 4.7,
+  "roles": [
+    "Frontend Engineer"
+  ],
+  "companies": [
+    "FinPulse Digital"
+  ],
+  "experience": [
+    {
+      "title": "Frontend Engineer",
+      "company": "FinPulse Digital",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using TypeScript, CSS3, HTML5."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Global Science Academy"
+  ],
+  "certifications": [],
+  "projects": [
+    "Frontend Engineer System Refactoring"
+  ],
+  "domains": [
+    "Software Engineering"
+  ],
+  "notice_period": "60 days",
+  "evidence": [
+    {
+      "attribute": "skills:TypeScript",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using TypeScript at FinPulse Digital.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:CSS3",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using CSS3 at FinPulse Digital.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:HTML5",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using HTML5 at FinPulse Digital.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "Frontend Engineer with over 4.7 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [],
+  "ambiguities": [],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0083"
+}

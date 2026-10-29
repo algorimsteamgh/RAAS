@@ -1,0 +1,13 @@
+Ethan Johnson
+Email: ethan.johnson@example.com | Phone: +1 555-492-9246 | Location: Chicago, IL
+Notice Period: 60 days
+SUMMARY:
+Cloud Engineer with over 5.4 years of professional experience building scalable systems.
+SKILLS:
+Kubernetes, Terraform, Docker, Python, GCP, Azure
+EXPERIENCE:
+Cloud Engineer at CloudScale Inc (2020 - Present)
+- Developed core features using Kubernetes, Terraform, Docker.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Metropolitan University

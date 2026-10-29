@@ -1,0 +1,13 @@
+Isabella Volkov
+Email: isabella.volkov@example.com | Phone: +1 555-787-7244 | Location: San Jose, CA
+Notice Period: 30 days
+SUMMARY:
+Java Developer with over 1.1 years of professional experience building scalable systems.
+SKILLS:
+Kafka, PostgreSQL, Spring Boot, REST API, Maven
+EXPERIENCE:
+Java Developer at InnovateSoft (2020 - Present)
+- Developed core features using Kafka, PostgreSQL, Spring Boot.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Institute of Technology

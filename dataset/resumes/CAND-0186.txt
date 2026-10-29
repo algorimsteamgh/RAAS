@@ -1,0 +1,12 @@
+Hiroshi Davis
+Email: hiroshi.davis@example.com | Phone: +1 555-843-4836 | Location: Boston, MA
+SUMMARY:
+Node.js Developer with over 5.0 years of professional experience building scalable systems.
+SKILLS:
+Express, Docker, JavaScript, TypeScript
+EXPERIENCE:
+Node.js Developer at Nexus AI Studios (2020 - Present)
+- Developed core features using Express, Docker, JavaScript.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Institute of Technology

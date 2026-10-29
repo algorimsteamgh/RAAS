@@ -1,0 +1,32 @@
+{
+  "job_id": "JOB-007",
+  "title": "Cloud Systems Architect",
+  "seniority": "Lead / Architect",
+  "mandatory_skills": [
+    "AWS",
+    "Terraform",
+    "Kubernetes",
+    "Linux"
+  ],
+  "preferred_skills": [
+    "Azure",
+    "GCP",
+    "Python"
+  ],
+  "minimum_years_experience": 8.0,
+  "domain_requirements": [
+    "Enterprise Software"
+  ],
+  "education_requirements": [
+    "B.S. in CS or related"
+  ],
+  "certifications": [
+    "AWS Certified Solutions Architect Professional"
+  ],
+  "location": "Chicago, IL",
+  "work_mode": "Remote",
+  "responsibilities": [
+    "Architect resilient cloud infrastructure for enterprise apps."
+  ],
+  "source_dataset": "michaelozon/candidate-matching-synthetic"
+}

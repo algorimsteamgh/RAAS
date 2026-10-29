@@ -1,0 +1,13 @@
+Noah Gomez
+Email: noah.gomez@example.com | Phone: +1 555-989-8259 | Location: New York, NY
+Notice Period: 15 days
+SUMMARY:
+Cloud Engineer with over 5.0 years of professional experience building scalable systems.
+SKILLS:
+Terraform, Linux, Docker, Azure, GCP, Kubernetes
+EXPERIENCE:
+Cloud Engineer at CloudScale Inc (2020 - Present)
+- Developed core features using Terraform, Linux, Docker.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Example State University

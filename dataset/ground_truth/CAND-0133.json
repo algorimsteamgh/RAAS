@@ -1,0 +1,79 @@
+{
+  "candidate_id": "CAND-0133",
+  "full_name": "Priya Volkov",
+  "email": "priya.volkov@example.com",
+  "phone": "+1 555-304-5706",
+  "location": "Remote",
+  "summary": "Java Developer with 0.6 years of experience.",
+  "skills": [
+    "PostgreSQL",
+    "Kafka",
+    "Docker",
+    "Java"
+  ],
+  "years_experience": 0.6,
+  "roles": [
+    "Java Developer"
+  ],
+  "companies": [
+    "CloudScale Inc"
+  ],
+  "experience": [
+    {
+      "title": "Java Developer",
+      "company": "CloudScale Inc",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using PostgreSQL, Kafka, Docker."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Global Science Academy"
+  ],
+  "certifications": [],
+  "projects": [
+    "Java Developer System Refactoring"
+  ],
+  "domains": [
+    "Software Engineering"
+  ],
+  "notice_period": "15 days",
+  "evidence": [
+    {
+      "attribute": "skills:PostgreSQL",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using PostgreSQL at CloudScale Inc.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Kafka",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Kafka at CloudScale Inc.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Docker",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Docker at CloudScale Inc.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "Java Developer with over 0.6 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [],
+  "ambiguities": [],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0133"
+}

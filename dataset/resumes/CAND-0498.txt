@@ -1,0 +1,13 @@
+Priya Mehta
+Email: priya.mehta@example.com | Phone: +1 555-980-8364 | Location: New York, NY
+Notice Period: 30 days
+SUMMARY:
+Technical Project Manager with over 9.2 years of professional experience building scalable systems.
+SKILLS:
+Agile, Jira, Roadmapping, Stakeholder Communication, Budgeting, Scrum, Risk Management
+EXPERIENCE:
+Technical Project Manager at CyberShield Labs (2020 - Present)
+- Developed core features using Agile, Jira, Roadmapping.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Tech University

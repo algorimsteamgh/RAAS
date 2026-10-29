@@ -1,0 +1,81 @@
+{
+  "candidate_id": "CAND-0414",
+  "full_name": "Liam Garcia",
+  "email": "liam.garcia@example.com",
+  "phone": "+1 555-838-8287",
+  "location": "Remote",
+  "summary": "QA Automation Engineer with 5.1 years of experience.",
+  "skills": [
+    "Pytest",
+    "REST API",
+    "Python",
+    "Playwright",
+    "Selenium",
+    "CI/CD"
+  ],
+  "years_experience": 5.1,
+  "roles": [
+    "QA Automation Engineer"
+  ],
+  "companies": [
+    "InnovateSoft"
+  ],
+  "experience": [
+    {
+      "title": "QA Automation Engineer",
+      "company": "InnovateSoft",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using Pytest, REST API, Python."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Global Science Academy"
+  ],
+  "certifications": [],
+  "projects": [
+    "QA Automation Engineer System Refactoring"
+  ],
+  "domains": [
+    "Quality / Security"
+  ],
+  "notice_period": "15 days",
+  "evidence": [
+    {
+      "attribute": "skills:Pytest",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Pytest at InnovateSoft.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:REST API",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using REST API at InnovateSoft.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Python",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Python at InnovateSoft.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "QA Automation Engineer with over 5.1 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [],
+  "ambiguities": [],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0414"
+}

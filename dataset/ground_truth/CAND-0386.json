@@ -1,0 +1,82 @@
+{
+  "candidate_id": "CAND-0386",
+  "full_name": "Zainab Sato",
+  "email": "zainab.sato@example.com",
+  "phone": "+1 555-773-8155",
+  "location": "Seattle, WA",
+  "summary": "AI Engineer with 4.7 years of experience.",
+  "skills": [
+    "Vector DB",
+    "FAISS",
+    "Transformers",
+    "FastAPI",
+    "LangChain",
+    "Ollama",
+    "Python"
+  ],
+  "years_experience": 4.7,
+  "roles": [
+    "AI Engineer"
+  ],
+  "companies": [
+    "CyberShield Labs"
+  ],
+  "experience": [
+    {
+      "title": "AI Engineer",
+      "company": "CyberShield Labs",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using Vector DB, FAISS, Transformers."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Tech University"
+  ],
+  "certifications": [],
+  "projects": [
+    "AI Engineer System Refactoring"
+  ],
+  "domains": [
+    "Data / AI"
+  ],
+  "notice_period": "60 days",
+  "evidence": [
+    {
+      "attribute": "skills:Vector DB",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Vector DB at CyberShield Labs.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:FAISS",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using FAISS at CyberShield Labs.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Transformers",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Transformers at CyberShield Labs.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "AI Engineer with over 4.7 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [],
+  "ambiguities": [],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0386"
+}

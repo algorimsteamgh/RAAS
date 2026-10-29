@@ -1,0 +1,83 @@
+{
+  "candidate_id": "CAND-0425",
+  "full_name": "Camila Ivanova",
+  "email": "camila.ivanova@example.com",
+  "phone": "+1 555-809-2075",
+  "location": "New York, NY",
+  "summary": "QA Automation Engineer with 4.1 years of experience.",
+  "skills": [
+    "REST API",
+    "Selenium",
+    "Playwright",
+    "Python"
+  ],
+  "years_experience": null,
+  "roles": [
+    "QA Automation Engineer"
+  ],
+  "companies": [
+    "DataFlow Systems"
+  ],
+  "experience": [
+    {
+      "title": "QA Automation Engineer",
+      "company": "DataFlow Systems",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using REST API, Selenium, Playwright."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Institute of Technology"
+  ],
+  "certifications": [],
+  "projects": [
+    "QA Automation Engineer System Refactoring"
+  ],
+  "domains": [
+    "Quality / Security"
+  ],
+  "notice_period": "30 days",
+  "evidence": [
+    {
+      "attribute": "skills:REST API",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using REST API at DataFlow Systems.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Selenium",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Selenium at DataFlow Systems.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Playwright",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Playwright at DataFlow Systems.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "QA Automation Engineer with over 4.1 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [
+    "Explicit total years of experience not clearly stated in text summary"
+  ],
+  "ambiguities": [
+    "ambiguous"
+  ],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0425"
+}

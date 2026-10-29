@@ -1,0 +1,13 @@
+Lucas Ivanova
+Email: lucas.ivanova@example.com | Phone: +1 555-183-3573 | Location: New York, NY
+Notice Period: Immediate
+SUMMARY:
+Backend Engineer with over 2.8 years of professional experience building scalable systems.
+SKILLS:
+REST API, PostgreSQL, Docker, Redis
+EXPERIENCE:
+Backend Engineer at CyberShield Labs (2020 - Present)
+- Developed core features using REST API, PostgreSQL, Docker.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Metropolitan University

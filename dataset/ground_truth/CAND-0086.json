@@ -1,0 +1,79 @@
+{
+  "candidate_id": "CAND-0086",
+  "full_name": "Carlos Ivanova",
+  "email": "carlos.ivanova@example.com",
+  "phone": "+1 555-415-1744",
+  "location": "New York, NY",
+  "summary": "Frontend Engineer with 4.6 years of experience.",
+  "skills": [
+    "Next.js",
+    "React",
+    "TypeScript",
+    "CSS3"
+  ],
+  "years_experience": 4.6,
+  "roles": [
+    "Frontend Engineer"
+  ],
+  "companies": [
+    "NextGen Solutions"
+  ],
+  "experience": [
+    {
+      "title": "Frontend Engineer",
+      "company": "NextGen Solutions",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using Next.js, React, TypeScript."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Metropolitan University"
+  ],
+  "certifications": [],
+  "projects": [
+    "Frontend Engineer System Refactoring"
+  ],
+  "domains": [
+    "Software Engineering"
+  ],
+  "notice_period": "30 days",
+  "evidence": [
+    {
+      "attribute": "skills:Next.js",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Next.js at NextGen Solutions.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:React",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using React at NextGen Solutions.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:TypeScript",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using TypeScript at NextGen Solutions.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "Frontend Engineer with over 4.6 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [],
+  "ambiguities": [],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0086"
+}

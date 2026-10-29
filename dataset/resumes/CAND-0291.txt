@@ -1,0 +1,13 @@
+Olivia Sato
+Email: olivia.sato@example.com | Phone: +1 555-729-1639 | Location: San Jose, CA
+Notice Period: 60 days
+SUMMARY:
+Site Reliability Engineer with over 2.9 years of professional experience building scalable systems.
+SKILLS:
+Kubernetes, Grafana, CI/CD, Linux, Prometheus, AWS, Python
+EXPERIENCE:
+Site Reliability Engineer at Apex Global (2020 - Present)
+- Developed core features using Kubernetes, Grafana, CI/CD.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Example State University

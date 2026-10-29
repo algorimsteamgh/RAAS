@@ -1,0 +1,79 @@
+{
+  "candidate_id": "CAND-0175",
+  "full_name": "Fatima Gomez",
+  "email": "fatima.gomez@example.com",
+  "phone": "+1 555-704-2388",
+  "location": "Seattle, WA",
+  "summary": "Python Developer with 0.9 years of experience.",
+  "skills": [
+    "Flask",
+    "Docker",
+    "Celery",
+    "Django"
+  ],
+  "years_experience": 0.9,
+  "roles": [
+    "Python Developer"
+  ],
+  "companies": [
+    "OmniCloud Systems"
+  ],
+  "experience": [
+    {
+      "title": "Python Developer",
+      "company": "OmniCloud Systems",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using Flask, Docker, Celery."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Global Science Academy"
+  ],
+  "certifications": [],
+  "projects": [
+    "Python Developer System Refactoring"
+  ],
+  "domains": [
+    "Software Engineering"
+  ],
+  "notice_period": "60 days",
+  "evidence": [
+    {
+      "attribute": "skills:Flask",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Flask at OmniCloud Systems.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Docker",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Docker at OmniCloud Systems.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Celery",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Celery at OmniCloud Systems.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "Python Developer with over 0.9 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [],
+  "ambiguities": [],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0175"
+}

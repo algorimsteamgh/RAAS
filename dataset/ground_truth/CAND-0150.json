@@ -1,0 +1,83 @@
+{
+  "candidate_id": "CAND-0150",
+  "full_name": "Kofi Gomez",
+  "email": "kofi.gomez@example.com",
+  "phone": "+1 555-820-4350",
+  "location": "Boston, MA",
+  "summary": "Java Developer with 4.4 years of experience.",
+  "skills": [
+    "Maven",
+    "PostgreSQL",
+    "Kafka",
+    "Hibernate",
+    "Docker",
+    "Spring Boot"
+  ],
+  "years_experience": 4.4,
+  "roles": [
+    "Java Developer"
+  ],
+  "companies": [
+    "Apex Global"
+  ],
+  "experience": [
+    {
+      "title": "Java Developer",
+      "company": "Apex Global",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using Maven, PostgreSQL, Kafka."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Tech University"
+  ],
+  "certifications": [],
+  "projects": [
+    "Java Developer System Refactoring"
+  ],
+  "domains": [
+    "Software Engineering"
+  ],
+  "notice_period": "60 days",
+  "evidence": [
+    {
+      "attribute": "skills:Maven",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Maven at Apex Global.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:PostgreSQL",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using PostgreSQL at Apex Global.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Kafka",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Kafka at Apex Global.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "Java Developer with over 4.4 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [],
+  "ambiguities": [
+    "difficult_edge_case"
+  ],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0150"
+}

@@ -1,0 +1,82 @@
+{
+  "candidate_id": "CAND-0170",
+  "full_name": "Rohan Patel",
+  "email": "rohan.patel@example.com",
+  "phone": "+1 555-500-8586",
+  "location": "San Jose, CA",
+  "summary": "Python Developer with 6.0 years of experience.",
+  "skills": [
+    "Django",
+    "Flask",
+    "PostgreSQL",
+    "Python",
+    "Redis",
+    "Git",
+    "Celery"
+  ],
+  "years_experience": 6.0,
+  "roles": [
+    "Python Developer"
+  ],
+  "companies": [
+    "Apex Global"
+  ],
+  "experience": [
+    {
+      "title": "Python Developer",
+      "company": "Apex Global",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using Django, Flask, PostgreSQL."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Metropolitan University"
+  ],
+  "certifications": [],
+  "projects": [
+    "Python Developer System Refactoring"
+  ],
+  "domains": [
+    "Software Engineering"
+  ],
+  "notice_period": "30 days",
+  "evidence": [
+    {
+      "attribute": "skills:Django",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Django at Apex Global.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Flask",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Flask at Apex Global.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:PostgreSQL",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using PostgreSQL at Apex Global.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "Python Developer with over 6.0 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [],
+  "ambiguities": [],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0170"
+}

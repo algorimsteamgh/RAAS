@@ -1,0 +1,13 @@
+Ava Chen
+Email: ava.chen@example.com | Phone: +1 555-787-7076 | Location: Seattle, WA
+Notice Period: Immediate
+SUMMARY:
+Technical Project Manager with over 9.1 years of professional experience building scalable systems.
+SKILLS:
+Jira, Scrum, Stakeholder Communication, Risk Management, Budgeting
+EXPERIENCE:
+Technical Project Manager at CyberShield Labs (2020 - Present)
+- Developed core features using Jira, Scrum, Stakeholder Communication.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Institute of Technology

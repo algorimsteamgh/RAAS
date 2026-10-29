@@ -1,0 +1,13 @@
+Elena Wang
+Email: elena.wang@example.com | Phone: +1 555-397-8011 | Location: New York, NY
+Notice Period: Immediate
+SUMMARY:
+Engineering Manager with over 11.3 years of professional experience building scalable systems.
+SKILLS:
+CI/CD, Scrum, Agile, Leadership, Team Mentorship, Jira, System Architecture
+EXPERIENCE:
+Engineering Manager at OmniCloud Systems (2020 - Present)
+- Developed core features using CI/CD, Scrum, Agile.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Example State University

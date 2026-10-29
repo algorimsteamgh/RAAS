@@ -1,0 +1,82 @@
+{
+  "candidate_id": "CAND-0221",
+  "full_name": "Mei Wang",
+  "email": "mei.wang@example.com",
+  "phone": "+1 555-260-1877",
+  "location": "San Francisco, CA",
+  "summary": "DevOps Engineer with 5.9 years of experience.",
+  "skills": [
+    "Ansible",
+    "CI/CD",
+    "AWS",
+    "Linux",
+    "Kubernetes",
+    "Docker",
+    "Python"
+  ],
+  "years_experience": 5.9,
+  "roles": [
+    "DevOps Engineer"
+  ],
+  "companies": [
+    "FinPulse Digital"
+  ],
+  "experience": [
+    {
+      "title": "DevOps Engineer",
+      "company": "FinPulse Digital",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using Ansible, CI/CD, AWS."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Tech University"
+  ],
+  "certifications": [],
+  "projects": [
+    "DevOps Engineer System Refactoring"
+  ],
+  "domains": [
+    "Infrastructure"
+  ],
+  "notice_period": "60 days",
+  "evidence": [
+    {
+      "attribute": "skills:Ansible",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Ansible at FinPulse Digital.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:CI/CD",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using CI/CD at FinPulse Digital.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:AWS",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using AWS at FinPulse Digital.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "DevOps Engineer with over 5.9 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [],
+  "ambiguities": [],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0221"
+}

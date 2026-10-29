@@ -1,0 +1,12 @@
+Yuki Garcia
+Email: yuki.garcia@example.com | Phone: +1 555-372-9743 | Location: Austin, TX
+SUMMARY:
+DevOps Engineer with over 5.8 years of professional experience building scalable systems.
+SKILLS:
+Linux, AWS, Kubernetes, CI/CD, Ansible, Python, Terraform, Docker
+EXPERIENCE:
+DevOps Engineer at Nexus AI Studios (2020 - Present)
+- Developed core features using Linux, AWS, Kubernetes.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Example State University

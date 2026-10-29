@@ -1,0 +1,13 @@
+Maya Sharma
+Email: maya.sharma@example.com | Phone: +1 555-862-8749 | Location: Boston, MA
+Notice Period: Immediate
+SUMMARY:
+Frontend Engineer with over 4.8 years of professional experience building scalable systems.
+SKILLS:
+Redux, JavaScript, TypeScript, HTML5, React
+EXPERIENCE:
+Frontend Engineer at DataFlow Systems (2020 - Present)
+- Developed core features using Redux, JavaScript, TypeScript.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Global Science Academy

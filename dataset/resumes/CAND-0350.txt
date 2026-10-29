@@ -1,0 +1,13 @@
+Zainab Chen
+Email: zainab.chen@example.com | Phone: +1 555-633-4726 | Location: Boston, MA
+Notice Period: 15 days
+SUMMARY:
+Data Scientist with over 0.7 years of professional experience building scalable systems.
+SKILLS:
+TensorFlow, SQL, PyTorch, Pandas, Git, Scikit-Learn
+EXPERIENCE:
+Data Scientist at CloudScale Inc (2020 - Present)
+- Developed core features using TensorFlow, SQL, PyTorch.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Tech University

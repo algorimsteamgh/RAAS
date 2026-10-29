@@ -1,0 +1,12 @@
+Ava Brown
+Email: ava.brown@example.com | Phone: +1 555-515-9233 | Location: Chicago, IL
+SUMMARY:
+Java Developer with over 4.7 years of professional experience building scalable systems.
+SKILLS:
+Docker, Kafka, Spring Boot, REST API, Maven, PostgreSQL
+EXPERIENCE:
+Java Developer at CloudScale Inc (2020 - Present)
+- Developed core features using Docker, Kafka, Spring Boot.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Global Science Academy

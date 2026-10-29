@@ -1,0 +1,13 @@
+Dev Johnson
+Email: dev.johnson@example.com | Phone: +1 555-538-6654 | Location: Remote
+Notice Period: Immediate
+SUMMARY:
+Engineering Manager with over 5.9 years of professional experience building scalable systems.
+SKILLS:
+Leadership, Scrum, CI/CD, System Architecture, Agile
+EXPERIENCE:
+Engineering Manager at DataFlow Systems (2020 - Present)
+- Developed core features using Leadership, Scrum, CI/CD.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Metropolitan University

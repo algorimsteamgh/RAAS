@@ -1,0 +1,13 @@
+Isabella Brown
+Email: isabella.brown@example.com | Phone: +1 555-154-5467 | Location: Remote
+Notice Period: Immediate
+SUMMARY:
+Security Engineer with over 5.7 years of professional experience building scalable systems.
+SKILLS:
+Linux, OWASP, Cryptography, Wireshark, SIEM, Docker
+EXPERIENCE:
+Security Engineer at InnovateSoft (2020 - Present)
+- Developed core features using Linux, OWASP, Cryptography.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Institute of Technology

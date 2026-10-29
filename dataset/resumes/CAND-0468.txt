@@ -1,0 +1,13 @@
+Yuki Ivanova
+Email: yuki.ivanova@example.com | Phone: +1 555-192-7502 | Location: Seattle, WA
+Notice Period: 30 days
+SUMMARY:
+Engineering Manager with over 9.2 years of professional experience building scalable systems.
+SKILLS:
+Scrum, Python, CI/CD, Jira, System Architecture, Team Mentorship, Agile, Leadership
+EXPERIENCE:
+Engineering Manager at Nexus AI Studios (2020 - Present)
+- Developed core features using Scrum, Python, CI/CD.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Example State University

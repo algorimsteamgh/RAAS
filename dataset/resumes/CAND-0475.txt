@@ -1,0 +1,13 @@
+Yuki Fernandez
+Email: yuki.fernandez@example.com | Phone: +1 555-946-6367 | Location: Chicago, IL
+Notice Period: 15 days
+SUMMARY:
+Engineering Manager with over 8.2 years of professional experience building scalable systems.
+SKILLS:
+Jira, Leadership, Python, Scrum, Agile
+EXPERIENCE:
+Engineering Manager at ExampleTech Corp (2020 - Present)
+- Developed core features using Jira, Leadership, Python.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Tech University

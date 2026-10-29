@@ -1,0 +1,13 @@
+Ava Diallo
+Email: ava.diallo@example.com | Phone: +1 555-108-2761 | Location: Boston, MA
+Notice Period: 30 days
+SUMMARY:
+Full Stack Engineer with over 3.4 years of professional experience building scalable systems.
+SKILLS:
+REST API, Node.js, TypeScript, Express, Docker, GraphQL
+EXPERIENCE:
+Full Stack Engineer at OmniCloud Systems (2020 - Present)
+- Developed core features using REST API, Node.js, TypeScript.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Institute of Technology

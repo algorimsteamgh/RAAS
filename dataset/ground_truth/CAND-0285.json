@@ -1,0 +1,82 @@
+{
+  "candidate_id": "CAND-0285",
+  "full_name": "Kofi Mensah",
+  "email": "kofi.mensah@example.com",
+  "phone": "+1 555-748-5480",
+  "location": "Chicago, IL",
+  "summary": "Site Reliability Engineer with 4.5 years of experience.",
+  "skills": [
+    "CI/CD",
+    "Kubernetes",
+    "Grafana",
+    "Linux",
+    "AWS",
+    "Python",
+    "Docker"
+  ],
+  "years_experience": 4.5,
+  "roles": [
+    "Site Reliability Engineer"
+  ],
+  "companies": [
+    "OmniCloud Systems"
+  ],
+  "experience": [
+    {
+      "title": "Site Reliability Engineer",
+      "company": "OmniCloud Systems",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using CI/CD, Kubernetes, Grafana."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Global Science Academy"
+  ],
+  "certifications": [],
+  "projects": [
+    "Site Reliability Engineer System Refactoring"
+  ],
+  "domains": [
+    "Infrastructure"
+  ],
+  "notice_period": "30 days",
+  "evidence": [
+    {
+      "attribute": "skills:CI/CD",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using CI/CD at OmniCloud Systems.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Kubernetes",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Kubernetes at OmniCloud Systems.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Grafana",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Grafana at OmniCloud Systems.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "Site Reliability Engineer with over 4.5 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [],
+  "ambiguities": [],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0285"
+}

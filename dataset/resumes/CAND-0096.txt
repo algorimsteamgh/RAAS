@@ -1,0 +1,13 @@
+Ava Volkov
+Email: ava.volkov@example.com | Phone: +1 555-815-7421 | Location: Seattle, WA
+Notice Period: 30 days
+SUMMARY:
+Full Stack Engineer with over 5.8 years of professional experience building scalable systems.
+SKILLS:
+REST API, Docker, Node.js, React, TypeScript, GraphQL
+EXPERIENCE:
+Full Stack Engineer at FinPulse Digital (2020 - Present)
+- Developed core features using REST API, Docker, Node.js.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Tech University

@@ -1,0 +1,13 @@
+Aarav Wang
+Email: aarav.wang@example.com | Phone: +1 555-307-3161 | Location: Chicago, IL
+Notice Period: 60 days
+SUMMARY:
+Node.js Developer with over 5.8 years of professional experience building scalable systems.
+SKILLS:
+TypeScript, Redis, Node.js, Jest, JavaScript, Docker
+EXPERIENCE:
+Node.js Developer at CloudScale Inc (2020 - Present)
+- Developed core features using TypeScript, Redis, Node.js.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Example State University

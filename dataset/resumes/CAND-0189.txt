@@ -1,0 +1,12 @@
+Zainab Jones
+Email: zainab.jones@example.com | Phone: +1 555-743-3480 | Location: Boston, MA
+SUMMARY:
+Node.js Developer with over 1.2 years of professional experience building scalable systems.
+SKILLS:
+TypeScript, JavaScript, Docker, Jest, Express
+EXPERIENCE:
+Node.js Developer at Apex Global (2020 - Present)
+- Developed core features using TypeScript, JavaScript, Docker.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Global Science Academy

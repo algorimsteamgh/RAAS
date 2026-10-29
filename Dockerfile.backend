@@ -1,0 +1,57 @@
+FROM python:3.11-slim
+
+ENV PYTHONDONTWRITEBYTECODE=1 \
+    PYTHONUNBUFFERED=1 \
+    PIP_NO_CACHE_DIR=1 \
+    PORT=8000 \
+    HOST=0.0.0.0 \
+    ENVIRONMENT=production \
+    MODEL_BACKEND=ollama \
+    OLLAMA_BASE_URL=http://127.0.0.1:11434 \
+    OLLAMA_LLM_MODEL=qwen2.5:1.5b \
+    DATABASE_PATH=/app/local_data/cv_screening.db \
+    PERSISTENT_DATA_DIR=/app/data
+
+WORKDIR /app
+
+# Install system dependencies & curl
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    curl \
+    ca-certificates \
+    procps \
+    zstd \
+    && rm -rf /var/lib/apt/lists/*
+
+# Install official Ollama runtime
+RUN curl -fsSL https://ollama.com/install.sh | sh
+
+# Install Python requirements
+COPY requirements.txt .
+RUN pip install -r requirements.txt
+
+# Pre-cache Qwen2.5:1.5B lightweight model during build (cached before app source)
+RUN mkdir -p /root/.ollama && \
+    ollama serve & \
+    until curl -s http://127.0.0.1:11434/api/tags > /dev/null 2>&1; do sleep 0.5; done && \
+    ollama pull qwen2.5:1.5b && \
+    pkill ollama
+
+# Copy backend application source and seed fixtures
+COPY backend/app /app/backend/app
+COPY dataset_manifest.json /app/dataset_manifest.json
+COPY data/normalized /app/data/normalized
+COPY data/normalized /app/seed_data/normalized
+COPY data/evaluation /app/data/evaluation
+COPY data/evaluation /app/seed_data/evaluation
+COPY scripts/entrypoint.sh /app/entrypoint.sh
+
+# Ensure storage directories exist and entrypoint is executable
+RUN mkdir -p /app/data/cvs/samples /app/data/extracted /app/local_data && \
+    chmod +x /app/entrypoint.sh
+
+EXPOSE 8000
+
+HEALTHCHECK --interval=30s --timeout=5s --start-period=15s --retries=3 \
+    CMD curl -f http://localhost:8000/api/system/health || exit 1
+
+ENTRYPOINT ["/app/entrypoint.sh"]

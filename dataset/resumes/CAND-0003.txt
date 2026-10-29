@@ -1,0 +1,13 @@
+Mateo Sharma
+Email: mateo.sharma@example.com | Phone: +1 555-204-2519 | Location: Boston, MA
+Notice Period: 15 days
+SUMMARY:
+Backend Engineer with over 5.5 years of professional experience building scalable systems.
+SKILLS:
+Redis, REST API, Python, PostgreSQL, Docker, FastAPI, Microservices, Django
+EXPERIENCE:
+Backend Engineer at Nexus AI Studios (2020 - Present)
+- Developed core features using Redis, REST API, Python.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Metropolitan University

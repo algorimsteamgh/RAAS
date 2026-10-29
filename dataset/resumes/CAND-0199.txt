@@ -1,0 +1,13 @@
+Carlos Ivanova
+Email: carlos.ivanova@example.com | Phone: +1 555-153-3938 | Location: New York, NY
+Notice Period: 15 days
+SUMMARY:
+React Developer with over 5.9 years of professional experience building scalable systems.
+SKILLS:
+TypeScript, Redux, React, CSS3, HTML5, JavaScript, Vite
+EXPERIENCE:
+React Developer at ExampleTech Corp (2020 - Present)
+- Developed core features using TypeScript, Redux, React.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Metropolitan University

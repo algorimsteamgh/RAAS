@@ -1,0 +1,13 @@
+Isabella Diallo
+Email: isabella.diallo@example.com | Phone: +1 555-973-6571 | Location: San Francisco, CA
+Notice Period: 60 days
+SUMMARY:
+QA Automation Engineer with over 5.2 years of professional experience building scalable systems.
+SKILLS:
+Pytest, Selenium, Git, Python, Postman, Playwright
+EXPERIENCE:
+QA Automation Engineer at InnovateSoft (2020 - Present)
+- Developed core features using Pytest, Selenium, Git.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Metropolitan University

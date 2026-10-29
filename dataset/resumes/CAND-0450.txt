@@ -1,0 +1,13 @@
+Carlos Williams
+Email: carlos.williams@example.com | Phone: +1 555-607-6918 | Location: Chicago, IL
+Notice Period: 15 days
+SUMMARY:
+Security Engineer with over 2.6 years of professional experience building scalable systems.
+SKILLS:
+SIEM, Linux, Penetration Testing, OWASP, Docker, Wireshark
+EXPERIENCE:
+Security Engineer at NextGen Solutions (2020 - Present)
+- Developed core features using SIEM, Linux, Penetration Testing.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Global Science Academy

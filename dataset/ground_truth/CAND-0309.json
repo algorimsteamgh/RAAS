@@ -1,0 +1,82 @@
+{
+  "candidate_id": "CAND-0309",
+  "full_name": "Olivia Wang",
+  "email": "olivia.wang@example.com",
+  "phone": "+1 555-611-3203",
+  "location": "San Jose, CA",
+  "summary": "Data Engineer with 3.6 years of experience.",
+  "skills": [
+    "PostgreSQL",
+    "Apache Spark",
+    "AWS",
+    "Snowflake",
+    "Python",
+    "SQL",
+    "Airflow"
+  ],
+  "years_experience": 3.6,
+  "roles": [
+    "Data Engineer"
+  ],
+  "companies": [
+    "CloudScale Inc"
+  ],
+  "experience": [
+    {
+      "title": "Data Engineer",
+      "company": "CloudScale Inc",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using PostgreSQL, Apache Spark, AWS."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Example State University"
+  ],
+  "certifications": [],
+  "projects": [
+    "Data Engineer System Refactoring"
+  ],
+  "domains": [
+    "Data / AI"
+  ],
+  "notice_period": "15 days",
+  "evidence": [
+    {
+      "attribute": "skills:PostgreSQL",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using PostgreSQL at CloudScale Inc.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Apache Spark",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Apache Spark at CloudScale Inc.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:AWS",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using AWS at CloudScale Inc.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "Data Engineer with over 3.6 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [],
+  "ambiguities": [],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0309"
+}

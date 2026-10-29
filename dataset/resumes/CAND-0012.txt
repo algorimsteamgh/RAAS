@@ -1,0 +1,13 @@
+Kofi Davis
+Email: kofi.davis@example.com | Phone: +1 555-508-7118 | Location: Denver, CO
+Notice Period: Immediate
+SUMMARY:
+Backend Engineer with over 4.1 years of professional experience building scalable systems.
+SKILLS:
+PostgreSQL, Python, Django, REST API, FastAPI
+EXPERIENCE:
+Backend Engineer at Nexus AI Studios (2020 - Present)
+- Developed core features using PostgreSQL, Python, Django.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Institute of Technology

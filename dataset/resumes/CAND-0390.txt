@@ -1,0 +1,12 @@
+Maya Volkov
+Email: maya.volkov@example.com | Phone: +1 555-584-3770 | Location: Austin, TX
+SUMMARY:
+AI Engineer with over 3.5 years of professional experience building scalable systems.
+SKILLS:
+Python, Ollama, LangChain, Vector DB, PyTorch, FAISS, FastAPI, Transformers
+EXPERIENCE:
+AI Engineer at NextGen Solutions (2020 - Present)
+- Developed core features using Python, Ollama, LangChain.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Institute of Technology

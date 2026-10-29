@@ -1,0 +1,13 @@
+Liam Garcia
+Email: liam.garcia@example.com | Phone: +1 555-838-8287 | Location: Remote
+Notice Period: 15 days
+SUMMARY:
+QA Automation Engineer with over 5.1 years of professional experience building scalable systems.
+SKILLS:
+Pytest, REST API, Python, Playwright, Selenium, CI/CD
+EXPERIENCE:
+QA Automation Engineer at InnovateSoft (2020 - Present)
+- Developed core features using Pytest, REST API, Python.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Global Science Academy

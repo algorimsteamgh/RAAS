@@ -1,0 +1,13 @@
+Ananya Diallo
+Email: ananya.diallo@example.com | Phone: +1 555-649-7609 | Location: San Francisco, CA
+Notice Period: 30 days
+SUMMARY:
+Cloud Engineer with over 5.6 years of professional experience building scalable systems.
+SKILLS:
+Docker, GCP, Linux, Azure, Terraform, Python
+EXPERIENCE:
+Cloud Engineer at ExampleTech Corp (2020 - Present)
+- Developed core features using Docker, GCP, Linux.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Example State University

@@ -1,0 +1,12 @@
+Mei Miller
+Email: mei.miller@example.com | Phone: +1 555-381-5209 | Location: Austin, TX
+SUMMARY:
+AI Engineer with over 4.6 years of professional experience building scalable systems.
+SKILLS:
+Ollama, Transformers, LangChain, Vector DB, PyTorch, FAISS, Python, FastAPI
+EXPERIENCE:
+AI Engineer at CloudScale Inc (2020 - Present)
+- Developed core features using Ollama, Transformers, LangChain.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Tech University

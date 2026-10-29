@@ -1,0 +1,81 @@
+{
+  "candidate_id": "CAND-0274",
+  "full_name": "Maya Brown",
+  "email": "maya.brown@example.com",
+  "phone": "+1 555-913-5127",
+  "location": "San Jose, CA",
+  "summary": "Site Reliability Engineer with 5.4 years of experience.",
+  "skills": [
+    "CI/CD",
+    "Prometheus",
+    "AWS",
+    "Docker",
+    "Grafana",
+    "Python"
+  ],
+  "years_experience": 5.4,
+  "roles": [
+    "Site Reliability Engineer"
+  ],
+  "companies": [
+    "ExampleTech Corp"
+  ],
+  "experience": [
+    {
+      "title": "Site Reliability Engineer",
+      "company": "ExampleTech Corp",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using CI/CD, Prometheus, AWS."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Global Science Academy"
+  ],
+  "certifications": [],
+  "projects": [
+    "Site Reliability Engineer System Refactoring"
+  ],
+  "domains": [
+    "Infrastructure"
+  ],
+  "notice_period": "Immediate",
+  "evidence": [
+    {
+      "attribute": "skills:CI/CD",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using CI/CD at ExampleTech Corp.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Prometheus",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Prometheus at ExampleTech Corp.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:AWS",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using AWS at ExampleTech Corp.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "Site Reliability Engineer with over 5.4 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [],
+  "ambiguities": [],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0274"
+}

@@ -1,0 +1,83 @@
+{
+  "candidate_id": "CAND-0300",
+  "full_name": "Viktor Miller",
+  "email": "viktor.miller@example.com",
+  "phone": "+1 555-331-4187",
+  "location": "Denver, CO",
+  "summary": "Site Reliability Engineer with 4.5 years of experience.",
+  "skills": [
+    "Kubernetes",
+    "Prometheus",
+    "Grafana",
+    "Linux",
+    "Docker",
+    "AWS"
+  ],
+  "years_experience": 4.5,
+  "roles": [
+    "Site Reliability Engineer"
+  ],
+  "companies": [
+    "NextGen Solutions"
+  ],
+  "experience": [
+    {
+      "title": "Site Reliability Engineer",
+      "company": "NextGen Solutions",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using Kubernetes, Prometheus, Grafana."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Metropolitan University"
+  ],
+  "certifications": [],
+  "projects": [
+    "Site Reliability Engineer System Refactoring"
+  ],
+  "domains": [
+    "Infrastructure"
+  ],
+  "notice_period": "Immediate",
+  "evidence": [
+    {
+      "attribute": "skills:Kubernetes",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Kubernetes at NextGen Solutions.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Prometheus",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Prometheus at NextGen Solutions.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Grafana",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Grafana at NextGen Solutions.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "Site Reliability Engineer with over 4.5 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [],
+  "ambiguities": [
+    "difficult_edge_case"
+  ],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0300"
+}

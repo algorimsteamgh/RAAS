@@ -1,0 +1,13 @@
+Olivia Wang
+Email: olivia.wang@example.com | Phone: +1 555-401-1893 | Location: San Jose, CA
+Notice Period: 30 days
+SUMMARY:
+Data Scientist with over 1.2 years of professional experience building scalable systems.
+SKILLS:
+Pandas, TensorFlow, PyTorch, Python, Git, Scikit-Learn, Statistics
+EXPERIENCE:
+Data Scientist at FinPulse Digital (2020 - Present)
+- Developed core features using Pandas, TensorFlow, PyTorch.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Global Science Academy

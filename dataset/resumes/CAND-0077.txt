@@ -1,0 +1,13 @@
+Rohan Mensah
+Email: rohan.mensah@example.com | Phone: +1 555-326-1710 | Location: San Jose, CA
+Notice Period: 60 days
+SUMMARY:
+Frontend Engineer with over 1.5 years of professional experience building scalable systems.
+SKILLS:
+JavaScript, Next.js, Tailwind CSS, CSS3
+EXPERIENCE:
+Frontend Engineer at DataFlow Systems (2020 - Present)
+- Developed core features using JavaScript, Next.js, Tailwind CSS.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Global Science Academy

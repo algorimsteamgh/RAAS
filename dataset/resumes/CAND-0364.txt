@@ -1,0 +1,13 @@
+Kofi Miller
+Email: kofi.miller@example.com | Phone: +1 555-437-9635 | Location: Boston, MA
+Notice Period: 30 days
+SUMMARY:
+Machine Learning Engineer with over 1.5 years of professional experience building scalable systems.
+SKILLS:
+Python, Git, FastAPI, MLflow, CUDA, PyTorch, TensorFlow, Docker
+EXPERIENCE:
+Machine Learning Engineer at Nexus AI Studios (2020 - Present)
+- Developed core features using Python, Git, FastAPI.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Metropolitan University

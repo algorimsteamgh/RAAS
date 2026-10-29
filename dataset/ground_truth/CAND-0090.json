@@ -1,0 +1,81 @@
+{
+  "candidate_id": "CAND-0090",
+  "full_name": "Carlos Volkov",
+  "email": "carlos.volkov@example.com",
+  "phone": "+1 555-216-9693",
+  "location": "San Jose, CA",
+  "summary": "Frontend Engineer with 5.2 years of experience.",
+  "skills": [
+    "React",
+    "TypeScript",
+    "JavaScript",
+    "Tailwind CSS",
+    "Redux",
+    "CSS3"
+  ],
+  "years_experience": 5.2,
+  "roles": [
+    "Frontend Engineer"
+  ],
+  "companies": [
+    "CloudScale Inc"
+  ],
+  "experience": [
+    {
+      "title": "Frontend Engineer",
+      "company": "CloudScale Inc",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using React, TypeScript, JavaScript."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Tech University"
+  ],
+  "certifications": [],
+  "projects": [
+    "Frontend Engineer System Refactoring"
+  ],
+  "domains": [
+    "Software Engineering"
+  ],
+  "notice_period": "15 days",
+  "evidence": [
+    {
+      "attribute": "skills:React",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using React at CloudScale Inc.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:TypeScript",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using TypeScript at CloudScale Inc.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:JavaScript",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using JavaScript at CloudScale Inc.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "Frontend Engineer with over 5.2 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [],
+  "ambiguities": [],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0090"
+}

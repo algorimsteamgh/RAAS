@@ -1,0 +1,82 @@
+{
+  "candidate_id": "CAND-0155",
+  "full_name": "Zainab Miller",
+  "email": "zainab.miller@example.com",
+  "phone": "+1 555-648-5697",
+  "location": "Austin, TX",
+  "summary": "Java Developer with 4.9 years of experience.",
+  "skills": [
+    "Hibernate",
+    "Java",
+    "Maven",
+    "Kafka",
+    "Spring Boot",
+    "Docker",
+    "REST API"
+  ],
+  "years_experience": 4.9,
+  "roles": [
+    "Java Developer"
+  ],
+  "companies": [
+    "Nexus AI Studios"
+  ],
+  "experience": [
+    {
+      "title": "Java Developer",
+      "company": "Nexus AI Studios",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using Hibernate, Java, Maven."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Tech University"
+  ],
+  "certifications": [],
+  "projects": [
+    "Java Developer System Refactoring"
+  ],
+  "domains": [
+    "Software Engineering"
+  ],
+  "notice_period": "30 days",
+  "evidence": [
+    {
+      "attribute": "skills:Hibernate",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Hibernate at Nexus AI Studios.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Java",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Java at Nexus AI Studios.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Maven",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Maven at Nexus AI Studios.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "Java Developer with over 4.9 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [],
+  "ambiguities": [],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0155"
+}

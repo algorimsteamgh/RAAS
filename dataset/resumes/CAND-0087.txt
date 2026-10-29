@@ -1,0 +1,13 @@
+Sophia Mehta
+Email: sophia.mehta@example.com | Phone: +1 555-609-8055 | Location: Seattle, WA
+Notice Period: Immediate
+SUMMARY:
+Frontend Engineer with over 4.4 years of professional experience building scalable systems.
+SKILLS:
+CSS3, JavaScript, Next.js, Tailwind CSS, Redux
+EXPERIENCE:
+Frontend Engineer at ExampleTech Corp (2020 - Present)
+- Developed core features using CSS3, JavaScript, Next.js.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Global Science Academy

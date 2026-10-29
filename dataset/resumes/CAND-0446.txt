@@ -1,0 +1,13 @@
+Maya Ivanova
+Email: maya.ivanova@example.com | Phone: +1 555-625-1971 | Location: Denver, CO
+Notice Period: 15 days
+SUMMARY:
+Security Engineer with over 3.4 years of professional experience building scalable systems.
+SKILLS:
+Wireshark, Docker, Linux, Cryptography
+EXPERIENCE:
+Security Engineer at DataFlow Systems (2020 - Present)
+- Developed core features using Wireshark, Docker, Linux.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Tech University

@@ -1,0 +1,12 @@
+Hiroshi Jones
+Email: hiroshi.jones@example.com | Phone: +1 555-735-5106 | Location: Seattle, WA
+SUMMARY:
+Frontend Engineer with over 5.7 years of professional experience building scalable systems.
+SKILLS:
+HTML5, Tailwind CSS, Next.js, JavaScript
+EXPERIENCE:
+Frontend Engineer at Nexus AI Studios (2020 - Present)
+- Developed core features using HTML5, Tailwind CSS, Next.js.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Metropolitan University

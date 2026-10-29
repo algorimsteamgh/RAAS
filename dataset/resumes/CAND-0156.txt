@@ -1,0 +1,13 @@
+Viktor Patel
+Email: viktor.patel@example.com | Phone: +1 555-373-7502 | Location: San Francisco, CA
+Notice Period: 60 days
+SUMMARY:
+Python Developer with over 3.9 years of professional experience building scalable systems.
+SKILLS:
+PostgreSQL, Celery, Django, Flask, Python, Redis, Docker, Git
+EXPERIENCE:
+Python Developer at FinPulse Digital (2020 - Present)
+- Developed core features using PostgreSQL, Celery, Django.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Global Science Academy

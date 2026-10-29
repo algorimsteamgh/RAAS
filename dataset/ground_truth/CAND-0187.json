@@ -1,0 +1,86 @@
+{
+  "candidate_id": "CAND-0187",
+  "full_name": "Carlos Ivanova",
+  "email": "carlos.ivanova@example.com",
+  "phone": "+1 555-555-1152",
+  "location": "Austin, TX",
+  "summary": "Node.js Developer with 5.4 years of experience.",
+  "skills": [
+    "Node.js",
+    "Express",
+    "JavaScript",
+    "TypeScript",
+    "Jest",
+    "Redis",
+    "Docker"
+  ],
+  "years_experience": 5.4,
+  "roles": [
+    "Node.js Developer"
+  ],
+  "companies": [
+    "DataFlow Systems"
+  ],
+  "experience": [
+    {
+      "title": "Node.js Developer",
+      "company": "DataFlow Systems",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using Node.js, Express, JavaScript."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Metropolitan University"
+  ],
+  "certifications": [],
+  "projects": [
+    "Node.js Developer System Refactoring"
+  ],
+  "domains": [
+    "Software Engineering"
+  ],
+  "notice_period": null,
+  "evidence": [
+    {
+      "attribute": "skills:Node.js",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Node.js at DataFlow Systems.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Express",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Express at DataFlow Systems.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:JavaScript",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using JavaScript at DataFlow Systems.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "Node.js Developer with over 5.4 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [
+    "Notice period not specified in CV"
+  ],
+  "ambiguities": [
+    "messy"
+  ],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0187"
+}

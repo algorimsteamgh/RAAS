@@ -1,0 +1,85 @@
+{
+  "candidate_id": "CAND-0337",
+  "full_name": "Emma Jones",
+  "email": "emma.jones@example.com",
+  "phone": "+1 555-976-6159",
+  "location": "Austin, TX",
+  "summary": "Data Scientist with 5.8 years of experience.",
+  "skills": [
+    "Scikit-Learn",
+    "Python",
+    "Statistics",
+    "SQL",
+    "Git",
+    "TensorFlow"
+  ],
+  "years_experience": 5.8,
+  "roles": [
+    "Data Scientist"
+  ],
+  "companies": [
+    "CloudScale Inc"
+  ],
+  "experience": [
+    {
+      "title": "Data Scientist",
+      "company": "CloudScale Inc",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using Scikit-Learn, Python, Statistics."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Metropolitan University"
+  ],
+  "certifications": [],
+  "projects": [
+    "Data Scientist System Refactoring"
+  ],
+  "domains": [
+    "Data / AI"
+  ],
+  "notice_period": null,
+  "evidence": [
+    {
+      "attribute": "skills:Scikit-Learn",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Scikit-Learn at CloudScale Inc.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Python",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Python at CloudScale Inc.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Statistics",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Statistics at CloudScale Inc.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "Data Scientist with over 5.8 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [
+    "Notice period not specified in CV"
+  ],
+  "ambiguities": [
+    "messy"
+  ],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0337"
+}

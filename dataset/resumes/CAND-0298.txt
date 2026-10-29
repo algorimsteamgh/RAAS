@@ -1,0 +1,13 @@
+Noah Ivanova
+Email: noah.ivanova@example.com | Phone: +1 555-923-9489 | Location: Chicago, IL
+Notice Period: 60 days
+SUMMARY:
+Site Reliability Engineer with over 5.2 years of professional experience building scalable systems.
+SKILLS:
+Prometheus, Grafana, Python, Linux, Kubernetes, CI/CD, AWS, Docker
+EXPERIENCE:
+Site Reliability Engineer at DataFlow Systems (2020 - Present)
+- Developed core features using Prometheus, Grafana, Python.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Metropolitan University

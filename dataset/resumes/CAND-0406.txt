@@ -1,0 +1,13 @@
+Camila Volkov
+Email: camila.volkov@example.com | Phone: +1 555-783-9570 | Location: Denver, CO
+Notice Period: Immediate
+SUMMARY:
+QA Automation Engineer with over 1.8 years of professional experience building scalable systems.
+SKILLS:
+Playwright, CI/CD, Git, Selenium, Python, Pytest, Postman, REST API
+EXPERIENCE:
+QA Automation Engineer at ExampleTech Corp (2020 - Present)
+- Developed core features using Playwright, CI/CD, Git.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Global Science Academy

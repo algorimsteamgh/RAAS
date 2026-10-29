@@ -1,0 +1,82 @@
+{
+  "candidate_id": "CAND-0481",
+  "full_name": "Ava Chen",
+  "email": "ava.chen@example.com",
+  "phone": "+1 555-787-7076",
+  "location": "Seattle, WA",
+  "summary": "Technical Project Manager with 9.1 years of experience.",
+  "skills": [
+    "Jira",
+    "Scrum",
+    "Stakeholder Communication",
+    "Risk Management",
+    "Budgeting"
+  ],
+  "years_experience": 9.1,
+  "roles": [
+    "Technical Project Manager"
+  ],
+  "companies": [
+    "CyberShield Labs"
+  ],
+  "experience": [
+    {
+      "title": "Technical Project Manager",
+      "company": "CyberShield Labs",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using Jira, Scrum, Stakeholder Communication."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Institute of Technology"
+  ],
+  "certifications": [],
+  "projects": [
+    "Technical Project Manager System Refactoring"
+  ],
+  "domains": [
+    "Management"
+  ],
+  "notice_period": "Immediate",
+  "evidence": [
+    {
+      "attribute": "skills:Jira",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Jira at CyberShield Labs.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Scrum",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Scrum at CyberShield Labs.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Stakeholder Communication",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Stakeholder Communication at CyberShield Labs.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "Technical Project Manager with over 9.1 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [],
+  "ambiguities": [
+    "difficult_edge_case"
+  ],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0481"
+}

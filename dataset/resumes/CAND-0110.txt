@@ -1,0 +1,13 @@
+Maya Ali
+Email: maya.ali@example.com | Phone: +1 555-990-6776 | Location: Boston, MA
+Notice Period: 15 days
+SUMMARY:
+Full Stack Engineer with over 5.9 years of professional experience building scalable systems.
+SKILLS:
+React, Docker, REST API, Express
+EXPERIENCE:
+Full Stack Engineer at Apex Global (2020 - Present)
+- Developed core features using React, Docker, REST API.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Tech University

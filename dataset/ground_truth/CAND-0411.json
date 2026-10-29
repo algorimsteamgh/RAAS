@@ -1,0 +1,83 @@
+{
+  "candidate_id": "CAND-0411",
+  "full_name": "Rohan Wang",
+  "email": "rohan.wang@example.com",
+  "phone": "+1 555-344-3859",
+  "location": "Austin, TX",
+  "summary": "QA Automation Engineer with 5.0 years of experience.",
+  "skills": [
+    "Selenium",
+    "CI/CD",
+    "Playwright",
+    "REST API",
+    "Pytest",
+    "Python",
+    "Git",
+    "Postman"
+  ],
+  "years_experience": 5.0,
+  "roles": [
+    "QA Automation Engineer"
+  ],
+  "companies": [
+    "DataFlow Systems"
+  ],
+  "experience": [
+    {
+      "title": "QA Automation Engineer",
+      "company": "DataFlow Systems",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using Selenium, CI/CD, Playwright."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Tech University"
+  ],
+  "certifications": [],
+  "projects": [
+    "QA Automation Engineer System Refactoring"
+  ],
+  "domains": [
+    "Quality / Security"
+  ],
+  "notice_period": "Immediate",
+  "evidence": [
+    {
+      "attribute": "skills:Selenium",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Selenium at DataFlow Systems.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:CI/CD",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using CI/CD at DataFlow Systems.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Playwright",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Playwright at DataFlow Systems.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "QA Automation Engineer with over 5.0 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [],
+  "ambiguities": [],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0411"
+}

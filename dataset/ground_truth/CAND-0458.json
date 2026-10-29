@@ -1,0 +1,79 @@
+{
+  "candidate_id": "CAND-0458",
+  "full_name": "Dev Gomez",
+  "email": "dev.gomez@example.com",
+  "phone": "+1 555-792-6779",
+  "location": "Chicago, IL",
+  "summary": "Engineering Manager with 5.7 years of experience.",
+  "skills": [
+    "System Architecture",
+    "Jira",
+    "Team Mentorship",
+    "CI/CD"
+  ],
+  "years_experience": 5.7,
+  "roles": [
+    "Engineering Manager"
+  ],
+  "companies": [
+    "Nexus AI Studios"
+  ],
+  "experience": [
+    {
+      "title": "Engineering Manager",
+      "company": "Nexus AI Studios",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using System Architecture, Jira, Team Mentorship."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Example State University"
+  ],
+  "certifications": [],
+  "projects": [
+    "Engineering Manager System Refactoring"
+  ],
+  "domains": [
+    "Management"
+  ],
+  "notice_period": "30 days",
+  "evidence": [
+    {
+      "attribute": "skills:System Architecture",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using System Architecture at Nexus AI Studios.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Jira",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Jira at Nexus AI Studios.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Team Mentorship",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Team Mentorship at Nexus AI Studios.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "Engineering Manager with over 5.7 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [],
+  "ambiguities": [],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0458"
+}

@@ -1,0 +1,30 @@
+{
+  "job_id": "JOB-009",
+  "title": "Java Enterprise Backend Engineer",
+  "seniority": "Senior",
+  "mandatory_skills": [
+    "Java",
+    "Spring Boot",
+    "PostgreSQL",
+    "Microservices"
+  ],
+  "preferred_skills": [
+    "Hibernate",
+    "Kafka",
+    "Docker"
+  ],
+  "minimum_years_experience": 5.0,
+  "domain_requirements": [
+    "Banking / Enterprise"
+  ],
+  "education_requirements": [
+    "B.S. in CS"
+  ],
+  "certifications": [],
+  "location": "Charlotte, NC",
+  "work_mode": "Onsite",
+  "responsibilities": [
+    "Develop mission-critical banking backend applications."
+  ],
+  "source_dataset": "michaelozon/candidate-matching-synthetic"
+}

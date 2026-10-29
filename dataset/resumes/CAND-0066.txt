@@ -1,0 +1,13 @@
+Emma Chen
+Email: emma.chen@example.com | Phone: +1 555-685-6881 | Location: Chicago, IL
+Notice Period: 15 days
+SUMMARY:
+Frontend Engineer with over 3.5 years of professional experience building scalable systems.
+SKILLS:
+HTML5, JavaScript, Redux, Tailwind CSS, Next.js, TypeScript, CSS3
+EXPERIENCE:
+Frontend Engineer at Nexus AI Studios (2020 - Present)
+- Developed core features using HTML5, JavaScript, Redux.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Metropolitan University

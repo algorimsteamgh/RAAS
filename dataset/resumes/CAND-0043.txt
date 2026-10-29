@@ -1,0 +1,13 @@
+Yuki Chen
+Email: yuki.chen@example.com | Phone: +1 555-444-1470 | Location: Denver, CO
+Notice Period: Immediate
+SUMMARY:
+Backend Engineer with over 3.1 years of professional experience building scalable systems.
+SKILLS:
+Docker, REST API, Django, Microservices, Redis
+EXPERIENCE:
+Backend Engineer at Nexus AI Studios (2020 - Present)
+- Developed core features using Docker, REST API, Django.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Metropolitan University

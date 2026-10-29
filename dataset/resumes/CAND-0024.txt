@@ -1,0 +1,12 @@
+Yuki Garcia
+Email: yuki.garcia@example.com | Phone: +1 555-782-2684 | Location: Remote
+SUMMARY:
+Backend Engineer with over 5.6 years of professional experience building scalable systems.
+SKILLS:
+Django, FastAPI, REST API, Docker, PostgreSQL, Python, Microservices
+EXPERIENCE:
+Backend Engineer at Apex Global (2020 - Present)
+- Developed core features using Django, FastAPI, REST API.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Global Science Academy

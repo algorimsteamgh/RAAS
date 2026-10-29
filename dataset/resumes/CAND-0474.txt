@@ -1,0 +1,13 @@
+Noah Volkov
+Email: noah.volkov@example.com | Phone: +1 555-412-6140 | Location: San Francisco, CA
+Notice Period: 15 days
+SUMMARY:
+Engineering Manager with over 7.1 years of professional experience building scalable systems.
+SKILLS:
+Jira, Team Mentorship, System Architecture, Leadership, Python
+EXPERIENCE:
+Engineering Manager at CloudScale Inc (2020 - Present)
+- Developed core features using Jira, Team Mentorship, System Architecture.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Metropolitan University

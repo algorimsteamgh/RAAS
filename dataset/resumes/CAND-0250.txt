@@ -1,0 +1,12 @@
+Ethan Smith
+Email: ethan.smith@example.com | Phone: +1 555-898-9383 | Location: San Francisco, CA
+SUMMARY:
+Cloud Engineer with over 2.9 years of professional experience building scalable systems.
+SKILLS:
+Terraform, Python, GCP, Docker, Linux, AWS
+EXPERIENCE:
+Cloud Engineer at DataFlow Systems (2020 - Present)
+- Developed core features using Terraform, Python, GCP.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Institute of Technology

@@ -1,0 +1,13 @@
+Isabella Tanaka
+Email: isabella.tanaka@example.com | Phone: +1 555-736-5395 | Location: San Francisco, CA
+Notice Period: 60 days
+SUMMARY:
+Cloud Engineer with over 1.0 years of professional experience building scalable systems.
+SKILLS:
+Linux, Terraform, Python, GCP
+EXPERIENCE:
+Cloud Engineer at FinPulse Digital (2020 - Present)
+- Developed core features using Linux, Terraform, Python.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Global Science Academy

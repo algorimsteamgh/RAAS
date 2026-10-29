@@ -1,0 +1,80 @@
+{
+  "candidate_id": "CAND-0058",
+  "full_name": "Emma Tanaka",
+  "email": "emma.tanaka@example.com",
+  "phone": "+1 555-664-3369",
+  "location": "Boston, MA",
+  "summary": "Frontend Engineer with 4.6 years of experience.",
+  "skills": [
+    "TypeScript",
+    "React",
+    "Next.js",
+    "Tailwind CSS",
+    "HTML5"
+  ],
+  "years_experience": 4.6,
+  "roles": [
+    "Frontend Engineer"
+  ],
+  "companies": [
+    "ExampleTech Corp"
+  ],
+  "experience": [
+    {
+      "title": "Frontend Engineer",
+      "company": "ExampleTech Corp",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using TypeScript, React, Next.js."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Metropolitan University"
+  ],
+  "certifications": [],
+  "projects": [
+    "Frontend Engineer System Refactoring"
+  ],
+  "domains": [
+    "Software Engineering"
+  ],
+  "notice_period": "30 days",
+  "evidence": [
+    {
+      "attribute": "skills:TypeScript",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using TypeScript at ExampleTech Corp.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:React",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using React at ExampleTech Corp.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Next.js",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Next.js at ExampleTech Corp.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "Frontend Engineer with over 4.6 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [],
+  "ambiguities": [],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0058"
+}

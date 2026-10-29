@@ -1,0 +1,83 @@
+{
+  "candidate_id": "CAND-0067",
+  "full_name": "Hiroshi Jones",
+  "email": "hiroshi.jones@example.com",
+  "phone": "+1 555-735-5106",
+  "location": "Seattle, WA",
+  "summary": "Frontend Engineer with 5.7 years of experience.",
+  "skills": [
+    "HTML5",
+    "Tailwind CSS",
+    "Next.js",
+    "JavaScript"
+  ],
+  "years_experience": 5.7,
+  "roles": [
+    "Frontend Engineer"
+  ],
+  "companies": [
+    "Nexus AI Studios"
+  ],
+  "experience": [
+    {
+      "title": "Frontend Engineer",
+      "company": "Nexus AI Studios",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using HTML5, Tailwind CSS, Next.js."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Metropolitan University"
+  ],
+  "certifications": [],
+  "projects": [
+    "Frontend Engineer System Refactoring"
+  ],
+  "domains": [
+    "Software Engineering"
+  ],
+  "notice_period": null,
+  "evidence": [
+    {
+      "attribute": "skills:HTML5",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using HTML5 at Nexus AI Studios.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Tailwind CSS",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Tailwind CSS at Nexus AI Studios.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Next.js",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Next.js at Nexus AI Studios.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "Frontend Engineer with over 5.7 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [
+    "Notice period not specified in CV"
+  ],
+  "ambiguities": [
+    "messy"
+  ],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0067"
+}

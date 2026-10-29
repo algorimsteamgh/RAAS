@@ -1,0 +1,13 @@
+Ananya Williams
+Email: ananya.williams@example.com | Phone: +1 555-522-4340 | Location: Boston, MA
+Notice Period: 60 days
+SUMMARY:
+Full Stack Engineer with over 4.6 years of professional experience building scalable systems.
+SKILLS:
+TypeScript, Docker, React, PostgreSQL, REST API, Node.js, Express
+EXPERIENCE:
+Full Stack Engineer at CyberShield Labs (2020 - Present)
+- Developed core features using TypeScript, Docker, React.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Tech University

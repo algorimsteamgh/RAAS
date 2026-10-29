@@ -1,0 +1,13 @@
+Emma Jones
+Email: emma.jones@example.com | Phone: +1 555-954-5091 | Location: Remote
+Notice Period: 30 days
+SUMMARY:
+Data Engineer with over 2.9 years of professional experience building scalable systems.
+SKILLS:
+AWS, PostgreSQL, Python, Docker
+EXPERIENCE:
+Data Engineer at ExampleTech Corp (2020 - Present)
+- Developed core features using AWS, PostgreSQL, Python.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Global Science Academy

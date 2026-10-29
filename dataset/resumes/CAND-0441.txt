@@ -1,0 +1,13 @@
+Mei Brown
+Email: mei.brown@example.com | Phone: +1 555-656-6285 | Location: Remote
+Notice Period: 15 days
+SUMMARY:
+Security Engineer with over 1.5 years of professional experience building scalable systems.
+SKILLS:
+Wireshark, Docker, Cryptography, OWASP, Linux, SIEM
+EXPERIENCE:
+Security Engineer at Nexus AI Studios (2020 - Present)
+- Developed core features using Wireshark, Docker, Cryptography.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Metropolitan University

@@ -1,0 +1,13 @@
+Viktor Fernandez
+Email: viktor.fernandez@example.com | Phone: +1 555-693-9022 | Location: Seattle, WA
+Notice Period: 60 days
+SUMMARY:
+Frontend Engineer with over 4.2 years of professional experience building scalable systems.
+SKILLS:
+Tailwind CSS, Next.js, React, TypeScript, HTML5, CSS3
+EXPERIENCE:
+Frontend Engineer at FinPulse Digital (2020 - Present)
+- Developed core features using Tailwind CSS, Next.js, React.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Institute of Technology

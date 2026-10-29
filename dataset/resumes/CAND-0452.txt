@@ -1,0 +1,13 @@
+Ethan Chen
+Email: ethan.chen@example.com | Phone: +1 555-510-2666 | Location: Seattle, WA
+Notice Period: 30 days
+SUMMARY:
+Engineering Manager with over 11.8 years of professional experience building scalable systems.
+SKILLS:
+Leadership, Python, Team Mentorship, Agile, Scrum, CI/CD
+EXPERIENCE:
+Engineering Manager at CyberShield Labs (2020 - Present)
+- Developed core features using Leadership, Python, Team Mentorship.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Metropolitan University

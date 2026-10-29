@@ -1,0 +1,31 @@
+{
+  "job_id": "JOB-001",
+  "title": "Senior Python Backend Engineer",
+  "seniority": "Senior",
+  "mandatory_skills": [
+    "Python",
+    "FastAPI",
+    "PostgreSQL"
+  ],
+  "preferred_skills": [
+    "Docker",
+    "Redis",
+    "AWS"
+  ],
+  "minimum_years_experience": 5.0,
+  "domain_requirements": [
+    "FinTech",
+    "SaaS"
+  ],
+  "education_requirements": [
+    "B.S. in Computer Science or equivalent"
+  ],
+  "certifications": [],
+  "location": "Austin, TX (Hybrid)",
+  "work_mode": "Hybrid",
+  "responsibilities": [
+    "Design high-throughput REST APIs.",
+    "Optimize database queries and microservices."
+  ],
+  "source_dataset": "michaelozon/candidate-matching-synthetic"
+}

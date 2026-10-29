@@ -1,0 +1,13 @@
+Ethan Jones
+Email: ethan.jones@example.com | Phone: +1 555-403-4566 | Location: Austin, TX
+Notice Period: 15 days
+SUMMARY:
+Backend Engineer with over 4.4 years of professional experience building scalable systems.
+SKILLS:
+Python, Microservices, Redis, PostgreSQL, FastAPI, REST API
+EXPERIENCE:
+Backend Engineer at OmniCloud Systems (2020 - Present)
+- Developed core features using Python, Microservices, Redis.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Example State University

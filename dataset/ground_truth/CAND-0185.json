@@ -1,0 +1,81 @@
+{
+  "candidate_id": "CAND-0185",
+  "full_name": "Aarav Wang",
+  "email": "aarav.wang@example.com",
+  "phone": "+1 555-307-3161",
+  "location": "Chicago, IL",
+  "summary": "Node.js Developer with 5.8 years of experience.",
+  "skills": [
+    "TypeScript",
+    "Redis",
+    "Node.js",
+    "Jest",
+    "JavaScript",
+    "Docker"
+  ],
+  "years_experience": 5.8,
+  "roles": [
+    "Node.js Developer"
+  ],
+  "companies": [
+    "CloudScale Inc"
+  ],
+  "experience": [
+    {
+      "title": "Node.js Developer",
+      "company": "CloudScale Inc",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using TypeScript, Redis, Node.js."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Example State University"
+  ],
+  "certifications": [],
+  "projects": [
+    "Node.js Developer System Refactoring"
+  ],
+  "domains": [
+    "Software Engineering"
+  ],
+  "notice_period": "60 days",
+  "evidence": [
+    {
+      "attribute": "skills:TypeScript",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using TypeScript at CloudScale Inc.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Redis",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Redis at CloudScale Inc.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Node.js",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Node.js at CloudScale Inc.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "Node.js Developer with over 5.8 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [],
+  "ambiguities": [],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0185"
+}

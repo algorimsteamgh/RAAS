@@ -1,0 +1,12 @@
+Lucas Brown
+Email: lucas.brown@example.com | Phone: +1 555-161-5653 | Location: New York, NY
+SUMMARY:
+Data Scientist with over 4.7 years of professional experience building scalable systems.
+SKILLS:
+Git, TensorFlow, Python, Statistics
+EXPERIENCE:
+Data Scientist at FinPulse Digital (2020 - Present)
+- Developed core features using Git, TensorFlow, Python.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Metropolitan University

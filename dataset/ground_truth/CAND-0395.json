@@ -1,0 +1,84 @@
+{
+  "candidate_id": "CAND-0395",
+  "full_name": "Mason Miller",
+  "email": "mason.miller@example.com",
+  "phone": "+1 555-373-2610",
+  "location": "Chicago, IL",
+  "summary": "AI Engineer with 3.9 years of experience.",
+  "skills": [
+    "LangChain",
+    "FastAPI",
+    "Ollama",
+    "PyTorch",
+    "Transformers"
+  ],
+  "years_experience": 3.9,
+  "roles": [
+    "AI Engineer"
+  ],
+  "companies": [
+    "OmniCloud Systems"
+  ],
+  "experience": [
+    {
+      "title": "AI Engineer",
+      "company": "OmniCloud Systems",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using LangChain, FastAPI, Ollama."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Example State University"
+  ],
+  "certifications": [],
+  "projects": [
+    "AI Engineer System Refactoring"
+  ],
+  "domains": [
+    "Data / AI"
+  ],
+  "notice_period": null,
+  "evidence": [
+    {
+      "attribute": "skills:LangChain",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using LangChain at OmniCloud Systems.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:FastAPI",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using FastAPI at OmniCloud Systems.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Ollama",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Ollama at OmniCloud Systems.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "AI Engineer with over 3.9 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [
+    "Notice period not specified in CV"
+  ],
+  "ambiguities": [
+    "messy"
+  ],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0395"
+}

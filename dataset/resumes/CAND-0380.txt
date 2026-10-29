@@ -1,0 +1,13 @@
+Dev Fernandez
+Email: dev.fernandez@example.com | Phone: +1 555-523-4908 | Location: New York, NY
+Notice Period: 15 days
+SUMMARY:
+Machine Learning Engineer with over 5.9 years of professional experience building scalable systems.
+SKILLS:
+PyTorch, TensorFlow, Git, FastAPI, Docker, MLflow, CUDA
+EXPERIENCE:
+Machine Learning Engineer at OmniCloud Systems (2020 - Present)
+- Developed core features using PyTorch, TensorFlow, Git.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Institute of Technology

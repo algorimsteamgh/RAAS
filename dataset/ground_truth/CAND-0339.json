@@ -1,0 +1,85 @@
+{
+  "candidate_id": "CAND-0339",
+  "full_name": "Maya Ali",
+  "email": "maya.ali@example.com",
+  "phone": "+1 555-927-7251",
+  "location": "San Francisco, CA",
+  "summary": "Data Scientist with 5.7 years of experience.",
+  "skills": [
+    "TensorFlow",
+    "Statistics",
+    "SQL",
+    "Git",
+    "Python",
+    "PyTorch"
+  ],
+  "years_experience": 5.7,
+  "roles": [
+    "Data Scientist"
+  ],
+  "companies": [
+    "Nexus AI Studios"
+  ],
+  "experience": [
+    {
+      "title": "Data Scientist",
+      "company": "Nexus AI Studios",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using TensorFlow, Statistics, SQL."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Example State University"
+  ],
+  "certifications": [],
+  "projects": [
+    "Data Scientist System Refactoring"
+  ],
+  "domains": [
+    "Data / AI"
+  ],
+  "notice_period": null,
+  "evidence": [
+    {
+      "attribute": "skills:TensorFlow",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using TensorFlow at Nexus AI Studios.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Statistics",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Statistics at Nexus AI Studios.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:SQL",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using SQL at Nexus AI Studios.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "Data Scientist with over 5.7 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [
+    "Notice period not specified in CV"
+  ],
+  "ambiguities": [
+    "messy"
+  ],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0339"
+}

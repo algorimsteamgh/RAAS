@@ -1,0 +1,31 @@
+{
+  "job_id": "JOB-005",
+  "title": "Senior Data Engineer",
+  "seniority": "Senior",
+  "mandatory_skills": [
+    "Python",
+    "SQL",
+    "Apache Spark",
+    "Airflow"
+  ],
+  "preferred_skills": [
+    "Snowflake",
+    "Docker",
+    "AWS"
+  ],
+  "minimum_years_experience": 5.0,
+  "domain_requirements": [
+    "Data Analytics"
+  ],
+  "education_requirements": [
+    "B.S. or M.S. in STEM field"
+  ],
+  "certifications": [],
+  "location": "New York, NY",
+  "work_mode": "Hybrid",
+  "responsibilities": [
+    "Construct ETL pipelines.",
+    "Optimize data warehouse queries."
+  ],
+  "source_dataset": "michaelozon/candidate-matching-synthetic"
+}

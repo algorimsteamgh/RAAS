@@ -1,0 +1,13 @@
+Emma Khan
+Email: emma.khan@example.com | Phone: +1 555-764-3138 | Location: Austin, TX
+Notice Period: 15 days
+SUMMARY:
+QA Automation Engineer with over 2.7 years of professional experience building scalable systems.
+SKILLS:
+Selenium, Pytest, Git, Postman, Python, REST API
+EXPERIENCE:
+QA Automation Engineer at DataFlow Systems (2020 - Present)
+- Developed core features using Selenium, Pytest, Git.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Global Science Academy

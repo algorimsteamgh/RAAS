@@ -1,0 +1,12 @@
+Mei Khan
+Email: mei.khan@example.com | Phone: +1 555-951-9612 | Location: San Jose, CA
+SUMMARY:
+Security Engineer with over 5.0 years of professional experience building scalable systems.
+SKILLS:
+Cryptography, Penetration Testing, Linux, Docker
+EXPERIENCE:
+Security Engineer at CloudScale Inc (2020 - Present)
+- Developed core features using Cryptography, Penetration Testing, Linux.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Example State University

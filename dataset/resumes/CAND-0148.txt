@@ -1,0 +1,13 @@
+Natasha Khan
+Email: natasha.khan@example.com | Phone: +1 555-247-8586 | Location: Austin, TX
+Notice Period: 15 days
+SUMMARY:
+Java Developer with over 5.9 years of professional experience building scalable systems.
+SKILLS:
+Hibernate, PostgreSQL, Spring Boot, REST API, Docker, Maven, Java, Kafka
+EXPERIENCE:
+Java Developer at Apex Global (2020 - Present)
+- Developed core features using Hibernate, PostgreSQL, Spring Boot.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Example State University

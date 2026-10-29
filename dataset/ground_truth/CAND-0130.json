@@ -1,0 +1,81 @@
+{
+  "candidate_id": "CAND-0130",
+  "full_name": "Kofi Khan",
+  "email": "kofi.khan@example.com",
+  "phone": "+1 555-600-6194",
+  "location": "Denver, CO",
+  "summary": "Full Stack Engineer with 5.8 years of experience.",
+  "skills": [
+    "PostgreSQL",
+    "TypeScript",
+    "GraphQL",
+    "Docker",
+    "Express",
+    "React"
+  ],
+  "years_experience": 5.8,
+  "roles": [
+    "Full Stack Engineer"
+  ],
+  "companies": [
+    "Apex Global"
+  ],
+  "experience": [
+    {
+      "title": "Full Stack Engineer",
+      "company": "Apex Global",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using PostgreSQL, TypeScript, GraphQL."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Institute of Technology"
+  ],
+  "certifications": [],
+  "projects": [
+    "Full Stack Engineer System Refactoring"
+  ],
+  "domains": [
+    "Software Engineering"
+  ],
+  "notice_period": "30 days",
+  "evidence": [
+    {
+      "attribute": "skills:PostgreSQL",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using PostgreSQL at Apex Global.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:TypeScript",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using TypeScript at Apex Global.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:GraphQL",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using GraphQL at Apex Global.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "Full Stack Engineer with over 5.8 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [],
+  "ambiguities": [],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0130"
+}

@@ -1,0 +1,77 @@
+{
+  "candidate_id": "CAND-005",
+  "full_name": "Dr. Marcus Vance",
+  "email": "mvance_sys@example.org",
+  "phone": null,
+  "skills": [
+    "C++",
+    "C",
+    "Python",
+    "Bash",
+    "Linux",
+    "RTOS",
+    "GDB",
+    "CMake",
+    "Git",
+    "Valgrind",
+    "Docker"
+  ],
+  "years_experience": 10.0,
+  "roles": [
+    "Principal Systems Architect",
+    "Senior Embedded Engineer"
+  ],
+  "companies": [
+    "Nexa Telecom Labs",
+    "Signal Processing Corp"
+  ],
+  "education": [
+    "Ph.D. in Electrical & Computer Engineering - MIT (2013)",
+    "M.S. in Electrical Engineering - MIT (2009)",
+    "B.S. in Computer Engineering - Northeastern University (2007)"
+  ],
+  "certifications": [],
+  "projects": [
+    "3 US Patents in High-Speed Data Packet Routing",
+    "Real-time embedded packet processing engines using C++17 and DPDK"
+  ],
+  "domains": [
+    "Telecommunications",
+    "Embedded Systems",
+    "Signal Processing",
+    "Systems Architecture"
+  ],
+  "location": "Boston, MA",
+  "notice_period": null,
+  "evidence": [
+    {
+      "attribute": "full_name",
+      "source_section": "Header",
+      "source_text": "DR. MARCUS VANCE",
+      "confidence": 1.0
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary of Qualifications",
+      "source_text": "10+ years experience in Systems Engineering, Low-level Programming",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "education",
+      "source_section": "Academic Degrees",
+      "source_text": "Ph.D. in Electrical & Computer Engineering MIT (2013)",
+      "confidence": 1.0
+    }
+  ],
+  "confidence": {
+    "skills": 0.98,
+    "years_experience": 0.95,
+    "roles": 0.98,
+    "education": 1.0,
+    "overall": 0.97
+  },
+  "missing_information": [
+    "Phone number is missing from contact details",
+    "Notice period / availability date is not specified"
+  ]
+}

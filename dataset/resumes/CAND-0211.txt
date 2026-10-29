@@ -1,0 +1,13 @@
+Isabella Fernandez
+Email: isabella.fernandez@example.com | Phone: +1 555-614-6269 | Location: Boston, MA
+Notice Period: 15 days
+SUMMARY:
+DevOps Engineer with over 2.6 years of professional experience building scalable systems.
+SKILLS:
+Terraform, Docker, AWS, Linux, Python, CI/CD, Kubernetes, Ansible
+EXPERIENCE:
+DevOps Engineer at CloudScale Inc (2020 - Present)
+- Developed core features using Terraform, Docker, AWS.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Example State University

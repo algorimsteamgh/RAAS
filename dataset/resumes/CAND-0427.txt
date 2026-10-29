@@ -1,0 +1,13 @@
+Ananya Tanaka
+Email: ananya.tanaka@example.com | Phone: +1 555-855-1351 | Location: Chicago, IL
+Notice Period: 60 days
+SUMMARY:
+QA Automation Engineer with over 0.5 years of professional experience building scalable systems.
+SKILLS:
+CI/CD, Pytest, Git, Playwright, Postman
+EXPERIENCE:
+QA Automation Engineer at CyberShield Labs (2020 - Present)
+- Developed core features using CI/CD, Pytest, Git.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Tech University

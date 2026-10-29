@@ -1,0 +1,13 @@
+Emma Jones
+Email: emma.jones@example.com | Phone: +1 555-294-9786 | Location: Denver, CO
+Notice Period: 15 days
+SUMMARY:
+Backend Engineer with over 3.1 years of professional experience building scalable systems.
+SKILLS:
+PostgreSQL, REST API, Python, Microservices, Docker, Redis, Django
+EXPERIENCE:
+Backend Engineer at DataFlow Systems (2020 - Present)
+- Developed core features using PostgreSQL, REST API, Python.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Institute of Technology

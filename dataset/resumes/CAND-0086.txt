@@ -1,0 +1,13 @@
+Carlos Ivanova
+Email: carlos.ivanova@example.com | Phone: +1 555-415-1744 | Location: New York, NY
+Notice Period: 30 days
+SUMMARY:
+Frontend Engineer with over 4.6 years of professional experience building scalable systems.
+SKILLS:
+Next.js, React, TypeScript, CSS3
+EXPERIENCE:
+Frontend Engineer at NextGen Solutions (2020 - Present)
+- Developed core features using Next.js, React, TypeScript.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Metropolitan University

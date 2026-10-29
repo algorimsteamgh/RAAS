@@ -1,0 +1,12 @@
+Emma Rao
+Email: emma.rao@example.com | Phone: +1 555-567-1828 | Location: Remote
+SUMMARY:
+DevOps Engineer with over 3.5 years of professional experience building scalable systems.
+SKILLS:
+Linux, CI/CD, Docker, Python, Kubernetes, Terraform, AWS
+EXPERIENCE:
+DevOps Engineer at Nexus AI Studios (2020 - Present)
+- Developed core features using Linux, CI/CD, Docker.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Global Science Academy

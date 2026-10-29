@@ -1,0 +1,13 @@
+Natasha Brown
+Email: natasha.brown@example.com | Phone: +1 555-960-3967 | Location: Chicago, IL
+Notice Period: 60 days
+SUMMARY:
+Cloud Engineer with over 2.9 years of professional experience building scalable systems.
+SKILLS:
+GCP, Docker, Python, AWS, Azure, Terraform
+EXPERIENCE:
+Cloud Engineer at InnovateSoft (2020 - Present)
+- Developed core features using GCP, Docker, Python.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Metropolitan University

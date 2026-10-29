@@ -1,0 +1,13 @@
+Kofi Smith
+Email: kofi.smith@example.com | Phone: +1 555-146-4733 | Location: Chicago, IL
+Notice Period: 30 days
+SUMMARY:
+Backend Engineer with over 5.5 years of professional experience building scalable systems.
+SKILLS:
+REST API, Django, PostgreSQL, Microservices
+EXPERIENCE:
+Backend Engineer at CloudScale Inc (2020 - Present)
+- Developed core features using REST API, Django, PostgreSQL.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Metropolitan University

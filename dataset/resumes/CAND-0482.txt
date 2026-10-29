@@ -1,0 +1,13 @@
+Mason Khan
+Email: mason.khan@example.com | Phone: +1 555-643-8093 | Location: Seattle, WA
+Notice Period: 30 days
+SUMMARY:
+Technical Project Manager with over 7.5 years of professional experience building scalable systems.
+SKILLS:
+Risk Management, Jira, Budgeting, Roadmapping, Scrum
+EXPERIENCE:
+Technical Project Manager at NextGen Solutions (2020 - Present)
+- Developed core features using Risk Management, Jira, Budgeting.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Tech University

@@ -1,0 +1,13 @@
+Viktor Fernandez
+Email: viktor.fernandez@example.com | Phone: +1 555-881-1229 | Location: San Jose, CA
+Notice Period: 30 days
+SUMMARY:
+Security Engineer with over 0.8 years of professional experience building scalable systems.
+SKILLS:
+OWASP, Cryptography, Wireshark, Linux, Docker, Penetration Testing
+EXPERIENCE:
+Security Engineer at OmniCloud Systems (2020 - Present)
+- Developed core features using OWASP, Cryptography, Wireshark.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Global Science Academy

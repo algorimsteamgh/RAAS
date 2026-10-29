@@ -1,0 +1,81 @@
+{
+  "candidate_id": "CAND-0471",
+  "full_name": "Hiroshi Gomez",
+  "email": "hiroshi.gomez@example.com",
+  "phone": "+1 555-135-1895",
+  "location": "New York, NY",
+  "summary": "Engineering Manager with 8.0 years of experience.",
+  "skills": [
+    "Scrum",
+    "Python",
+    "Team Mentorship",
+    "Leadership",
+    "Jira",
+    "Agile"
+  ],
+  "years_experience": 8.0,
+  "roles": [
+    "Engineering Manager"
+  ],
+  "companies": [
+    "FinPulse Digital"
+  ],
+  "experience": [
+    {
+      "title": "Engineering Manager",
+      "company": "FinPulse Digital",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using Scrum, Python, Team Mentorship."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Metropolitan University"
+  ],
+  "certifications": [],
+  "projects": [
+    "Engineering Manager System Refactoring"
+  ],
+  "domains": [
+    "Management"
+  ],
+  "notice_period": "30 days",
+  "evidence": [
+    {
+      "attribute": "skills:Scrum",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Scrum at FinPulse Digital.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Python",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Python at FinPulse Digital.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Team Mentorship",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Team Mentorship at FinPulse Digital.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "Engineering Manager with over 8.0 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [],
+  "ambiguities": [],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0471"
+}

@@ -1,0 +1,12 @@
+Natasha Tanaka
+Email: natasha.tanaka@example.com | Phone: +1 555-439-8751 | Location: Remote
+SUMMARY:
+Cloud Engineer with over 0.7 years of professional experience building scalable systems.
+SKILLS:
+AWS, GCP, Linux, Docker, Kubernetes
+EXPERIENCE:
+Cloud Engineer at DataFlow Systems (2020 - Present)
+- Developed core features using AWS, GCP, Linux.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Example State University

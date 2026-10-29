@@ -1,0 +1,13 @@
+Hiroshi Smith
+Email: hiroshi.smith@example.com | Phone: +1 555-315-4492 | Location: Boston, MA
+Notice Period: Immediate
+SUMMARY:
+Site Reliability Engineer with over 0.8 years of professional experience building scalable systems.
+SKILLS:
+Python, Docker, CI/CD, AWS, Linux, Grafana, Kubernetes
+EXPERIENCE:
+Site Reliability Engineer at ExampleTech Corp (2020 - Present)
+- Developed core features using Python, Docker, CI/CD.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Example State University

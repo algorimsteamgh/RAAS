@@ -1,0 +1,12 @@
+Maya Diallo
+Email: maya.diallo@example.com | Phone: +1 555-662-1002 | Location: San Francisco, CA
+SUMMARY:
+Cloud Engineer with over 5.9 years of professional experience building scalable systems.
+SKILLS:
+Terraform, Docker, Linux, Python, GCP, Azure
+EXPERIENCE:
+Cloud Engineer at ExampleTech Corp (2020 - Present)
+- Developed core features using Terraform, Docker, Linux.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Institute of Technology

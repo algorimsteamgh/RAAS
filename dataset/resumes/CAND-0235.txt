@@ -1,0 +1,13 @@
+Lucas Gomez
+Email: lucas.gomez@example.com | Phone: +1 555-924-6004 | Location: Chicago, IL
+Notice Period: 60 days
+SUMMARY:
+DevOps Engineer with over 3.8 years of professional experience building scalable systems.
+SKILLS:
+Python, AWS, Kubernetes, Terraform, Linux, Ansible
+EXPERIENCE:
+DevOps Engineer at OmniCloud Systems (2020 - Present)
+- Developed core features using Python, AWS, Kubernetes.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Tech University

@@ -1,0 +1,83 @@
+{
+  "candidate_id": "CAND-0340",
+  "full_name": "Hiroshi Volkov",
+  "email": "hiroshi.volkov@example.com",
+  "phone": "+1 555-491-1886",
+  "location": "Chicago, IL",
+  "summary": "Data Scientist with 3.6 years of experience.",
+  "skills": [
+    "Scikit-Learn",
+    "Git",
+    "PyTorch",
+    "Pandas",
+    "TensorFlow",
+    "Python",
+    "SQL",
+    "Statistics"
+  ],
+  "years_experience": 3.6,
+  "roles": [
+    "Data Scientist"
+  ],
+  "companies": [
+    "Nexus AI Studios"
+  ],
+  "experience": [
+    {
+      "title": "Data Scientist",
+      "company": "Nexus AI Studios",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using Scikit-Learn, Git, PyTorch."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Tech University"
+  ],
+  "certifications": [],
+  "projects": [
+    "Data Scientist System Refactoring"
+  ],
+  "domains": [
+    "Data / AI"
+  ],
+  "notice_period": "Immediate",
+  "evidence": [
+    {
+      "attribute": "skills:Scikit-Learn",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Scikit-Learn at Nexus AI Studios.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Git",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Git at Nexus AI Studios.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:PyTorch",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using PyTorch at Nexus AI Studios.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "Data Scientist with over 3.6 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [],
+  "ambiguities": [],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0340"
+}

@@ -1,0 +1,13 @@
+Priya Johnson
+Email: priya.johnson@example.com | Phone: +1 555-966-3425 | Location: San Francisco, CA
+Notice Period: 15 days
+SUMMARY:
+Technical Project Manager with over 6.8 years of professional experience building scalable systems.
+SKILLS:
+Scrum, Roadmapping, Stakeholder Communication, Jira, Risk Management, Agile
+EXPERIENCE:
+Technical Project Manager at Nexus AI Studios (2020 - Present)
+- Developed core features using Scrum, Roadmapping, Stakeholder Communication.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Example State University

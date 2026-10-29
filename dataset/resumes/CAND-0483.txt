@@ -1,0 +1,12 @@
+Carlos Sharma
+Email: carlos.sharma@example.com | Phone: +1 555-546-3703 | Location: Remote
+SUMMARY:
+Technical Project Manager with over 1.2 years of professional experience building scalable systems.
+SKILLS:
+Stakeholder Communication, Budgeting, Risk Management, Agile, Roadmapping
+EXPERIENCE:
+Technical Project Manager at CloudScale Inc (2020 - Present)
+- Developed core features using Stakeholder Communication, Budgeting, Risk Management.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Example State University

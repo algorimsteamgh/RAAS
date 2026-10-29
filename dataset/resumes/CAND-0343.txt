@@ -1,0 +1,13 @@
+Sophia Ivanova
+Email: sophia.ivanova@example.com | Phone: +1 555-523-7939 | Location: Remote
+Notice Period: 15 days
+SUMMARY:
+Data Scientist with over 1.0 years of professional experience building scalable systems.
+SKILLS:
+Python, Statistics, Scikit-Learn, Pandas, TensorFlow, SQL, PyTorch, Git
+EXPERIENCE:
+Data Scientist at CyberShield Labs (2020 - Present)
+- Developed core features using Python, Statistics, Scikit-Learn.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Example State University

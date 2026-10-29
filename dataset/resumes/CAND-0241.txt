@@ -1,0 +1,13 @@
+Ananya Rao
+Email: ananya.rao@example.com | Phone: +1 555-991-3470 | Location: Seattle, WA
+Notice Period: Immediate
+SUMMARY:
+Cloud Engineer with over 3.7 years of professional experience building scalable systems.
+SKILLS:
+Python, Azure, GCP, Linux, AWS, Kubernetes, Docker, Terraform
+EXPERIENCE:
+Cloud Engineer at Apex Global (2020 - Present)
+- Developed core features using Python, Azure, GCP.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Example State University

@@ -1,0 +1,69 @@
+{
+  "candidate_id": "CAND-003",
+  "full_name": "Jordan Bennett",
+  "email": "jordan.bennett@example.org",
+  "phone": null,
+  "skills": [
+    "JavaScript",
+    "Node.js",
+    "Express.js",
+    "React",
+    "HTML/CSS",
+    "MongoDB",
+    "Mongoose",
+    "MySQL",
+    "Git"
+  ],
+  "years_experience": null,
+  "roles": [
+    "Full Stack Developer",
+    "Software Developer"
+  ],
+  "companies": [
+    "DevHouse Solutions",
+    "Acme Tech Solutions"
+  ],
+  "education": [
+    "Bachelor of Science in Software Engineering - State University"
+  ],
+  "certifications": [],
+  "projects": [],
+  "domains": [
+    "Full Stack Development",
+    "MERN Stack"
+  ],
+  "location": null,
+  "notice_period": null,
+  "evidence": [
+    {
+      "attribute": "full_name",
+      "source_section": "Header",
+      "source_text": "JORDAN BENNETT",
+      "confidence": 1.0
+    },
+    {
+      "attribute": "skills:Node.js",
+      "source_section": "Skills",
+      "source_text": "JavaScript, Node.js, Express.js, React",
+      "confidence": 1.0
+    },
+    {
+      "attribute": "roles:Full Stack Developer",
+      "source_section": "Experience",
+      "source_text": "Full Stack Developer | DevHouse Solutions",
+      "confidence": 1.0
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.0,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.70
+  },
+  "missing_information": [
+    "Total years of professional experience could not be determined due to missing employment dates",
+    "Notice period or availability date is not specified in CV",
+    "Location details are missing"
+  ]
+}

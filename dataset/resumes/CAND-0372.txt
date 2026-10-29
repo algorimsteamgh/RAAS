@@ -1,0 +1,12 @@
+Mason Sato
+Email: mason.sato@example.com | Phone: +1 555-850-9579 | Location: Chicago, IL
+SUMMARY:
+Machine Learning Engineer with over 3.0 years of professional experience building scalable systems.
+SKILLS:
+TensorFlow, PyTorch, MLflow, Python
+EXPERIENCE:
+Machine Learning Engineer at CyberShield Labs (2020 - Present)
+- Developed core features using TensorFlow, PyTorch, MLflow.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Global Science Academy

@@ -1,0 +1,12 @@
+Viktor Miller
+Email: viktor.miller@example.com | Phone: +1 555-587-2577 | Location: Denver, CO
+SUMMARY:
+Data Engineer with over 3.4 years of professional experience building scalable systems.
+SKILLS:
+PostgreSQL, Apache Spark, Python, Airflow, Snowflake, SQL
+EXPERIENCE:
+Data Engineer at Nexus AI Studios (2020 - Present)
+- Developed core features using PostgreSQL, Apache Spark, Python.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Institute of Technology

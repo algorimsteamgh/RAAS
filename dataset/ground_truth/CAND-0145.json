@@ -1,0 +1,83 @@
+{
+  "candidate_id": "CAND-0145",
+  "full_name": "Mei Mehta",
+  "email": "mei.mehta@example.com",
+  "phone": "+1 555-346-4376",
+  "location": "San Francisco, CA",
+  "summary": "Java Developer with 2.6 years of experience.",
+  "skills": [
+    "Java",
+    "Spring Boot",
+    "Docker",
+    "REST API",
+    "PostgreSQL",
+    "Maven",
+    "Kafka",
+    "Hibernate"
+  ],
+  "years_experience": 2.6,
+  "roles": [
+    "Java Developer"
+  ],
+  "companies": [
+    "ExampleTech Corp"
+  ],
+  "experience": [
+    {
+      "title": "Java Developer",
+      "company": "ExampleTech Corp",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using Java, Spring Boot, Docker."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Institute of Technology"
+  ],
+  "certifications": [],
+  "projects": [
+    "Java Developer System Refactoring"
+  ],
+  "domains": [
+    "Software Engineering"
+  ],
+  "notice_period": "30 days",
+  "evidence": [
+    {
+      "attribute": "skills:Java",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Java at ExampleTech Corp.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Spring Boot",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Spring Boot at ExampleTech Corp.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Docker",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Docker at ExampleTech Corp.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "Java Developer with over 2.6 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [],
+  "ambiguities": [],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0145"
+}

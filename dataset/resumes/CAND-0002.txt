@@ -1,0 +1,13 @@
+Elena Jones
+Email: elena.jones@example.com | Phone: +1 555-833-9928 | Location: Boston, MA
+Notice Period: 15 days
+SUMMARY:
+Backend Engineer with over 4.6 years of professional experience building scalable systems.
+SKILLS:
+Django, Docker, PostgreSQL, Microservices
+EXPERIENCE:
+Backend Engineer at NextGen Solutions (2020 - Present)
+- Developed core features using Django, Docker, PostgreSQL.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Institute of Technology

@@ -1,0 +1,13 @@
+Maya Brown
+Email: maya.brown@example.com | Phone: +1 555-913-5127 | Location: San Jose, CA
+Notice Period: Immediate
+SUMMARY:
+Site Reliability Engineer with over 5.4 years of professional experience building scalable systems.
+SKILLS:
+CI/CD, Prometheus, AWS, Docker, Grafana, Python
+EXPERIENCE:
+Site Reliability Engineer at ExampleTech Corp (2020 - Present)
+- Developed core features using CI/CD, Prometheus, AWS.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Global Science Academy

@@ -1,0 +1,84 @@
+{
+  "candidate_id": "CAND-0442",
+  "full_name": "Aarav Williams",
+  "email": "aarav.williams@example.com",
+  "phone": "+1 555-630-5610",
+  "location": "Remote",
+  "summary": "Security Engineer with 3.9 years of experience.",
+  "skills": [
+    "Python",
+    "SIEM",
+    "Cryptography",
+    "Wireshark",
+    "Docker"
+  ],
+  "years_experience": 3.9,
+  "roles": [
+    "Security Engineer"
+  ],
+  "companies": [
+    "InnovateSoft"
+  ],
+  "experience": [
+    {
+      "title": "Security Engineer",
+      "company": "InnovateSoft",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using Python, SIEM, Cryptography."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Tech University"
+  ],
+  "certifications": [],
+  "projects": [
+    "Security Engineer System Refactoring"
+  ],
+  "domains": [
+    "Quality / Security"
+  ],
+  "notice_period": null,
+  "evidence": [
+    {
+      "attribute": "skills:Python",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Python at InnovateSoft.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:SIEM",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using SIEM at InnovateSoft.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Cryptography",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Cryptography at InnovateSoft.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "Security Engineer with over 3.9 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [
+    "Notice period not specified in CV"
+  ],
+  "ambiguities": [
+    "messy"
+  ],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0442"
+}

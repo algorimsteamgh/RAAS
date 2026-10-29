@@ -1,0 +1,13 @@
+Dev Garcia
+Email: dev.garcia@example.com | Phone: +1 555-557-5374 | Location: Remote
+Notice Period: 60 days
+SUMMARY:
+Java Developer with over 5.0 years of professional experience building scalable systems.
+SKILLS:
+Kafka, Docker, Hibernate, Spring Boot
+EXPERIENCE:
+Java Developer at ExampleTech Corp (2020 - Present)
+- Developed core features using Kafka, Docker, Hibernate.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Example State University

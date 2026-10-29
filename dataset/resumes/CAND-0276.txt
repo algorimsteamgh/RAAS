@@ -1,0 +1,12 @@
+Priya Brown
+Email: priya.brown@example.com | Phone: +1 555-646-4602 | Location: Seattle, WA
+SUMMARY:
+Site Reliability Engineer with over 5.3 years of professional experience building scalable systems.
+SKILLS:
+Grafana, Docker, Python, Kubernetes, AWS, Linux, Prometheus, CI/CD
+EXPERIENCE:
+Site Reliability Engineer at ExampleTech Corp (2020 - Present)
+- Developed core features using Grafana, Docker, Python.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Example State University

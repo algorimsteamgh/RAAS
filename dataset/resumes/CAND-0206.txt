@@ -1,0 +1,13 @@
+Viktor Brown
+Email: viktor.brown@example.com | Phone: +1 555-131-7625 | Location: Denver, CO
+Notice Period: 15 days
+SUMMARY:
+DevOps Engineer with over 4.4 years of professional experience building scalable systems.
+SKILLS:
+Python, Docker, Kubernetes, Linux
+EXPERIENCE:
+DevOps Engineer at ExampleTech Corp (2020 - Present)
+- Developed core features using Python, Docker, Kubernetes.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Example State University

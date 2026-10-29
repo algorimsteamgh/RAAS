@@ -1,0 +1,13 @@
+Viktor Williams
+Email: viktor.williams@example.com | Phone: +1 555-157-5366 | Location: Boston, MA
+Notice Period: 60 days
+SUMMARY:
+Data Engineer with over 1.2 years of professional experience building scalable systems.
+SKILLS:
+PostgreSQL, Docker, Airflow, Python, AWS
+EXPERIENCE:
+Data Engineer at InnovateSoft (2020 - Present)
+- Developed core features using PostgreSQL, Docker, Airflow.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Global Science Academy

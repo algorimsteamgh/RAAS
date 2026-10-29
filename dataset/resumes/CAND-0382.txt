@@ -1,0 +1,13 @@
+Priya Volkov
+Email: priya.volkov@example.com | Phone: +1 555-776-2007 | Location: San Francisco, CA
+Notice Period: 60 days
+SUMMARY:
+Machine Learning Engineer with over 3.0 years of professional experience building scalable systems.
+SKILLS:
+Python, CUDA, PyTorch, MLflow, Docker, TensorFlow, FastAPI, Git
+EXPERIENCE:
+Machine Learning Engineer at Nexus AI Studios (2020 - Present)
+- Developed core features using Python, CUDA, PyTorch.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Tech University

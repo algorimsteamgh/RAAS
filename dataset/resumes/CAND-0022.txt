@@ -1,0 +1,13 @@
+Amir Rao
+Email: amir.rao@example.com | Phone: +1 555-194-7939 | Location: Chicago, IL
+Notice Period: Immediate
+SUMMARY:
+Backend Engineer with over 3.7 years of professional experience building scalable systems.
+SKILLS:
+Redis, FastAPI, Docker, PostgreSQL, Microservices
+EXPERIENCE:
+Backend Engineer at OmniCloud Systems (2020 - Present)
+- Developed core features using Redis, FastAPI, Docker.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Example State University

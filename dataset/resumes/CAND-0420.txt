@@ -1,0 +1,13 @@
+Priya Ivanova
+Email: priya.ivanova@example.com | Phone: +1 555-412-3650 | Location: Denver, CO
+Notice Period: 60 days
+SUMMARY:
+QA Automation Engineer with over 1.6 years of professional experience building scalable systems.
+SKILLS:
+Postman, Pytest, Selenium, REST API
+EXPERIENCE:
+QA Automation Engineer at CloudScale Inc (2020 - Present)
+- Developed core features using Postman, Pytest, Selenium.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Metropolitan University

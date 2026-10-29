@@ -1,0 +1,13 @@
+Mateo Wang
+Email: mateo.wang@example.com | Phone: +1 555-147-3018 | Location: Denver, CO
+Notice Period: 15 days
+SUMMARY:
+Cloud Engineer with over 4.6 years of professional experience building scalable systems.
+SKILLS:
+GCP, Terraform, AWS, Kubernetes, Docker, Python, Azure, Linux
+EXPERIENCE:
+Cloud Engineer at OmniCloud Systems (2020 - Present)
+- Developed core features using GCP, Terraform, AWS.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Institute of Technology

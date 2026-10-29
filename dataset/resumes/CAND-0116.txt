@@ -1,0 +1,12 @@
+Mason Volkov
+Email: mason.volkov@example.com | Phone: +1 555-175-8372 | Location: Denver, CO
+SUMMARY:
+Full Stack Engineer with over 3.7 years of professional experience building scalable systems.
+SKILLS:
+Node.js, REST API, React, Express, TypeScript, PostgreSQL, GraphQL, Docker
+EXPERIENCE:
+Full Stack Engineer at CloudScale Inc (2020 - Present)
+- Developed core features using Node.js, REST API, React.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Institute of Technology

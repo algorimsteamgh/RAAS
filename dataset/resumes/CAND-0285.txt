@@ -1,0 +1,13 @@
+Kofi Mensah
+Email: kofi.mensah@example.com | Phone: +1 555-748-5480 | Location: Chicago, IL
+Notice Period: 30 days
+SUMMARY:
+Site Reliability Engineer with over 4.5 years of professional experience building scalable systems.
+SKILLS:
+CI/CD, Kubernetes, Grafana, Linux, AWS, Python, Docker
+EXPERIENCE:
+Site Reliability Engineer at OmniCloud Systems (2020 - Present)
+- Developed core features using CI/CD, Kubernetes, Grafana.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Global Science Academy

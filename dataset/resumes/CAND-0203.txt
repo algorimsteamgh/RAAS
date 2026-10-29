@@ -1,0 +1,13 @@
+Wei Rao
+Email: wei.rao@example.com | Phone: +1 555-545-3141 | Location: New York, NY
+Notice Period: Immediate
+SUMMARY:
+DevOps Engineer with over 1.8 years of professional experience building scalable systems.
+SKILLS:
+CI/CD, AWS, Terraform, Linux, Kubernetes, Docker, Ansible
+EXPERIENCE:
+DevOps Engineer at CloudScale Inc (2020 - Present)
+- Developed core features using CI/CD, AWS, Terraform.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Tech University

@@ -1,0 +1,79 @@
+{
+  "candidate_id": "CAND-0315",
+  "full_name": "Zainab Davis",
+  "email": "zainab.davis@example.com",
+  "phone": "+1 555-553-3071",
+  "location": "Seattle, WA",
+  "summary": "Data Engineer with 0.8 years of experience.",
+  "skills": [
+    "Snowflake",
+    "Docker",
+    "Apache Spark",
+    "Airflow"
+  ],
+  "years_experience": 0.8,
+  "roles": [
+    "Data Engineer"
+  ],
+  "companies": [
+    "CyberShield Labs"
+  ],
+  "experience": [
+    {
+      "title": "Data Engineer",
+      "company": "CyberShield Labs",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using Snowflake, Docker, Apache Spark."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Tech University"
+  ],
+  "certifications": [],
+  "projects": [
+    "Data Engineer System Refactoring"
+  ],
+  "domains": [
+    "Data / AI"
+  ],
+  "notice_period": "30 days",
+  "evidence": [
+    {
+      "attribute": "skills:Snowflake",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Snowflake at CyberShield Labs.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Docker",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Docker at CyberShield Labs.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Apache Spark",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Apache Spark at CyberShield Labs.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "Data Engineer with over 0.8 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [],
+  "ambiguities": [],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0315"
+}

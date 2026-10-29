@@ -1,0 +1,13 @@
+Elena Rao
+Email: elena.rao@example.com | Phone: +1 555-960-7342 | Location: San Jose, CA
+Notice Period: 15 days
+SUMMARY:
+DevOps Engineer with over 4.4 years of professional experience building scalable systems.
+SKILLS:
+Terraform, Python, AWS, Docker, Linux, CI/CD, Ansible
+EXPERIENCE:
+DevOps Engineer at OmniCloud Systems (2020 - Present)
+- Developed core features using Terraform, Python, AWS.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Tech University

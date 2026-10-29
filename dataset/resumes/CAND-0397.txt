@@ -1,0 +1,12 @@
+Maya Gomez
+Email: maya.gomez@example.com | Phone: +1 555-772-4552 | Location: San Francisco, CA
+SUMMARY:
+AI Engineer with over 2.9 years of professional experience building scalable systems.
+SKILLS:
+Ollama, LangChain, Transformers, FastAPI, PyTorch, Python, Vector DB, FAISS
+EXPERIENCE:
+AI Engineer at NextGen Solutions (2020 - Present)
+- Developed core features using Ollama, LangChain, Transformers.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Global Science Academy

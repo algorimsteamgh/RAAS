@@ -1,0 +1,13 @@
+Emma Chen
+Email: emma.chen@example.com | Phone: +1 555-191-1336 | Location: New York, NY
+Notice Period: 15 days
+SUMMARY:
+Technical Project Manager with over 10.6 years of professional experience building scalable systems.
+SKILLS:
+Budgeting, Roadmapping, Scrum, Agile, Stakeholder Communication, Jira
+EXPERIENCE:
+Technical Project Manager at FinPulse Digital (2020 - Present)
+- Developed core features using Budgeting, Roadmapping, Scrum.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Metropolitan University

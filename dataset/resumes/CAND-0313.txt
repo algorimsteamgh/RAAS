@@ -1,0 +1,13 @@
+Lucas Tanaka
+Email: lucas.tanaka@example.com | Phone: +1 555-899-6950 | Location: San Jose, CA
+Notice Period: 15 days
+SUMMARY:
+Data Engineer with over 3.9 years of professional experience building scalable systems.
+SKILLS:
+Python, SQL, Snowflake, Docker, Apache Spark
+EXPERIENCE:
+Data Engineer at DataFlow Systems (2020 - Present)
+- Developed core features using Python, SQL, Snowflake.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Institute of Technology

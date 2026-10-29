@@ -1,0 +1,13 @@
+Aarav Chen
+Email: aarav.chen@example.com | Phone: +1 555-799-7990 | Location: Seattle, WA
+Notice Period: 60 days
+SUMMARY:
+DevOps Engineer with over 5.7 years of professional experience building scalable systems.
+SKILLS:
+Ansible, Terraform, Kubernetes, Docker, CI/CD, AWS
+EXPERIENCE:
+DevOps Engineer at NextGen Solutions (2020 - Present)
+- Developed core features using Ansible, Terraform, Kubernetes.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Global Science Academy

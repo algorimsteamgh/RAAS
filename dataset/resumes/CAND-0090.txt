@@ -1,0 +1,13 @@
+Carlos Volkov
+Email: carlos.volkov@example.com | Phone: +1 555-216-9693 | Location: San Jose, CA
+Notice Period: 15 days
+SUMMARY:
+Frontend Engineer with over 5.2 years of professional experience building scalable systems.
+SKILLS:
+React, TypeScript, JavaScript, Tailwind CSS, Redux, CSS3
+EXPERIENCE:
+Frontend Engineer at CloudScale Inc (2020 - Present)
+- Developed core features using React, TypeScript, JavaScript.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Tech University

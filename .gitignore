@@ -1,0 +1,28 @@
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Node / frontend
+node_modules/
+frontend/dist/
+
+# Secrets
+.env
+.env.local
+*.env
+
+# Runtime data (SQLite DBs, logs, uploaded resumes)
+*.db
+*.db-shm
+*.db-wal
+*.log
+data/backups/
+data/cvs/samples/CAND-*/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/

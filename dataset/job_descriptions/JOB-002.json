@@ -1,0 +1,31 @@
+{
+  "job_id": "JOB-002",
+  "title": "React Frontend Engineer",
+  "seniority": "Mid-Senior",
+  "mandatory_skills": [
+    "React",
+    "TypeScript",
+    "JavaScript"
+  ],
+  "preferred_skills": [
+    "Redux",
+    "Tailwind CSS",
+    "Next.js"
+  ],
+  "minimum_years_experience": 3.0,
+  "domain_requirements": [
+    "E-Commerce",
+    "Web Applications"
+  ],
+  "education_requirements": [
+    "Bachelor's degree"
+  ],
+  "certifications": [],
+  "location": "San Francisco, CA",
+  "work_mode": "Onsite",
+  "responsibilities": [
+    "Develop user-facing UI components.",
+    "Ensure web accessibility and responsiveness."
+  ],
+  "source_dataset": "michaelozon/candidate-matching-synthetic"
+}

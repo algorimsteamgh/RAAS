@@ -1,0 +1,13 @@
+Mason Jones
+Email: mason.jones@example.com | Phone: +1 555-857-9814 | Location: New York, NY
+Notice Period: Immediate
+SUMMARY:
+Data Scientist with over 4.3 years of professional experience building scalable systems.
+SKILLS:
+Git, PyTorch, TensorFlow, Pandas, Python, Statistics
+EXPERIENCE:
+Data Scientist at Nexus AI Studios (2020 - Present)
+- Developed core features using Git, PyTorch, TensorFlow.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Tech University

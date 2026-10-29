@@ -1,0 +1,13 @@
+Maya Miller
+Email: maya.miller@example.com | Phone: +1 555-486-1647 | Location: San Francisco, CA
+Notice Period: 15 days
+SUMMARY:
+Java Developer with over 5.2 years of professional experience building scalable systems.
+SKILLS:
+PostgreSQL, REST API, Spring Boot, Hibernate, Kafka, Java, Maven, Docker
+EXPERIENCE:
+Java Developer at DataFlow Systems (2020 - Present)
+- Developed core features using PostgreSQL, REST API, Spring Boot.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Global Science Academy

@@ -1,0 +1,13 @@
+Priya Diallo
+Email: priya.diallo@example.com | Phone: +1 555-643-6632 | Location: Boston, MA
+Notice Period: Immediate
+SUMMARY:
+Backend Engineer with over 4.4 years of professional experience building scalable systems.
+SKILLS:
+Microservices, Django, REST API, Docker, FastAPI, Python
+EXPERIENCE:
+Backend Engineer at InnovateSoft (2020 - Present)
+- Developed core features using Microservices, Django, REST API.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Metropolitan University

@@ -1,0 +1,12 @@
+Priya Chen
+Email: priya.chen@example.com | Phone: +1 555-215-4949 | Location: Denver, CO
+SUMMARY:
+React Developer with over 2.7 years of professional experience building scalable systems.
+SKILLS:
+CSS3, React, TypeScript, Redux
+EXPERIENCE:
+React Developer at Nexus AI Studios (2020 - Present)
+- Developed core features using CSS3, React, TypeScript.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Global Science Academy

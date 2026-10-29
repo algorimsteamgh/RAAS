@@ -1,0 +1,13 @@
+Noah Sato
+Email: noah.sato@example.com | Phone: +1 555-425-9381 | Location: Austin, TX
+Notice Period: 30 days
+SUMMARY:
+Security Engineer with over 1.0 years of professional experience building scalable systems.
+SKILLS:
+Cryptography, OWASP, Penetration Testing, SIEM, Linux
+EXPERIENCE:
+Security Engineer at NextGen Solutions (2020 - Present)
+- Developed core features using Cryptography, OWASP, Penetration Testing.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Metropolitan University

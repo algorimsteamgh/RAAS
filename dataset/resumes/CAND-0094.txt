@@ -1,0 +1,12 @@
+Camila Sharma
+Email: camila.sharma@example.com | Phone: +1 555-831-2381 | Location: San Jose, CA
+SUMMARY:
+Full Stack Engineer with over 2.6 years of professional experience building scalable systems.
+SKILLS:
+GraphQL, PostgreSQL, REST API, Docker, React, Express, Node.js
+EXPERIENCE:
+Full Stack Engineer at NextGen Solutions (2020 - Present)
+- Developed core features using GraphQL, PostgreSQL, REST API.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Global Science Academy

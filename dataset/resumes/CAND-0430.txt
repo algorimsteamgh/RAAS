@@ -1,0 +1,12 @@
+Lucas Patel
+Email: lucas.patel@example.com | Phone: +1 555-288-4361 | Location: San Jose, CA
+SUMMARY:
+QA Automation Engineer with over 4.8 years of professional experience building scalable systems.
+SKILLS:
+Playwright, Postman, Pytest, Git, Selenium, REST API
+EXPERIENCE:
+QA Automation Engineer at NextGen Solutions (2020 - Present)
+- Developed core features using Playwright, Postman, Pytest.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Example State University

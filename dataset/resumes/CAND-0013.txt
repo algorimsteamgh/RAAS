@@ -1,0 +1,13 @@
+Liam Khan
+Email: liam.khan@example.com | Phone: +1 555-746-1964 | Location: New York, NY
+Notice Period: 60 days
+SUMMARY:
+Backend Engineer with over 2.6 years of professional experience building scalable systems.
+SKILLS:
+FastAPI, Redis, Microservices, Django, PostgreSQL, Python
+EXPERIENCE:
+Backend Engineer at OmniCloud Systems (2020 - Present)
+- Developed core features using FastAPI, Redis, Microservices.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Institute of Technology

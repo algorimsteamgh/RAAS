@@ -1,0 +1,12 @@
+Camila Davis
+Email: camila.davis@example.com | Phone: +1 555-951-2133 | Location: Boston, MA
+SUMMARY:
+Python Developer with over 3.0 years of professional experience building scalable systems.
+SKILLS:
+PostgreSQL, Flask, Celery, Django, Docker, Redis
+EXPERIENCE:
+Python Developer at DataFlow Systems (2020 - Present)
+- Developed core features using PostgreSQL, Flask, Celery.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Global Science Academy

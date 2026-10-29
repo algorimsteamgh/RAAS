@@ -1,0 +1,13 @@
+Fatima Rao
+Email: fatima.rao@example.com | Phone: +1 555-956-7504 | Location: Denver, CO
+Notice Period: 60 days
+SUMMARY:
+Java Developer with over 5.1 years of professional experience building scalable systems.
+SKILLS:
+Java, REST API, Hibernate, Kafka, Maven, Spring Boot
+EXPERIENCE:
+Java Developer at NextGen Solutions (2020 - Present)
+- Developed core features using Java, REST API, Hibernate.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Global Science Academy

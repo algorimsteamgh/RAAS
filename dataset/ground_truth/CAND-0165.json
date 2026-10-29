@@ -1,0 +1,83 @@
+{
+  "candidate_id": "CAND-0165",
+  "full_name": "Aarav Chen",
+  "email": "aarav.chen@example.com",
+  "phone": "+1 555-440-7224",
+  "location": "Remote",
+  "summary": "Python Developer with 4.0 years of experience.",
+  "skills": [
+    "Flask",
+    "Docker",
+    "Git",
+    "Redis",
+    "Django",
+    "PostgreSQL",
+    "Celery",
+    "Python"
+  ],
+  "years_experience": 4.0,
+  "roles": [
+    "Python Developer"
+  ],
+  "companies": [
+    "FinPulse Digital"
+  ],
+  "experience": [
+    {
+      "title": "Python Developer",
+      "company": "FinPulse Digital",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using Flask, Docker, Git."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Metropolitan University"
+  ],
+  "certifications": [],
+  "projects": [
+    "Python Developer System Refactoring"
+  ],
+  "domains": [
+    "Software Engineering"
+  ],
+  "notice_period": "30 days",
+  "evidence": [
+    {
+      "attribute": "skills:Flask",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Flask at FinPulse Digital.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Docker",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Docker at FinPulse Digital.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Git",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Git at FinPulse Digital.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "Python Developer with over 4.0 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [],
+  "ambiguities": [],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0165"
+}

@@ -1,0 +1,31 @@
+{
+  "job_id": "JOB-004",
+  "title": "DevOps & Infrastructure Engineer",
+  "seniority": "Senior",
+  "mandatory_skills": [
+    "Docker",
+    "Kubernetes",
+    "AWS",
+    "Terraform"
+  ],
+  "preferred_skills": [
+    "Ansible",
+    "Python",
+    "CI/CD"
+  ],
+  "minimum_years_experience": 4.0,
+  "domain_requirements": [
+    "Cloud Infrastructure"
+  ],
+  "education_requirements": [],
+  "certifications": [
+    "AWS Certified Solutions Architect"
+  ],
+  "location": "Seattle, WA",
+  "work_mode": "Hybrid",
+  "responsibilities": [
+    "Automate deployment pipelines.",
+    "Manage cloud clusters and security."
+  ],
+  "source_dataset": "michaelozon/candidate-matching-synthetic"
+}

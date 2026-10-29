@@ -1,0 +1,13 @@
+Lucas Miller
+Email: lucas.miller@example.com | Phone: +1 555-820-8311 | Location: New York, NY
+Notice Period: 30 days
+SUMMARY:
+Full Stack Engineer with over 3.5 years of professional experience building scalable systems.
+SKILLS:
+Express, TypeScript, React, REST API, GraphQL, PostgreSQL, Docker
+EXPERIENCE:
+Full Stack Engineer at DataFlow Systems (2020 - Present)
+- Developed core features using Express, TypeScript, React.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Metropolitan University

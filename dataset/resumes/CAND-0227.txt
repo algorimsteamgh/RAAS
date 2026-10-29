@@ -1,0 +1,13 @@
+Dev Diallo
+Email: dev.diallo@example.com | Phone: +1 555-506-6343 | Location: Chicago, IL
+Notice Period: Immediate
+SUMMARY:
+DevOps Engineer with over 5.7 years of professional experience building scalable systems.
+SKILLS:
+Linux, Docker, Terraform, Kubernetes
+EXPERIENCE:
+DevOps Engineer at CloudScale Inc (2020 - Present)
+- Developed core features using Linux, Docker, Terraform.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Tech University

@@ -1,0 +1,12 @@
+Viktor Volkov
+Email: viktor.volkov@example.com | Phone: +1 555-279-8612 | Location: Denver, CO
+SUMMARY:
+Full Stack Engineer with over 5.3 years of professional experience building scalable systems.
+SKILLS:
+GraphQL, TypeScript, Node.js, React
+EXPERIENCE:
+Full Stack Engineer at ExampleTech Corp (2020 - Present)
+- Developed core features using GraphQL, TypeScript, Node.js.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Institute of Technology

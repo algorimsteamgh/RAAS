@@ -1,0 +1,12 @@
+Priya Chen
+Email: priya.chen@example.com | Phone: +1 555-767-4212 | Location: San Jose, CA
+SUMMARY:
+Data Scientist with over 5.1 years of professional experience building scalable systems.
+SKILLS:
+SQL, Python, Scikit-Learn, Git, TensorFlow
+EXPERIENCE:
+Data Scientist at Nexus AI Studios (2020 - Present)
+- Developed core features using SQL, Python, Scikit-Learn.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Example State University

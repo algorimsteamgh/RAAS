@@ -1,0 +1,13 @@
+Elena Tanaka
+Email: elena.tanaka@example.com | Phone: +1 555-238-9835 | Location: Seattle, WA
+Notice Period: 30 days
+SUMMARY:
+Data Engineer with over 4.1 years of professional experience building scalable systems.
+SKILLS:
+Docker, PostgreSQL, Snowflake, AWS, Apache Spark, SQL, Airflow, Python
+EXPERIENCE:
+Data Engineer at DataFlow Systems (2020 - Present)
+- Developed core features using Docker, PostgreSQL, Snowflake.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Global Science Academy

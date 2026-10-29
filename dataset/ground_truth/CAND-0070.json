@@ -1,0 +1,81 @@
+{
+  "candidate_id": "CAND-0070",
+  "full_name": "Elena Johnson",
+  "email": "elena.johnson@example.com",
+  "phone": "+1 555-565-7038",
+  "location": "Chicago, IL",
+  "summary": "Frontend Engineer with 1.7 years of experience.",
+  "skills": [
+    "TypeScript",
+    "CSS3",
+    "Redux",
+    "Next.js",
+    "JavaScript",
+    "React"
+  ],
+  "years_experience": 1.7,
+  "roles": [
+    "Frontend Engineer"
+  ],
+  "companies": [
+    "OmniCloud Systems"
+  ],
+  "experience": [
+    {
+      "title": "Frontend Engineer",
+      "company": "OmniCloud Systems",
+      "dates": "2020 - Present",
+      "responsibilities": [
+        "Developed core features using TypeScript, CSS3, Redux."
+      ]
+    }
+  ],
+  "education": [
+    "B.S. in Computer Science - Metropolitan University"
+  ],
+  "certifications": [],
+  "projects": [
+    "Frontend Engineer System Refactoring"
+  ],
+  "domains": [
+    "Software Engineering"
+  ],
+  "notice_period": "15 days",
+  "evidence": [
+    {
+      "attribute": "skills:TypeScript",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using TypeScript at OmniCloud Systems.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:CSS3",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using CSS3 at OmniCloud Systems.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "skills:Redux",
+      "source_section": "Skills / Experience",
+      "source_text": "Developed core features using Redux at OmniCloud Systems.",
+      "confidence": 0.95
+    },
+    {
+      "attribute": "years_experience",
+      "source_section": "Summary",
+      "source_text": "Frontend Engineer with over 1.7 years of professional experience",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": {
+    "skills": 0.95,
+    "years_experience": 0.9,
+    "roles": 0.95,
+    "education": 0.9,
+    "overall": 0.92
+  },
+  "missing_information": [],
+  "ambiguities": [],
+  "source_dataset": "michaelozon/candidate-matching-synthetic",
+  "source_record_id": "synth-CAND-0070"
+}

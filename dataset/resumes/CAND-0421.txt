@@ -1,0 +1,13 @@
+Kofi Volkov
+Email: kofi.volkov@example.com | Phone: +1 555-101-2158 | Location: Boston, MA
+Notice Period: 15 days
+SUMMARY:
+QA Automation Engineer with over 3.7 years of professional experience building scalable systems.
+SKILLS:
+Git, Pytest, Playwright, Postman
+EXPERIENCE:
+QA Automation Engineer at OmniCloud Systems (2020 - Present)
+- Developed core features using Git, Pytest, Playwright.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Tech University

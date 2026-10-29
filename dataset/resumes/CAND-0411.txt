@@ -1,0 +1,13 @@
+Rohan Wang
+Email: rohan.wang@example.com | Phone: +1 555-344-3859 | Location: Austin, TX
+Notice Period: Immediate
+SUMMARY:
+QA Automation Engineer with over 5.0 years of professional experience building scalable systems.
+SKILLS:
+Selenium, CI/CD, Playwright, REST API, Pytest, Python, Git, Postman
+EXPERIENCE:
+QA Automation Engineer at DataFlow Systems (2020 - Present)
+- Developed core features using Selenium, CI/CD, Playwright.
+- Collaborated with cross-functional teams to improve performance and code quality.
+EDUCATION:
+B.S. in Computer Science from Tech University
