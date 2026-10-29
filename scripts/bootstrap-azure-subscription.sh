@@ -30,13 +30,31 @@ fi
 az ad sp show --id "$CLIENT_ID" >/dev/null 2>&1 || az ad sp create --id "$CLIENT_ID" -o none
 SP_OBJECT_ID="$(az ad sp show --id "$CLIENT_ID" --query id -o tsv)"
 
-if ! az ad app federated-credential list --id "$CLIENT_ID" --query "[?name=='github-${GITHUB_ENVIRONMENT}'].name" -o tsv | grep -q .; then
-  az ad app federated-credential create --id "$CLIENT_ID" --parameters "{
-    \"name\": \"github-${GITHUB_ENVIRONMENT}\",
-    \"issuer\": \"https://token.actions.githubusercontent.com\",
-    \"subject\": \"repo:${GITHUB_REPO}:environment:${GITHUB_ENVIRONMENT}\",
-    \"audiences\": [\"api://AzureADTokenExchange\"]
-  }" -o none
+add_federated_credential() {
+  local name="$1" subject="$2"
+  if ! az ad app federated-credential list --id "$CLIENT_ID" --query "[?name=='${name}'].name" -o tsv | grep -q .; then
+    az ad app federated-credential create --id "$CLIENT_ID" --parameters "{
+      \"name\": \"${name}\",
+      \"issuer\": \"https://token.actions.githubusercontent.com\",
+      \"subject\": \"${subject}\",
+      \"audiences\": [\"api://AzureADTokenExchange\"]
+    }" -o none
+  fi
+}
+
+add_federated_credential "github-${GITHUB_ENVIRONMENT}" "repo:${GITHUB_REPO}:environment:${GITHUB_ENVIRONMENT}"
+
+# Newer GitHub orgs and repos send a subject that includes the owner and repo IDs,
+# e.g. repo:owner@123/name@456:environment:production, so register that form too.
+REPO_JSON="$(curl -fsSL "https://api.github.com/repos/${GITHUB_REPO}" || true)"
+OWNER_ID="$(echo "$REPO_JSON" | jq -r '.owner.id // empty' 2>/dev/null || true)"
+REPO_ID="$(echo "$REPO_JSON" | jq -r '.id // empty' 2>/dev/null || true)"
+if [ -n "$OWNER_ID" ] && [ -n "$REPO_ID" ]; then
+  add_federated_credential "github-${GITHUB_ENVIRONMENT}-ids" \
+    "repo:${GITHUB_REPO%%/*}@${OWNER_ID}/${GITHUB_REPO#*/}@${REPO_ID}:environment:${GITHUB_ENVIRONMENT}"
+else
+  echo "Could not look up ${GITHUB_REPO} on GitHub; if sign-in fails with AADSTS700213,"
+  echo "add a federated credential with the subject shown in that error."
 fi
 
 echo "Granting Contributor on the subscription..."
