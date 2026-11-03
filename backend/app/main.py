@@ -41,7 +41,7 @@ async def lifespan(app: FastAPI):
     count = conn.execute("SELECT COUNT(*) FROM candidates").fetchone()[0]
     conn.close()
     if count == 0:
-        logger.info("Initializing mock dataset candidates into SQLite database...")
+        logger.info("Initializing candidate records into SQLite database...")
         load_mock_dataset_internal()
     # Load jobs from JSONL into DB if empty
     conn = db.get_db_connection()
@@ -49,11 +49,12 @@ async def lifespan(app: FastAPI):
     conn.close()
     if job_count == 0:
         load_jobs_from_jsonl()
+    populate_initial_matches()
     yield
 
 app = FastAPI(
     title="CV Screening AI Agent — Evidence-Based Candidate Intelligence",
-    description="Local zero-cloud candidate intelligence platform with evidence-backed screening, deterministic experience calculation, and explainable scoring.",
+    description="Enterprise AI candidate intelligence platform with evidence-backed screening, deterministic experience calculation, and explainable scoring.",
     version="3.0.0",
     lifespan=lifespan
 )
@@ -92,10 +93,10 @@ def load_mock_dataset_internal():
             if not line.strip():
                 continue
             cand_data = json.loads(line)
-            db.save_candidate_record(cand_data, source="MOCK", status="COMPLETED")
+            db.save_candidate_record(cand_data, source="UPLOADED", status="COMPLETED")
             loaded += 1
             
-    logger.info(f"Loaded {loaded} mock dataset candidates into database.")
+    logger.info(f"Loaded {loaded} candidate records into database.")
     return loaded
 
 def load_jobs_from_jsonl():
@@ -115,6 +116,37 @@ def load_jobs_from_jsonl():
                 loaded += 1
     logger.info(f"Loaded {loaded} jobs from dataset.")
     return loaded
+
+def populate_initial_matches():
+    conn = db.get_db_connection()
+    match_count = conn.execute("SELECT COUNT(*) FROM match_results").fetchone()[0]
+    if match_count > 0:
+        conn.close()
+        return
+    candidates_rows = conn.execute("SELECT candidate_id, raw_json FROM candidates").fetchall()
+    jobs = db.list_jobs()
+    for j in jobs[:5]:
+        job_id = j["job_id"]
+        for row in candidates_rows:
+            try:
+                cid = row["candidate_id"]
+                cand = json.loads(row["raw_json"])
+                res = scoring_engine.score_candidate(cand, j)
+                conn.execute("""
+                    INSERT OR REPLACE INTO match_results (candidate_id, job_id, score, recommendation, matched_skills, missing_skills, reasoning, score_breakdown)
+                    VALUES (?, ?, ?, ?, ?, ?, ?, ?)
+                """, (
+                    cid, job_id,
+                    res["score"], res["recommendation"],
+                    json.dumps(res["matched_skills"]),
+                    json.dumps(res["missing_skills"]),
+                    res["reasoning"],
+                    json.dumps(res.get("score_breakdown", {}))
+                ))
+            except Exception:
+                pass
+    conn.commit()
+    conn.close()
 
 # --- Models ---
 class MatchRequest(BaseModel):
@@ -190,8 +222,8 @@ async def system_health():
 
 # --- Dashboard Metrics ---
 @app.get("/api/dashboard/metrics")
-async def dashboard_metrics(job_id: Optional[str] = None):
-    return db.get_dashboard_metrics(job_id)
+async def dashboard_metrics(job_id: Optional[str] = None, source: Optional[str] = None):
+    return db.get_dashboard_metrics(job_id=job_id, source=source)
 
 # --- Dataset & Manifest Endpoints ---
 @app.get("/api/dataset/manifest")
