@@ -1,4 +1,4 @@
-# Phase 5 — CVScreen Zero-Cost Deployment Readiness Audit
+# Phase 5 — Raashiring Zero-Cost Deployment Readiness Audit
 
 **Audit Date:** October 16, 2026  
 **Author:** Senior Azure Cloud Architect, DevOps Engineer & Application Security Reviewer  

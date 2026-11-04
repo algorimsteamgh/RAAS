@@ -1,4 +1,4 @@
-# CVScreen Master Deployment — Phase F: Container Image Verification
+# Raashiring Enterprise Deployment — Phase F: Container Image Verification
 
 **Document:** `DEPLOYMENT_PHASE_F_IMAGES.md`  
 **Execution Date:** October 16, 2026  

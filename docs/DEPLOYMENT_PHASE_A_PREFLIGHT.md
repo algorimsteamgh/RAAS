@@ -1,4 +1,4 @@
-# CVScreen Master Deployment — Phase A: Repository and Azure Preflight
+# Raashiring Enterprise Deployment — Phase A: Repository and Azure Preflight
 
 **Document:** `DEPLOYMENT_PHASE_A_PREFLIGHT.md`  
 **Execution Date:** October 16, 2026  

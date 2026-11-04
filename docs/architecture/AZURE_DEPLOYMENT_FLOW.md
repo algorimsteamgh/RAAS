@@ -1,4 +1,4 @@
-# CVScreen: Azure Production Deployment & Networking Flow
+# Raashiring: Azure Production Deployment & Networking Flow
 
 **Document**: `AZURE_DEPLOYMENT_FLOW.md`  
 **Environment**: Production (`rg-cvscreening-prod` / Region: East US 2)  

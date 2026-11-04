@@ -1,4 +1,4 @@
-# Phase 11 — CVScreen Health Probe Fix and Final Validation Report
+# Phase 11 — Raashiring Health Probe Fix and Final Validation Report
 
 **Document:** `PHASE11_HEALTH_PROBE_VALIDATION.md`  
 **Role:** Senior Azure DevOps Engineer & FastAPI Infrastructure Specialist  
@@ -13,7 +13,7 @@
 
 In Phase 11, the critical deployment blocker identified in Phase 10—a mismatch between the backend Container App HTTP health probe paths (`/healthz`) and the actual FastAPI application route (`/api/system/health`)—was resolved.
 
-The fix was applied exclusively to [`infra/bicep/modules/container-apps.bicep`](file:///Users/apple/cvscreening/infra/bicep/modules/container-apps.bicep). Zero application code, zero Dockerfiles, and zero application dependencies were modified. Both Bicep compilation (`az bicep build`) and Azure Resource Manager pre-flight validation (`az deployment group validate`) completed with **exit code 0 (`provisioningState: Succeeded`)**.
+The fix was applied exclusively to [`infra/bicep/modules/container-apps.bicep`](file:///Users/apple/RASSHiringUAT/infra/bicep/modules/container-apps.bicep). Zero application code, zero Dockerfiles, and zero application dependencies were modified. Both Bicep compilation (`az bicep build`) and Azure Resource Manager pre-flight validation (`az deployment group validate`) completed with **exit code 0 (`provisioningState: Succeeded`)**.
 
 ### Strict Safety & Compliance Attestation
 - **Azure Resources Mutated:** **0** (No resources created, scaled, modified, or deleted).
@@ -26,7 +26,7 @@ The fix was applied exclusively to [`infra/bicep/modules/container-apps.bicep`](
 
 ## 2. Health Endpoint Verification
 
-Before making any infrastructure edits, the FastAPI route implementation was verified in [`backend/app/main.py`](file:///Users/apple/cvscreening/backend/app/main.py#L164-L189):
+Before making any infrastructure edits, the FastAPI route implementation was verified in [`backend/app/main.py`](file:///Users/apple/RASSHiringUAT/backend/app/main.py#L164-L189):
 
 ```python
 # --- System Health ---
@@ -69,7 +69,7 @@ async def system_health():
 ## 3. Configuration Change Applied
 
 ### File Modified
-- [`infra/bicep/modules/container-apps.bicep`](file:///Users/apple/cvscreening/infra/bicep/modules/container-apps.bicep) (Lines 214–237)
+- [`infra/bicep/modules/container-apps.bicep`](file:///Users/apple/RASSHiringUAT/infra/bicep/modules/container-apps.bicep) (Lines 214–237)
 
 ### Exact Git Diff
 ```diff
@@ -164,7 +164,7 @@ Only two operational gates remain before CVScreen is live:
 ## 7. Rollback Plan
 
 If you wish to revert this configuration edit:
-1. Open [`infra/bicep/modules/container-apps.bicep`](file:///Users/apple/cvscreening/infra/bicep/modules/container-apps.bicep).
+1. Open [`infra/bicep/modules/container-apps.bicep`](file:///Users/apple/RASSHiringUAT/infra/bicep/modules/container-apps.bicep).
 2. On line 218 and line 229, change `path: '/api/system/health'` back to `path: '/healthz'`.
 
 ---
