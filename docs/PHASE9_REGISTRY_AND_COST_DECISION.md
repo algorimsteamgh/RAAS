@@ -1,4 +1,4 @@
-# Phase 9 — CVScreen Zero-Cost Registry Decision & Deployment Gate Report
+# Phase 9 — Raashiring Zero-Cost Registry Decision & Deployment Gate Report
 
 **Document:** `PHASE9_REGISTRY_AND_COST_DECISION.md`  
 **Role:** Senior Azure Cloud Architect, DevOps Engineer & AI Infrastructure Engineer  

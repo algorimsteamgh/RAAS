@@ -1,4 +1,4 @@
-# Phase H — CVScreen Frontend Deployment Verification Report
+# Phase H — Raashiring Frontend Deployment Verification Report
 
 **Timestamp:** 2026-10-16T12:07:45Z  
 **Target Resource Group:** `rg-cvscreening-prod`  

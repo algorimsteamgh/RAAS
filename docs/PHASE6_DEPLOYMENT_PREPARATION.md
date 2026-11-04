@@ -1,4 +1,4 @@
-# Phase 6 — CVScreen Deployment Preparation & Final Safety Gate
+# Phase 6 — Raashiring Deployment Preparation & Final Safety Gate
 
 **Audit Date:** October 16, 2026  
 **Auditor:** Senior Azure Cloud Architect, DevOps Engineer & Application Security Reviewer  

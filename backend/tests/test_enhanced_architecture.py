@@ -1,4 +1,5 @@
 import asyncio
+import pytest
 from backend.app.agents.cv_agent import CVExtractionAgent, SAFE_CONTEXT_TOKEN_LIMIT
 from backend.app.agents.evaluator_agent import CandidateEvaluatorAgent
 from backend.app.services.evidence_verifier import EvidenceVerifier
@@ -65,6 +66,7 @@ def test_evidence_grounding_and_hallucination_detection():
     assert len(hallucination_flags) > 0
     assert "RustLangHallucination" in hallucination_flags[0]["description"]
 
+@pytest.mark.anyio
 async def test_full_document_extraction_and_evaluation():
     agent = CVExtractionAgent()
     agent.client.timeout = 0.05
@@ -96,6 +98,7 @@ async def test_full_document_extraction_and_evaluation():
     assert report["total_professional_experience"] != "0 months"
     assert "qualitative_reasoning" in report
 
+@pytest.mark.anyio
 async def test_sequential_chunking_fallback_for_long_cv():
     agent = CVExtractionAgent()
     agent.client.timeout = 0.05

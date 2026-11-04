@@ -1,4 +1,4 @@
-# CVScreen: Complete Architecture Diagrams
+# Raashiring Enterprise AI Platform: Complete Architecture Diagrams
 
 **Document**: `ARCHITECTURE_DIAGRAMS.md`  
 **Purpose**: Visual architecture reference covering system context, components, runtime sequences, data pipelines, infrastructure topology, and error recovery.

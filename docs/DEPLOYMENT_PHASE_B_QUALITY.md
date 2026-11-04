@@ -1,4 +1,4 @@
-# CVScreen Master Deployment — Phase B: Application Quality Checks
+# Raashiring Enterprise Deployment — Phase B: Application Quality Checks
 
 **Document:** `DEPLOYMENT_PHASE_B_QUALITY.md`  
 **Execution Date:** October 16, 2026  
@@ -12,7 +12,7 @@
 ### 1.1. TypeScript & Production Build Verification
 Command:
 ```bash
-npm run build (in /Users/apple/cvscreening/frontend)
+npm run build (in /Users/apple/RASSHiringUAT/frontend)
 ```
 - **Exit Code:** `0`
 - **Output:**
@@ -32,7 +32,7 @@ npm run build (in /Users/apple/cvscreening/frontend)
 ### 1.2. Static Code Analysis (Oxlint)
 Command:
 ```bash
-npm run lint (in /Users/apple/cvscreening/frontend)
+npm run lint (in /Users/apple/RASSHiringUAT/frontend)
 ```
 - **Exit Code:** `0`
 - **Findings:** 0 errors, 8 minor code hygiene warnings (unused catch parameters and hook dependency warnings). No blocking syntax or logical bugs.
@@ -62,7 +62,7 @@ python3 -c "import backend.app.main; print('Backend main imported successfully!'
 ## 3. Reverse-Proxy & API Routing Verification
 
 ### 3.1. API Path Design
-- In [`frontend/src/App.tsx`](file:///Users/apple/cvscreening/frontend/src/App.tsx#L4-L5):
+- In [`frontend/src/App.tsx`](file:///Users/apple/RASSHiringUAT/frontend/src/App.tsx#L4-L5):
   ```typescript
   const API_BASE = (window.location.port && ['5173', '3000'].includes(window.location.port))
     ? `http://${window.location.hostname}:8000` : '';
@@ -71,7 +71,7 @@ python3 -c "import backend.app.main; print('Backend main imported successfully!'
 - Browser requests target `/api/*` directly on the frontend domain. Localhost is never requested by client browsers.
 
 ### 3.2. Nginx Reverse-Proxy Configuration
-- In [`frontend/nginx.conf`](file:///Users/apple/cvscreening/frontend/nginx.conf):
+- In [`frontend/nginx.conf`](file:///Users/apple/RASSHiringUAT/frontend/nginx.conf):
   - `location /healthz`: Returns HTTP 200 text/plain `"healthy\n"` immediately without hitting the backend.
   - `location /api/`: Proxies to `${BACKEND_URL}` with `proxy_read_timeout 300s` and `proxy_connect_timeout 75s`.
   - `location /`: Serves static React bundle with `try_files $uri $uri/ /index.html;`.
