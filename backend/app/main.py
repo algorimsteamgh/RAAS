@@ -194,6 +194,14 @@ class HRChatResponse(BaseModel):
     created_at: Optional[str] = None
 
 # --- System Health ---
+@app.get("/healthz")
+async def healthz():
+    return {"status": "healthy", "service": "raashiring-backend"}
+
+@app.get("/readyz")
+async def readyz():
+    return {"status": "ready", "service": "raashiring-backend"}
+
 @app.get("/api/system/health")
 async def system_health():
     import httpx
