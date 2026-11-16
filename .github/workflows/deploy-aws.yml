@@ -1,0 +1,180 @@
+name: Deploy to AWS
+
+# Production deploy to Quess Global's AWS account (ap-southeast-1).
+# CI runs first, then the image is built and pushed (OIDC subject: main
+# branch); the deploy job waits for approval on the `production` environment
+# (add required reviewers under Settings > Environments > production).
+# AWS access is GitHub OIDC with the role from infra/aws (github_oidc.tf):
+# no AWS keys are stored in GitHub.
+#
+# Repository variables (Settings > Secrets and variables > Actions > Variables;
+# repository level, because the image build runs before the approval), from
+# `terraform output` in infra/aws:
+#   AWS_DEPLOY_ROLE_ARN         github_deploy_role_arn            (required)
+#   FRONTEND_BUCKET             frontend_bucket                   (required)
+#   CLOUDFRONT_DISTRIBUTION_ID  cloudfront_distribution_id        (required)
+#   APP_URL                     https://raashiring.com or https://<cloudfront_domain_name> (smoke test)
+#   ECS_CLUSTER                 default raas-prod
+#   ECR_REPOSITORY              default raas/api
+#   IMAGE_PLATFORM              default linux/amd64 (linux/arm64 if cpu_architecture = ARM64)
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+    inputs:
+      run_migrations:
+        description: Run Alembic migrations (migrate task) before updating the services
+        type: boolean
+        default: true
+
+permissions:
+  id-token: write
+  contents: read
+
+concurrency:
+  group: deploy-aws
+  cancel-in-progress: false
+
+env:
+  AWS_REGION: ap-southeast-1
+  ECS_CLUSTER: ${{ vars.ECS_CLUSTER || 'raas-prod' }}
+  ECR_REPOSITORY: ${{ vars.ECR_REPOSITORY || 'raas/api' }}
+  IMAGE_PLATFORM: ${{ vars.IMAGE_PLATFORM || 'linux/amd64' }}
+  IMAGE_TAG: ${{ github.sha }}
+
+jobs:
+  ci:
+    uses: ./.github/workflows/ci.yml
+
+  build:
+    name: Build and push the API image
+    needs: ci
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    outputs:
+      image: ${{ steps.image.outputs.image }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: aws-actions/configure-aws-credentials@v4
+        with:
+          role-to-assume: ${{ vars.AWS_DEPLOY_ROLE_ARN }}
+          aws-region: ${{ env.AWS_REGION }}
+      - id: ecr
+        uses: aws-actions/amazon-ecr-login@v2
+      - id: image
+        run: echo "image=${{ steps.ecr.outputs.registry }}/${ECR_REPOSITORY}:${IMAGE_TAG}" >> "$GITHUB_OUTPUT"
+      - uses: docker/setup-qemu-action@v3
+        if: env.IMAGE_PLATFORM != 'linux/amd64'
+      - uses: docker/setup-buildx-action@v3
+      - name: Build and push (tags are immutable; an existing tag is reused)
+        run: |
+          if aws ecr describe-images --repository-name "$ECR_REPOSITORY" --image-ids imageTag="$IMAGE_TAG" >/dev/null 2>&1; then
+            echo "Image $IMAGE_TAG already in ECR."
+          else
+            docker buildx build --platform "$IMAGE_PLATFORM" -f Dockerfile.backend \
+              -t "${{ steps.image.outputs.image }}" --provenance=false --push .
+          fi
+
+  deploy:
+    name: Migrate, deploy API and worker, publish the front end
+    needs: build
+    runs-on: ubuntu-latest
+    environment: production
+    timeout-minutes: 45
+    env:
+      IMAGE: ${{ needs.build.outputs.image }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: aws-actions/configure-aws-credentials@v4
+        with:
+          role-to-assume: ${{ vars.AWS_DEPLOY_ROLE_ARN }}
+          aws-region: ${{ env.AWS_REGION }}
+
+      - name: Register task definitions with the new image
+        id: taskdefs
+        run: |
+          set -euo pipefail
+          for svc in api worker migrate; do
+            family="${ECS_CLUSTER}-${svc}"
+            aws ecs describe-task-definition --task-definition "$family" --query taskDefinition > td.json
+            jq --arg img "$IMAGE" '
+              .containerDefinitions |= map(.image = $img)
+              | del(.taskDefinitionArn, .revision, .status, .requiresAttributes, .compatibilities,
+                    .registeredAt, .registeredBy, .deregisteredAt)' td.json > td-new.json
+            arn=$(aws ecs register-task-definition --cli-input-json file://td-new.json --query taskDefinition.taskDefinitionArn --output text)
+            echo "$svc=$arn" >> "$GITHUB_OUTPUT"
+            echo "Registered $arn"
+          done
+
+      - name: Run database migrations (one-off migrate task)
+        if: github.event_name == 'push' || inputs.run_migrations
+        run: |
+          set -euo pipefail
+          net=$(aws ecs describe-services --cluster "$ECS_CLUSTER" --services api \
+            --query 'services[0].networkConfiguration' --output json)
+          task=$(aws ecs run-task --cluster "$ECS_CLUSTER" --launch-type FARGATE \
+            --task-definition "${{ steps.taskdefs.outputs.migrate }}" \
+            --network-configuration "$net" \
+            --overrides '{"containerOverrides":[{"name":"migrate","command":["python","-m","backend.app.db.migrate","upgrade"]}]}' \
+            --query 'tasks[0].taskArn' --output text)
+          echo "Migration task: $task"
+          aws ecs wait tasks-stopped --cluster "$ECS_CLUSTER" --tasks "$task"
+          code=$(aws ecs describe-tasks --cluster "$ECS_CLUSTER" --tasks "$task" \
+            --query 'tasks[0].containers[0].exitCode' --output text)
+          reason=$(aws ecs describe-tasks --cluster "$ECS_CLUSTER" --tasks "$task" \
+            --query 'tasks[0].stoppedReason' --output text)
+          echo "Exit code: $code ($reason). Logs: CloudWatch /raas/prod/migrate"
+          test "$code" = "0"
+
+      - name: Update the API and worker services
+        run: |
+          set -euo pipefail
+          aws ecs update-service --cluster "$ECS_CLUSTER" --service api \
+            --task-definition "${{ steps.taskdefs.outputs.api }}" --query 'service.deployments[0].id' --output text
+          aws ecs update-service --cluster "$ECS_CLUSTER" --service worker \
+            --task-definition "${{ steps.taskdefs.outputs.worker }}" --query 'service.deployments[0].id' --output text
+          # The circuit breaker rolls back a failing API deployment; this waits for the outcome.
+          aws ecs wait services-stable --cluster "$ECS_CLUSTER" --services api worker
+          aws ecs describe-services --cluster "$ECS_CLUSTER" --services api worker \
+            --query 'services[].{service:serviceName,taskDefinition:taskDefinition,running:runningCount,desired:desiredCount}' --output table
+          current=$(aws ecs describe-services --cluster "$ECS_CLUSTER" --services api --query 'services[0].taskDefinition' --output text)
+          test "$current" = "${{ steps.taskdefs.outputs.api }}" || { echo "API was rolled back to $current"; exit 1; }
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Build the front end
+        working-directory: frontend
+        run: |
+          corepack enable
+          pnpm install --frozen-lockfile
+          pnpm build
+
+      - name: Publish the front end to S3 and invalidate CloudFront
+        run: |
+          set -euo pipefail
+          bucket="${{ vars.FRONTEND_BUCKET }}"
+          # Hashed assets: cached for a year. Old assets stay for open browser tabs
+          # (the bucket's lifecycle rule expires replaced versions).
+          aws s3 sync frontend/dist/assets "s3://$bucket/assets" \
+            --cache-control "public, max-age=31536000, immutable"
+          # Everything else (index.html, icons): always revalidated, same as nginx.conf.
+          aws s3 sync frontend/dist "s3://$bucket" --exclude "assets/*" \
+            --cache-control "no-cache, no-store, must-revalidate"
+          aws cloudfront create-invalidation --distribution-id "${{ vars.CLOUDFRONT_DISTRIBUTION_ID }}" \
+            --paths "/index.html" "/" "/*.png" "/*.svg" "/*.jpg" --query 'Invalidation.Id' --output text
+
+      - name: Smoke test
+        if: vars.APP_URL != ''
+        run: |
+          set -euo pipefail
+          for i in $(seq 1 12); do
+            body=$(curl -fsS "${{ vars.APP_URL }}/api/system/health" || true)
+            echo "$body"
+            if echo "$body" | jq -e '.database_status == "ready"' >/dev/null 2>&1; then
+              curl -fsS -o /dev/null -w "Front end: HTTP %{http_code}\n" "${{ vars.APP_URL }}/"
+              exit 0
+            fi
+            sleep 10
+          done
+          echo "Health check did not report a ready database"; exit 1

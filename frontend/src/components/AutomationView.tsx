@@ -59,7 +59,7 @@ export default function AutomationView({ onStartBatch, systemHealth }: Automatio
           </div>
 
           <p className="pipeline-desc">
-            AI worker is ready for async batch parsing. Resumes are processed without leaving this machine.
+            AI worker is ready for async batch parsing. Resumes are processed inside the RAASHiring AWS region.
           </p>
         </div>
 

@@ -172,7 +172,7 @@ export default function TopHeader({
                 <div className="notification-item">
                   <div className="notif-dot green" />
                   <div className="notif-text">
-                    <p className="notif-msg">AI inference engine active on <strong>qwen2.5:1.5b</strong>.</p>
+                    <p className="notif-msg">AI inference engine active on <strong>Amazon Bedrock</strong>.</p>
                     <span className="notif-time">1 hour ago</span>
                   </div>
                 </div>
