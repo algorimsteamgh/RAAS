@@ -49,3 +49,9 @@ Thumbs.db
 .env
 .env.local
 .env.*.local
+
+# Terraform
+.terraform/
+*.tfplan
+*.tfstate
+*.tfstate.*
