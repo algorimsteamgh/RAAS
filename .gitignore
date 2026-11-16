@@ -52,3 +52,9 @@ Thumbs.db
 
 # Local CV storage (development)
 data/cv_store/
+
+# Terraform
+.terraform/
+*.tfplan
+*.tfstate
+*.tfstate.*
