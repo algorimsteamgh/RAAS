@@ -1,12 +1,13 @@
 """
 Job Description Extractor
-Uses Ollama to extract structured requirements from raw JD text.
+Uses the configured model (Bedrock or Ollama) to extract structured requirements from raw JD text.
 Outputs editable structured data: required_experience, required_skills, preferred_skills, etc.
 """
 import re
 import logging
 from typing import Dict, Any, Optional, List
-from backend.app.services.ollama_client import OllamaClient
+from backend.app.services.llm import LLMClient, get_llm_client
+from backend.app.services.llm.schemas import JD_EXTRACTION_SCHEMA
 
 logger = logging.getLogger(__name__)
 
@@ -39,8 +40,12 @@ Respond ONLY with valid JSON following this schema:
 
 
 class JDExtractor:
-    def __init__(self, ollama_client: Optional[OllamaClient] = None):
-        self.client = ollama_client or OllamaClient()
+    def __init__(self, llm_client: Optional[LLMClient] = None):
+        self._client = llm_client
+
+    @property
+    def client(self) -> LLMClient:
+        return self._client or get_llm_client()
 
     async def extract_requirements(self, jd_text: str) -> Dict[str, Any]:
         """
@@ -59,7 +64,9 @@ Extract all requirements strictly from the text above. NO FABRICATION."""
         try:
             raw_json = await self.client.generate_json(
                 prompt=user_prompt,
-                system_prompt=JD_EXTRACTION_SYSTEM_PROMPT
+                system_prompt=JD_EXTRACTION_SYSTEM_PROMPT,
+                json_schema=JD_EXTRACTION_SCHEMA,
+                schema_name="record_job_requirements",
             )
             return self._normalize_extraction(raw_json)
         except Exception as err:

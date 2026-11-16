@@ -1,7 +1,8 @@
 import re
 import logging
 from typing import Dict, Any, List, Optional, Tuple
-from backend.app.services.ollama_client import OllamaClient
+from backend.app.services.llm import LLMClient, get_llm_client
+from backend.app.services.llm.schemas import CV_EXTRACTION_SCHEMA, empty_to_none
 from backend.app.schemas.candidate import CandidateExtraction, EvidenceItem, EmploymentEntry, VerificationStatus, AmbiguityFlag
 from backend.app.services.experience_calculator import ExperienceCalculator, DateNormalizer, extract_start_end_strings
 from backend.app.services.evidence_verifier import EvidenceVerifier
@@ -9,8 +10,11 @@ from backend.app.services.document_layout import DocumentLayoutEngine
 
 logger = logging.getLogger(__name__)
 
-# Safe token threshold for single-pass full-document extraction (leaves headroom for prompt & schema)
+# Safe token threshold for single-pass full-document extraction (leaves headroom for prompt & schema).
+# The small local Qwen model needs chunking above ~3.5k tokens; Bedrock models
+# take a whole CV in one pass.
 SAFE_CONTEXT_TOKEN_LIMIT = 3500
+BEDROCK_CONTEXT_TOKEN_LIMIT = 60000
 CHUNK_TARGET_TOKENS = 2000
 CHUNK_OVERLAP_TOKENS = 250
 
@@ -57,8 +61,25 @@ class CVExtractionAgent:
     Full-Document Structured Extraction with Sequential State-Aware Chunking Fallback.
     Integrates DocumentLayoutEngine for robust layout reconstruction and deterministic date normalization.
     """
-    def __init__(self, ollama_client: Optional[OllamaClient] = None):
-        self.client = ollama_client or OllamaClient()
+    def __init__(self, llm_client: Optional[LLMClient] = None):
+        self._client = llm_client
+
+    @property
+    def client(self) -> LLMClient:
+        return self._client or get_llm_client()
+
+    @property
+    def context_token_limit(self) -> int:
+        return BEDROCK_CONTEXT_TOKEN_LIMIT if getattr(self.client, "backend", "") == "bedrock" else SAFE_CONTEXT_TOKEN_LIMIT
+
+    @staticmethod
+    def _clean_llm_output(res: Dict[str, Any]) -> Dict[str, Any]:
+        """Schema-constrained models return "" for absent values."""
+        empty_to_none(res, ["email", "phone"])
+        for pos in res.get("employment_history") or []:
+            if isinstance(pos, dict):
+                empty_to_none(pos, ["end_date"])
+        return res
 
     @staticmethod
     def estimate_token_count(text: str) -> int:
@@ -76,7 +97,7 @@ class CVExtractionAgent:
         est_tokens = self.estimate_token_count(cv_text)
         logger.info(f"Processing candidate ID {candidate_id} (estimated {est_tokens} tokens).")
 
-        if est_tokens <= SAFE_CONTEXT_TOKEN_LIMIT:
+        if est_tokens <= self.context_token_limit:
             logger.info("Executing Full-Document Extraction.")
             raw_data = await self._extract_full_document(cv_text, candidate_id)
             raw_data["extraction_method"] = "FULL_DOCUMENT"
@@ -214,11 +235,13 @@ Extract structured candidate profile data conforming strictly to the JSON schema
         try:
             res = await self.client.generate_json(
                 prompt=user_prompt,
-                system_prompt=CV_EXTRACTION_SYSTEM_PROMPT
+                system_prompt=CV_EXTRACTION_SYSTEM_PROMPT,
+                json_schema=CV_EXTRACTION_SCHEMA,
+                schema_name="record_candidate_profile",
             )
             if not res or not isinstance(res, dict):
-                raise ValueError("Ollama returned invalid or empty JSON")
-            return res
+                raise ValueError("Model returned invalid or empty JSON")
+            return self._clean_llm_output(res)
         except Exception as err:
             logger.warning(f"Full-document LLM generation failed ({err}). Using layout heuristic parser.")
             return self._heuristic_raw_extraction(cv_text, candidate_id)
@@ -258,8 +281,11 @@ Extract all candidate details in this chunk and quote supporting evidence. Confo
             try:
                 chunk_data = await self.client.generate_json(
                     prompt=user_prompt,
-                    system_prompt=CV_EXTRACTION_SYSTEM_PROMPT
+                    system_prompt=CV_EXTRACTION_SYSTEM_PROMPT,
+                    json_schema=CV_EXTRACTION_SCHEMA,
+                    schema_name="record_candidate_profile",
                 )
+                chunk_data = self._clean_llm_output(chunk_data)
             except Exception as e:
                 logger.warning(f"Chunk {idx + 1} extraction failed ({e}). Using layout extraction for chunk.")
                 chunk_data = self._heuristic_raw_extraction(chunk_text, candidate_id)

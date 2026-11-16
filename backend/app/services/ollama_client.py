@@ -1,21 +1,27 @@
-import json
-import re
+"""Ollama provider: local development and the Qwen 2.5 baseline for the
+Bedrock model evaluation (MODEL_BACKEND=ollama)."""
 import logging
 import httpx
 from typing import Dict, Any, Optional
 from backend.app.config import settings
+from backend.app.services.llm.json_utils import clean_and_parse_json, raw_text_snippet  # noqa: F401
 
 logger = logging.getLogger(__name__)
 
 class OllamaClient:
-    def __init__(self, base_url: str = settings.OLLAMA_BASE_URL, default_model: str = settings.OLLAMA_LLM_MODEL):
-        self.base_url = base_url.rstrip('/')
-        self.default_model = default_model
+    backend = "ollama"
+
+    def __init__(self, base_url: Optional[str] = None, default_model: Optional[str] = None):
+        self.base_url = (base_url or settings.OLLAMA_BASE_URL).rstrip('/')
+        self.default_model = default_model or settings.OLLAMA_LLM_MODEL
         self.timeout = settings.OLLAMA_TIMEOUT_SECONDS
 
-    async def generate_json(self, prompt: str, system_prompt: Optional[str] = None, model: Optional[str] = None) -> Dict[str, Any]:
+    async def generate_json(self, prompt: str, system_prompt: Optional[str] = None, model: Optional[str] = None,
+                            json_schema: Optional[Dict[str, Any]] = None, schema_name: str = "record_extraction") -> Dict[str, Any]:
         """
         Sends a generation request to Ollama and ensures clean JSON output is returned.
+        json_schema is accepted for interface parity; the baseline keeps Ollama's
+        plain JSON mode so its results stay comparable with the Azure baseline.
         """
         target_model = model or self.default_model
         endpoint = f"{self.base_url}/api/generate"
@@ -50,7 +56,7 @@ class OllamaClient:
             except httpx.RequestError as e:
                 logger.error(f"Failed to connect to Ollama service at {self.base_url}: {e}")
                 raise RuntimeError(f"Cannot connect to Ollama at {self.base_url}. Ensure 'ollama serve' is running.") from e
-    async def generate_text(self, prompt: str, system_prompt: Optional[str] = None, model: Optional[str] = None, temperature: Optional[float] = None) -> str:
+    async def generate_text(self, prompt: str, system_prompt: Optional[str] = None, model: Optional[str] = None, temperature: Optional[float] = None, use_guardrail: bool = False) -> str:
         """
         Sends a generation request to Ollama and returns natural language text response.
         """
@@ -86,38 +92,16 @@ class OllamaClient:
                 raise RuntimeError(f"Cannot connect to Ollama at {self.base_url}. Ensure 'ollama serve' is running.") from e
 
     def _clean_and_parse_json(self, text: str) -> Dict[str, Any]:
-        """
-        Cleans markdown codeblocks, leading/trailing whitespace, and parses JSON string.
-        """
-        text = text.strip()
-        
-        # Remove ```json ... ``` codeblock wrappers if present
-        if "```" in text:
-            match = re.search(r"```(?:json)?\s*(\{.*?\})\s*```", text, re.DOTALL)
-            if match:
-                text = match.group(1)
-            else:
-                # Strip leading/trailing codeblocks manually
-                text = re.sub(r"^```(?:json)?\s*", "", text)
-                text = re.sub(r"\s*```$", "", text)
-                text = text.strip()
+        return clean_and_parse_json(text)
 
-        # Find first '{' and last '}'
-        start_idx = text.find("{")
-        end_idx = text.rfind("}")
-        if start_idx != -1 and end_idx != -1 and end_idx > start_idx:
-            text = text[start_idx:end_idx + 1]
-
+    async def health(self) -> Dict[str, Any]:
+        status = "disconnected"
         try:
-            return json.loads(text)
-        except json.JSONDecodeError as e:
-            logger.warning(f"Failed to parse JSON directly from model response: {e}. Attempting basic sanitization.")
-            # Basic repair for trailing commas or unescaped quotes
-            text_repaired = re.sub(r",\s*([\]}])", r"\1", text)
-            try:
-                return json.loads(text_repaired)
-            except json.JSONDecodeError as err:
-                raise ValueError(f"Model output could not be parsed as valid JSON: {raw_text_snippet(text)}") from err
-
-def raw_text_snippet(text: str, max_length: int = 200) -> str:
-    return text[:max_length] + "..." if len(text) > max_length else text
+            async with httpx.AsyncClient(timeout=3.0) as client:
+                res = await client.get(f"{self.base_url}/api/tags")
+                if res.status_code == 200:
+                    names = [m.get("name", "") for m in res.json().get("models", [])]
+                    status = "connected" if any(self.default_model in n for n in names) else "connected_model_missing"
+        except Exception:
+            status = "disconnected"
+        return {"status": status, "model": self.default_model, "url": self.base_url}

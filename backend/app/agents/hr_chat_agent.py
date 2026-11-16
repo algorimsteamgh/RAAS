@@ -1,7 +1,7 @@
 import logging
 import json
 from typing import Dict, Any, List, Optional
-from backend.app.services.ollama_client import OllamaClient
+from backend.app.services.llm import LLMClient, get_llm_client
 from backend.app.config import settings
 
 logger = logging.getLogger(__name__)
@@ -12,8 +12,13 @@ class HRChatAgent:
     Allows recruiters to chat about candidate resumes, match evaluation feedback,
     skills, timeline gaps, and draft interview questions or email communications.
     """
-    def __init__(self, ollama_client: Optional[OllamaClient] = None):
-        self.ollama = ollama_client or OllamaClient()
+    def __init__(self, llm_client: Optional[LLMClient] = None):
+        self._client = llm_client
+
+    @property
+    def ollama(self) -> LLMClient:
+        # Name kept for callers/tests; this is whichever provider MODEL_BACKEND selects.
+        return self._client or get_llm_client()
 
     async def answer_query(
         self,
@@ -33,12 +38,13 @@ class HRChatAgent:
             response_text = await self.ollama.generate_text(
                 prompt=user_prompt,
                 system_prompt=system_prompt,
-                temperature=0.3
+                temperature=0.3,
+                use_guardrail=True,
             )
             if not response_text or len(response_text.strip()) == 0:
-                raise ValueError("Empty response from Ollama")
+                raise ValueError("Empty response from model")
         except Exception as e:
-            logger.warning(f"Ollama chat generation failed ({e}). Using deterministic heuristic fallback.")
+            logger.warning(f"Model chat generation failed ({e}). Using deterministic heuristic fallback.")
             response_text = self._heuristic_fallback_response(user_message, candidate_data, job_data, evaluation_data)
 
         # Generate intelligent contextual follow-up suggestions

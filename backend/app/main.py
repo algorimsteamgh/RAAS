@@ -25,6 +25,9 @@ from backend.app.services.interview_engine import InterviewEngine
 from backend.app.services.jd_extractor import JDExtractor
 from backend.app.agents.hr_chat_agent import HRChatAgent
 from backend.app.db import database as db
+from backend.app.services import batch_service, cv_pipeline
+from backend.app.services.cv_storage import content_type_for, get_cv_storage
+from backend.app.services.llm import get_llm_client
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger("cvscreening")
@@ -32,25 +35,32 @@ logger = logging.getLogger("cvscreening")
 from contextlib import asynccontextmanager
 
 # Max file size: 10MB
-MAX_FILE_SIZE = 10 * 1024 * 1024
+MAX_FILE_SIZE = cv_pipeline.MAX_FILE_SIZE
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
-    db.init_db()
-    conn = db.get_db_connection()
-    count = conn.execute("SELECT COUNT(*) FROM candidates").fetchone()[0]
-    conn.close()
-    if count == 0:
-        logger.info("Initializing candidate records into SQLite database...")
+    logger.info(
+        "Starting RAASHiring API (env=%s, model=%s:%s, storage=%s, batch=%s, seed_demo_data=%s)",
+        settings.APP_ENV, settings.MODEL_BACKEND, settings.model_id,
+        settings.STORAGE_BACKEND, settings.BATCH_BACKEND, settings.SEED_DEMO_DATA,
+    )
+    if settings.AUTO_MIGRATE:
+        # Local runs and tests. In AWS the one-off migrate task runs this.
+        await asyncio.to_thread(db.init_db)
+    if settings.SEED_DEMO_DATA:
+        await asyncio.to_thread(seed_demo_data)
+    yield
+    db.close_pool()
+
+def seed_demo_data():
+    """Demo candidates, jobs and initial matches for an empty database.
+    Off in production (SEED_DEMO_DATA=false)."""
+    if db.count_candidates() == 0:
+        logger.info("Seeding demo candidate records...")
         load_mock_dataset_internal()
-    # Load jobs from JSONL into DB if empty
-    conn = db.get_db_connection()
-    job_count = conn.execute("SELECT COUNT(*) FROM jobs").fetchone()[0]
-    conn.close()
-    if job_count == 0:
+    if db.count_jobs() == 0:
         load_jobs_from_jsonl()
     populate_initial_matches()
-    yield
 
 app = FastAPI(
     title="CV Screening AI Agent — Evidence-Based Candidate Intelligence",
@@ -118,35 +128,23 @@ def load_jobs_from_jsonl():
     return loaded
 
 def populate_initial_matches():
-    conn = db.get_db_connection()
-    match_count = conn.execute("SELECT COUNT(*) FROM match_results").fetchone()[0]
-    if match_count > 0:
-        conn.close()
+    if db.count_match_results() > 0:
         return
-    candidates_rows = conn.execute("SELECT candidate_id, raw_json FROM candidates").fetchall()
+    candidates_rows = db.list_candidate_payloads()
     jobs = db.list_jobs()
+    rows = []
     for j in jobs[:5]:
         job_id = j["job_id"]
         for row in candidates_rows:
             try:
-                cid = row["candidate_id"]
-                cand = json.loads(row["raw_json"])
+                cand = row["raw_json"]
+                if not isinstance(cand, dict):
+                    continue
                 res = scoring_engine.score_candidate(cand, j)
-                conn.execute("""
-                    INSERT OR REPLACE INTO match_results (candidate_id, job_id, score, recommendation, matched_skills, missing_skills, reasoning, score_breakdown)
-                    VALUES (?, ?, ?, ?, ?, ?, ?, ?)
-                """, (
-                    cid, job_id,
-                    res["score"], res["recommendation"],
-                    json.dumps(res["matched_skills"]),
-                    json.dumps(res["missing_skills"]),
-                    res["reasoning"],
-                    json.dumps(res.get("score_breakdown", {}))
-                ))
+                rows.append((row["candidate_id"], job_id, res))
             except Exception:
                 pass
-    conn.commit()
-    conn.close()
+    db.upsert_match_results(rows)
 
 # --- Models ---
 class MatchRequest(BaseModel):
@@ -200,32 +198,24 @@ async def healthz():
 
 @app.get("/readyz")
 async def readyz():
+    if not await asyncio.to_thread(db.ping):
+        return JSONResponse(status_code=503, content={"status": "not_ready", "service": "raashiring-backend", "database": "unavailable"})
     return {"status": "ready", "service": "raashiring-backend"}
 
 @app.get("/api/system/health")
 async def system_health():
-    import httpx
-    ollama_status = "disconnected"
-    ollama_model = settings.OLLAMA_LLM_MODEL
-    try:
-        async with httpx.AsyncClient(timeout=3.0) as client:
-            res = await client.get(f"{settings.OLLAMA_BASE_URL}/api/tags")
-            if res.status_code == 200:
-                ollama_status = "connected"
-                models = res.json().get("models", [])
-                model_names = [m.get("name", "") for m in models]
-                if not any(ollama_model in mn for mn in model_names):
-                    ollama_status = "connected_model_missing"
-    except Exception:
-        ollama_status = "disconnected"
-
+    # Field names ollama_status / ollama_model are what the UI reads; they now
+    # describe whichever model backend is configured (Bedrock in AWS).
+    model_health = await get_llm_client().health()
+    database_ok = await asyncio.to_thread(db.ping)
     return {
-        "ollama_status": ollama_status,
-        "ollama_model": ollama_model,
-        "ollama_url": settings.OLLAMA_BASE_URL,
+        "ollama_status": model_health["status"],
+        "ollama_model": model_health["model"],
+        "ollama_url": model_health.get("url", ""),
+        "model_backend": settings.MODEL_BACKEND,
         "parser_status": "ready",
-        "database_status": "ready",
-        "version": "3.0.0"
+        "database_status": "ready" if database_ok else "unavailable",
+        "version": "3.1.0"
     }
 
 # --- Dashboard Metrics ---
@@ -244,7 +234,9 @@ async def get_dataset_manifest():
 
 @app.post("/api/dataset/load-mock")
 async def load_mock_dataset():
-    count = load_mock_dataset_internal()
+    if not settings.SEED_DEMO_DATA:
+        raise HTTPException(status_code=403, detail="Demo data is turned off in this environment.")
+    count = await asyncio.to_thread(load_mock_dataset_internal)
     return {"status": "success", "candidates_loaded": count}
 
 # --- Job CRUD ---
@@ -302,57 +294,47 @@ async def list_job_descriptions():
 # --- Resume Library Endpoints ---
 @app.get("/api/candidates")
 async def list_candidates(source: Optional[str] = None):
-    conn = db.get_db_connection()
-    if source and source.upper() in ["MOCK", "UPLOADED"]:
-        rows = conn.execute("SELECT * FROM candidates WHERE source = ? ORDER BY created_at DESC", (source.upper(),)).fetchall()
-    else:
-        rows = conn.execute("SELECT * FROM candidates ORDER BY created_at DESC").fetchall()
-    conn.close()
-    
+    src = source.upper() if source and source.upper() in ["MOCK", "UPLOADED"] else None
+    rows = await asyncio.to_thread(db.list_candidates, src)
+
     results = []
-    for r in rows:
-        item = dict(r)
-        item["skills"] = json.loads(item["skills"]) if item["skills"] else []
-        item["roles"] = json.loads(item["roles"]) if item["roles"] else []
-        if item.get("raw_json"):
-            try:
-                item["raw_data"] = json.loads(item["raw_json"])
-            except Exception:
-                item["raw_data"] = {}
-        # Get latest recruiter action
-        item["recruiter_action"] = db.get_latest_action_for_candidate(item["candidate_id"])
+    for item in rows:
+        item["skills"] = item["skills"] if isinstance(item.get("skills"), list) else []
+        item["roles"] = item["roles"] if isinstance(item.get("roles"), list) else []
+        raw = item.get("raw_json")
+        if raw is not None:
+            item["raw_data"] = raw if isinstance(raw, dict) else {}
+            # The response keeps raw_json as a JSON string, as with SQLite.
+            item["raw_json"] = json.dumps(raw)
         results.append(item)
     return results
 
 @app.get("/api/candidates/{candidate_id}")
 async def get_candidate_detail(candidate_id: str):
-    conn = db.get_db_connection()
-    row = conn.execute("SELECT * FROM candidates WHERE candidate_id = ?", (candidate_id,)).fetchone()
-    conn.close()
-    
-    if not row:
+    item = await asyncio.to_thread(db.get_candidate_row, candidate_id)
+    if not item:
         raise HTTPException(status_code=404, detail=f"Candidate {candidate_id} not found.")
-        
-    item = dict(row)
-    if item.get("raw_json"):
-        return json.loads(item["raw_json"])
+    if isinstance(item.get("raw_json"), dict):
+        return item["raw_json"]
     return item
 
 @app.get("/api/candidates/{candidate_id}/original-file")
 async def get_original_file(candidate_id: str):
-    conn = db.get_db_connection()
-    row = conn.execute("SELECT * FROM original_files WHERE candidate_id = ?", (candidate_id,)).fetchone()
-    conn.close()
-    
+    row = await asyncio.to_thread(db.get_original_file, candidate_id)
     if not row:
         raise HTTPException(status_code=404, detail="Original document not found for this candidate.")
-        
-    file_bytes = row["file_data"]
+
+    try:
+        file_bytes = await asyncio.to_thread(get_cv_storage().get, row["s3_key"])
+    except Exception as err:
+        logger.error(f"Original file for {candidate_id} could not be read from storage: {err}")
+        raise HTTPException(status_code=404, detail="Original document not found for this candidate.")
+
     filename = row["filename"]
     file_type = row["file_type"]
-    
     media_type = "application/pdf" if file_type == "pdf" else ("application/vnd.openxmlformats-officedocument.wordprocessingml.document" if file_type == "docx" else "text/plain")
-    return Response(content=file_bytes, media_type=media_type, headers={"Content-Disposition": f"inline; filename={filename}"})
+    safe_name = filename.replace('"', "").replace("\r", "").replace("\n", "")
+    return Response(content=file_bytes, media_type=media_type, headers={"Content-Disposition": f"inline; filename={safe_name}"})
 
 # --- Upload & Duplicate Detection Pipeline ---
 @app.post("/api/upload-cv")
@@ -364,7 +346,7 @@ async def upload_cv(
         raise HTTPException(status_code=400, detail="Filename missing.")
 
     ext = file.filename.split(".")[-1].lower()
-    if ext not in ["pdf", "docx", "txt", "png", "jpg", "jpeg"]:
+    if ext not in cv_pipeline.SUPPORTED_EXTENSIONS:
         raise HTTPException(status_code=400, detail=f"Unsupported file format '.{ext}'. Supported: PDF, DOCX, TXT, Images.")
 
     content_bytes = await file.read()
@@ -383,7 +365,7 @@ async def upload_cv(
     sha256_hash = db.calculate_sha256(content_bytes)
 
     # Check for duplicates
-    dup = db.check_duplicate_file(sha256_hash)
+    dup = await asyncio.to_thread(db.check_duplicate_file, sha256_hash)
     if dup and duplicate_action != "keep_both" and duplicate_action != "replace":
         return JSONResponse(
             status_code=409,
@@ -397,7 +379,7 @@ async def upload_cv(
         )
 
     if dup and duplicate_action == "replace":
-        db.delete_candidate(dup["candidate_id"])
+        await asyncio.to_thread(db.delete_candidate, dup["candidate_id"])
 
     # Document ID & Candidate ID
     short_id = str(uuid.uuid4())[:8].upper()
@@ -408,142 +390,48 @@ async def upload_cv(
 
     # Extract text based on file format
     try:
-        if ext == "pdf":
-            cv_text = PDFService.extract_text_from_bytes(content_bytes)
-        elif ext == "docx":
-            cv_text = DOCXService.extract_text_from_bytes(content_bytes)
-        else:
-            cv_text = content_bytes.decode("utf-8", errors="ignore")
+        cv_text = cv_pipeline.extract_text(ext, content_bytes)
     except Exception as e:
         logger.error(f"Text extraction failed for {file.filename}: {e}")
         raise HTTPException(status_code=422, detail=f"Text extraction error: {str(e)}")
 
-    # Store original file bytes & hash
-    db.save_original_file(candidate_id, file.filename, ext, sha256_hash, content_bytes)
+    # Store the original file (S3, SSE-KMS, SHA-256 checksum) and its metadata
+    await cv_pipeline.store_original(candidate_id, file.filename, ext, sha256_hash, content_bytes)
 
-    # Run Candidate Extraction Agent
+    # Run Candidate Extraction Agent and save the candidate
     try:
-        candidate_data = await cv_agent.extract_candidate(cv_text, candidate_id=candidate_id)
-        cand_dict = candidate_data.model_dump()
+        cand_dict = await cv_pipeline.extract_and_save(cv_text, candidate_id, file.filename, sha256_hash)
     except Exception as e:
         logger.error(f"CV extraction failed: {e}")
         raise HTTPException(status_code=500, detail=f"AI extraction failed: {str(e)}")
 
-    # Save to SQLite DB
-    db.save_candidate_record(cand_dict, source="UPLOADED", status="COMPLETED", filename=file.filename, file_hash=sha256_hash)
     logger.info(f"Successfully processed {file.filename} ({candidate_id}) in {time.time() - start_upload_time:.2f}s")
 
     return cand_dict
 
 
 # --- Batch Upload with SSE Progress ---
+# Files are staged in CV storage, progress is kept in PostgreSQL and each file
+# is processed by the SQS worker (or inline in local development), so progress
+# survives restarts and is visible from every API task.
 from fastapi.responses import StreamingResponse
-batch_progress = {}
 
 @app.post("/api/batch-upload")
-async def batch_upload(files: List[UploadFile] = File(...)):
+async def batch_upload(files: List[UploadFile] = File(...), job_id: Optional[str] = Form(None)):
     """Start a batch upload. Returns batch_id for tracking via SSE."""
     if len(files) == 0:
         raise HTTPException(status_code=400, detail="No files provided.")
     if len(files) > 1000:
         raise HTTPException(status_code=400, detail="Maximum 1000 files per batch.")
-    
-    batch_id = f"BATCH-{uuid.uuid4().hex[:8].upper()}"
-    
+
     file_data = []
     for f in files:
-        content = await f.read()
-        if len(content) > MAX_FILE_SIZE:
-            continue
-        file_data.append({
-            "filename": f.filename,
-            "content": content,
-            "ext": f.filename.split(".")[-1].lower() if f.filename else "txt",
-            "status": "QUEUED"
-        })
-    
-    batch_progress[batch_id] = {
-        "batch_id": batch_id,
-        "total": len(file_data),
-        "completed": 0,
-        "processing": 0,
-        "queued": len(file_data),
-        "failed": 0,
-        "files": [{
-            "filename": fd["filename"],
-            "status": "QUEUED",
-            "candidate_id": None,
-            "error": None
-        } for fd in file_data]
-    }
-    
-    # Process async in background
-    asyncio.create_task(_process_batch(batch_id, file_data))
-    
-    return {"batch_id": batch_id, "total": len(file_data), "status": "PROCESSING"}
-
-async def _process_batch(batch_id: str, file_data: list):
-    """Process batch files sequentially to avoid overwhelming Ollama."""
-    progress = batch_progress.get(batch_id)
-    if not progress:
-        return
-    
-    for idx, fd in enumerate(file_data):
-        try:
-            progress["files"][idx]["status"] = "PROCESSING"
-            progress["processing"] += 1
-            progress["queued"] -= 1
-            
-            ext = fd["ext"]
-            content_bytes = fd["content"]
-            filename = fd["filename"]
-            
-            if ext not in ["pdf", "docx", "txt", "png", "jpg", "jpeg"]:
-                raise ValueError(f"Unsupported format: {ext}")
-            
-            sha256_hash = db.calculate_sha256(content_bytes)
-            dup = db.check_duplicate_file(sha256_hash)
-            if dup:
-                progress["files"][idx]["status"] = "SKIPPED"
-                progress["files"][idx]["error"] = "Duplicate file"
-                progress["completed"] += 1
-                progress["processing"] -= 1
-                continue
-            
-            # Extract text
-            if ext == "pdf":
-                cv_text = PDFService.extract_text_from_bytes(content_bytes)
-            elif ext == "docx":
-                cv_text = DOCXService.extract_text_from_bytes(content_bytes)
-            else:
-                cv_text = content_bytes.decode("utf-8", errors="ignore")
-            
-            short_id = str(uuid.uuid4())[:8].upper()
-            candidate_id = f"CAND-{short_id}"
-            
-            db.save_original_file(candidate_id, filename, ext, sha256_hash, content_bytes)
-            
-            candidate_data = await cv_agent.extract_candidate(cv_text, candidate_id=candidate_id)
-            cand_dict = candidate_data.model_dump()
-            db.save_candidate_record(cand_dict, source="UPLOADED", status="COMPLETED", filename=filename, file_hash=sha256_hash)
-            
-            progress["files"][idx]["status"] = "COMPLETED"
-            progress["files"][idx]["candidate_id"] = candidate_id
-            progress["completed"] += 1
-            progress["processing"] -= 1
-            
-        except Exception as e:
-            logger.error(f"Batch processing failed for {fd['filename']}: {e}")
-            progress["files"][idx]["status"] = "FAILED"
-            progress["files"][idx]["error"] = str(e)
-            progress["failed"] += 1
-            progress["processing"] -= 1
-    
-    progress["status"] = "COMPLETE"
+        file_data.append((f.filename, await f.read()))
+    return await batch_service.start_batch(file_data, job_id=job_id)
 
 @app.get("/api/batch-status/{batch_id}")
 async def get_batch_status(batch_id: str):
-    progress = batch_progress.get(batch_id)
+    progress = await asyncio.to_thread(batch_service.batch_status, batch_id)
     if not progress:
         raise HTTPException(status_code=404, detail="Batch not found.")
     return progress
@@ -555,11 +443,11 @@ async def batch_progress_sse(request: Request, batch_id: str):
         while True:
             if await request.is_disconnected():
                 break
-            progress = batch_progress.get(batch_id)
+            progress = await asyncio.to_thread(batch_service.batch_status, batch_id)
             if not progress:
                 yield f"event: error\ndata: {json.dumps({'error': 'Batch not found'})}\n\n"
                 break
-            
+
             data = {
                 "batch_id": batch_id,
                 "total": progress["total"],
@@ -570,13 +458,13 @@ async def batch_progress_sse(request: Request, batch_id: str):
                 "files": progress["files"]
             }
             yield f"event: progress\ndata: {json.dumps(data)}\n\n"
-            
+
             if progress.get("status") == "COMPLETE":
                 yield f"event: complete\ndata: {json.dumps(progress)}\n\n"
                 break
             await asyncio.sleep(1)
-    
-    return StreamingResponse(event_generator(), media_type="text/event-stream")
+
+    return StreamingResponse(event_generator(), media_type="text/event-stream", headers={"Cache-Control": "no-cache", "X-Accel-Buffering": "no"})
 
 
 # --- Scoring & Matching ---
@@ -591,24 +479,9 @@ async def match_candidate_against_job(request: MatchRequest):
         raise HTTPException(status_code=404, detail=f"Job {request.job_id} not found.")
 
     score_result = scoring_engine.score_candidate(cand_raw, job)
-    
+
     # Store match result
-    conn = db.get_db_connection()
-    conn.execute("""
-        INSERT OR REPLACE INTO match_results (candidate_id, job_id, score, recommendation, matched_skills, missing_skills, reasoning, score_breakdown)
-        VALUES (?, ?, ?, ?, ?, ?, ?, ?)
-    """, (
-        request.candidate_id,
-        request.job_id,
-        score_result["score"],
-        score_result["recommendation"],
-        json.dumps(score_result["matched_skills"]),
-        json.dumps(score_result["missing_skills"]),
-        score_result["reasoning"],
-        json.dumps(score_result.get("score_breakdown", {}))
-    ))
-    conn.commit()
-    conn.close()
+    await asyncio.to_thread(db.upsert_match_result, request.candidate_id, request.job_id, score_result)
 
     return score_result
 
@@ -832,36 +705,19 @@ async def score_all_candidates_for_job(job_id: str):
     if not job:
         raise HTTPException(status_code=404, detail=f"Job {job_id} not found.")
     
-    conn = db.get_db_connection()
-    rows = conn.execute("SELECT candidate_id FROM candidates").fetchall()
-    conn.close()
-    
-    scored = 0
+    rows = await asyncio.to_thread(db.list_candidate_payloads)
+
+    results = []
     for row in rows:
         cid = row["candidate_id"]
         try:
-            cand = await get_candidate_detail(cid)
-            score_result = scoring_engine.score_candidate(cand, job)
-            
-            conn = db.get_db_connection()
-            conn.execute("""
-                INSERT OR REPLACE INTO match_results (candidate_id, job_id, score, recommendation, matched_skills, missing_skills, reasoning, score_breakdown)
-                VALUES (?, ?, ?, ?, ?, ?, ?, ?)
-            """, (
-                cid, job_id,
-                score_result["score"],
-                score_result["recommendation"],
-                json.dumps(score_result["matched_skills"]),
-                json.dumps(score_result["missing_skills"]),
-                score_result["reasoning"],
-                json.dumps(score_result.get("score_breakdown", {}))
-            ))
-            conn.commit()
-            conn.close()
-            scored += 1
+            cand = row["raw_json"] if isinstance(row.get("raw_json"), dict) else await get_candidate_detail(cid)
+            results.append((cid, job_id, scoring_engine.score_candidate(cand, job)))
         except Exception as e:
             logger.error(f"Scoring failed for {cid}: {e}")
-    
+    await asyncio.to_thread(db.upsert_match_results, results)
+    scored = len(results)
+
     return {"status": "success", "job_id": job_id, "candidates_scored": scored}
 
 # --- Evaluation Dashboard Metrics Endpoint ---
