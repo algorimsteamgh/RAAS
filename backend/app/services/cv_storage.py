@@ -13,7 +13,7 @@ import logging
 import re
 import threading
 from pathlib import Path
-from typing import Optional, Protocol
+from typing import List, Optional, Protocol
 
 from backend.app.config import settings
 
@@ -62,6 +62,8 @@ class CVStorage(Protocol):
     def checksum_sha256(self, key: str) -> Optional[str]:
         """The stored SHA-256 (hex) of the object, without downloading it."""
         ...
+
+    def list_keys(self, prefix: str) -> List[str]: ...
 
 
 class S3CVStorage:
@@ -113,6 +115,12 @@ class S3CVStorage:
             return None
         return base64.b64decode(value).hex()
 
+    def list_keys(self, prefix: str) -> List[str]:
+        keys: List[str] = []
+        for page in self.client.get_paginator("list_objects_v2").paginate(Bucket=self.bucket, Prefix=prefix):
+            keys.extend(obj["Key"] for obj in page.get("Contents", []))
+        return keys
+
 
 class LocalCVStorage:
     def __init__(self, root: str):
@@ -143,6 +151,12 @@ class LocalCVStorage:
     def checksum_sha256(self, key: str) -> Optional[str]:
         path = self._path(key)
         return hashlib.sha256(path.read_bytes()).hexdigest() if path.exists() else None
+
+    def list_keys(self, prefix: str) -> List[str]:
+        base = self.root / prefix
+        if not base.exists():
+            return []
+        return sorted(str(p.relative_to(self.root)) for p in base.rglob("*") if p.is_file() and not p.name.endswith(".tmp"))
 
 
 _storage: Optional[CVStorage] = None
