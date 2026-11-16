@@ -6,6 +6,10 @@ terraform {
       source  = "hashicorp/aws"
       version = "~> 5.80"
     }
+    random = {
+      source  = "hashicorp/random"
+      version = "~> 3.6"
+    }
   }
 
   # State lives in an S3 bucket in the same AWS account. The bucket is created
@@ -19,15 +23,33 @@ terraform {
   }
 }
 
+locals {
+  default_tags = {
+    Application = "RAASHiring"
+    Environment = var.environment
+    ManagedBy   = "Terraform"
+  }
+}
+
 provider "aws" {
-  region = var.region
+  region              = var.region
+  allowed_account_ids = [var.aws_account_id]
 
   default_tags {
-    tags = {
-      Application = "RAASHiring"
-      Environment = var.environment
-      ManagedBy   = "Terraform"
-    }
+    tags = local.default_tags
+  }
+}
+
+# CloudFront needs its viewer certificate and WAF web ACL in us-east-1. Only
+# those two edge objects live there; no candidate data is stored outside
+# ap-southeast-1.
+provider "aws" {
+  alias               = "us_east_1"
+  region              = "us-east-1"
+  allowed_account_ids = [var.aws_account_id]
+
+  default_tags {
+    tags = local.default_tags
   }
 }
 

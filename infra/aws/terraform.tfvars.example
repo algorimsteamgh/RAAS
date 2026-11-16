@@ -1,0 +1,25 @@
+# Copy to terraform.tfvars (git-ignored). Everything has a default; these are
+# the values that change during the go-live week.
+
+# alarm_email = "ops@example.com"
+
+# After the first image is pushed to ECR (commit SHA tag):
+# api_image_tag = "abc1234"
+
+# After GoDaddy's name servers point at the Route 53 zone:
+# enable_custom_domain = true
+
+# Cut-over (Thu 19 Nov, 6 PM IST):
+# point_dns_to_aws = true
+
+# When the worker entry point exists in the image:
+# worker_desired_count = 1
+
+# After the Liftproof stack is installed (Part C2 / D3):
+# liftproof_security_group_id  = "sg-..."
+# liftproof_instance_role_name = "liftproof-raas-instance"
+
+# If the account already has these (e.g. from an AWS Organization):
+# enable_account_security_services = false
+# create_github_oidc_provider      = false
+# hosted_zone_id                   = "Z..."
