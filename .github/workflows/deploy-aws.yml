@@ -12,7 +12,7 @@ name: Deploy to AWS
 # `terraform output` in infra/aws:
 #   AWS_DEPLOY_ROLE_ARN         github_deploy_role_arn            (required)
 #   FRONTEND_BUCKET             frontend_bucket                   (required)
-#   CLOUDFRONT_DISTRIBUTION_ID  cloudfront_distribution_id        (required)
+#   CLOUDFRONT_DISTRIBUTION_ID  cloudfront_distribution_id        (invalidation skipped while unset)
 #   APP_URL                     https://raashiring.com or https://<cloudfront_domain_name> (smoke test)
 #   ECS_CLUSTER                 default raas-prod
 #   ECR_REPOSITORY              default raas/api
@@ -161,7 +161,15 @@ jobs:
           # Everything else (index.html, icons): always revalidated, same as nginx.conf.
           aws s3 sync frontend/dist "s3://$bucket" --exclude "assets/*" \
             --cache-control "no-cache, no-store, must-revalidate"
-          aws cloudfront create-invalidation --distribution-id "${{ vars.CLOUDFRONT_DISTRIBUTION_ID }}" \
+          dist="${{ vars.CLOUDFRONT_DISTRIBUTION_ID }}"
+          if [ -z "$dist" ]; then
+            # Before the CloudFront distribution exists (e.g. while a new AWS
+            # account waits for CloudFront verification) the files are still
+            # published; there is nothing to invalidate.
+            echo "::warning::CLOUDFRONT_DISTRIBUTION_ID is not set; skipped the CloudFront invalidation."
+            exit 0
+          fi
+          aws cloudfront create-invalidation --distribution-id "$dist" \
             --paths "/index.html" "/" "/*.png" "/*.svg" "/*.jpg" --query 'Invalidation.Id' --output text
 
       - name: Smoke test
