@@ -1,4 +1,4 @@
-# Phase 7 — CVScreen Deployment Blocker Resolution
+# Phase 7 — Raashiring Deployment Blocker Resolution
 
 **Document:** `PHASE7_BLOCKER_RESOLUTION.md`  
 **Role:** Senior Azure Cloud Architect & DevOps Engineer  
@@ -26,7 +26,7 @@ Inner Errors:
 
 ### Static Analysis of the Bicep Dependency Graph
 1. **Global Parameter Propagation:**  
-   In [`infra/bicep/main.bicep`](file:///Users/apple/cvscreening/infra/bicep/main.bicep#L4), `param location string = resourceGroup().location` is a single top-level variable passed uniformly into every child module:
+   In [`infra/bicep/main.bicep`](file:///Users/apple/RASSHiringUAT/infra/bicep/main.bicep#L4), `param location string = resourceGroup().location` is a single top-level variable passed uniformly into every child module:
    - Line 45: `module monitoring 'modules/log-analytics.bicep' { params: { location: location } }`
    - Line 55: `module storage 'modules/storage.bicep' { params: { location: location } }`
    - Line 65: `module acr 'modules/acr.bicep' { params: { location: location } }`

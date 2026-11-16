@@ -1,4 +1,4 @@
-# CVScreen Master Deployment — Phase E: Container Apps Environment Provisioning
+# Raashiring Enterprise Deployment — Phase E: Container Apps Environment Provisioning
 
 **Document:** `DEPLOYMENT_PHASE_E_ENVIRONMENT.md`  
 **Execution Date:** October 16, 2026  
@@ -12,7 +12,7 @@
 
 Following user authorization, the dead failed environment `cae-cvscreen-prod-example` in `eastus` was deleted, successfully freeing the subscription's global Container Apps quota slot.
 
-The minimal environment-only template [`infra/bicep/environment-only.bicep`](file:///Users/apple/cvscreening/infra/bicep/environment-only.bicep) was deployed via `az deployment group create`. Azure Resource Manager allocated the physical infrastructure in `eastus2` and reported **`provisioningState: Succeeded`** in 58 seconds.
+The minimal environment-only template [`infra/bicep/environment-only.bicep`](file:///Users/apple/RASSHiringUAT/infra/bicep/environment-only.bicep) was deployed via `az deployment group create`. Azure Resource Manager allocated the physical infrastructure in `eastus2` and reported **`provisioningState: Succeeded`** in 58 seconds.
 
 ---
 

@@ -1,4 +1,4 @@
-# Phase 8 — Local CVScreen Configuration & ARM Pre-Flight Validation Report
+# Phase 8 — Local Raashiring Configuration & ARM Pre-Flight Validation Report
 
 **Document:** `PHASE8_LOCAL_CONFIG_VALIDATION.md`  
 **Role:** Senior Azure Cloud Architect & DevOps Engineer  
@@ -32,9 +32,9 @@ Three local infrastructure files were modified:
 
 | File | Scope of Change | Architectural Purpose |
 | :--- | :--- | :--- |
-| [`infra/bicep/main.bicep`](file:///Users/apple/cvscreening/infra/bicep/main.bicep) | Added `containerAppsLocation` param; passed to `containerApps` module | Decouples Container Apps from base infrastructure; leaves existing Storage, ACR, and Monitoring pinned to `eastus`. |
-| [`infra/bicep/modules/container-apps.bicep`](file:///Users/apple/cvscreening/infra/bicep/modules/container-apps.bicep) | 1. Appended `${location}` to `environmentName`<br>2. Set `ingress.external = false`<br>3. Set `minReplicas = 0`, `maxReplicas = 1` | 1. Eliminates collision with failed `cae` in `eastus`.<br>2. Restricts backend to private internal Envoy mesh.<br>3. Enforces single SQLite writer and scale-to-zero compute. |
-| [`infra/bicep/parameters.prod.json`](file:///Users/apple/cvscreening/infra/bicep/parameters.prod.json) | Added `"containerAppsLocation": { "value": "eastus2" }` | Explicitly targets `eastus2` for Container Apps while keeping `"location": { "value": "eastus" }`. |
+| [`infra/bicep/main.bicep`](file:///Users/apple/RASSHiringUAT/infra/bicep/main.bicep) | Added `containerAppsLocation` param; passed to `containerApps` module | Decouples Container Apps from base infrastructure; leaves existing Storage, ACR, and Monitoring pinned to `eastus`. |
+| [`infra/bicep/modules/container-apps.bicep`](file:///Users/apple/RASSHiringUAT/infra/bicep/modules/container-apps.bicep) | 1. Appended `${location}` to `environmentName`<br>2. Set `ingress.external = false`<br>3. Set `minReplicas = 0`, `maxReplicas = 1` | 1. Eliminates collision with failed `cae` in `eastus`.<br>2. Restricts backend to private internal Envoy mesh.<br>3. Enforces single SQLite writer and scale-to-zero compute. |
+| [`infra/bicep/parameters.prod.json`](file:///Users/apple/RASSHiringUAT/infra/bicep/parameters.prod.json) | Added `"containerAppsLocation": { "value": "eastus2" }` | Explicitly targets `eastus2` for Container Apps while keeping `"location": { "value": "eastus" }`. |
 
 ---
 

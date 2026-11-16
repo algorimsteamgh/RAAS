@@ -1,4 +1,4 @@
-# CVScreen Master Deployment — Phase D: Environment Quota Blocker Resolution
+# Raashiring Enterprise Deployment — Phase D: Environment Quota Blocker Resolution
 
 **Document:** `DEPLOYMENT_PHASE_D_QUOTA_BLOCKER.md`  
 **Execution Date:** October 16, 2026  

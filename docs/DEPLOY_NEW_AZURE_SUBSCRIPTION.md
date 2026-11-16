@@ -1,6 +1,6 @@
-# Deploying CVScreen to a new Azure subscription
+# Deploying Raashiring Enterprise AI Platform to a new Azure subscription
 
-CVScreen deploys with `deploy-azure.sh` and the Bicep templates in `infra/bicep`. Nothing in them is tied to a particular subscription: resource names are derived from the resource group, so the same code works in any account. Region defaults to Singapore (`southeastasia`).
+Raashiring deploys with `deploy-azure.sh` and the Bicep templates in `infra/bicep`. Nothing in them is tied to a particular subscription: resource names are derived from the resource group, so the same code works in any account. Region defaults to Singapore (`southeastasia`) or East US (`eastus`).
 
 ## What gets created
 
@@ -47,6 +47,6 @@ The backend scales to zero, so the first request after idle can take a minute wh
 
 ## Notes
 
-- On the earlier Free Trial subscription the Container Apps environment quota was 1. If a failed deployment leaves an environment behind, delete it before retrying (see `DEPLOYMENT_PHASE_D_QUOTA_BLOCKER.md`).
+- On the earlier Free Trial subscription the Container Apps environment quota was 1. If a failed deployment leaves an environment behind, delete it before retrying (see [`DEPLOYMENT_PHASE_D_QUOTA_BLOCKER.md`](./DEPLOYMENT_PHASE_D_QUOTA_BLOCKER.md)).
 - ACR Standard costs about $20/month after trial credits. Change `acrSku` in `infra/bicep/main.bicep` to `Basic` (about $5/month) if you don't need Standard's storage or throughput.
 - Data does not move with the code. To bring candidates from the old subscription, copy `cv_screening.db` from its `cv-data` file share into the new one before the backend first starts.

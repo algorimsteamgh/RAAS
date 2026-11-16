@@ -1,4 +1,4 @@
-# Phase 13 — CVScreen Gate 3 Infrastructure Provisioning Report
+# Phase 13 — Raashiring Gate 3 Infrastructure Provisioning Report
 
 **Document:** `PHASE13_INFRASTRUCTURE_PROVISIONING_REPORT.md`  
 **Role:** Senior Azure Cloud Architect & DevOps Engineer  
@@ -53,7 +53,7 @@ Inner Errors:
 
 ## 3. The Prepared Environment-Only Bicep Template
 
-In accordance with Step 2, a minimal, isolated Bicep template was authored at [`infra/bicep/environment-only.bicep`](file:///Users/apple/cvscreening/infra/bicep/environment-only.bicep):
+In accordance with Step 2, a minimal, isolated Bicep template was authored at [`infra/bicep/environment-only.bicep`](file:///Users/apple/RASSHiringUAT/infra/bicep/environment-only.bicep):
 
 ```bicep
 targetScope = 'resourceGroup'

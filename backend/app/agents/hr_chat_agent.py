@@ -117,7 +117,7 @@ EVALUATION RESULTS FOR THIS JOB:
 - Deterministic Reasoning: {eval_data.get('reasoning', '')}
 """
 
-        return f"""You are an expert HR Recruiting Assistant and Candidate Intelligence Agent for the Local AI CV Screening Platform.
+        return f"""You are an expert HR Recruiting Assistant and Candidate Intelligence Agent for the Enterprise AI CV Screening Platform.
 You are assisting a human recruiter evaluating candidate: {name}.
 
 CANDIDATE VERIFIED DATA:

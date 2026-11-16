@@ -1,15 +1,15 @@
-# How CVScreen Works: End-to-End System Architecture & Execution Flow
+# How Raashiring Works: End-to-End System Architecture & Execution Flow
 
 **Document**: `HOW_CVSCREEN_WORKS.md`  
 **Audience**: Software Engineers, Architects, Technical Mentors, Engineering Leads  
 **Version**: 3.0.0 (Production Verified)  
-**Repository**: `cvscreening`  
+**Repository**: `RASSHiringUAT`  
 
 ---
 
 ## 1. Executive Architecture Overview
 
-CVScreen is an **evidence-based, zero-cloud candidate intelligence platform**. Unlike generic "black-box" AI resume parsers that feed an entire resume to a remote proprietary LLM and blindly trust the generated summary, CVScreen combines **local Small Language Model (SLM) structured extraction** with **deterministic Python algorithmic verification**.
+Raashiring is an **evidence-based, zero-cloud candidate intelligence platform**. Unlike generic "black-box" AI resume parsers that feed an entire resume to a remote proprietary LLM and blindly trust the generated summary, Raashiring combines **local Small Language Model (SLM) structured extraction** with **deterministic Python algorithmic verification**.
 
 Every candidate attribute extracted by the system (skills, dates, companies, degrees) is:
 1. **Extracted privately** via a container-local instance of **Qwen 2.5 1.5B** running on **Ollama** (zero external API calls; zero candidate data leakage).
@@ -197,4 +197,4 @@ A critical dimension of the CVScreen architecture is how each step in the workfl
 4. **Current Status vs. Long-Term Free Tier**:
    - Currently, all resources (including the $20/mo Standard ACR) are 100% absorbed by the Azure Free Trial $200 promotional credits (hard spending cap set to ₹0).
    - Post-trial migration to Docker Hub Personal provides a permanent ₹0 to near-zero hosting environment.
-   - For complete financial breakdowns, see [COST_ANALYSIS_AND_ECONOMICS.md](file:///Users/apple/cvscreening/docs/architecture/COST_ANALYSIS_AND_ECONOMICS.md).
+   - For complete financial breakdowns, see [COST_ANALYSIS_AND_ECONOMICS.md](file:///Users/apple/RASSHiringUAT/docs/architecture/COST_ANALYSIS_AND_ECONOMICS.md).

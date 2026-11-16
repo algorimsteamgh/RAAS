@@ -1,4 +1,4 @@
-# Phase J — CVScreen Cost & Financial Analysis Report
+# Phase J — Raashiring Cost & Financial Analysis Report
 
 **Timestamp:** 2026-10-16T12:32:00Z  
 **Active Subscription:** Azure Free Trial (`FreeTrial_2014-09-01`)  

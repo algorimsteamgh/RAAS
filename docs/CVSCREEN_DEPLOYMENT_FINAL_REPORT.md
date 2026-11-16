@@ -1,4 +1,4 @@
-# CVScreen — Production Deployment Final Report
+# Raashiring — Production Deployment Final Report
 
 **Date & Time:** October 16, 2026 — 18:02 IST (12:32 UTC)  
 **Deployment Status:** **LIVE & FULLY VERIFIED**  
@@ -103,13 +103,13 @@ A 9-stage comprehensive automated integration test suite was executed against th
 
 ## 6. Phase Reports Index
 
-- [Phase A — Infrastructure & Registry Preflight](file:///Users/apple/cvscreening/DEPLOYMENT_PHASE_A_PREFLIGHT.md)
-- [Phase B — Code Quality & Build Verification](file:///Users/apple/cvscreening/DEPLOYMENT_PHASE_B_QUALITY.md)
-- [Phase C — Bicep Infrastructure Pre-Validation](file:///Users/apple/cvscreening/DEPLOYMENT_PHASE_C_INFRA_VALIDATION.md)
-- [Phase D — Quota Resolution & Failed Environment Deletion](file:///Users/apple/cvscreening/DEPLOYMENT_PHASE_D_QUOTA_BLOCKER.md)
-- [Phase E — Environment Provisioning](file:///Users/apple/cvscreening/DEPLOYMENT_PHASE_E_ENVIRONMENT.md)
-- [Phase F — Container Registry Images Verification](file:///Users/apple/cvscreening/DEPLOYMENT_PHASE_F_IMAGES.md)
-- [Phase G — Backend Container App Verification](file:///Users/apple/cvscreening/DEPLOYMENT_PHASE_G_BACKEND.md)
-- [Phase H — Frontend Container App Verification](file:///Users/apple/cvscreening/DEPLOYMENT_PHASE_H_FRONTEND.md)
-- [Phase I — Live Integration & Smoke Test Suite](file:///Users/apple/cvscreening/DEPLOYMENT_PHASE_I_SMOKE_TESTS.md)
-- [Phase J — Financial Analysis & Cost Transparency](file:///Users/apple/cvscreening/DEPLOYMENT_PHASE_J_COSTS.md)
+- [Phase A — Infrastructure & Registry Preflight](./DEPLOYMENT_PHASE_A_PREFLIGHT.md)
+- [Phase B — Code Quality & Build Verification](./DEPLOYMENT_PHASE_B_QUALITY.md)
+- [Phase C — Bicep Infrastructure Pre-Validation](./DEPLOYMENT_PHASE_C_INFRA_VALIDATION.md)
+- [Phase D — Quota Resolution & Failed Environment Deletion](./DEPLOYMENT_PHASE_D_QUOTA_BLOCKER.md)
+- [Phase E — Environment Provisioning](./DEPLOYMENT_PHASE_E_ENVIRONMENT.md)
+- [Phase F — Container Registry Images Verification](./DEPLOYMENT_PHASE_F_IMAGES.md)
+- [Phase G — Backend Container App Verification](./DEPLOYMENT_PHASE_G_BACKEND.md)
+- [Phase H — Frontend Container App Verification](./DEPLOYMENT_PHASE_H_FRONTEND.md)
+- [Phase I — Live Integration & Smoke Test Suite](./DEPLOYMENT_PHASE_I_SMOKE_TESTS.md)
+- [Phase J — Financial Analysis & Cost Transparency](./DEPLOYMENT_PHASE_J_COSTS.md)

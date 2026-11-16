@@ -20,7 +20,7 @@ echo -e "${BOLD}${CYAN}=========================================================
 
 # 1. Configuration Defaults
 RESOURCE_GROUP="${AZURE_RESOURCE_GROUP:-rg-cvscreening-prod}"
-LOCATION="${AZURE_LOCATION:-southeastasia}"
+LOCATION="${AZURE_LOCATION:-eastus}"
 CONTAINER_APPS_LOCATION="${AZURE_CONTAINER_APPS_LOCATION:-${LOCATION}}"
 IMAGE_TAG="${IMAGE_TAG:-latest}"
 ENVIRONMENT="${AZURE_ENVIRONMENT:-prod}"
@@ -84,17 +84,27 @@ if command -v docker &> /dev/null && docker info &> /dev/null; then
     docker build --platform linux/amd64 -t "${IMAGE}:latest" -t "${IMAGE}:${IMAGE_TAG}" -f "Dockerfile.${component}" .
     echo -e "   📤 Pushing ${component} container to ACR..."
     docker push "${IMAGE}:latest"
-    docker push "${IMAGE}:${IMAGE_TAG}"
+    if [ "${IMAGE_TAG}" != "latest" ]; then
+      docker push "${IMAGE}:${IMAGE_TAG}"
+    fi
   done
 else
   for component in backend frontend; do
     echo -e "   🔨 Building ${component} container via ACR Cloud Tasks: ${ACR_LOGIN_SERVER}/cvscreening-${component}:${IMAGE_TAG}..."
-    az acr build \
-      --registry "${ACR_NAME}" \
-      --image "cvscreening-${component}:latest" \
-      --image "cvscreening-${component}:${IMAGE_TAG}" \
-      --file "Dockerfile.${component}" \
-      .
+    if [ "${IMAGE_TAG}" != "latest" ]; then
+      az acr build \
+        --registry "${ACR_NAME}" \
+        --image "cvscreening-${component}:latest" \
+        --image "cvscreening-${component}:${IMAGE_TAG}" \
+        --file "Dockerfile.${component}" \
+        .
+    else
+      az acr build \
+        --registry "${ACR_NAME}" \
+        --image "cvscreening-${component}:latest" \
+        --file "Dockerfile.${component}" \
+        .
+    fi
   done
 fi
 
@@ -164,8 +174,8 @@ else
   echo -e "${YELLOW}ℹ️  Backend is warming up... Check logs at: az containerapp logs show --name ${BACKEND_APP_NAME} -g ${RESOURCE_GROUP}${RESET}"
 fi
 
-if curl -s -f "${FRONTEND_URL}/healthz" > /dev/null 2>&1; then
-  echo -e "${GREEN}✅ Frontend Liveness Probe (${FRONTEND_URL}/healthz): HEALTHY${RESET}"
+if curl -s -f --max-time 15 "${FRONTEND_URL}/healthz" > /dev/null 2>&1 || curl -s -f --max-time 15 "${FRONTEND_URL}/" > /dev/null 2>&1; then
+  echo -e "${GREEN}✅ Frontend Web App (${FRONTEND_URL}): HEALTHY${RESET}"
 else
   echo -e "${YELLOW}ℹ️  Frontend is warming up...${RESET}"
 fi
@@ -177,5 +187,5 @@ echo -e "${BOLD}Frontend Web Application:${RESET} ${CYAN}${FRONTEND_URL}${RESET}
 echo -e "${BOLD}Backend Health (via frontend):${RESET} ${CYAN}${FRONTEND_URL}/api/system/health${RESET}"
 echo -e "${BOLD}Backend Internal URL:${RESET}      ${CYAN}${BACKEND_URL}${RESET}"
 if [ -n "${GITHUB_STEP_SUMMARY:-}" ]; then
-  echo "CVScreen is live at ${FRONTEND_URL}" >> "${GITHUB_STEP_SUMMARY}"
+  echo "Raashiring Enterprise AI Platform is live at ${FRONTEND_URL}" >> "${GITHUB_STEP_SUMMARY}"
 fi

@@ -1,4 +1,5 @@
 import asyncio
+import pytest
 from backend.app.services.experience_calculator import DateNormalizer, ExperienceCalculator
 from backend.app.services.document_layout import DocumentLayoutEngine
 from backend.app.agents.cv_agent import CVExtractionAgent
@@ -164,6 +165,7 @@ def test_claimed_vs_calculated_experience_handling():
     assert claimed2 == 4.5
     assert status2 == "EXPLICITLY_CLAIMED"
 
+@pytest.mark.anyio
 async def test_full_agent_extraction_and_evaluator_trace():
     agent = CVExtractionAgent()
     agent.client.timeout = 0.05

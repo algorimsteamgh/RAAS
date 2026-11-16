@@ -1,4 +1,4 @@
-# CVScreen Master Deployment — Phase C: Infrastructure Review and Validation
+# Raashiring Enterprise Deployment — Phase C: Infrastructure Review and Validation
 
 **Document:** `DEPLOYMENT_PHASE_C_INFRA_VALIDATION.md`  
 **Execution Date:** October 16, 2026  
@@ -9,9 +9,9 @@
 
 ## 1. Templates Audited
 
-1. [`infra/bicep/main.bicep`](file:///Users/apple/cvscreening/infra/bicep/main.bicep): Top-level orchestrator. Passes `location: 'eastus'` to base resources and `containerAppsLocation: 'eastus2'` to Container Apps.
-2. [`infra/bicep/modules/container-apps.bicep`](file:///Users/apple/cvscreening/infra/bicep/modules/container-apps.bicep): Deploys the Managed Environment, CIFS CIFS storage mount, backend app, and frontend app.
-3. [`infra/bicep/environment-only.bicep`](file:///Users/apple/cvscreening/infra/bicep/environment-only.bicep): Minimal, isolated template designed specifically for Step 7 (Gate 3). Deploys **only** `managedEnvironment` in `eastus2` without creating any container apps or modifying base infrastructure.
+1. [`infra/bicep/main.bicep`](file:///Users/apple/RASSHiringUAT/infra/bicep/main.bicep): Top-level orchestrator. Passes `location: 'eastus'` to base resources and `containerAppsLocation: 'eastus2'` to Container Apps.
+2. [`infra/bicep/modules/container-apps.bicep`](file:///Users/apple/RASSHiringUAT/infra/bicep/modules/container-apps.bicep): Deploys the Managed Environment, CIFS CIFS storage mount, backend app, and frontend app.
+3. [`infra/bicep/environment-only.bicep`](file:///Users/apple/RASSHiringUAT/infra/bicep/environment-only.bicep): Minimal, isolated template designed specifically for Step 7 (Gate 3). Deploys **only** `managedEnvironment` in `eastus2` without creating any container apps or modifying base infrastructure.
 
 ---
 
