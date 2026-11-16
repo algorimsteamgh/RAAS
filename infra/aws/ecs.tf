@@ -30,18 +30,21 @@ locals {
   db_secret_arn = aws_db_instance.main.master_user_secret[0].secret_arn
 
   app_env = merge({
-    APP_ENV              = var.environment
-    AWS_REGION           = var.region
-    MODEL_BACKEND        = "bedrock"
-    BEDROCK_MODEL_ID     = try(var.bedrock_foundation_model_ids[0], "")
-    DATABASE_HOST        = aws_db_instance.main.address
-    DATABASE_PORT        = tostring(aws_db_instance.main.port)
-    DATABASE_NAME        = var.db_name
-    DATABASE_SSLMODE     = "require"
-    CV_BUCKET            = aws_s3_bucket.cvs.bucket
-    CV_BUCKET_KMS_KEY_ID = aws_kms_key.data.arn
-    BATCH_QUEUE_URL      = aws_sqs_queue.batch.url
-    SEED_DEMO_DATA       = "false"
+    APP_ENV                   = var.environment
+    AWS_REGION                = var.region
+    MODEL_BACKEND             = "bedrock"
+    BEDROCK_MODEL_ID          = try(var.bedrock_foundation_model_ids[0], "")
+    DATABASE_HOST             = aws_db_instance.main.address
+    DATABASE_PORT             = tostring(aws_db_instance.main.port)
+    DATABASE_NAME             = var.db_name
+    DATABASE_SSLMODE          = "require"
+    CV_BUCKET                 = aws_s3_bucket.cvs.bucket
+    CV_BUCKET_KMS_KEY_ID      = aws_kms_key.data.arn
+    BATCH_QUEUE_URL           = aws_sqs_queue.batch.url
+    SEED_DEMO_DATA            = "false"
+    DATABASE_SECRET_ARN       = aws_db_instance.main.master_user_secret[0].secret_arn
+    BEDROCK_GUARDRAIL_ID      = aws_bedrock_guardrail.hr_chat.guardrail_id
+    BEDROCK_GUARDRAIL_VERSION = aws_bedrock_guardrail_version.hr_chat.version
   }, var.app_environment)
 
   # Until the app reads an IAM-auth/rotating credential, it gets the RDS-managed
@@ -107,8 +110,9 @@ resource "aws_ecs_task_definition" "worker" {
     cpu_architecture        = var.cpu_architecture
   }
   container_definitions = jsonencode([merge(local.container_base, {
-    name    = "worker"
-    command = var.worker_command
+    name        = "worker"
+    command     = var.worker_command
+    stopTimeout = 120 # let an in-flight CV finish before the task stops
     logConfiguration = {
       logDriver = "awslogs"
       options = {
@@ -184,8 +188,10 @@ resource "aws_ecs_service" "api" {
 
   # Autoscaling owns the count once an image exists: registering the scalable
   # target with min_capacity 2 raises the service from 0 to 2 tasks.
+  # The deploy workflow registers task-definition revisions with the commit-SHA
+  # image; Terraform must not roll them back.
   lifecycle {
-    ignore_changes = [desired_count]
+    ignore_changes = [desired_count, task_definition]
   }
 
   depends_on = [aws_lb_listener.main]
@@ -209,6 +215,10 @@ resource "aws_ecs_service" "worker" {
   deployment_circuit_breaker {
     enable   = true
     rollback = true
+  }
+
+  lifecycle {
+    ignore_changes = [task_definition] # deployed by the GitHub workflow
   }
 }
 

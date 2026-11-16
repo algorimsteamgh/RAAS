@@ -95,7 +95,7 @@ variable "cpu_architecture" {
 variable "worker_command" {
   description = "Command for the SQS batch worker (entry point is part of the app code changes)."
   type        = list(string)
-  default     = ["python", "-m", "app.worker"]
+  default     = ["python", "-m", "backend.app.worker"]
 }
 
 variable "worker_desired_count" {
@@ -107,7 +107,7 @@ variable "worker_desired_count" {
 variable "migrate_command" {
   description = "Command for the one-off migration / data-load ECS task."
   type        = list(string)
-  default     = ["python", "-m", "app.db.migrate"]
+  default     = ["python", "-m", "backend.app.db.migrate"]
 }
 
 variable "app_environment" {

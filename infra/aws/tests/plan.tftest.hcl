@@ -33,6 +33,7 @@ mock_provider "aws" {
   mock_resource "aws_ecs_cluster" { defaults = { arn = "arn:aws:ecs:ap-southeast-1:007477962703:cluster/raas-prod" } }
   mock_resource "aws_ecs_service" { defaults = { id = "arn:aws:ecs:ap-southeast-1:007477962703:service/raas-prod/api" } }
   mock_resource "aws_ecs_task_definition" { defaults = { arn = "arn:aws:ecs:ap-southeast-1:007477962703:task-definition/raas-prod-api:1" } }
+  mock_resource "aws_bedrock_guardrail" { defaults = { guardrail_arn = "arn:aws:bedrock:ap-southeast-1:007477962703:guardrail/abc", guardrail_id = "abc" } }
   mock_resource "aws_backup_vault" { defaults = { arn = "arn:aws:backup:ap-southeast-1:007477962703:backup-vault:v" } }
   mock_resource "aws_backup_plan" { defaults = { arn = "arn:aws:backup:ap-southeast-1:007477962703:backup-plan:p" } }
   mock_resource "aws_wafv2_web_acl" { defaults = { arn = "arn:aws:wafv2:us-east-1:007477962703:global/webacl/x/1" } }

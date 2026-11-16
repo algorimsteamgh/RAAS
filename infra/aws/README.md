@@ -77,7 +77,12 @@ as the week goes:
    `hosted_zone_id` instead and Terraform will not create one.
 3. **First image.** Push the API image to `ecr_repository_url` tagged with
    the commit SHA, set `api_image_tag`, apply. Autoscaling raises the API
-   to 2 tasks. Run migrations / the data load with the `migrate` task:
+   to 2 tasks. After that, the GitHub deploy workflow registers new
+   task-definition revisions and Terraform ignores `task_definition` on the
+   services, so a later apply does not roll a deploy back. Set
+   `worker_desired_count` to 1 or more once the image is in ECR. Run
+   migrations / the data load (it reads the SQLite file from
+   `s3://<cv bucket>/migration/`) with the `migrate` task:
    ```
    aws ecs run-task --cluster raas-prod --task-definition raas-prod-migrate --launch-type FARGATE \
      --network-configuration "awsvpcConfiguration={subnets=[APP-SUBNET-ID],securityGroups=[APP-SG-ID]}"
@@ -95,15 +100,16 @@ as the week goes:
    `liftproof_security_group_id` and `liftproof_instance_role_name` (Part D3)
    and apply, instead of running the D3 commands by hand.
 
-## What the application needs to change
+## Application
 
-The container gets `DATABASE_HOST/PORT/NAME/USER/PASSWORD`,
+The app changes for AWS (Bedrock, PostgreSQL, S3, SQS, worker, data load) are
+in PR #6; see `docs/aws/APP_ON_AWS.md` there. The containers get
+`DATABASE_HOST/PORT/NAME/USER/PASSWORD`, `DATABASE_SECRET_ARN`,
 `DATABASE_SSLMODE=require`, `CV_BUCKET`, `BATCH_QUEUE_URL`,
-`MODEL_BACKEND=bedrock`, `BEDROCK_MODEL_ID` and `SEED_DEMO_DATA=false`. The
-code still uses SQLite and Ollama; the Bedrock, PostgreSQL, S3 and SQS
-changes are separate work. The worker service stays at 0 tasks
-(`worker_desired_count`) until the image has a worker entry point
-(`worker_command`, default `python -m app.worker`).
+`MODEL_BACKEND=bedrock`, `BEDROCK_MODEL_ID`, `BEDROCK_GUARDRAIL_ID`,
+`BEDROCK_GUARDRAIL_VERSION` and `SEED_DEMO_DATA=false`. The worker runs
+`python -m backend.app.worker`, the migrate task
+`python -m backend.app.db.migrate`.
 
 ## Bedrock
 
