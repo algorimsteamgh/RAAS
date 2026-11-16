@@ -1,0 +1,22 @@
+# Accepted Trivy findings (owner decision, 2026-11-16). The CI security scan
+# reads this file; every other finding still fails the build.
+
+misconfigurations:
+  # The app tasks reach Bedrock, ECR, SQS, Secrets Manager and CloudWatch
+  # through the NAT gateway. There are no VPC interface endpoints, to keep the
+  # cost down, so egress has to be open. Revisit if endpoints are added.
+  - id: AWS-0104
+    paths:
+      - "infra/aws/network.tf"
+    statement: "Accepted: app egress goes through NAT to AWS APIs (no interface endpoints)."
+
+  # The CloudFront-to-ALB listener is plain HTTP only while
+  # enable_custom_domain = false. That is allowed until go-live on 19 Nov 2026
+  # only. When this expires the scan fails again: set enable_custom_domain to
+  # true (default in variables.tf and in terraform.tfvars) before then, so the
+  # listener is HTTPS, CV uploads are encrypted end to end and the check passes.
+  - id: AWS-0054
+    paths:
+      - "infra/aws/alb.tf"
+    statement: "Temporary: HTTP to the ALB until the custom domain (HTTPS origin) is enabled at go-live."
+    expired_at: 2026-11-20

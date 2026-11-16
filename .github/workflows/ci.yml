@@ -94,4 +94,6 @@ jobs:
           severity: CRITICAL
           ignore-unfixed: true
           skip-dirs: dataset,data,docs
+          # Accepted findings, each with a reason (and an expiry where temporary).
+          trivyignores: .trivyignore.yaml
           exit-code: "1"
