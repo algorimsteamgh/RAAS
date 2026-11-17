@@ -91,9 +91,10 @@ as the week goes:
    `enable_custom_domain` creates the ACM certificates, switches the ALB to
    HTTPS on `origin.raashiring.com` and gives CloudFront raashiring.com and
    www. The certificates validate through DNS records that must resolve
-   publicly: at go-live the zone was still on Azure DNS, so the three
-   validation CNAMEs were copied there before GoDaddy's name servers moved
-   to Route 53.
+   publicly, and CloudFront reaches the ALB through `origin.raashiring.com`,
+   which must resolve too (or the API returns 502). At go-live the zone was
+   still on Azure DNS, so the three validation CNAMEs and an `origin` CNAME to
+   the ALB were copied there before GoDaddy's name servers moved to Route 53.
 5. **Cut-over** (done 17 Nov 2026). `point_dns_to_aws` creates the apex and
    www alias records to CloudFront in Route 53. Test on
    `cloudfront_domain_name` first. Rollback while Azure is kept: point the
