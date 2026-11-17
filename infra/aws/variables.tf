@@ -184,7 +184,7 @@ variable "cloudfront_price_class" {
 variable "github_repository" {
   description = "owner/name of the repository whose GitHub Actions may deploy."
   type        = string
-  default     = "algorimsteamgh/raas"
+  default     = "algorimsteamgh/RAAS"
 }
 
 variable "github_environment" {
