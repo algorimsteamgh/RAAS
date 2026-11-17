@@ -275,6 +275,56 @@ class TestSqsBatch(unittest.TestCase):
             settings.BATCH_BACKEND, settings.BATCH_QUEUE_URL = old
             batch_service.set_sqs_client(None)
 
+    @mock_aws
+    def test_bulk_import_from_prefix(self):
+        from backend.app.dataload import import_cvs
+
+        sqs = boto3.client("sqs", region_name=REGION)
+        queue_url = sqs.create_queue(QueueName="raas-prod-batch")["QueueUrl"]
+        batch_service.set_sqs_client(sqs)
+        old = (settings.BATCH_BACKEND, settings.BATCH_QUEUE_URL)
+        settings.BATCH_BACKEND, settings.BATCH_QUEUE_URL = "sqs", queue_url
+        storage = get_cv_storage()
+        prefix = "import/test-run/"
+        sources = {
+            prefix + "one.txt": (CV_TEXT + "\nimport-one").encode(),
+            prefix + "sub/two.TXT": (CV_TEXT + "\nimport-two").encode(),
+            prefix + "dup.txt": (CV_TEXT + "\nimport-one").encode(),
+            prefix + "notes.xlsx": b"PK",
+            prefix + ".DS_Store": b"x",
+        }
+        for key, data in sources.items():
+            storage.put(key, data, "application/octet-stream")
+        try:
+            dry = import_cvs.import_prefix(prefix, dry_run=True)
+            self.assertEqual((dry["found"], dry["to_import"], dry["batches"]), (5, 3, []))
+            self.assertEqual(sorted(s["reason"] for s in dry["skipped"]), ["hidden file", "unsupported format: xlsx"])
+
+            with self.assertRaises(ValueError):
+                import_cvs.import_prefix("cvs/")
+
+            summary = import_cvs.import_prefix(prefix, batch_size=2)
+            self.assertEqual([b["files"] for b in summary["batches"]], [2, 1])
+            self.assertEqual(summary["queued"], 3)
+
+            run(Worker(queue_url, concurrency=1, client=sqs).run(max_messages=3))
+            states = []
+            for b in summary["batches"]:
+                status = batch_service.batch_status(b["batch_id"])
+                self.assertEqual(status.get("status"), "COMPLETE", status)
+                states += [f["status"] for f in status["files"]]
+                for f in status["files"]:
+                    if f["candidate_id"]:
+                        db.delete_candidate(f["candidate_id"])
+            self.assertEqual(sorted(states), ["COMPLETED", "COMPLETED", "SKIPPED"])
+            # The uploaded originals are left in place.
+            self.assertEqual(sorted(storage.list_keys(prefix)), sorted(sources))
+        finally:
+            for key in sources:
+                storage.delete(key)
+            settings.BATCH_BACKEND, settings.BATCH_QUEUE_URL = old
+            batch_service.set_sqs_client(None)
+
     def test_retry_then_fail_after_max_attempts(self):
         rows = [{"file_index": 0, "filename": "x.txt", "file_type": "txt", "staging_key": "batch/BATCH-MISSING/0.txt", "size_bytes": 1}]
         db.create_batch("BATCH-MISSING", None, rows)  # staged object does not exist -> storage error

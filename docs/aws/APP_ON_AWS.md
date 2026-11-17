@@ -45,6 +45,26 @@ ways on ECS Fargate (task definitions in `infra/aws/ecs.tf`):
    re-runs the checks without loading.
 4. Delete `migration/` objects after sign-off.
 
+## Bulk CV import (e.g. the client's 2,000 real resumes)
+
+Needs the worker running and Bedrock working. Large sets go through S3, not
+the browser (the upload page takes 1,000 files per batch).
+
+1. Upload the files to a dated prefix in the CV bucket:
+   `aws s3 sync ./resumes s3://raas-cvs-007477962703-ap-southeast-1/import/2026-11-17/`
+2. Check what will be imported (nothing changes):
+   ```
+   aws ecs run-task --cluster raas-prod --task-definition raas-prod-api --launch-type FARGATE \
+     --network-configuration "awsvpcConfiguration={subnets=[APP-SUBNET-ID],securityGroups=[APP-SG-ID]}" \
+     --overrides '{"containerOverrides":[{"name":"api","command":["python","-m","backend.app.dataload.import_cvs","--prefix","import/2026-11-17/","--dry-run"]}]}'
+   ```
+   The api task definition is used because its role may send to the batch queue.
+3. Run the same command without `--dry-run`. The files are queued in batches
+   of 250; the worker extracts each CV with Bedrock. Progress: the app's batch
+   status, CloudWatch `/raas/prod/api` (import summary) and `/raas/prod/worker`.
+   Files already in the portal (same SHA-256) are skipped, so a re-run is safe.
+4. Delete `import/2026-11-17/` once the client has checked the candidates.
+
 ## Model choice
 
 The task roles may call only the models Terraform lists (`bedrock_foundation_model_ids`,
