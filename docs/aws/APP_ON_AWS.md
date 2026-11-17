@@ -19,7 +19,7 @@ ways on ECS Fargate (task definitions in `infra/aws/ecs.tf`):
 | `CV_BUCKET`, `CV_BUCKET_KMS_KEY_ID` | S3 CV storage (SSE-KMS). Without `CV_BUCKET`, files go to `data/cv_store/` |
 | `BATCH_QUEUE_URL` | SQS batch queue. Without it, batches run inside the API process |
 | `MODEL_BACKEND` | `bedrock` (AWS) or `ollama` (local / Qwen baseline) |
-| `BEDROCK_MODEL_ID` | extraction and chat model; production uses `anthropic.claude-sonnet-5` (in-region in ap-southeast-1), set by Terraform |
+| `BEDROCK_MODEL_ID` | extraction and chat model, set by Terraform: the first `bedrock_inference_profile_ids` entry if any (planned: `global.anthropic.claude-haiku-4-5-20251001-v1:0`, pending Quess Global's OK on cross-region processing), else `anthropic.claude-sonnet-5` (in-region) |
 | `BEDROCK_CHAT_MODEL_ID` | optional, HR chat model (default: `BEDROCK_MODEL_ID`) |
 | `BEDROCK_GUARDRAIL_ID`, `BEDROCK_GUARDRAIL_VERSION` | optional guardrail on the HR chat |
 | `SEED_DEMO_DATA` | `false` in production (also disables `POST /api/dataset/load-mock`) |
@@ -47,6 +47,7 @@ ways on ECS Fargate (task definitions in `infra/aws/ecs.tf`):
 
 ## Model choice
 
-Set `MODEL_BACKEND`/`BEDROCK_MODEL_ID` and call
-`GET /api/evaluation/metrics`, or run the CV agent over `dataset/ground_truth`
-with each model. Both candidate models are allowed by the task role.
+The task roles may call only the models Terraform lists (`bedrock_foundation_model_ids`,
+`bedrock_inference_profile_ids`); see `infra/aws/README.md`, section Bedrock.
+To compare models, set `BEDROCK_MODEL_ID` and run the CV agent over
+`dataset/ground_truth`, or call `GET /api/evaluation/metrics`.
