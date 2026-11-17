@@ -63,7 +63,13 @@ the browser (the upload page takes 1,000 files per batch).
    of 250; the worker extracts each CV with Bedrock. Progress: the app's batch
    status, CloudWatch `/raas/prod/api` (import summary) and `/raas/prod/worker`.
    Files already in the portal (same SHA-256) are skipped, so a re-run is safe.
-4. Delete `import/2026-11-17/` once the client has checked the candidates.
+4. Evidence report, once the worker has finished (changes nothing): run the
+   same task with `"--report","s3://raas-cvs-007477962703-ap-southeast-1/migration/reports/"`
+   instead of `--dry-run`. It writes `import-report-<time>.json` next to the
+   load report: every file with its SHA-256, the candidate it became and the
+   stored copy's checksum. PASS when every file is imported (or a duplicate
+   within the set) with a matching checksum; exit code 1 otherwise.
+5. Delete `import/2026-11-17/` once the client has checked the candidates.
 
 ## Model choice
 

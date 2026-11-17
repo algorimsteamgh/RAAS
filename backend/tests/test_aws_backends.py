@@ -308,6 +308,15 @@ class TestSqsBatch(unittest.TestCase):
             self.assertEqual(summary["queued"], 3)
 
             run(Worker(queue_url, concurrency=1, client=sqs).run(max_messages=3))
+
+            report = import_cvs.build_report(prefix)
+            self.assertEqual(report["result"], "PASS", report["problems"])
+            self.assertEqual(report["totals"]["by_status"], {"IMPORTED": 2, "DUPLICATE": 1})
+            self.assertEqual(report["totals"]["skipped_unsupported"], 2)
+            for e in report["files"]:
+                if e["status"] == "IMPORTED":
+                    self.assertEqual(e["stored_sha256"], e["sha256"])
+
             states = []
             for b in summary["batches"]:
                 status = batch_service.batch_status(b["batch_id"])
@@ -317,6 +326,10 @@ class TestSqsBatch(unittest.TestCase):
                     if f["candidate_id"]:
                         db.delete_candidate(f["candidate_id"])
             self.assertEqual(sorted(states), ["COMPLETED", "COMPLETED", "SKIPPED"])
+            # With the candidates gone, the report flags the files.
+            after = import_cvs.build_report(prefix)
+            self.assertEqual(after["result"], "FAIL")
+            self.assertEqual(after["totals"]["by_status"], {"NOT_IMPORTED": 2, "DUPLICATE": 1})
             # The uploaded originals are left in place.
             self.assertEqual(sorted(storage.list_keys(prefix)), sorted(sources))
         finally:
