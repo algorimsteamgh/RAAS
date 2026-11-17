@@ -6,11 +6,7 @@
 # After the first image is pushed to ECR (commit SHA tag):
 # api_image_tag = "abc1234"
 
-# After GoDaddy's name servers point at the Route 53 zone:
-# enable_custom_domain = true
-
-# Cut-over (Thu 19 Nov, 6 PM IST):
-# point_dns_to_aws = true
+# enable_custom_domain and point_dns_to_aws default to true (live since go-live).
 
 # When the worker entry point exists in the image:
 # worker_desired_count = 1

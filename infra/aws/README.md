@@ -87,14 +87,18 @@ as the week goes:
    aws ecs run-task --cluster raas-prod --task-definition raas-prod-migrate --launch-type FARGATE \
      --network-configuration "awsvpcConfiguration={subnets=[APP-SUBNET-ID],securityGroups=[APP-SG-ID]}"
    ```
-4. **Custom domain.** Once the name servers have moved, set
-   `enable_custom_domain = true`: ACM certificates validate through Route 53,
-   the ALB switches to HTTPS on `origin.raashiring.com`, CloudFront gets
-   raashiring.com and www.
-5. **Cut-over (Thu 19 Nov).** Test on `cloudfront_domain_name` first. Delete
-   the Azure `www` CNAME if there is one (an alias A record cannot sit next
-   to a CNAME), then set `point_dns_to_aws = true`. Rollback: set it back to
-   false and re-create the Azure records.
+4. **Custom domain** (on by default since go-live on 17 Nov 2026).
+   `enable_custom_domain` creates the ACM certificates, switches the ALB to
+   HTTPS on `origin.raashiring.com` and gives CloudFront raashiring.com and
+   www. The certificates validate through DNS records that must resolve
+   publicly: at go-live the zone was still on Azure DNS, so the three
+   validation CNAMEs were copied there before GoDaddy's name servers moved
+   to Route 53.
+5. **Cut-over** (done 17 Nov 2026). `point_dns_to_aws` creates the apex and
+   www alias records to CloudFront in Route 53. Test on
+   `cloudfront_domain_name` first. Rollback while Azure is kept: point the
+   apex and www records in Route 53 back to Azure (or GoDaddy's name servers
+   back to Azure DNS), then start the Azure backend.
 6. **Liftproof.** `terraform output liftproof_create_stack_parameters` gives
    the Part C2 parameters. After the stack exists, set
    `liftproof_security_group_id` and `liftproof_instance_role_name` (Part D3)

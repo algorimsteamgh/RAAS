@@ -151,15 +151,15 @@ variable "hosted_zone_id" {
 }
 
 variable "enable_custom_domain" {
-  description = "Create ACM certificates (DNS-validated) and attach raashiring.com to CloudFront. Turn on only after GoDaddy's name servers point at the Route 53 zone, or validation waits and times out."
+  description = "Create ACM certificates (DNS-validated) and attach raashiring.com to CloudFront, with HTTPS from CloudFront to the ALB. On since go-live (17 Nov 2026). The validation records must resolve publicly (Route 53, or copies in the zone that is authoritative), or validation waits and times out."
   type        = bool
-  default     = false
+  default     = true
 }
 
 variable "point_dns_to_aws" {
-  description = "Cut-over switch: apex and www alias records to CloudFront. Needs enable_custom_domain."
+  description = "Cut-over switch: apex and www alias records to CloudFront. Needs enable_custom_domain. On since go-live (17 Nov 2026)."
   type        = bool
-  default     = false
+  default     = true
 }
 
 variable "origin_subdomain" {
