@@ -113,10 +113,13 @@ in PR #6; see `docs/aws/APP_ON_AWS.md` there. The containers get
 
 ## Bedrock
 
-Task roles may call the models in `bedrock_foundation_model_ids` (Nova Lite
-and Claude 3 Haiku by default, in-region on-demand). Cross-region inference
+Task roles may call the models in `bedrock_foundation_model_ids` (Claude
+Sonnet 5 by default, the only text model on demand in ap-southeast-1 as of
+17 Nov 2026; the first entry is the app's `BEDROCK_MODEL_ID`). Cross-region inference
 profiles are denied unless listed in `bedrock_inference_profile_ids`
-(decision D2). Model access must also be enabled once in the Bedrock console.
+(decision D2). Call the model once with an admin profile (`aws bedrock-runtime
+converse --model-id anthropic.claude-sonnet-5 ...`) so that any one-time use-case
+form or Marketplace subscription is done before the app calls it.
 
 ## Account services
 

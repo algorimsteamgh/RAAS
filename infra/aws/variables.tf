@@ -124,11 +124,10 @@ variable "log_retention_days" {
 # ---------------------------------------------------------------- Bedrock
 
 variable "bedrock_foundation_model_ids" {
-  description = "In-region on-demand models the app may call (Converse API). Under evaluation: Nova Lite and Claude Haiku."
+  description = "In-region on-demand models the app may call (Converse API). The first one is the app's BEDROCK_MODEL_ID. Claude Sonnet 5 is the only text model on demand in ap-southeast-1 (checked 2026-11-17; Nova Lite there is cross-region only, Claude 3 Haiku is end of life)."
   type        = list(string)
   default = [
-    "amazon.nova-lite-v1:0",
-    "anthropic.claude-3-haiku-20240307-v1:0",
+    "anthropic.claude-sonnet-5",
   ]
 }
 

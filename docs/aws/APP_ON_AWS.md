@@ -19,7 +19,7 @@ ways on ECS Fargate (task definitions in `infra/aws/ecs.tf`):
 | `CV_BUCKET`, `CV_BUCKET_KMS_KEY_ID` | S3 CV storage (SSE-KMS). Without `CV_BUCKET`, files go to `data/cv_store/` |
 | `BATCH_QUEUE_URL` | SQS batch queue. Without it, batches run inside the API process |
 | `MODEL_BACKEND` | `bedrock` (AWS) or `ollama` (local / Qwen baseline) |
-| `BEDROCK_MODEL_ID` | extraction model, e.g. `amazon.nova-lite-v1:0` or `anthropic.claude-3-haiku-20240307-v1:0` |
+| `BEDROCK_MODEL_ID` | extraction and chat model; production uses `anthropic.claude-sonnet-5` (in-region in ap-southeast-1), set by Terraform |
 | `BEDROCK_CHAT_MODEL_ID` | optional, HR chat model (default: `BEDROCK_MODEL_ID`) |
 | `BEDROCK_GUARDRAIL_ID`, `BEDROCK_GUARDRAIL_VERSION` | optional guardrail on the HR chat |
 | `SEED_DEMO_DATA` | `false` in production (also disables `POST /api/dataset/load-mock`) |

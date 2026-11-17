@@ -88,7 +88,7 @@ class Settings(BaseModel):
     # bedrock (AWS) | ollama (local development and the Qwen baseline)
     MODEL_BACKEND: str = (_env("MODEL_BACKEND") or "ollama").lower()
 
-    BEDROCK_MODEL_ID: str = _env("BEDROCK_MODEL_ID", "amazon.nova-lite-v1:0")
+    BEDROCK_MODEL_ID: str = _env("BEDROCK_MODEL_ID", "anthropic.claude-sonnet-5")
     # HR chat can use a different model; defaults to BEDROCK_MODEL_ID.
     BEDROCK_CHAT_MODEL_ID: Optional[str] = _env("BEDROCK_CHAT_MODEL_ID")
     BEDROCK_GUARDRAIL_ID: Optional[str] = _env("BEDROCK_GUARDRAIL_ID")
