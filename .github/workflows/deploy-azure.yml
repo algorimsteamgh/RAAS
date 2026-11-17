@@ -1,7 +1,16 @@
 name: Deploy to Azure
 
+# Azure is the fallback until the AWS cut-over is signed off (Azure is
+# decommissioned on 3 Dec 2026). From the AWS modernisation on, main no longer
+# runs on Azure (PostgreSQL, S3 and Bedrock instead of SQLite and Ollama), so
+# this workflow deploys the last Azure-compatible commit unless told otherwise.
 on:
   workflow_dispatch:
+    inputs:
+      ref:
+        description: "Commit to deploy to Azure (default: last SQLite/Ollama commit before the AWS modernisation)"
+        required: false
+        default: "4dfb9c074b2dc04ad572c443a8e8a0e98656aa4e"
 
 permissions:
   id-token: write
@@ -20,6 +29,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          ref: ${{ inputs.ref }}
 
       - name: Azure login
         uses: azure/login@v2
@@ -33,5 +44,5 @@ jobs:
           AZURE_LOCATION: ${{ vars.AZURE_LOCATION || 'southeastasia' }}
           AZURE_CONTAINER_APPS_LOCATION: ${{ vars.AZURE_CONTAINER_APPS_LOCATION || vars.AZURE_LOCATION || 'southeastasia' }}
           AZURE_RESOURCE_GROUP: ${{ vars.AZURE_RESOURCE_GROUP || 'rg-cvscreening-prod' }}
-          IMAGE_TAG: ${{ github.sha }}
+          IMAGE_TAG: ${{ inputs.ref }}
         run: ./deploy-azure.sh

@@ -1,57 +1,48 @@
-FROM python:3.11-slim
+# RAASHiring API / batch worker / migration task (one image, three commands).
+#   API:     default CMD (uvicorn)
+#   Worker:  python -m backend.app.worker
+#   Migrate: python -m backend.app.db.migrate
+#   Load:    python -m backend.app.dataload.sqlite_to_postgres --help
+# No model runs in this image: AI is Amazon Bedrock (MODEL_BACKEND=bedrock).
+FROM python:3.12-slim
 
 ENV PYTHONDONTWRITEBYTECODE=1 \
     PYTHONUNBUFFERED=1 \
     PIP_NO_CACHE_DIR=1 \
+    PIP_DISABLE_PIP_VERSION_CHECK=1 \
     PORT=8000 \
-    HOST=0.0.0.0 \
-    ENVIRONMENT=production \
-    MODEL_BACKEND=ollama \
-    OLLAMA_BASE_URL=http://127.0.0.1:11434 \
-    OLLAMA_LLM_MODEL=qwen2.5:1.5b \
-    DATABASE_PATH=/app/local_data/cv_screening.db \
-    PERSISTENT_DATA_DIR=/app/data
+    APP_ENV=production \
+    MODEL_BACKEND=bedrock \
+    SEED_DEMO_DATA=false \
+    AUTO_MIGRATE=false \
+    UVICORN_WORKERS=2
 
 WORKDIR /app
 
-# Install system dependencies & curl
-RUN apt-get update && apt-get install -y --no-install-recommends \
-    curl \
-    ca-certificates \
-    procps \
-    zstd \
+# curl is used by the ECS container health check.
+RUN apt-get update \
+    && apt-get install -y --no-install-recommends curl ca-certificates \
     && rm -rf /var/lib/apt/lists/*
 
-# Install official Ollama runtime
-RUN curl -fsSL https://ollama.com/install.sh | sh
-
-# Install Python requirements
 COPY requirements.txt .
 RUN pip install -r requirements.txt
 
-# Pre-cache Qwen2.5:1.5B lightweight model during build (cached before app source)
-RUN mkdir -p /root/.ollama && \
-    ollama serve & \
-    until curl -s http://127.0.0.1:11434/api/tags > /dev/null 2>&1; do sleep 0.5; done && \
-    ollama pull qwen2.5:1.5b && \
-    pkill ollama
-
-# Copy backend application source and seed fixtures
 COPY backend/app /app/backend/app
 COPY dataset_manifest.json /app/dataset_manifest.json
-COPY data/normalized /app/data/normalized
+# Evaluation fixtures (GET /api/evaluation/metrics) and demo seed data
+# (used only when SEED_DEMO_DATA=true, never in production).
 COPY data/normalized /app/seed_data/normalized
 COPY data/evaluation /app/data/evaluation
 COPY data/evaluation /app/seed_data/evaluation
-COPY scripts/entrypoint.sh /app/entrypoint.sh
 
-# Ensure storage directories exist and entrypoint is executable
-RUN mkdir -p /app/data/cvs/samples /app/data/extracted /app/local_data && \
-    chmod +x /app/entrypoint.sh
+RUN useradd --system --uid 10001 --home-dir /app raas \
+    && mkdir -p /app/data/cvs/samples /app/data/extracted /app/frontend/dist \
+    && chown -R raas:raas /app/data /app/frontend
+USER 10001
 
 EXPOSE 8000
 
-HEALTHCHECK --interval=30s --timeout=5s --start-period=15s --retries=3 \
-    CMD curl -f http://localhost:8000/api/system/health || exit 1
+HEALTHCHECK --interval=30s --timeout=5s --start-period=20s --retries=3 \
+    CMD curl -fs http://localhost:${PORT}/healthz || exit 1
 
-ENTRYPOINT ["/app/entrypoint.sh"]
+CMD ["sh", "-c", "exec uvicorn backend.app.main:app --host 0.0.0.0 --port ${PORT} --workers ${UVICORN_WORKERS} --proxy-headers --forwarded-allow-ips='*' --timeout-graceful-shutdown 25"]

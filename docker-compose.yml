@@ -1,0 +1,25 @@
+# Local development: PostgreSQL 16 (same major version as RDS).
+#   docker compose up -d db
+#   export DATABASE_URL=postgresql://raas:raas@localhost:5432/raas
+#   ./script.sh            # API (migrates and seeds demo data on start) + Vite
+# CVs are stored under data/cv_store/, batches run in the API process, and the
+# model is a local Ollama (MODEL_BACKEND=ollama) unless you set MODEL_BACKEND=bedrock
+# with AWS credentials.
+services:
+  db:
+    image: postgres:16
+    environment:
+      POSTGRES_USER: raas
+      POSTGRES_PASSWORD: raas
+      POSTGRES_DB: raas
+    ports:
+      - "5432:5432"
+    volumes:
+      - raas-pg:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U raas -d raas"]
+      interval: 5s
+      retries: 10
+
+volumes:
+  raas-pg:

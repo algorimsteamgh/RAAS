@@ -50,6 +50,9 @@ Thumbs.db
 .env.local
 .env.*.local
 
+# Local CV storage (development)
+data/cv_store/
+
 # Terraform
 .terraform/
 *.tfplan
