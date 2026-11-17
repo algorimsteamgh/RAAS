@@ -121,6 +121,18 @@ profiles are denied unless listed in `bedrock_inference_profile_ids`
 converse --model-id anthropic.claude-sonnet-5 ...`) so that any one-time use-case
 form or Marketplace subscription is done before the app calls it.
 
+Fallback if Sonnet 5 is not enabled for the account (needs Quess Global's OK on
+D2, because a global profile may process data outside APAC): add to
+`terraform.tfvars`
+
+```
+bedrock_inference_profile_ids = ["global.anthropic.claude-haiku-4-5-20251001-v1:0"]
+```
+
+and apply. The first listed profile becomes the app's `BEDROCK_MODEL_ID`, and
+the task roles may call it. Then re-run the deploy workflow, so the services
+pick up the new task-definition revision. Remove the line to go back.
+
 ## Account services
 
 `enable_account_security_services` (CloudTrail, GuardDuty, Security Hub)

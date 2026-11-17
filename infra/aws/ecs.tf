@@ -33,7 +33,8 @@ locals {
     APP_ENV                   = var.environment
     AWS_REGION                = var.region
     MODEL_BACKEND             = "bedrock"
-    BEDROCK_MODEL_ID          = try(var.bedrock_foundation_model_ids[0], "")
+    # A listed cross-region profile (decision D2) takes precedence over the in-region model.
+    BEDROCK_MODEL_ID          = try(var.bedrock_inference_profile_ids[0], var.bedrock_foundation_model_ids[0], "")
     DATABASE_HOST             = aws_db_instance.main.address
     DATABASE_PORT             = tostring(aws_db_instance.main.port)
     DATABASE_NAME             = var.db_name

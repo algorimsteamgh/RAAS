@@ -132,7 +132,7 @@ variable "bedrock_foundation_model_ids" {
 }
 
 variable "bedrock_inference_profile_ids" {
-  description = "Cross-region inference profiles (e.g. apac.amazon.nova-lite-v1:0). Leave empty unless decision D2 allows cross-region inference."
+  description = "Cross-region inference profiles (e.g. global.anthropic.claude-haiku-4-5-20251001-v1:0). Leave empty unless decision D2 allows cross-region inference. When set, the first one becomes the app's BEDROCK_MODEL_ID."
   type        = list(string)
   default     = []
 }
