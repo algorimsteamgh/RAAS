@@ -236,6 +236,40 @@ class TestInlineBatch(unittest.TestCase):
         db.delete_candidate(by_name["a.txt"]["candidate_id"])
 
 
+class TestRemoveSource(unittest.TestCase):
+    def test_remove_demo_source_keeps_everything_else(self):
+        from backend.app.dataload import remove_source
+
+        ids = []
+        for i in range(3):
+            cid = f"CAND-TDEMO{i:03d}"
+            db.save_candidate_record({"candidate_id": cid, "full_name": f"Demo {i}", "skills": ["x"]}, source="TESTDEMO")
+            ids.append(cid)
+        db.save_recruiter_action(ids[0], "shortlist", note="demo")
+        before = {r["candidate_id"] for r in db.list_candidates(None)} - set(ids)
+
+        with self.assertRaises(ValueError):
+            remove_source.remove_source("UPLOADED", "no")
+        with self.assertRaises(ValueError):
+            remove_source.remove_source("TESTDEMO", " ")
+
+        dry = remove_source.remove_source("TESTDEMO", "test cleanup", dry_run=True)
+        self.assertEqual(dry["candidates_to_remove"], 3)
+        self.assertEqual(sorted(dry["candidate_ids"]), ids)
+        self.assertEqual(len([c for c in db.list_candidates(None) if c["candidate_id"] in ids]), 3)
+
+        done = remove_source.remove_source("TESTDEMO", "test cleanup")
+        self.assertEqual(done["result"], "PASS", done["checks"])
+        self.assertEqual(done["removed_candidates"], 3)
+        self.assertNotIn("TESTDEMO", done["after"]["candidates_by_source"])
+        self.assertEqual({r["candidate_id"] for r in db.list_candidates(None)}, before)
+
+        record = [r for r in remove_source.cleanup_records() if r.get("source") == "TESTDEMO"][-1]
+        self.assertEqual(record["removed_candidates"], 3)
+        self.assertEqual(record["candidate_ids"], ids)
+        self.assertEqual(record["reason"], "test cleanup")
+
+
 class TestSqsBatch(unittest.TestCase):
     @mock_aws
     def test_enqueue_and_worker(self):
@@ -313,6 +347,8 @@ class TestSqsBatch(unittest.TestCase):
             self.assertEqual(report["result"], "PASS", report["problems"])
             self.assertEqual(report["totals"]["by_status"], {"IMPORTED": 2, "DUPLICATE": 1})
             self.assertEqual(report["totals"]["skipped_unsupported"], 2)
+            self.assertIn("candidates_by_source_now", report)
+            self.assertIsInstance(report["removals"], list)
             for e in report["files"]:
                 if e["status"] == "IMPORTED":
                     self.assertEqual(e["stored_sha256"], e["sha256"])

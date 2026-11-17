@@ -37,15 +37,34 @@ ways on ECS Fargate (task definitions in `infra/aws/ecs.tf`):
        "--sqlite","s3://raas-cvs-007477962703-ap-southeast-1/migration/cv_screening.db",
        "--report","s3://raas-cvs-007477962703-ap-southeast-1/migration/reports/","--truncate"]}]}'
    ```
-   Add `"--exclude-source","MOCK"` if Quess Global decides to drop the 500
-   seed candidates (Q8). Use `--truncate` for rehearsals and the final load;
-   without it the job refuses a non-empty database.
+   Decision Q8 (17 Nov 2026): migrate everything, MOCK included, so the
+   migration report shows every table matching Azure; the 500 MOCK candidates
+   are removed afterwards (see "Post-migration changes"). Record that in the
+   report with
+   `"--note","500 MOCK demo candidates migrated for completeness; removed after validation at Quess Global's request (17 Nov 2026)"`.
+   (`"--exclude-source","MOCK"` would leave them out instead.)
+   Use `--truncate` for rehearsals and the final load; without it the job
+   refuses a non-empty database.
 3. Read the summary in CloudWatch `/raas/prod/migrate` and the JSON report in
    `migration/reports/`. Exit code 0 = every check passed. `--verify-only`
    re-runs the checks without loading.
 4. Delete `migration/` objects after sign-off.
 
-## Bulk CV import (e.g. the client's 2,000 real resumes)
+## Post-migration changes: remove MOCK, import the real resumes
+
+After the migration report and Liftproof reconcile/files have passed.
+
+**Remove the demo candidates** (migrate task definition, one transaction,
+recorded in audit_logs; checks that no MOCK candidate is left, every other
+candidate and every job unchanged):
+```
+aws ecs run-task --cluster raas-prod --task-definition raas-prod-migrate --launch-type FARGATE \
+  --network-configuration "awsvpcConfiguration={subnets=[APP-SUBNET-ID],securityGroups=[APP-SG-ID]}" \
+  --overrides '{"containerOverrides":[{"name":"migrate","command":["python","-m","backend.app.dataload.remove_source","--source","MOCK","--reason","Demo data removed at Quess Global request (17 Nov 2026)","--dry-run"]}]}'
+```
+Then the same without `"--dry-run"`.
+
+### Bulk CV import (the client's 2,000 real resumes)
 
 Needs the worker running and Bedrock working. Large sets go through S3, not
 the browser (the upload page takes 1,000 files per batch).
@@ -63,12 +82,15 @@ the browser (the upload page takes 1,000 files per batch).
    of 250; the worker extracts each CV with Bedrock. Progress: the app's batch
    status, CloudWatch `/raas/prod/api` (import summary) and `/raas/prod/worker`.
    Files already in the portal (same SHA-256) are skipped, so a re-run is safe.
-4. Evidence report, once the worker has finished (changes nothing): run the
-   same task with `"--report","s3://raas-cvs-007477962703-ap-southeast-1/migration/reports/"`
+4. Post-migration changes report, once the worker has finished (changes
+   nothing): run the same task with
+   `"--report","s3://raas-cvs-007477962703-ap-southeast-1/migration/reports/"`
    instead of `--dry-run`. It writes `import-report-<time>.json` next to the
-   load report: every file with its SHA-256, the candidate it became and the
-   stored copy's checksum. PASS when every file is imported (or a duplicate
-   within the set) with a matching checksum; exit code 1 otherwise.
+   load report: the MOCK removal (count, reason, date, removed ids, checks),
+   then every imported file with its SHA-256, the candidate it became and the
+   stored copy's checksum, and the candidates by source now. PASS when the
+   removal passed and every file is imported (or a duplicate within the set)
+   with a matching checksum; exit code 1 otherwise.
 5. Delete `import/2026-11-17/` once the client has checked the candidates.
 
 ## Model choice

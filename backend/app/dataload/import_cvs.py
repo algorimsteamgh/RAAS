@@ -13,7 +13,9 @@ that replace the demo candidates) instead of uploading through the browser.
     python -m backend.app.dataload.import_cvs --prefix import/2026-11-17/ \
         --report s3://<cv bucket>/migration/reports/
 
-The report accounts for every file under the prefix: its SHA-256, the
+The report (the post-migration changes report) first lists any cleanup runs
+recorded by remove_source (e.g. the MOCK demo candidates removed), then
+accounts for every file under the prefix: its SHA-256, the
 candidate it became, the stored copy's S3 checksum (must equal the source),
 and whether the AI extraction found a name. Result PASS when every supported
 file is IMPORTED (or a DUPLICATE of another file in the set) with a matching
@@ -151,11 +153,19 @@ def build_report(prefix: str) -> Dict[str, Any]:
         counts[e["status"]] = counts.get(e["status"], 0) + 1
     problems = [e for e in files if e["status"] not in ("IMPORTED", "DUPLICATE")]
     imported = [e for e in files if e["status"] == "IMPORTED"]
+    from backend.app.dataload.remove_source import cleanup_records
+
+    removals = cleanup_records()
+    with db.connection() as conn:
+        inventory = {r["s"]: r["n"] for r in conn.execute(
+            "SELECT COALESCE(source, 'None') AS s, COUNT(*) AS n FROM candidates GROUP BY 1 ORDER BY 1").fetchall()}
     return {
-        "report": "RAASHiring bulk CV import",
+        "report": "RAASHiring post-migration changes",
         "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "prefix": prefix,
-        "result": "PASS" if files and not problems else "FAIL",
+        "result": "PASS" if files and not problems and all(r.get("result") == "PASS" for r in removals) else "FAIL",
+        "removals": removals,
+        "candidates_by_source_now": inventory,
         "totals": {
             "files_found": len(files) + len(p["skipped"]),
             "supported_files": len(files),
@@ -189,8 +199,11 @@ def write_report(report: Dict[str, Any], destination: Optional[str]) -> str:
 
 def print_summary(report: Dict[str, Any], where: str) -> None:
     t = report["totals"]
-    lines = ["", "=" * 70, f"RAASHiring bulk CV import: {report['result']}", "=" * 70,
-             f"Prefix:              {report['prefix']}",
+    lines = ["", "=" * 70, f"RAASHiring post-migration changes: {report['result']}", "=" * 70]
+    for r in report.get("removals", []):
+        lines.append(f"Removed:             {r.get('removed_candidates')} {r.get('source')} candidates "
+                     f"on {r.get('run_at')} ({r.get('result')}): {r.get('reason')}")
+    lines += [f"Import prefix:       {report['prefix']}",
              f"Files found:         {t['files_found']}",
              f"Unsupported/hidden:  {t['skipped_unsupported']}"]
     for status, n in sorted(t["by_status"].items()):
@@ -200,6 +213,7 @@ def print_summary(report: Dict[str, Any], where: str) -> None:
         lines.append(f"  {e['status']}: {e['file']}")
     if len(report["problems"]) > 20:
         lines.append(f"  ... and {len(report['problems']) - 20} more in the report")
+    lines.append("Candidates now:      " + ", ".join(f"{k} {v}" for k, v in report.get("candidates_by_source_now", {}).items()))
     lines += [f"Report: {where}", "=" * 70]
     print("\n".join(lines))
 

@@ -228,6 +228,8 @@ def write_report(report: Dict[str, Any], destination: Optional[str]) -> str:
 
 def print_summary(report: Dict[str, Any]) -> None:
     lines = ["", "=" * 78, f"RAASHiring data load: {report['result']}", "=" * 78]
+    for note in report.get("notes", []):
+        lines.append(f"Note: {note}")
     lines.append(f"{'table':<26}{'source':>9}{'excluded':>10}{'target':>9}{'hash ok':>9}  status")
     for name, t in report.get("tables", {}).items():
         lines.append(
@@ -250,6 +252,7 @@ def run(args: argparse.Namespace) -> Dict[str, Any]:
         "started_at": datetime.now(timezone.utc).isoformat(),
         "source_uri": args.sqlite,
         "rules": {"exclude_sources": [s.upper() for s in args.exclude_source], "verify_only": args.verify_only},
+        "notes": list(args.note),
         "errors": [],
     }
     with tempfile.TemporaryDirectory(prefix="raas-load-") as workdir:
@@ -346,6 +349,7 @@ def parse_args(argv: List[str]) -> argparse.Namespace:
     p.add_argument("--verify-only", action="store_true", help="Do not load; verify the target against the source")
     p.add_argument("--skip-migrate", action="store_true", help="Do not run Alembic first")
     p.add_argument("--drop-chat-orphans", action="store_true", help="Leave out chat messages whose candidate no longer exists (listed in the report)")
+    p.add_argument("--note", action="append", default=[], help="Free-text note recorded in the report (repeatable)")
     p.add_argument("--no-deep-cv-check", action="store_true", help="Compare stored S3 checksums only, without downloading each CV")
     return p.parse_args(argv)
 
