@@ -174,6 +174,24 @@ variable "waf_rate_limit" {
   default     = 2000
 }
 
+variable "site_password_enabled" {
+  description = "Interim protection until Cognito: one shared HTTP Basic username and password for the whole site and API (terraform output site_password)."
+  type        = bool
+  default     = false
+}
+
+variable "site_username" {
+  description = "Username for the shared site password."
+  type        = string
+  default     = "raashiring"
+}
+
+variable "allowed_countries" {
+  description = "ISO country codes CloudFront serves (e.g. [\"SG\", \"IN\"]); empty serves every country."
+  type        = list(string)
+  default     = []
+}
+
 variable "cloudfront_price_class" {
   type    = string
   default = "PriceClass_200"

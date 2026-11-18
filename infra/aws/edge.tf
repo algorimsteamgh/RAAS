@@ -12,16 +12,46 @@ resource "aws_cloudfront_origin_access_control" "frontend" {
   signing_protocol                  = "sigv4"
 }
 
-# SPA routing: paths without a file extension get /index.html, so deep links
-# work without turning API 404s into the app shell.
+# Interim site password (until Cognito sign-in): when site_password_enabled,
+# every request except the health check needs HTTP Basic credentials. The
+# browser asks once and then sends them with every page, asset and /api call.
+# Only the SHA-256 of the expected Authorization header is in the function.
+resource "random_password" "site" {
+  length  = 24
+  special = false
+}
+
+locals {
+  site_auth_sha256 = var.site_password_enabled ? sha256("Basic ${base64encode("${var.site_username}:${random_password.site.result}")}") : ""
+}
+
+# Viewer gate on both behaviours. SPA routing: paths without a file extension
+# get /index.html, so deep links work without turning API 404s into the app
+# shell (/api/* is never rewritten).
 resource "aws_cloudfront_function" "spa_rewrite" {
   name    = "${local.name}-spa-rewrite"
   runtime = "cloudfront-js-2.0"
   publish = true
   code    = <<-JS
+    var crypto = require('crypto');
+    var AUTH_SHA256 = '${local.site_auth_sha256}';
+    var OPEN_PATHS = ['/api/system/health'];
     function handler(event) {
       var req = event.request;
       var uri = req.uri;
+      if (AUTH_SHA256 && OPEN_PATHS.indexOf(uri) < 0) {
+        var h = req.headers.authorization;
+        if (!h || crypto.createHash('sha256').update(h.value).digest('hex') !== AUTH_SHA256) {
+          return {
+            statusCode: 401,
+            statusDescription: 'Unauthorized',
+            headers: { 'www-authenticate': { value: 'Basic realm="RAASHiring", charset="UTF-8"' } }
+          };
+        }
+      }
+      if (uri.indexOf('/api/') === 0) {
+        return req;
+      }
       if (uri.endsWith('/') || uri.lastIndexOf('.') < uri.lastIndexOf('/')) {
         req.uri = '/index.html';
       }
@@ -106,11 +136,16 @@ resource "aws_cloudfront_distribution" "main" {
     compress                 = true
     cache_policy_id          = data.aws_cloudfront_cache_policy.disabled.id
     origin_request_policy_id = data.aws_cloudfront_origin_request_policy.all_viewer_except_host.id
+    function_association {
+      event_type   = "viewer-request"
+      function_arn = aws_cloudfront_function.spa_rewrite.arn
+    }
   }
 
   restrictions {
     geo_restriction {
-      restriction_type = "none"
+      restriction_type = length(var.allowed_countries) > 0 ? "whitelist" : "none"
+      locations        = var.allowed_countries
     }
   }
 

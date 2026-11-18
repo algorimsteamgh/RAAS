@@ -86,6 +86,16 @@ output "cloudfront_domain_name" {
   value       = aws_cloudfront_distribution.main.domain_name
 }
 
+output "site_username" {
+  value = var.site_password_enabled ? var.site_username : null
+}
+
+output "site_password" {
+  description = "Shared site password (terraform output -raw site_password). Rotate: terraform apply -replace=random_password.site"
+  value       = var.site_password_enabled ? random_password.site.result : null
+  sensitive   = true
+}
+
 output "alb_dns_name" {
   value = aws_lb.main.dns_name
 }
