@@ -1,5 +1,5 @@
 # GitHub Actions deploys with OIDC: no stored AWS keys. The role is limited to
-# the production environment and the main branch of algorimsteamgh/raas.
+# the production environment and the main branch of algorimsteamgh/RAAS (the name is case-sensitive in the trust policy).
 # Newer GitHub orgs send an ID-based subject (repo:owner@ID/name@ID:...), so
 # both forms are trusted.
 

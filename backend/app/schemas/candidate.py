@@ -86,6 +86,7 @@ class CandidateExtraction(BaseModel):
     missing_information: List[str] = Field(default_factory=list, description="Explicit list of missing or ambiguous details in CV")
     potential_ambiguities: List[AmbiguityFlag] = Field(default_factory=list, description="Ambiguities or anomalies flagged for recruiter review")
     extraction_method: str = Field(default="FULL_DOCUMENT", description="FULL_DOCUMENT or SEQUENTIAL_CHUNKS")
+    llm_fallback: bool = Field(default=False, description="True when the LLM call failed and the layout heuristic parser produced this profile")
 
 class RequirementEvaluation(BaseModel):
     requirement: str

@@ -38,9 +38,12 @@ resource "aws_db_parameter_group" "main" {
   name   = "${local.name}-pg16"
   family = "postgres16"
 
+  # AWS records this parameter as pending-reboot (the PostgreSQL 16 default is
+  # already 1), so say the same here, or every plan shows an in-place change.
   parameter {
-    name  = "rds.force_ssl"
-    value = "1"
+    name         = "rds.force_ssl"
+    value        = "1"
+    apply_method = "pending-reboot"
   }
 }
 

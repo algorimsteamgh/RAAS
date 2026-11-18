@@ -354,7 +354,10 @@ def list_candidate_payloads() -> List[Dict[str, Any]]:
     return [dict(r) for r in rows]
 
 
-def save_candidate_record(cand_data: Dict[str, Any], source: str = "UPLOADED", status: str = "COMPLETED", filename: str = "", file_hash: str = ""):
+def save_candidate_record(cand_data: Dict[str, Any], source: str = "UPLOADED", status: str = "COMPLETED", filename: str = "", file_hash: str = "",
+                          keep_created_at: bool = False):
+    """Insert or replace a candidate. keep_created_at keeps the original
+    upload time on a replace (re-extraction), instead of resetting it."""
     cand_id = cand_data["candidate_id"]
     years = cand_data.get("years_experience")
     try:
@@ -373,7 +376,8 @@ def save_candidate_record(cand_data: Dict[str, Any], source: str = "UPLOADED", s
                 location = EXCLUDED.location, roles = EXCLUDED.roles, skills = EXCLUDED.skills,
                 years_experience = EXCLUDED.years_experience, notice_period = EXCLUDED.notice_period,
                 source = EXCLUDED.source, status = EXCLUDED.status, raw_json = EXCLUDED.raw_json,
-                file_hash = EXCLUDED.file_hash, filename = EXCLUDED.filename, created_at = now()
+                file_hash = EXCLUDED.file_hash, filename = EXCLUDED.filename,
+                created_at = CASE WHEN %s THEN candidates.created_at ELSE now() END
             """,
             (
                 cand_id,
@@ -390,6 +394,7 @@ def save_candidate_record(cand_data: Dict[str, Any], source: str = "UPLOADED", s
                 _json(cand_data),
                 file_hash,
                 strip_nul(filename),
+                keep_created_at,
             ),
         )
         log_audit_event("SAVE_CANDIDATE", cand_id, f"Saved candidate record from source {source}", conn=conn)
