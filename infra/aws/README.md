@@ -116,6 +116,18 @@ in PR #6; see `docs/aws/APP_ON_AWS.md` there. The containers get
 `python -m backend.app.worker`, the migrate task
 `python -m backend.app.db.migrate`.
 
+## Interim site password (until Cognito)
+
+The API has no sign-in of its own. Until Cognito arrives, set
+`site_password_enabled = true` (and optionally `allowed_countries`) and apply:
+CloudFront then asks for one shared HTTP Basic username and password before
+any page, asset or `/api` call (only `/api/system/health` stays open for the
+deploy smoke test). Read it with `terraform output site_username` and
+`terraform output -raw site_password`, share it only through a password
+manager, and rotate it with `terraform apply -replace=random_password.site`.
+Turning it off is `site_password_enabled = false` and apply. Scripts and
+Playwright (Liftproof journeys) pass it with `curl -u` / `httpCredentials`.
+
 ## Bedrock
 
 Task roles may call the models in `bedrock_foundation_model_ids` (Claude

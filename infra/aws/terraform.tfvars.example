@@ -8,6 +8,10 @@
 
 # enable_custom_domain and point_dns_to_aws default to true (live since go-live).
 
+# Interim protection until Cognito sign-in (the API has no auth of its own):
+# site_password_enabled = true
+# allowed_countries     = ["SG", "IN"]  # Quess (Singapore) and the Algorims team
+
 # When the worker entry point exists in the image:
 # worker_desired_count = 1
 
