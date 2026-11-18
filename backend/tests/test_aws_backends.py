@@ -387,3 +387,126 @@ class TestSqsBatch(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class TestRateLimiter(unittest.TestCase):
+    def test_spaces_calls(self):
+        from backend.app.services.llm.bedrock_client import RateLimiter
+
+        now = [100.0]
+        slept = []
+
+        def sleep(d):
+            slept.append(d)
+            now[0] += d
+
+        limiter = RateLimiter(6, clock=lambda: now[0], sleep=sleep)
+        for _ in range(3):
+            limiter.wait()
+        self.assertEqual(slept, [10.0, 10.0])
+        now[0] += 60
+        self.assertEqual(limiter.wait(), 0.0)
+
+    def test_zero_disables(self):
+        from backend.app.services.llm.bedrock_client import RateLimiter
+
+        self.assertEqual(RateLimiter(0).wait(), 0.0)
+
+
+def _throttled():
+    return ClientError({"Error": {"Code": "ThrottlingException", "Message": "Too many requests"}}, "Converse")
+
+
+class _ScriptedLLM:
+    """LLM client double: raises or returns the scripted results in order."""
+    backend = "bedrock"
+
+    def __init__(self, results):
+        self.results = list(results)
+        self.calls = 0
+
+    async def generate_json(self, prompt, system_prompt=None, model=None, json_schema=None, schema_name=""):
+        self.calls += 1
+        r = self.results.pop(0)
+        if isinstance(r, Exception):
+            raise r
+        return r
+
+
+PROFILE = {"name": "Priya Raman", "current_title": "Senior Backend Engineer", "location": "Bengaluru, Karnataka, India",
+           "email": "priya.raman@example.com", "phone": "", "notice_period": "", "skills": ["Python", "PostgreSQL", "AWS"],
+           "employment_history": [{"company": "Acme Corp", "title": "Senior Backend Engineer", "start_date": "2020-01",
+                                   "end_date": "", "is_current": True, "employment_type": "Full-time"}],
+           "education": [], "certifications": [], "projects": [], "domains": []}
+
+
+class TestLLMFallbackMarker(unittest.TestCase):
+    def test_fallback_is_marked_and_strict_mode_raises(self):
+        from backend.app.agents.cv_agent import CVExtractionAgent
+
+        rough = run(CVExtractionAgent(_ScriptedLLM([_throttled()])).extract_candidate(CV_TEXT, "CAND-FB-1"))
+        self.assertTrue(rough.llm_fallback)
+        self.assertEqual(rough.extraction_method, "FULL_DOCUMENT")
+        good = run(CVExtractionAgent(_ScriptedLLM([dict(PROFILE)])).extract_candidate(CV_TEXT, "CAND-FB-2"))
+        self.assertFalse(good.llm_fallback)
+        with self.assertRaises(ClientError):
+            run(CVExtractionAgent(_ScriptedLLM([_throttled()]), allow_fallback=False).extract_candidate(CV_TEXT, "CAND-FB-3"))
+
+
+class TestReextract(unittest.TestCase):
+    def test_reextract_replaces_only_with_ai_result(self):
+        from backend.app.agents.cv_agent import CVExtractionAgent
+        from backend.app.dataload import import_cvs, reextract
+        from backend.app.services import cv_pipeline
+
+        text = CV_TEXT + "\nreextract-test"
+        content = text.encode()
+        sha = hashlib.sha256(content).hexdigest()
+        cid = "CAND-REX-0001"
+        run(cv_pipeline.store_original(cid, "rex.txt", "txt", sha, content))
+        rough = run(CVExtractionAgent(_ScriptedLLM([_throttled()])).extract_candidate(text, cid)).model_dump()
+        db.save_candidate_record(rough, "UPLOADED", "COMPLETED", "rex.txt", sha)
+        created = db.get_candidate_row(cid)["created_at"]
+        self.assertIn(cid, reextract.fallback_ids())
+        slept = []
+
+        async def no_sleep(d):
+            slept.append(d)
+
+        try:
+            dry = run(reextract.run([cid, "CAND-NOPE"], 6, 3, True, "test", sleep=no_sleep))
+            self.assertEqual(dry["totals"]["by_status"], {"WOULD_REEXTRACT": 1, "NOT_FOUND": 1})
+            self.assertEqual(dry["result"], "FAIL")
+
+            # Still throttled after every try: the rough profile stays, listed as FAILED.
+            busy = CVExtractionAgent(_ScriptedLLM([_throttled()] * 2), allow_fallback=False)
+            failed = run(reextract.run([cid], 6, 2, False, "test", agent=busy, sleep=no_sleep))
+            self.assertEqual(failed["problems"][0]["error"], "ThrottlingException")
+            self.assertTrue(json.loads(json.dumps(db.get_candidate_row(cid)["raw_json"], default=str)).get("llm_fallback"))
+
+            # Throttled once, then answered: replaced with the AI profile, upload time kept.
+            llm = _ScriptedLLM([_throttled(), dict(PROFILE)])
+            agent = CVExtractionAgent(llm, allow_fallback=False)
+            report = run(reextract.run([cid], 6, 3, False, "test", agent=agent, sleep=no_sleep))
+            self.assertEqual(report["result"], "PASS", report["problems"])
+            self.assertEqual(llm.calls, 2)
+            self.assertEqual(slept[-1], 30.0)
+            row = db.get_candidate_row(cid)
+            self.assertEqual(row["full_name"], "Priya Raman")
+            self.assertEqual(row["created_at"], created)
+            self.assertEqual(row["source"], "UPLOADED")
+            self.assertNotIn(cid, reextract.fallback_ids())
+            runs = reextract.reextract_records()
+            self.assertEqual(runs[-1]["result"], "PASS")
+            self.assertEqual(runs[-1]["totals"]["by_status"], {"REEXTRACTED": 1})
+
+            # Demo candidates are never touched.
+            demo = dict(rough, candidate_id="CAND-REX-DEMO")
+            db.save_candidate_record(demo, "TESTDEMO", "COMPLETED", "demo.txt", "")
+            other = run(reextract.run(["CAND-REX-DEMO"], 6, 1, False, "test", agent=agent, sleep=no_sleep))
+            self.assertEqual(other["candidates"][0]["status"], "SKIPPED_NOT_UPLOADED")
+
+            self.assertIn("reextractions", import_cvs.build_report("import/none/"))
+        finally:
+            db.delete_candidate(cid)
+            db.delete_candidate("CAND-REX-DEMO")

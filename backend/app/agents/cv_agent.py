@@ -61,8 +61,11 @@ class CVExtractionAgent:
     Full-Document Structured Extraction with Sequential State-Aware Chunking Fallback.
     Integrates DocumentLayoutEngine for robust layout reconstruction and deterministic date normalization.
     """
-    def __init__(self, llm_client: Optional[LLMClient] = None):
+    def __init__(self, llm_client: Optional[LLMClient] = None, allow_fallback: bool = True):
         self._client = llm_client
+        # False: an LLM failure raises instead of saving the layout heuristic
+        # result (used by dataload.reextract, which must never store a rough profile).
+        self.allow_fallback = allow_fallback
 
     @property
     def client(self) -> LLMClient:
@@ -100,11 +103,17 @@ class CVExtractionAgent:
         if est_tokens <= self.context_token_limit:
             logger.info("Executing Full-Document Extraction.")
             raw_data = await self._extract_full_document(cv_text, candidate_id)
-            raw_data["extraction_method"] = "FULL_DOCUMENT"
+            method = "FULL_DOCUMENT"
         else:
             logger.info("Executing Sequential State-Aware Chunking Fallback.")
             raw_data = await self._extract_sequential_chunks(cv_text, candidate_id)
-            raw_data["extraction_method"] = "SEQUENTIAL_CHUNKS"
+            method = "SEQUENTIAL_CHUNKS"
+        raw_data["extraction_method"] = method
+        # Recorded on the candidate so these profiles can be found and redone
+        # (python -m backend.app.dataload.reextract --fallbacks).
+        raw_data["llm_fallback"] = bool(raw_data.pop("_llm_fallback", False))
+        if raw_data["llm_fallback"]:
+            logger.warning("Candidate %s saved from the layout heuristic parser (LLM unavailable).", candidate_id)
 
         raw_data["candidate_id"] = candidate_id
 
@@ -243,8 +252,12 @@ Extract structured candidate profile data conforming strictly to the JSON schema
                 raise ValueError("Model returned invalid or empty JSON")
             return self._clean_llm_output(res)
         except Exception as err:
+            if not self.allow_fallback:
+                raise
             logger.warning(f"Full-document LLM generation failed ({err}). Using layout heuristic parser.")
-            return self._heuristic_raw_extraction(cv_text, candidate_id)
+            result = self._heuristic_raw_extraction(cv_text, candidate_id)
+            result["_llm_fallback"] = True
+            return result
 
     async def _extract_sequential_chunks(self, cv_text: str, candidate_id: str) -> Dict[str, Any]:
         """Sequential state-aware chunk processing for long CVs."""
@@ -267,6 +280,7 @@ Extract structured candidate profile data conforming strictly to the JSON schema
             "evidence": []
         }
 
+        any_fallback = False
         for idx, chunk_text in enumerate(chunks):
             logger.info(f"Processing chunk {idx + 1}/{len(chunks)} ({self.estimate_token_count(chunk_text)} tokens).")
             user_prompt = f"""Chunk {idx + 1} of {len(chunks)} for Candidate {candidate_id}:
@@ -287,11 +301,16 @@ Extract all candidate details in this chunk and quote supporting evidence. Confo
                 )
                 chunk_data = self._clean_llm_output(chunk_data)
             except Exception as e:
+                if not self.allow_fallback:
+                    raise
                 logger.warning(f"Chunk {idx + 1} extraction failed ({e}). Using layout extraction for chunk.")
                 chunk_data = self._heuristic_raw_extraction(chunk_text, candidate_id)
+                any_fallback = True
 
             accumulated_state = self._merge_chunk_state(accumulated_state, chunk_data, chunk_id=idx + 1)
 
+        if any_fallback:
+            accumulated_state["_llm_fallback"] = True
         return accumulated_state
 
     def _split_into_logical_chunks(self, text: str) -> List[str]:

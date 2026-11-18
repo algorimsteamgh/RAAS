@@ -12,6 +12,7 @@
 """
 import asyncio
 import logging
+import threading
 import time
 from typing import Any, Dict, List, Optional
 
@@ -27,6 +28,31 @@ class BedrockError(RuntimeError):
     pass
 
 
+class RateLimiter:
+    """Spaces calls at least 60/rpm seconds apart, across the threads of one
+    process (boto3 calls run in worker threads). rpm <= 0 disables it."""
+
+    def __init__(self, rpm: float, clock: Any = time.monotonic, sleep: Any = time.sleep):
+        self.interval = 60.0 / rpm if rpm and rpm > 0 else 0.0
+        self._clock = clock
+        self._sleep = sleep
+        self._lock = threading.Lock()
+        self._next = 0.0
+
+    def wait(self) -> float:
+        """Block until this caller may call; returns the seconds waited."""
+        if not self.interval:
+            return 0.0
+        with self._lock:
+            now = self._clock()
+            start = max(now, self._next)
+            self._next = start + self.interval
+        delay = start - now
+        if delay > 0:
+            self._sleep(delay)
+        return delay
+
+
 def _error_code(err: Exception) -> str:
     response = getattr(err, "response", None) or {}
     return response.get("Error", {}).get("Code", "")
@@ -35,7 +61,9 @@ def _error_code(err: Exception) -> str:
 class BedrockClient:
     backend = "bedrock"
 
-    def __init__(self, model_id: Optional[str] = None, chat_model_id: Optional[str] = None, client: Any = None):
+    def __init__(self, model_id: Optional[str] = None, chat_model_id: Optional[str] = None, client: Any = None,
+                 max_rpm: Optional[float] = None):
+        self.limiter = RateLimiter(settings.BEDROCK_MAX_RPM if max_rpm is None else max_rpm)
         self.default_model = model_id or settings.BEDROCK_MODEL_ID
         self.chat_model = chat_model_id or settings.BEDROCK_CHAT_MODEL_ID or self.default_model
         if client is None:
@@ -57,6 +85,7 @@ class BedrockClient:
 
     # ------------------------------------------------------------------ calls
     def _converse(self, request: Dict[str, Any], purpose: str) -> Dict[str, Any]:
+        self.limiter.wait()
         started = time.monotonic()
         try:
             response = self.client.converse(**request)

@@ -97,6 +97,10 @@ class Settings(BaseModel):
     BEDROCK_READ_TIMEOUT_SECONDS: float = float(_env("BEDROCK_READ_TIMEOUT_SECONDS", "50"))
     BEDROCK_CONNECT_TIMEOUT_SECONDS: float = float(_env("BEDROCK_CONNECT_TIMEOUT_SECONDS", "5"))
     BEDROCK_MAX_ATTEMPTS: int = int(_env("BEDROCK_MAX_ATTEMPTS", "4"))
+    # Calls per minute this process makes to Bedrock at most (0 = no cap). Keeps
+    # bulk work (the worker, dataload.reextract) under the account's
+    # requests-per-minute quota, with room left for the API's own calls.
+    BEDROCK_MAX_RPM: float = float(_env("BEDROCK_MAX_RPM", "0"))
 
     OLLAMA_BASE_URL: str = _env("OLLAMA_BASE_URL", "http://localhost:11434")
     OLLAMA_LLM_MODEL: str = _env("OLLAMA_LLM_MODEL", "qwen2.5:1.5b")

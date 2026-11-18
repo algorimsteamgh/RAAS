@@ -14,7 +14,8 @@ that replace the demo candidates) instead of uploading through the browser.
         --report s3://<cv bucket>/migration/reports/
 
 The report (the post-migration changes report) first lists any cleanup runs
-recorded by remove_source (e.g. the MOCK demo candidates removed), then
+recorded by remove_source (e.g. the MOCK demo candidates removed) and any
+re-extraction runs recorded by reextract (AI extraction redone), then
 accounts for every file under the prefix: its SHA-256, the
 candidate it became, the stored copy's S3 checksum (must equal the source),
 and whether the AI extraction found a name. Result PASS when every supported
@@ -115,6 +116,16 @@ def import_prefix(prefix: str, job_id: Optional[str] = None, batch_size: int = 2
 
 
 # --------------------------------------------------------------------------- evidence report
+def _raw(cand: Dict[str, Any]) -> Dict[str, Any]:
+    raw = cand.get("raw_json")
+    if isinstance(raw, str):
+        try:
+            raw = json.loads(raw)
+        except ValueError:
+            raw = None
+    return raw if isinstance(raw, dict) else {}
+
+
 def build_report(prefix: str) -> Dict[str, Any]:
     """Account for every file under the prefix after the worker has run."""
     storage = get_cv_storage()
@@ -143,6 +154,7 @@ def build_report(prefix: str) -> Dict[str, Any]:
                     "s3_key": stored.get("s3_key"),
                     "stored_sha256": stored_sha,
                     "name_extracted": bool((cand.get("full_name") or "").strip()),
+                    "llm_fallback": bool(_raw(cand).get("llm_fallback")),
                     "candidate_status": cand.get("status"),
                 })
                 entry["status"] = "IMPORTED" if stored_sha == sha else "CHECKSUM_MISMATCH"
@@ -153,9 +165,11 @@ def build_report(prefix: str) -> Dict[str, Any]:
         counts[e["status"]] = counts.get(e["status"], 0) + 1
     problems = [e for e in files if e["status"] not in ("IMPORTED", "DUPLICATE")]
     imported = [e for e in files if e["status"] == "IMPORTED"]
+    from backend.app.dataload.reextract import reextract_records
     from backend.app.dataload.remove_source import cleanup_records
 
     removals = cleanup_records()
+    reextractions = reextract_records()
     with db.connection() as conn:
         inventory = {r["s"]: r["n"] for r in conn.execute(
             "SELECT COALESCE(source, 'None') AS s, COUNT(*) AS n FROM candidates GROUP BY 1 ORDER BY 1").fetchall()}
@@ -165,6 +179,7 @@ def build_report(prefix: str) -> Dict[str, Any]:
         "prefix": prefix,
         "result": "PASS" if files and not problems and all(r.get("result") == "PASS" for r in removals) else "FAIL",
         "removals": removals,
+        "reextractions": reextractions,
         "candidates_by_source_now": inventory,
         "totals": {
             "files_found": len(files) + len(p["skipped"]),
@@ -172,6 +187,7 @@ def build_report(prefix: str) -> Dict[str, Any]:
             "skipped_unsupported": len(p["skipped"]),
             "by_status": counts,
             "imported_without_extracted_name": sum(1 for e in imported if not e.get("name_extracted")),
+            "imported_from_heuristic_fallback": sum(1 for e in imported if e.get("llm_fallback")),
         },
         "problems": problems,
         "skipped": p["skipped"],
@@ -203,12 +219,17 @@ def print_summary(report: Dict[str, Any], where: str) -> None:
     for r in report.get("removals", []):
         lines.append(f"Removed:             {r.get('removed_candidates')} {r.get('source')} candidates "
                      f"on {r.get('run_at')} ({r.get('result')}): {r.get('reason')}")
+    for r in report.get("reextractions", []):
+        t_r = r.get("totals", {})
+        lines.append(f"Re-extracted:        {t_r.get('by_status', {}).get('REEXTRACTED', 0)} of {t_r.get('listed')} "
+                     f"candidates on {r.get('finished_at')} ({r.get('result')}): {r.get('reason')}")
     lines += [f"Import prefix:       {report['prefix']}",
              f"Files found:         {t['files_found']}",
              f"Unsupported/hidden:  {t['skipped_unsupported']}"]
     for status, n in sorted(t["by_status"].items()):
         lines.append(f"{status + ':':<21}{n}")
     lines.append(f"Imported, no name:   {t['imported_without_extracted_name']}  (check these candidates in the portal)")
+    lines.append(f"Heuristic fallback:  {t['imported_from_heuristic_fallback']}  (redo with dataload.reextract --fallbacks)")
     for e in report["problems"][:20]:
         lines.append(f"  {e['status']}: {e['file']}")
     if len(report["problems"]) > 20:
